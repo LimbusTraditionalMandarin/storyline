@@ -1,0 +1,56 @@
+{
+  "dataList": [
+    {
+      "id": "Ally",
+      "content": "友方單位"
+    },
+    {
+      "id": "RandomAlly",
+      "content": "隨機友方單位"
+    },
+    {
+      "id": "EveryAlly",
+      "content": "全體友方單位"
+    },
+    {
+      "id": "EveryEnemy",
+      "content": "全體敵方單位"
+    },
+    {
+      "id": "ChosenPersonality",
+      "content": "所選人格"
+    },
+    {
+      "id": "HighestHpAlly",
+      "content": "體力最高的友方單位"
+    },
+    {
+      "id": "LowestHpAlly",
+      "content": "體力最低的友方單位"
+    },
+    {
+      "id": "HighestMpAlly",
+      "content": "理智值最高的友方單位"
+    },
+    {
+      "id": "LowestMpAlly",
+      "content": "理智值最低的友方單位"
+    },
+    {
+      "id": "NotFullHpAlly",
+      "content": "體力不滿的友方單位"
+    },
+    {
+      "id": "NotAffectedAlly",
+      "content": "未受到之前效果影響的友方單位"
+    },
+    {
+      "id": "LowestHpRatioAlly",
+      "content": "現存體力比例最低的友方單位"
+    },
+    {
+      "id": "Every",
+      "content": "全體"
+    }
+  ]
+}

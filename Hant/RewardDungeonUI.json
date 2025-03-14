@@ -1,0 +1,100 @@
+{
+  "dataList": [
+    {
+      "id": "enter_exp_dungeon",
+      "content": "經驗採光"
+    },
+    {
+      "id": "enter_mirror_dungeon",
+      "content": "鏡像迷宮"
+    },
+    {
+      "id": "enter_thread_dungeon",
+      "content": "紡錘採光"
+    },
+    {
+      "id": "enter_count",
+      "content": "進入次數"
+    },
+    {
+      "id": "remain_time",
+      "content": "剩餘時間"
+    },
+    {
+      "id": "open_at_day_of_the_week",
+      "content": "於{0}開放"
+    },
+    {
+      "id": "recommended_level",
+      "content": "難度"
+    },
+    {
+      "id": "equal_or_more",
+      "content": "或以上"
+    },
+    {
+      "id": "valid_attack_type",
+      "content": "有利屬性"
+    },
+    {
+      "id": "exp_dungeon_index",
+      "content": "經驗採光#{0}"
+    },
+    {
+      "id": "Monday",
+      "content": "週一"
+    },
+    {
+      "id": "Tuesday",
+      "content": "週二"
+    },
+    {
+      "id": "Wednesday",
+      "content": "週三"
+    },
+    {
+      "id": "Thursday",
+      "content": "週四"
+    },
+    {
+      "id": "Friday",
+      "content": "週五"
+    },
+    {
+      "id": "Saturday",
+      "content": "週六"
+    },
+    {
+      "id": "Sunday",
+      "content": "週日"
+    },
+    {
+      "id": "select_level",
+      "content": "選擇關卡"
+    },
+    {
+      "id": "require_clear_story_stage",
+      "content": "通過主線劇情{0}-{1}"
+    },
+    {
+      "id": "daily_bonus_count",
+      "content": "每日加成"
+    },
+    {
+      "id": "reward_dungeon_exp",
+      "content": "經驗"
+    },
+    {
+      "id": "reward_dungeon_thread",
+      "content": "紡錘"
+    },
+    {
+      "id": "reward_dungeon_mining",
+      "content": "採光"
+    },
+    {
+      "id": "thread_dungeon_stage_name_with_attribute",
+      "content": "紡錘採光 ({0})"
+    }
+  ]
+}

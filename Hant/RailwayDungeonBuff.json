@@ -1,0 +1,16 @@
+{
+  "dataList": [
+    {
+      "id": "HealHpMaxForSelected",
+      "content": "所選人格的體力完全恢復"
+    },
+    {
+      "id": "HealHpPercentageForAll",
+      "content": "全體人格恢復{0}%體力"
+    },
+    {
+      "id": "ResurrectForSelected",
+      "content": "1名已陣亡人格的體力完全恢復"
+    }
+  ]
+}

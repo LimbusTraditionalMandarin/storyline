@@ -1,0 +1,74 @@
+{
+  "dataList": [
+    {
+      "id": "OnWinDuelAsParryingCountMultiplyAndPlusPercent",
+      "add": "拼點勝利後根據拼點次數按比例增加\n<size=95%>（增加量的基礎值為{0}，首次拼點之後每次拼點增加{1}%）</size>",
+      "min": "拼點勝利後根據拼點次數按比例減少\n<size=95%>（減少量的基礎值為{0}，首次拼點之後每次拼點增加{1}%）</size>"
+    },
+    {
+      "id": "OnKillEnemyAsLevelRatioMultiply",
+      "add": "擊殺敵方單位時，若擊殺的敵方單位等級不低於自身，則增加{0}",
+      "min": "擊殺敵方單位時，若擊殺的敵方單位等級不低於自身，則減少{0}"
+    },
+    {
+      "id": "OnKillEnemyByOtherAllyAsLevelRatioMultiply",
+      "add": "若友方單位擊殺的敵方單位等級不低於自身等級，則增加{0}",
+      "min": "若友方單位擊殺的敵方單位等級不低於自身等級，則減少{0}"
+    },
+    {
+      "id": "OnLoseDuelAsParryingCountMultiplyAndPlusPercent",
+      "add": "拼點失敗時，根據拼點次數按比例增加\n<size=95%>（增加量：基礎值為{0}，從第二次拼點起，每次拼點增加{1}%）</size>",
+      "min": "拼點失敗時，根據拼點次數按比例減少\n<size=95%>（減少量：基礎值為{0}，從第二次拼點起，每次拼點增加{1}%）</size>"
+    },
+    {
+      "id": "OnDieAllyAsLevelRatio",
+      "add": "友方單位陣亡時，若該友方單位等級不低於自身等級，\n根據等級差相應增加\n<size=95%>（增加量：基礎值為{0}，根據等級差相應增加{0}）</size>",
+      "min": "友方單位陣亡時，若該友方單位等級不低於自身等級，\n根據等級差相應減少\n<size=95%>（減少量：基礎值為{0}，根據等級差相應增加{0}）</size>"
+    },
+    {
+      "id": "OnRoundStartAfterEvent",
+      "add": "回合開始時，增加{0}",
+      "min": "回合開始時，減少{0}"
+    },
+    {
+      "id": "OnKillEnemyMp",
+      "add": "擊殺敵方單位時，不論該敵方單位等級，增加{0}",
+      "min": "擊殺敵方單位時，不論該敵方單位等級，減少{0}"
+    },
+    {
+      "id": "OnDieAllyMp",
+      "add": "友方單位陣亡時，不論該友方單位等級，增加{0}",
+      "min": "友方單位陣亡時，不論該友方單位等級，減少{0}"
+    },
+    {
+      "id": "OnKillEnemyByOtherAllyExceptSupportiveAction",
+      "add": "若友方單位擊殺的敵方單位等級不低於自身等級，則增加{0}",
+      "min": "若友方單位擊殺的敵方單位等級不低於自身等級，則減少{0}。獲得援護攻擊效果的友方單位擊殺敵方單位時不會減少。"
+    },
+    {
+      "id": "OnDieBladeLineageAlly",
+      "add": "屬於劍契組成員的友方單位陣亡時，不論該友方單位等級，增加{0}",
+      "min": "屬於劍契組成員的友方單位陣亡時，不論該友方單位等級，減少{0}"
+    },
+    {
+      "id": "OnWinDuelLessMpTarget",
+      "add": "與理智值低於自身的目標拼點勝利時，增加{0}",
+      "min": "與理智值低於自身的目標拼點勝利時，減少{0}"
+    },
+    {
+      "id": "OnLoseDuelLessMpTarget",
+      "add": "與理智值低於自身的目標拼點失敗時，增加{0}",
+      "min": "與理智值低於自身的目標拼點失敗時，減少{0}"
+    },
+    {
+      "id": "OnKillEnemyByOtherAlly",
+      "add": "友方單位擊殺敵方單位時，不論該敵方單位等級，增加{0}",
+      "min": "友方單位擊殺敵方單位時，不論該敵方單位等級，減少{0}"
+    },
+    {
+      "id": "OnWinDuelAnyTarget",
+      "add": "拼點勝利時，增加{0}",
+      "min": "拼點勝利時，減少{0}"
+    }
+  ]
+}

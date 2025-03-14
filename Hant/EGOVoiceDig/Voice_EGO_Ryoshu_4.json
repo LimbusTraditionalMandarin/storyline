@@ -1,0 +1,84 @@
+{
+  "dataList": [
+    {
+      "id": "battle_awaken_20401_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "美·見·縱·焚。\n（美景只消如此見，縱使萬物焚作灰。）"
+    },
+    {
+      "id": "battle_awaken_20402_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "這火焰亦是，閃爍著藝術的狂歡。"
+    },
+    {
+      "id": "battle_erosion_20402_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "那焚盡一切的是……"
+    },
+    {
+      "id": "battle_awaken_20403_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "來，好好品鑑一下吧。"
+    },
+    {
+      "id": "battle_erosion_20403_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "是時候變為養分了……呼。"
+    },
+    {
+      "id": "battle_awaken_20404_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "我會一直……死死盯著你。"
+    },
+    {
+      "id": "battle_erosion_20404_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "沒有人會來救你的……哈哈哈。"
+    },
+    {
+      "id": "battle_awaken_20405_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "來，所有人把嘴張開。放心地喝下去吧，呵呵。"
+    },
+    {
+      "id": "battle_awaken_20405_2",
+      "desc": "E.G.O覺醒",
+      "dlg": "來，所有人把嘴張開。"
+    },
+    {
+      "id": "battle_erosion_20405_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "應該慢慢覺得困了……對吧？"
+    },
+    {
+      "id": "battle_awaken_20406_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "能在這浪潮中行動的，唯有我一人。……四分五裂吧。"
+    },
+    {
+      "id": "battle_erosion_20406_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "乖乖坐好了……我要用這束螢光燈將你刺穿！"
+    },
+    {
+      "id": "battle_awaken_20407_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "潑灑吧。萬眾將為此等醜惡矚目。"
+    },
+    {
+      "id": "battle_erosion_20407_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "輕蔑吧……！傾瀉出炙熱到足以穿透的嫌惡！"
+    },
+    {
+      "id": "battle_awaken_20408_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "怨恨和後悔都是無用，我只是一心想要抓住什麼。"
+    },
+    {
+      "id": "battle_erosion_20408_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "不論吸入……還是吐出……這份痛苦都無法消散嗎……"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "dataList": [
+    {
+      "id": "ADDITIONAL_COST_RATE_ON_CLEAR_FLOOR",
+      "description": "進入下個階層時，增加<color=#ff6000>當前經費</color>的{0}%(最多100)"
+    },
+    {
+      "id": "ADDITIONAL_SHOP_SELL_EGO_GIFT_COST_RATE_ONCE",
+      "description": "<color=#ff6000>E.G.O飾品售賣所得經費</color>增加{0}%(每個商店1次)"
+    },
+    {
+      "id": "ADDITIONAL_FLOOR_THEME_SLOT",
+      "description": "<color=#ff6000>主題卡包出現數量</color> +{0}"
+    },
+    {
+      "id": "ADDITIONAL_FLOOR_THEME_REFRESH",
+      "description": "<color=#ff6000>主題卡包刷新次數</color> +{0}"
+    },
+    {
+      "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_SELECT_NEW_FLOOR_THEME",
+      "description": "選擇未記錄的主題卡包時，所有<color=#ff6000>人格等級</color> +{0}(最多9級)"
+    },
+    {
+      "id": "ADDITIONAL_SHOP_EGO_GIFT_SLOT",
+      "description": "<color=#ff6000>商店裡展出的E.G.O飾品數量</color> +{0}"
+    },
+    {
+      "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_ENTER_1ST_FLOOR",
+      "description": "進入鏡像迷宮時，<color=#ff6000>人格等級</color> +{0}"
+    },
+    {
+      "id": "ADDITIONAL_PERSONALITY_LEVEL_ON_CLEAR_FLOOR",
+      "description": "通過階層時，<color=#ff6000>人格等級</color> +{0}(最多+5)"
+    },
+    {
+      "id": "ACQUIRE_3_TIER_RANDOM_MATERIAL_EGO_GIFT_ON_ENTER_SHOP",
+      "description": "進入商店時，隨機獲得{0}件3級及以下的<color=#ff6000>合成·售賣專用E.G.O飾品</color>"
+    },
+    {
+      "id": "ACQUIRE_3_TIER_RANDOM_EGO_GIFT_ON_ENTER_3RD_FLOOR",
+      "description": "進入第3層時，隨機獲得{0}件<color=#ff6000>3級飾品</color>"
+    },
+    {
+      "id": "ACQUIRE_LOWER_TIER_RANDOM_EGO_GIFT_ON_COMBINE",
+      "description": "合成時，可隨機獲得比合成產物(3級及以上)低2級的<color=#ff6000>飾品</color>(每個商店1次)"
+    },
+    {
+      "id": "ADDITIONAL_START_EGO_GIFT_SELECT",
+      "description": "<color=#ff6000>初始E.G.O飾品</color>可選擇數 +{0}"
+    },
+    {
+      "id": "ACQUIRE_3_TIER_RANDOM_KEYWORD_EGO_GIFT_ON_ENTER_1ST_FLOOR",
+      "description": "進入鏡像迷宮時，隨機獲得<color=#ff6000>{0}件所選關鍵詞對應的3級飾品</color>"
+    },
+    {
+      "id": "REVIVE_ONCE_PER_FLOOR",
+      "description": "戰鬥結束時，復活{0}名陣亡的友方單位(每個階層1次)"
+    },
+    {
+      "id": "FREE_SHOP_REFRESH_EGO_GIFT_ONCE",
+      "description": "免費<color=#ff6000>普通刷新</color>1次商店"
+    },
+    {
+      "id": "ADDITIONAL_START_COST",
+      "description": "<color=#ff6000>初始經費</color> +{0}"
+    },
+    {
+      "id": "ADDITIONAL_COST_AFTER_WIN_BATTLE",
+      "description": "<color=#ff6000>戰鬥勝利時獲得的經費</color> +{0}%"
+    },
+    {
+      "id": "ADDITIONAL_SHOP_HIGH_TIER_EGO_GIFT_CHANCE",
+      "description": "提升商店裡<color=#ff6000>更高等級E.G.O飾品</color>的展出概率"
+    },
+    {
+      "id": "FREE_SHOP_KEYWORD_REFRESH_EGO_GIFT_ONCE",
+      "description": "免費<color=#ff6000>關鍵詞刷新</color>1次商店"
+    },
+    {
+      "id": "ACQUIRE_2_TIER_RANDOM_EGO_GIFT_ON_ENTER_2ND_FLOOR",
+      "description": "進入第2層時，隨機獲得{0}件<color=#ff6000>2級飾品</color>"
+    },
+    {
+      "id": "ACQUIRE_1_TIER_RANDOM_EGO_GIFT_ON_ENTER_1ST_FLOOR",
+      "description": "進入第1層時，隨機獲得{0}件<color=#ff6000>1級飾品</color>"
+    },
+    {
+      "id": "MaxSpeedUpAdder",
+      "description": "<color=#ff6000>最大速度值</color>+{0}"
+    },
+    {
+      "id": "GiveBuffOnRoundStart",
+      "description": "獲得{2}<color=#ff6000>{1}</color>"
+    }
+  ]
+}

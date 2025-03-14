@@ -1,0 +1,252 @@
+{
+  "dataList": [
+    {
+      "id": "OnSucceedAttack",
+      "name": "[命中時]"
+    },
+    {
+      "id": "WhenUse",
+      "name": "[使用時]"
+    },
+    {
+      "id": "WinDuel",
+      "name": "[拼點勝利]"
+    },
+    {
+      "id": "BeforeAttack",
+      "name": "[攻擊前]"
+    },
+    {
+      "id": "Wide",
+      "name": "[群體技能]"
+    },
+    {
+      "id": "nxPostLine",
+      "name": "[隊首{n}人]"
+    },
+    {
+      "id": "nxCenterLine",
+      "name": "[隊中{n}人]"
+    },
+    {
+      "id": "nxBackLine",
+      "name": "[隊尾{n}人]"
+    },
+    {
+      "id": "CantIdentify",
+      "name": "[無差別攻擊]"
+    },
+    {
+      "id": "CRIMSON",
+      "name": "暴怒"
+    },
+    {
+      "id": "SCARLET",
+      "name": "色慾"
+    },
+    {
+      "id": "AMBER",
+      "name": "怠惰"
+    },
+    {
+      "id": "SHAMROCK",
+      "name": "暴食"
+    },
+    {
+      "id": "AZURE",
+      "name": "憂鬱"
+    },
+    {
+      "id": "INDIGO",
+      "name": "傲慢"
+    },
+    {
+      "id": "VIOLET",
+      "name": "嫉妒"
+    },
+    {
+      "id": "WHITE",
+      "name": "瘋狂"
+    },
+    {
+      "id": "BLACK",
+      "name": "哀嘆"
+    },
+    {
+      "id": "EndSkill",
+      "name": "[攻擊後]"
+    },
+    {
+      "id": "StartBattle",
+      "name": "[戰鬥開始]"
+    },
+    {
+      "id": "DefeatDuel",
+      "name": "[拼點失敗]"
+    },
+    {
+      "id": "OnSucceedAttackHead",
+      "name": "[正面命中時]"
+    },
+    {
+      "id": "OnSucceedAttackTail",
+      "name": "[反面命中時]"
+    },
+    {
+      "id": "OnSucceedEvade",
+      "name": "[閃避成功時]"
+    },
+    {
+      "id": "AlwaysUse",
+      "name": "[常駐]"
+    },
+    {
+      "id": "CantDuel",
+      "name": "[無法拼點]"
+    },
+    {
+      "id": "EnemyKill",
+      "name": "[擊殺敵方時]"
+    },
+    {
+      "id": "EnemyKillFail",
+      "name": "[未擊殺敵方時]"
+    },
+    {
+      "id": "ReUse",
+      "name": "[重複使用時]"
+    },
+    {
+      "id": "ReUseOnSucceedAttackHead",
+      "name": "[重複使用 - 正面命中時]"
+    },
+    {
+      "id": "CriticalOnSucceedAttack",
+      "name": "[暴擊命中時]"
+    },
+    {
+      "id": "StartDuel",
+      "name": "[拼點開始]"
+    },
+    {
+      "id": "EndBattle",
+      "name": "[回合結束時]"
+    },
+    {
+      "id": "OnDefeatEvade",
+      "name": "[閃避失敗時]"
+    },
+    {
+      "id": "EndSkillHead",
+      "name": "[正面攻擊結束後]"
+    },
+    {
+      "id": "EndSkillTail",
+      "name": "[反面攻擊結束後]"
+    },
+    {
+      "id": "WinDuelAttackHead",
+      "name": "[拼點勝利 - 正面命中時]"
+    },
+    {
+      "id": "WinDuelAttack",
+      "name": "[拼點勝利 - 命中時]"
+    },
+    {
+      "id": "CriticalActivated",
+      "name": "[暴擊發動時]"
+    },
+    {
+      "id": "CriticalEndSkill",
+      "name": "[暴擊結束後]"
+    },
+    {
+      "id": "CantChangeTarget",
+      "name": "[無法改變拼點目標]"
+    },
+    {
+      "id": "TurnStartBattle",
+      "name": "[回合開始時]"
+    },
+    {
+      "id": "EndSkillAll",
+      "name": "[技能結束時]"
+    },
+    {
+      "id": "WhenUse_Force",
+      "name": "<color=#26cfff>[使用時]</color>"
+    },
+    {
+      "id": "StartBattle_Force",
+      "name": "<color=#93f13e>[戰鬥開始]</color>"
+    },
+    {
+      "id": "TargetKill",
+      "name": "[擊殺目標時]"
+    },
+    {
+      "id": "CriticalTargetKill",
+      "name": "[暴擊擊殺時]"
+    },
+    {
+      "id": "BeforeUse",
+      "name": "[使用前]"
+    },
+    {
+      "id": "DuelCounter",
+      "name": "[可拼點反擊]"
+    },
+    {
+      "id": "CantBreak",
+      "name": "[不可摧毀的硬幣]"
+    },
+    {
+      "id": "DuelGuard",
+      "name": "[可拼點防禦]"
+    },
+    {
+      "id": "WhenUseEvade",
+      "name": "[閃避使用時]"
+    },
+    {
+      "id": "EndCoin",
+      "name": "[硬幣攻擊結束時]"
+    },
+    {
+      "id": "CriticalEnemyTargetKillFail",
+      "name": "[暴擊未擊殺敵方時]"
+    },
+    {
+      "id": "CriticalEnemyTargetKill",
+      "name": "[暴擊擊殺敵方時]"
+    },
+    {
+      "id": "DefeatDuelAttack",
+      "name": "[拼點失敗 - 命中時]"
+    },
+    {
+      "id": "TargetKillFail",
+      "name": "[未擊殺目標時]"
+    },
+    {
+      "id": "AllyKill",
+      "name": "[擊殺友方時]"
+    },
+    {
+      "id": "AllyKillFail",
+      "name": "[未擊殺友方時]"
+    },
+    {
+      "id": "TabExplain",
+      "name": ""
+    },
+    {
+      "id": "UnBrokenCoinOnSucceedAttack",
+      "name": "[未摧毀 - 命中時]"
+    },
+    {
+      "id": "BeforeHit",
+      "name": "[受到攻擊前]"
+    }
+  ]
+}

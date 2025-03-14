@@ -1,0 +1,560 @@
+{
+  "dataList": [
+    {
+      "id": 2110511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "悲慘假日",
+          "abName": "聖道夫",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[EndSkill] 使理智值最低的2名友方單位獲得1層最大共鳴數罪孽屬性的傷害強化 "
+                },
+                {
+                  "desc": "[EndSkill] 使理智值最低的2名友方單位恢復20點理智值"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "悲慘假日",
+          "abName": "聖道夫",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[EndSkill] 使理智值最低的3名友方單位獲得1層最大共鳴數罪孽屬性的傷害強化 "
+                },
+                {
+                  "desc": "[EndSkill] 使理智值最低的3名友方單位恢復20點理智值"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "悲慘假日",
+          "abName": "聖道夫",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[EndSkill] 使理智值最低的4名友方單位獲得1層最大共鳴數罪孽屬性的傷害強化 "
+                },
+                {
+                  "desc": "[EndSkill] 使理智值最低的4名友方單位恢復20點理智值"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "悲慘假日",
+          "abName": "聖道夫",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使自身失去體力上限10%的體力",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標失去10點理智值"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] 對目標施加1層最大共鳴數罪孽屬性的易損 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "悲慘假日",
+          "abName": "聖道夫",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使自身失去體力上限10%的體力",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標失去10點理智值"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] 對目標施加2層最大共鳴數罪孽屬性的易損 "
+                },
+                {
+                  "desc": "[EndSkillTail] 使自身獲得1層最大共鳴數罪孽屬性的傷害強化 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "悲慘假日",
+          "abName": "聖道夫",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使自身失去體力上限10%的體力",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標失去10點理智值"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層最大共鳴數罪孽屬性的易損 "
+                },
+                {
+                  "desc": "[EndSkillTail] 使自身獲得1層最大共鳴數罪孽屬性的傷害強化 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "拘束",
+          "abName": "受縛之王",
+          "desc": "[BeforeAttack] 使本技能的攻擊容量+(最大傲慢或怠惰共鳴數-2)(最多+2)\n[EndSkill] 3回合內，回合結束時使自身失去10點理智值",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加4級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標振幅轉換 為[VibrationCrack]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "拘束",
+          "abName": "受縛之王",
+          "desc": "[BeforeAttack] 使本技能的攻擊容量+(最大傲慢或怠惰共鳴數-2)(最多+2)\n使目標被震顫引爆 時的混亂閾值前移量增加50%\n[EndSkill] 3回合內，回合結束時使自身失去9點理智值",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加5級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標振幅轉換 為[VibrationCrack]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "拘束",
+          "abName": "受縛之王",
+          "desc": "[BeforeAttack] 使本技能的攻擊容量+(最大傲慢或怠惰共鳴數-2)(最多+2)\n使目標被震顫引爆 時的混亂閾值前移量增加100%\n[EndSkill] 3回合內，回合結束時使自身失去8點理智值",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加6級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標振幅轉換 為[VibrationCrack]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "拘束",
+          "abName": "受縛之王",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使本技能的攻擊容量+(最大傲慢或怠惰共鳴數-2)(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加4級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層震顫 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標振幅轉換 為[VibrationCrack]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "拘束",
+          "abName": "受縛之王",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使本技能的攻擊容量+(最大傲慢或怠惰共鳴數-2)(最多+2)\n使目標被震顫引爆 時的混亂閾值前移量增加50%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加5級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層震顫 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標振幅轉換 為[VibrationCrack]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "拘束",
+          "abName": "受縛之王",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使本技能的攻擊容量+(最大傲慢或怠惰共鳴數-2)(最多+2)\n使目標被震顫引爆 時的混亂閾值前移量增加50%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加6級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加3層震顫 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標振幅轉換 為[VibrationCrack]"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "次元撕裂者",
+          "abName": "迷失的乘客",
+          "desc": "[BeforeAttack] 若最大共鳴數不低於4，則使本技能的攻擊容量+1\n[BeforeAttack] 若自身的充能 層數低於10層，則消耗體力上限15%的體力並獲得10層充能 (該傷害不會使自身體力降至0點，向下取整)\n[BeforeAttack] 消耗至多40層充能 ，每消耗1層充能 ，使本技能造成的傷害+1%(最多+10%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加(自身的充能 強度-1)層次元裂痕 (最多1層)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每帶有1級充能 強度，下回合使自身獲得1層迅捷 與1層載荷 (每個技能最多1層)"
+                },
+                {
+                  "desc": "[EnemyKill] 使自身獲得2層充能 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "次元撕裂者",
+          "abName": "迷失的乘客",
+          "desc": "[BeforeAttack] 若最大共鳴數不低於3，則使本技能的攻擊容量+1\n[BeforeAttack] 若自身的充能 層數低於10層，則消耗體力上限15%的體力並獲得10層充能 (該傷害不會使自身體力降至0點，向下取整)\n[BeforeAttack] 消耗至多40層充能 ，每消耗1層充能 ，使本技能造成的傷害+1%(最多+20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加(自身的充能 強度-1)層次元裂痕 (最多2層)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每帶有1級充能 強度，下回合使自身獲得1層迅捷 與1層載荷 (每個技能最多2層)"
+                },
+                {
+                  "desc": "[EnemyKill] 使自身獲得2層充能 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "次元撕裂者",
+          "abName": "迷失的乘客",
+          "desc": "[BeforeAttack] 使本技能的攻擊容量+(最大共鳴數-2)(最多+2)\n[BeforeAttack] 若自身的充能 層數低於10層，則消耗體力上限10%的體力並獲得10層充能 (該傷害不會使自身體力降至0點，向下取整)\n[BeforeAttack] 消耗至多40層充能 ，每消耗1層充能 ，使本技能造成的傷害+1%(最多+30%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加(自身的充能 強度-1)層次元裂痕 (最多2層)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每帶有1級充能 強度，下回合使自身獲得1層迅捷 與1層載荷 (每個技能最多3層)"
+                },
+                {
+                  "desc": "[EnemyKill] 使自身獲得2層充能 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "次元撕裂者",
+          "abName": "迷失的乘客",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 若最大共鳴數不低於4，則使本技能的攻擊容量+1\n[BeforeAttack] 若自身的充能 層數低於最大充能 層數，則消耗體力上限(相差的充能 層數×1.5)%的體力並使自身獲得至最大充能 層數(本效果最大充能 層數獲取量：30。該傷害不會使自身體力降至0點，向下取整)\n[BeforeAttack] 消耗至多40層充能 ，每消耗1層充能 ，使本技能造成的傷害+2%(最多+20%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加(自身的充能 強度-1)層次元裂痕 (最多2層)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每帶有1級充能 強度，下回合使自身獲得1層迅捷 與1層載荷 (每個技能最多2層)"
+                },
+                {
+                  "desc": "[EnemyKill] 使自身獲得2層充能 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "次元撕裂者",
+          "abName": "迷失的乘客",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 若最大共鳴數不低於4，則使本技能的攻擊容量+1\n[BeforeAttack] 若自身的充能 層數低於最大充能 層數，則消耗體力上限(相差的充能 層數×1.2)%的體力並使自身獲得至最大充能 層數(本效果最大充能 層數獲取量：30。該傷害不會使自身體力降至0點，向下取整)\n[BeforeAttack] 消耗至多40層充能 ，每消耗1層充能 ，使本技能造成的傷害+2%(最多+40%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加(自身的充能 強度-1)層次元裂痕 (最多2層)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每帶有1級充能 強度，下回合使自身獲得1層迅捷 與1層載荷 (每個技能最多2層)"
+                },
+                {
+                  "desc": "[EnemyKill] 使自身獲得2層充能 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "次元撕裂者",
+          "abName": "迷失的乘客",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使本技能的攻擊容量+(最大共鳴數-2)(最多+2)\n[BeforeAttack] 若自身的充能 層數低於最大充能 層數，則消耗體力上限(相差的充能 層數)%的體力並使自身獲得至最大充能 層數(本效果最大充能 層數獲取量：30。該傷害不會使自身體力降至0點，向下取整)\n[BeforeAttack] 消耗至多40層充能 ，每消耗1層充能 ，使本技能造成的傷害+2%(最多+60%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加(自身的充能 強度-1)層次元裂痕 (最多4層)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 自身每帶有1級充能 強度，下回合使自身獲得1層迅捷 與1層載荷 (每個技能最多3層)"
+                },
+                {
+                  "desc": "[EnemyKill] 使自身獲得2層充能 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "魔彈",
+          "abName": "魔彈射手",
+          "desc": "目標每帶有3級燒傷 強度，使本技能造成的傷害+1%(最多+10%)\n[BeforeAttack] 若自身的魔彈 層數為0，則使自身獲得1層魔彈 \n- 根據自身帶有的魔彈 層數決定發射的彈藥[TabExplain]\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] 根據最大共鳴數使自身獲得相應層數的魔彈 (最少1層，最多4層)\n[EndSkill] 若擊殺主要目標，則對全體帶有燒傷 的敵方單位施加2層黑焰 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據自身帶有的魔彈 層數，使目標增加相應的燒傷 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 根據自身帶有的魔彈 層數，對目標施加相應層數的黑焰 (每回合每名目標最多1次)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "魔彈",
+          "abName": "魔彈射手",
+          "desc": "目標每帶有3級燒傷 強度，使本技能造成的傷害+2%(最多+20%)\n[BeforeAttack] 若自身的魔彈 層數為0，則使自身獲得1層魔彈 \n- 根據自身帶有的魔彈 層數決定發射的彈藥[TabExplain]\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] 根據最大共鳴數使自身獲得相應層數的魔彈 (最少1層，最多4層)\n[EndSkill] 若擊殺主要目標，則對全體帶有燒傷 的敵方單位施加3層黑焰 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據自身帶有的魔彈 層數，使目標增加相應的燒傷 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 根據自身帶有的魔彈 層數，對目標施加相應層數的黑焰 (每回合每名目標最多1次)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "魔彈",
+          "abName": "魔彈射手",
+          "desc": "目標每帶有3級燒傷 強度，使本技能造成的傷害+3%(最多+30%)\n[BeforeAttack] 若自身的魔彈 層數為0，則使自身獲得1層魔彈 \n- 根據自身帶有的魔彈 層數決定發射的彈藥[TabExplain]\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] 根據最大共鳴數使自身獲得相應層數的魔彈 (最少1層，最多4層)\n[EndSkill] 若擊殺主要目標，則對全體帶有燒傷 的敵方單位施加4層黑焰 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據自身帶有的魔彈 層數，使目標增加相應的燒傷 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 根據自身帶有的魔彈 層數，對目標施加相應層數的黑焰 (每回合每名目標最多1次)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2110821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "魔彈",
+          "abName": "魔彈射手",
+          "desc": "[CantIdentify]\n隨機指定目標\n目標每帶有3級燒傷 強度，使本技能造成的傷害+1%(最多+10%)\n[BeforeAttack] 若自身的魔彈 層數為0，則使自身獲得1層魔彈 \n- 根據自身帶有的魔彈 層數決定發射的彈藥[TabExplain]\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] 根據最大共鳴數使自身獲得相應層數的魔彈 (最少1層，最多4層)\n[EndSkill] 若擊殺主要目標，則對全體帶有燒傷 的敵方單位施加3層黑焰 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據自身帶有的魔彈 層數，使目標增加相應的燒傷 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 根據自身帶有的魔彈 層數，對目標施加相應層數的黑焰 (每回合每名目標最多1次)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "魔彈",
+          "abName": "魔彈射手",
+          "desc": "[CantIdentify]\n隨機指定目標\n目標每帶有3級燒傷 強度，使本技能造成的傷害+2%(最多+20%)\n[BeforeAttack] 若自身的魔彈 層數為0，則使自身獲得1層魔彈 \n- 根據自身帶有的魔彈 層數決定發射的彈藥[TabExplain]\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] 根據最大共鳴數使自身獲得相應層數的魔彈 (最少1層，最多4層)\n[EndSkill] 若擊殺主要目標，則對全體帶有燒傷 的敵方單位施加5層黑焰 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據自身帶有的魔彈 層數，使目標增加相應的燒傷 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加(自身的魔彈 層數/3)層燒傷 (向下取整)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 根據自身帶有的魔彈 層數，對目標施加相應層數的黑焰 (每回合每名目標最多1次)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "魔彈",
+          "abName": "魔彈射手",
+          "desc": "[CantIdentify]\n隨機指定目標\n目標每帶有3級燒傷 強度，使本技能造成的傷害+3%(最多+30%)\n[BeforeAttack] 若自身的魔彈 層數為0，則使自身獲得1層魔彈 \n- 根據自身帶有的魔彈 層數決定發射的彈藥[TabExplain]\n· [FreishutzOutisEgoBullet_1st]\n· [FreishutzOutisEgoBullet_2nd]\n· [FreishutzOutisEgoBullet_3rd]\n· [FreishutzOutisEgoBullet_4th]\n· [FreishutzOutisEgoBullet_5th]\n· [FreishutzOutisEgoBullet_6th]\n· [FreishutzOutisEgoBullet_7th]\n[EndSkill] 根據最大共鳴數使自身獲得相應層數的魔彈 (最少1層，最多4層)\n[EndSkill] 若擊殺主要目標，則對全體帶有燒傷 的敵方單位施加7層黑焰 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據自身帶有的魔彈 層數，使目標增加相應的燒傷 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加(自身的魔彈 層數/2)層燒傷 (向下取整)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 根據自身帶有的魔彈 層數，對目標施加相應層數的黑焰 (每回合每名目標最多1次)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

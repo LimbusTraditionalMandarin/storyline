@@ -1,0 +1,120 @@
+{
+  "dataList": [
+    {
+      "id": "announcer_cheer_3_1",
+      "dlg": "卡戎，不擅長等待。只等100秒。"
+    },
+    {
+      "id": "announcer_cheer_3_2",
+      "dlg": "要是遲到我就和梅菲先走了。"
+    },
+    {
+      "id": "announcer_specialcheer_3_1",
+      "dlg": "有乘客很痛。不要哭。"
+    },
+    {
+      "id": "announcer_specialcheer_3_2",
+      "dlg": "為什麼他們變成了梅菲的食物？卡戎傷心。"
+    },
+    {
+      "id": "announcer_enemy_break_3_1",
+      "dlg": "敵人搖搖晃晃的。機會，不是嗎？"
+    },
+    {
+      "id": "announcer_ally_break_3_1",
+      "dlg": "所以卡戎說要繫好安全帶。"
+    },
+    {
+      "id": "announcer_killenemy_3_1",
+      "dlg": "梅菲餓了。太好了，對吧？"
+    },
+    {
+      "id": "announcer_ally_dead_3_1",
+      "dlg": "乘客安靜下來了。之後要滴答滴答了。"
+    },
+    {
+      "id": "announcer_enemy_adv_3_1",
+      "dlg": "壞人贏了。卡戎，要先走了。"
+    },
+    {
+      "id": "announcer_ally_adv_3_1",
+      "dlg": "呀呼。贏的人，自己人。"
+    },
+    {
+      "id": "announcer_danger_3_1",
+      "dlg": "……一觸即發？我學過這個詞。"
+    },
+    {
+      "id": "announcer_enemy_specialskill_3_1",
+      "dlg": "地面在顫動。卡戎也搖搖晃晃的。"
+    },
+    {
+      "id": "announcer_enemy_specialgimmick_3_1",
+      "dlg": "朦朦朧朧。不知道會出現什麼。"
+    },
+    {
+      "id": "announcer_advatk_physical_3_1",
+      "dlg": "乘客給了他們一個“嘭”。"
+    },
+    {
+      "id": "announcer_disadvatk_physical_3_1",
+      "dlg": "剛才的一點用都沒有。傻瓜。"
+    },
+    {
+      "id": "announcer_advatk_attr_3_1",
+      "dlg": " 據說知道自己做錯了什麼才是開始。"
+    },
+    {
+      "id": "announcer_disadvatk_attr_3_1",
+      "dlg": "你知道自己做錯了什麼嗎？……從電視劇裡看來的。"
+    },
+    {
+      "id": "announcer_enemy_specialbuff_3_1",
+      "dlg": "敵人看起來心情很好。卡戎，心情不好。"
+    },
+    {
+      "id": "announcer_enemy_specialdebuff_3_1",
+      "dlg": "看看他們。一副快要吐出來的樣子。"
+    },
+    {
+      "id": "announcer_ally_specialbuff_3_1",
+      "dlg": "乘客們，有什麼開心的事嗎？"
+    },
+    {
+      "id": "announcer_ally_specialdebuff_3_1",
+      "dlg": "……嘔吐袋在座位下面。別吐在梅菲身上。"
+    },
+    {
+      "id": "announcer_enemy_destroy_3_1",
+      "dlg": "咔嚓，部位被破壞了。可以繼續。"
+    },
+    {
+      "id": "announcer_enemy_destroy_3_2",
+      "dlg": "乘客們，把那個弄壞了。不用賠錢，繼續吧。"
+    },
+    {
+      "id": "announcer_round_takebigdmg_3_1",
+      "dlg": "卡戎，轉來轉去。"
+    },
+    {
+      "id": "announcer_round_takebigdmg_3_2",
+      "dlg": "呃，看起來很疼。"
+    },
+    {
+      "id": "announcer_round_givebigdmg_3_1",
+      "dlg": "大成功。卡戎，很高興。要唱歌嗎？"
+    },
+    {
+      "id": "announcer_round_givebigdmg_3_2",
+      "dlg": "哇啊！卡戎也嚇一跳。"
+    },
+    {
+      "id": "announcer_multikillenemy_3_1",
+      "dlg": "一石二鳥，對吧？卡戎，摸摸你的頭。"
+    },
+    {
+      "id": "announcer_equip_3_1",
+      "dlg": "卡戎登場，大家都很高興。"
+    }
+  ]
+}

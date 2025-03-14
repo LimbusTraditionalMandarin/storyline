@@ -1,0 +1,185 @@
+{
+  "dataList": [
+    {
+      "id": "announcer_cheer_28_1",
+      "dlg": "這似乎是一個親自觀察你的領導才能的機會，但丁。按你的想法繼續吧。"
+    },
+    {
+      "id": "announcer_cheer_28_2",
+      "dlg": "那些高層選你做經理一定是有理由的……我很期待見證你的事蹟，但丁。"
+    },
+    {
+      "id": "announcer_specialcheer_28_1",
+      "dlg": "情況……似乎不是很有利。能夠在不回溯時針的情況下打破這一局面嗎。"
+    },
+    {
+      "id": "announcer_specialcheer_28_2",
+      "dlg": "嗯，變得狼狽不堪了呢……你能夠僅憑剩下的人解決嗎？"
+    },
+    {
+      "id": "announcer_enemy_break_28_1",
+      "dlg": "嚯。他們已經奄奄一息了……看來很快就能解決掉，你應該能命令罪人們高效地收尾吧，但丁。"
+    },
+    {
+      "id": "announcer_ally_break_28_1",
+      "dlg": "我可不樂於見到他們在外被打得這麼慘……經理，不要讓罪人們陷入毫無防備的狀態。"
+    },
+    {
+      "id": "announcer_killenemy_28_1",
+      "dlg": "那些麻煩的傢伙都變成了一攤爛肉呢，但丁。不錯的成果。"
+    },
+    {
+      "id": "announcer_ally_dead_28_1",
+      "dlg": "放任罪人去死只會徒增痛苦……別告訴我你對回溯時針已經麻木了？"
+    },
+    {
+      "id": "announcer_enemy_adv_28_1",
+      "dlg": "沒戲了……如你所知，我不會提供任何幫助。畢竟，這只是錄音。先撤退然後轉換策略之類的……總之自己想辦法吧。"
+    },
+    {
+      "id": "announcer_ally_advex_28_1",
+      "dlg": "嗯……嘛，尚存有一線生機。希望渺茫，但其依然存在。你只需要找到正確的路。但丁經理。"
+    },
+    {
+      "id": "announcer_danger_28_1",
+      "dlg": "時間可不是無限的，但丁。差不多該做個了結了吧。沒有什麼是無限的，亦沒有什麼無需付出代價……哈啊。"
+    },
+    {
+      "id": "announcer_enemy_specialskill_28_1",
+      "dlg": "不要移開視線。直視那個野獸的獠牙大口，面對它。"
+    },
+    {
+      "id": "announcer_enemy_specialgimmick_28_1",
+      "dlg": "用壓倒性的蠻力就完全足以粉碎這場小丑秀……不過，我猜你並沒有這種選項。"
+    },
+    {
+      "id": "announcer_advatk_physical_28_1",
+      "dlg": "所以那些戰鬥的經驗並非毫無用處，但丁。做得不錯。"
+    },
+    {
+      "id": "announcer_disadvatk_physical_28_1",
+      "dlg": "……想像力可真豐富。這些奇思妙想不妨還是往後稍稍吧。"
+    },
+    {
+      "id": "announcer_advatk_attr_28_1",
+      "dlg": "換做是我也會如此。幹得漂亮。"
+    },
+    {
+      "id": "announcer_disadvatk_attr_28_1",
+      "dlg": "或許是因經理本人對實戰經驗的缺乏，才導致了低效命令的下達。嗯……或許應該推薦經理去參加一些戰鬥訓練。"
+    },
+    {
+      "id": "announcer_enemy_specialbuff_28_1",
+      "dlg": "那些傻瓜們挺興奮的。這種情況差不多都是因為某種原因。現在，找到並消滅那個原因。"
+    },
+    {
+      "id": "announcer_enemy_specialdebuff_28_1",
+      "dlg": "疑神疑鬼，不安又緊張。這是他們最脆弱的時候。進攻的良機就在當下。"
+    },
+    {
+      "id": "announcer_ally_specialbuff_28_1",
+      "dlg": "我給罪人們買零食是有原因的，但丁。我希望這能帶來類似的效果。"
+    },
+    {
+      "id": "announcer_ally_specialdebuff_28_1",
+      "dlg": "哭喪著臉幹什麼？看到你不喜歡的東西了？嗯……"
+    },
+    {
+      "id": "announcer_enemy_destroy_28_1",
+      "dlg": "那個煩人的部位好像被破壞了呢，經理。希望你可以分清它們的優先順序。"
+    },
+    {
+      "id": "announcer_enemy_destroy_28_2",
+      "dlg": "嗯。把那個部位破壞的話就會變成那般愚蠢的樣子嗎……很有趣的表演呢，但丁。"
+    },
+    {
+      "id": "announcer_round_takebigdmg_28_1",
+      "dlg": "……嘛。因為是意料之外的攻擊，所以似乎也不能怪到你頭上。你總不可能是明知會如此還讓人捱揍吧。"
+    },
+    {
+      "id": "announcer_round_takebigdmg_28_2",
+      "dlg": "現在可來不及回溯時鐘，該考慮其他手段了吧。經理。讓已經盡到自己作用的傢伙撤退也是個不錯的選擇。"
+    },
+    {
+      "id": "announcer_round_givebigdmg_28_1",
+      "dlg": "非常好。這才是值得一看的東西。我更喜歡領導那些知道自己在做什麼的人。"
+    },
+    {
+      "id": "announcer_round_givebigdmg_28_2",
+      "dlg": "一招強力的攻擊所能做的不只是擊殺目標。它震懾著餘下的敵人，讓他們在同樣的攻擊下次可能會對準他們的恐懼中癱瘓……"
+    },
+    {
+      "id": "announcer_multikillenemy_28_1",
+      "dlg": "我會記住這個罪人的，但丁。有值得稱讚的事情時要在面談中提及，這也是上面的指示。"
+    },
+    {
+      "id": "announcer_wait_28_1",
+      "dlg": "……怎麼回事，卡住了嗎。難道沒做任何指揮就愣在那裡了嗎，但丁？",
+      "isHide": true
+    },
+    {
+      "id": "announcer_equip_28_1",
+      "dlg": "非要讓我來做這種瑣事嗎……麻煩的工作接二連三……哈啊。"
+    },
+    {
+      "id": "announcer_special_sinner_28_1",
+      "dlg": "令人印象深刻，1號罪人。你對人格和E.G.O的適應性尤為突出。",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_sinner_28_2",
+      "dlg": "你早就預知了那個部位會造成麻煩的不是嗎……浮士德女士。",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_sinner_28_3",
+      "dlg": "……3號罪人這次又捅出什麼事情了。哈啊……",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_sinner_28_4",
+      "dlg": "嗯，即便成為了罪人，你的戰鬥直覺也依然敏銳。接下來就好好糾正下你講話時那奇怪的癖好吧，4號罪人。",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_sinner_28_5",
+      "dlg": "如此出色，5號罪人。你幫助我們避免了大量危險情況。",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_sinner_28_6",
+      "dlg": "……你那拙劣無效的攻擊，可沒辦法拿這天真無邪的笑容去掩蓋。6號罪人。",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_sinner_28_7",
+      "dlg": "我還以為你終於能動動腦子了呢……自上次面談起，夠久了吧，7號罪人。",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_sinner_28_8",
+      "dlg": "聽說你現在當上了班幹部是吧，8號罪人。那現在就是你掌舵前行的時候了。",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_sinner_28_9",
+      "dlg": "單純真好啊，9號罪人。當然了，如果你在戰鬥中的表現出色，我就給你準備些點心。",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_sinner_28_10",
+      "dlg": "又沾上了鮮血啊，11號。……唔，要是在以前，你怕是早就畏縮著跪地了吧，最近似乎是有些成長了。",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_sinner_28_11",
+      "dlg": "這是怎麼回事啊，副官大人？怎麼把自己弄得遍體鱗傷、支離破碎了呢？你看起來反倒成了讓你那尊敬的經理最頭疼的負擔啊。",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_sinner_28_12",
+      "dlg": "現在可容不得你那副殘兵敗將的樣子，13號罪人。站起來，繼續戰鬥。你先前的從容勁都跑到哪裡去了？",
+      "isHide": true
+    }
+  ]
+}

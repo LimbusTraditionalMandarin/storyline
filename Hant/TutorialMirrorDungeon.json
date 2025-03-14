@@ -1,0 +1,636 @@
+{
+  "dataList": [
+    {
+      "id": "tutorial_mirrordungeon04_page_01_title_01",
+      "content": "呼嘯之鏡"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_01_desc_01",
+      "content": "第4賽季鏡像迷宮名為“呼嘯之鏡”。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_01_desc_02",
+      "content": "能夠選擇以“模擬”或“Ritornello”難度進入。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_02_title_01",
+      "content": "每週加成"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_02_desc_01",
+      "content": "鏡像迷宮擁有每週加成。領取獎勵時使用額外獎勵加成，將會大幅增加所獲得的獎勵。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_02_desc_02",
+      "content": "每週最多可獲得三次每週加成，難度不限。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_02_desc_03",
+      "content": "在“Ritornello”難度下，您可以一次性消耗2次或更多的額外獎勵，並將根據消耗的額外獎勵數量獲得相應的獎勵。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_02_desc_04",
+      "content": "但是，比起一次性消耗3次每週加成，每次消耗1次加成可以更有效率地利用腦啡呔模塊。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_03_title_01",
+      "content": "罪人"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_03_desc_01",
+      "content": "能夠確認罪人編隊情況。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_03_title_02",
+      "content": "開局增益效果"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_03_desc_02",
+      "content": "能夠消耗通關鏡像迷宮時所獲得的星芒，來獲取鏡像迷宮探索時的加成。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_03_title_03",
+      "content": "主題卡包圖鑑"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_03_desc_03",
+      "content": "能夠確認在鏡像迷宮中出現的階層主題卡包。在鏡像迷宮探索過程中，選定的階層主題卡包將會在此處追加記錄。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_03_title_04",
+      "content": "E.G.O飾品圖鑑"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_03_desc_04",
+      "content": "能夠確認在鏡像迷宮中出現的E.G.O飾品。若在探索過程中獲得新的E.G.O飾品，將會在此處追加記錄。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_04_title_01",
+      "content": "開局增益效果"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_04_desc_01",
+      "content": "每當激活更多的開局增益，在探索過程中獲得有用E.G.O飾品的概率將會隨之提升。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_04_desc_02",
+      "content": "開局增益不受鏡像迷宮難度的影響。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_04_title_02",
+      "content": "星芒"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_04_desc_03",
+      "content": "通關鏡像迷宮時，可以獲得星芒。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_04_desc_04",
+      "content": "探索完的層數越高，便能夠獲得越多星芒。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_05_title_01",
+      "content": "選擇初始E.G.O飾品"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_05_desc_01",
+      "content": "當進入鏡像迷宮時，將會提供基於關鍵詞的E.G.O飾品分類供選擇。最初只能選擇“隨機”分類。然而，隨著激活更多的開局增益，可以解鎖更多的關鍵詞分類。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_05_desc_02",
+      "content": "每個關鍵詞分類中出現的E.G.O飾品是固定的。可以從同一分類中選擇任意數量的E.G.O飾品。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_05_desc_03",
+      "content": "以之前未選擇過的E.G.O飾品類別通關鏡像迷宮時，可以額外獲得星芒。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_06_title_01",
+      "content": "選擇罪人"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_06_desc_01",
+      "content": "能夠選擇編入鏡像迷宮探索隊伍的罪人。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_06_desc_02",
+      "content": "在鏡像迷宮編隊時，人格等級將會固定在45級。但Ritornello難度將會直接反映現有人格等級。（最高45級）"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_06_desc_03",
+      "content": "編入1★、2★人格時，可以獲得額外初始經費。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_06_desc_04",
+      "content": "編入上一次探索過程中從未使用過的人格時，可以獲得額外初始經費。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_07_title_01",
+      "content": "休息獎勵"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_07_desc_01",
+      "content": "通關鏡像迷宮時，編入隊伍中的人格所剩餘的休息獎勵將轉換為星芒。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_07_desc_02",
+      "content": "然而，在遊玩過程中被交替過的人格將不會消耗休息獎勵，並無法獲得額外的星芒。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_07_desc_03",
+      "content": "除了消耗休息獎勵或被交替過的人格以外，其餘所有人格會增加1格休息獎勵。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_08_title_01",
+      "content": "鏡像迷宮入場"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_08_desc_01",
+      "content": "完成人格與E.G.O設置後，按“確認”即可進入鏡像迷宮。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_08_desc_02",
+      "content": "此處將顯示編隊過程中可額外獲得的經費。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_09_title_01",
+      "content": "階層主題卡包選擇"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_09_desc_01",
+      "content": "在進入階層時，可以從顯示的選項內選擇在本階層遭遇的主題。可通過下劃想要選擇的主題卡包來選擇。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_09_desc_02",
+      "content": "通過每個階層主題卡包右上角的按鈕，可以查看該卡包中可能出現的頭目和E.G.O飾品。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_09_desc_03",
+      "content": "在階層主題卡包的底部，可以查看在擊敗階層主題的頭目後可以選擇的E.G.O飾品。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_09_desc_04",
+      "content": "每個階層主題都有各自的敵方單位、E.G.O飾品、選項的出現範圍，因此，選擇目前編隊中有利於對付的敵方單位或存在有助於編隊的E.G.O飾品的階層主題卡包將會是很有效的策略。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_10_title_01",
+      "content": "鏡像迷宮探索"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_10_desc_01",
+      "content": "每次進入鏡像迷宮中，將會隨機生成節點和路徑。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_10_desc_02",
+      "content": "選擇與當前節點相鄰的節點並推進後，在各個節點將會隨機生成不同類型的戰鬥及事件。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_10_title_02",
+      "content": "星芒與經費"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_10_desc_03",
+      "content": "在鏡像迷宮的遊玩過程中可以獲得星芒與經費，可以通過消耗星芒鐫星獲得開局增益效果，可以通過消耗經費使用商店與休息點的功能。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_11_title_01",
+      "content": "E.G.O飾品"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_11_desc_01",
+      "content": "此處顯示已獲取的E.G.O飾品。E.G.O飾品是適用於迷宮的，能夠給予強力效果的道具。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_11_title_02",
+      "content": "關卡有利屬性"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_11_desc_02",
+      "content": "在鏡像迷宮的戰鬥節點下方會顯示對應關卡的有利屬性。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_11_title_03",
+      "content": "罪人狀態"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_11_desc_03",
+      "content": "迷宮探索期間，罪人的體力，理智值以及陣亡狀態將會延續。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_12_title_01",
+      "content": "商店"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_12_desc_01",
+      "content": "能夠通過消耗戰鬥中獲得的經費購買E.G.O飾品，治療友方單位，追加人格與E.G.O，強化所顯示的人格。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_12_desc_02",
+      "content": "可以在商店裡售賣不需要的E.G.O飾品，並獲取經費。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_13_title_01",
+      "content": "休息點"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_13_desc_01",
+      "content": "在休息點處，可以消耗經費以治療友方單位、替換編隊中的人格或強化E.G.O飾品。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_13_desc_02",
+      "content": "可以通過合成E.G.O飾品獲取其他E.G.O飾品。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_14_title_01",
+      "content": "遭遇戰獎勵卡"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_14_desc_01",
+      "content": "遭遇戰勝利後，根據戰鬥難度有一定概率會出現遭遇戰獎勵卡。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_14_desc_02",
+      "content": "可以從遭遇戰獎勵卡中獲得各種資源，如經費、星芒、E.G.O飾品或E.G.O資源。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_15_title_01",
+      "content": "層數增益"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_15_desc_01",
+      "content": "每當通關一層時，將會獲得與E.G.O飾品綁定的隨機敵方增益效果。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_15_desc_02",
+      "content": "每當通關一層時，敵方增益都會累積。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_16_title_01",
+      "content": "鏡像迷宮獎勵"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_16_desc_01",
+      "content": "通關鏡像迷宮後，能夠消耗腦啡肽模塊來領取獎勵。"
+    },
+    {
+      "id": "tutorial_mirrordungeon04_page_16_desc_02",
+      "content": "獎勵將基於已通關的層數進行發放，可以通過使用每週額外獎勵次數獲得更加豐厚的獎勵。"
+    },
+    {
+      "id": "TutoMD05_P1_T1",
+      "content": "夢中之鏡"
+    },
+    {
+      "id": "TutoMD05_P1_D1",
+      "content": "第5賽季鏡像迷宮名為“夢中之鏡”。"
+    },
+    {
+      "id": "TutoMD05_P1_D2",
+      "content": "通過點擊門或者“進入”按鈕可以進入鏡像迷宮。"
+    },
+    {
+      "id": "TutoMD05_P2_T1",
+      "content": "每週加成"
+    },
+    {
+      "id": "TutoMD05_P2_D1",
+      "content": "鏡像迷宮每週將提供三次每週加成。"
+    },
+    {
+      "id": "TutoMD05_P2_D2",
+      "content": "領取獎勵時使用每週加成，將會大幅增加所獲得的獎勵。 "
+    },
+    {
+      "id": "TutoMD05_P2_D3",
+      "content": "以困難難度通關所有主題卡包後，您可以一次性消耗2次或更多的每週加成，並將根據消耗的每週加成數量獲得相應的獎勵。"
+    },
+    {
+      "id": "TutoMD05_P2_D4",
+      "content": "但是，比起一次性消耗3次每週加成，每次消耗1次加成可以更有效率地利用腦啡呔模塊。"
+    },
+    {
+      "id": "TutoMD05_P3_T1",
+      "content": "罪人"
+    },
+    {
+      "id": "TutoMD05_P3_D1",
+      "content": "能夠確認罪人編隊情況。"
+    },
+    {
+      "id": "TutoMD05_P3_T2",
+      "content": "主題卡包圖鑑"
+    },
+    {
+      "id": "TutoMD05_P3_D2",
+      "content": "能夠確認在鏡像迷宮中出現的階層主題卡包。在鏡像迷宮探索過程中，選定的階層主題卡包將會在此處追加記錄。"
+    },
+    {
+      "id": "TutoMD05_P3_T3",
+      "content": "E.G.O飾品圖鑑"
+    },
+    {
+      "id": "TutoMD05_P3_D3",
+      "content": "能夠確認在鏡像迷宮中出現的E.G.O飾品。若在探索過程中獲得新的E.G.O飾品，將會在此處追加記錄。"
+    },
+    {
+      "id": "TutoMD05_P4_T1",
+      "content": "選擇編隊"
+    },
+    {
+      "id": "TutoMD05_P4_D1",
+      "content": "能夠選擇並編入參加本次鏡像迷宮探索的人格。"
+    },
+    {
+      "id": "TutoMD05_P4_D2",
+      "content": "在普通難度鏡像迷宮編隊時，人格等級將會固定在50級。但困難難度將會直接反映現有人格等級。（最高50級）"
+    },
+    {
+      "id": "TutoMD05_P5_T1",
+      "content": "休息獎勵"
+    },
+    {
+      "id": "TutoMD05_P5_D1",
+      "content": "進入鏡像迷宮時，可以通過消耗編隊人格的休息獎勵來從夢中的星之恩惠中選擇特殊效果。"
+    },
+    {
+      "id": "TutoMD05_P5_D2",
+      "content": "通關鏡像迷宮時，入場時編隊人格的休息獎勵將重置為0，並未編入隊伍的全體人格的休息獎勵將增加1。"
+    },
+    {
+      "id": "TutoMD05_P5_D3",
+      "content": "然而，在遊玩過程中被交替過的人格的休息獎勵將保持不變。"
+    },
+    {
+      "id": "TutoMD05_P5_D4",
+      "content": "完成人格與E.G.O編隊後，按“確認”即可進入鏡像迷宮。"
+    },
+    {
+      "id": "TutoMD05_P5_D5",
+      "content": "可以在此確認目前編隊中的總計休息獎勵。"
+    },
+    {
+      "id": "TutoMD05_P6_T1",
+      "content": "夢中的星之恩惠"
+    },
+    {
+      "id": "TutoMD05_P6_D1",
+      "content": "能夠通過支付手中的休息獎勵來選擇星之恩惠。"
+    },
+    {
+      "id": "TutoMD05_P6_T2",
+      "content": "剩餘的休息獎勵"
+    },
+    {
+      "id": "TutoMD05_P6_D2",
+      "content": "選擇星之恩惠後，剩餘的休息獎勵將被轉換為可以在鏡像迷宮探索過程中使用的經費。"
+    },
+    {
+      "id": "TutoMD05_P6_D3",
+      "content": "擁有一定數值的休息獎勵後，星之恩惠被動將自動啟用，不會額外消耗休息獎勵。"
+    },
+    {
+      "id": "TutoMD05_P6_D4",
+      "content": "剩餘的休息獎勵將被轉換為可以在鏡像迷宮探索過程中使用的經費。"
+    },
+    {
+      "id": "TutoMD05_P7_T1",
+      "content": "選擇初始E.G.O飾品"
+    },
+    {
+      "id": "TutoMD05_P7_D1",
+      "content": "當進入鏡像迷宮時，將會提供基於關鍵詞的E.G.O飾品分類供選擇。"
+    },
+    {
+      "id": "TutoMD05_P7_D2",
+      "content": "每個關鍵詞分類中出現的E.G.O飾品是固定的。可以從同一分類中選擇任意數量的E.G.O飾品。"
+    },
+    {
+      "id": "TutoMD05_P7_D3",
+      "content": "與此階段選擇的關鍵詞相符的E.G.O飾品將在鏡像迷宮探索過程中更為頻繁地出現。"
+    },
+    {
+      "id": "TutoMD05_P8_T1",
+      "content": "主題卡包選擇"
+    },
+    {
+      "id": "TutoMD05_P8_D1",
+      "content": "在進入階層時，可以從顯示的選項內選擇本階層的主題。可通過下劃想要選擇的主題卡包來選擇。"
+    },
+    {
+      "id": "TutoMD05_P8_D2",
+      "content": "通過每個主題卡包右上角的按鈕，可以查看該卡包中可能出現的頭目以及可獲得的E.G.O飾品。"
+    },
+    {
+      "id": "TutoMD05_P8_D3",
+      "content": "在主題卡包的底部，可以查看擊敗此主題卡包的頭目後可以選擇的E.G.O飾品。"
+    },
+    {
+      "id": "TutoMD05_P8_T2",
+      "content": "更改主題卡包難易度"
+    },
+    {
+      "id": "TutoMD05_P8_D4",
+      "content": "在夢中之鏡中，您可以在選擇主題卡包階段變更難易度後入場。"
+    },
+    {
+      "id": "TutoMD05_P8_D5",
+      "content": "但在選擇困難難度併入場後，無法再更改難易度。"
+    },
+    {
+      "id": "TutoMD05_P8_T3",
+      "content": "困難難度"
+    },
+    {
+      "id": "TutoMD05_P8_D6",
+      "content": "困難主題卡包中，擊敗頭目後的可選擇E.G.O飾品將從3個增加為4個，部分E.G.O飾品只能在困難難度中獲得。"
+    },
+    {
+      "id": "TutoMD05_P8_D7",
+      "content": "此外，困難難度中必須選擇2件E.G.O飾品以及2種苦難，還會出現特殊商店。"
+    },
+    {
+      "id": "TutoMD05_P9_T1",
+      "content": "鏡像迷宮探索"
+    },
+    {
+      "id": "TutoMD05_P9_D1",
+      "content": "每次進入鏡像迷宮中，將會隨機生成節點和路徑。"
+    },
+    {
+      "id": "TutoMD05_P9_D2",
+      "content": "選擇與當前節點相鄰的節點並推進後，在各個節點將會隨機出現多種多樣的戰鬥及事件。"
+    },
+    {
+      "id": "TutoMD05_P9_T2",
+      "content": "經費"
+    },
+    {
+      "id": "TutoMD05_P9_D3",
+      "content": "在鏡像迷宮的遊玩過程中可以獲得經費，可以通過消耗經費使用商店的功能。"
+    },
+    {
+      "id": "TutoMD05_P10_T1",
+      "content": "E.G.O飾品"
+    },
+    {
+      "id": "TutoMD05_P10_D1",
+      "content": "此處顯示已獲取的E.G.O飾品。E.G.O飾品是適用於迷宮的，能夠給予強力效果的道具。"
+    },
+    {
+      "id": "TutoMD05_P10_T2",
+      "content": "關卡有利屬性與獲得經費"
+    },
+    {
+      "id": "TutoMD05_P10_D2",
+      "content": "在鏡像迷宮的戰鬥節點中，將會顯示該戰鬥的有利屬性，以及通關戰鬥時可獲得的經費。"
+    },
+    {
+      "id": "TutoMD05_P10_T3",
+      "content": "罪人情況"
+    },
+    {
+      "id": "TutoMD05_P10_D3",
+      "content": "迷宮探索期間，罪人的體力，理智值以及陣亡狀態將會延續。"
+    },
+    {
+      "id": "TutoMD05_P10_T4",
+      "content": "當前效果"
+    },
+    {
+      "id": "TutoMD05_P10_D4",
+      "content": "可以確認在鏡像迷宮探索過程中選擇的苦難，休息獎勵和選擇的事件效果。"
+    },
+    {
+      "id": "TutoMD05_P11_T1",
+      "content": "商店"
+    },
+    {
+      "id": "TutoMD05_P11_D1",
+      "content": "在主題卡包頭目遭遇戰之前的節點，配置了商店。"
+    },
+    {
+      "id": "TutoMD05_P11_D2",
+      "content": "能夠通過消耗戰鬥中獲得的經費購買E.G.O飾品，治療與復活友方單位，更換人格與E.G.O，更換人格技能。"
+    },
+    {
+      "id": "TutoMD05_P11_D3",
+      "content": "此外，可以在商店售賣E.G.O飾品以獲得經費，或是合成E.G.O飾品以得到更為有用的E.G.O飾品。"
+    },
+    {
+      "id": "TutoMD05_P11_D4",
+      "content": "在遊玩困難難度時，有概率出現特殊商店。在鏡像迷宮中累計消耗的經費越多，特殊商店出現的概率就越高。"
+    },
+    {
+      "id": "TutoMD05_P12_T1",
+      "content": "遭遇戰獎勵卡"
+    },
+    {
+      "id": "TutoMD05_P12_D1",
+      "content": "遭遇戰勝利後，根據戰鬥難度有一定概率會出現遭遇戰獎勵卡。"
+    },
+    {
+      "id": "TutoMD05_P12_D2",
+      "content": "可以從遭遇戰獎勵卡中獲得各種資源，如經費、E.G.O飾品或E.G.O資源。"
+    },
+    {
+      "id": "TutoMD05_P13_T1",
+      "content": "E.G.O飾品 & 追加的苦難"
+    },
+    {
+      "id": "TutoMD05_P13_D1",
+      "content": "每當通關一層時，將會獲得與每個E.G.O飾品關聯的苦難效果。"
+    },
+    {
+      "id": "TutoMD05_P13_D2",
+      "content": "每當通關一層時，苦難都會累積。"
+    },
+    {
+      "id": "TutoMD05_P13_D3",
+      "content": "在遊玩困難難度時，可以選擇2件E.G.O飾品。但也需要選擇2種苦難。"
+    },
+    {
+      "id": "TutoMD05_P14_T1",
+      "content": "鏡像迷宮獎勵"
+    },
+    {
+      "id": "TutoMD05_P14_D1",
+      "content": "通關鏡像迷宮後，能夠消耗腦啡肽模塊來領取獎勵。"
+    },
+    {
+      "id": "TutoMD05_P14_D2",
+      "content": "獎勵將基於已通關的層數進行發放，可以通過使用每週額外獎勵次數獲得更加豐厚的獎勵。"
+    },
+    {
+      "id": "TutoMD05_P14_D3",
+      "content": "以困難難度通關所有主題卡包後，您可以一次性消耗2次或更多的每週加成，並將根據消耗的每週加成數量獲得相應的獎勵。"
+    },
+    {
+      "id": "TutoMD05_P14_D4",
+      "content": "但是，比起一次性消耗3次每週加成，每次消耗1次加成可以更有效率地利用腦啡呔模塊。"
+    },
+    {
+      "id": "TutoMD05_P15_T1",
+      "content": "成就"
+    },
+    {
+      "id": "TutoMD05_P15_D1",
+      "content": "可在此處查看夢中之鏡的成就。"
+    },
+    {
+      "id": "TutoMD05_P16_T1",
+      "content": "成就列表"
+    },
+    {
+      "id": "TutoMD05_P16_D1",
+      "content": "完成這些成就可以獲得成就進度。"
+    },
+    {
+      "id": "TutoMD05_P16_D2",
+      "content": "僅在消耗腦啡肽模塊領取獎勵的情況下，要求通關鏡像迷宮的成就才被視為已完成。\n\n在您嘗試完成要求通關鏡像迷宮的成就之前，還請注意本條信息。"
+    },
+    {
+      "id": "TutoMD05_P17_T1",
+      "content": "獎勵列表"
+    },
+    {
+      "id": "TutoMD05_P17_D1",
+      "content": "提升成就進度以獲取多種獎勵。"
+    },
+    {
+      "id": "TutoMD05_P18_T1",
+      "content": "平行疊加模式"
+    },
+    {
+      "id": "TutoMD05_P18_D1",
+      "content": "應用平行疊加模式以將鏡像迷宮擴展至最多10層。"
+    },
+    {
+      "id": "TutoMD05_P18_D2",
+      "content": "請注意，平行疊加模式僅為挑戰或達成成就的模式，並且通過第五層以上不會提供任何額外獎勵。"
+    },
+    {
+      "id": "TutoMD05_P19_D1",
+      "content": "您可以在進入鏡像迷宮之前，或在進度窗口內的任何時候激活平行疊加模式。"
+    },
+    {
+      "id": "TutoMD05_P19_D2",
+      "content": "然而，在進入平行疊加模式之前，您必須在困難模式下通過全部5層的主題卡包。"
+    },
+    {
+      "id": "TutoMD05_P20_D1",
+      "content": "詢問您是否希望激活平行疊加模式的窗口，將在平行疊加模式開啟的情況下通過第5層時出現。"
+    },
+    {
+      "id": "TutoMD05_P20_D2",
+      "content": "選擇確認以激活平行疊加模式並進入第6層。"
+    },
+    {
+      "id": "TutoMD05_P20_D3",
+      "content": "在第5層之後的任何時刻失敗或主動退出鏡像迷宮，都仍將為您帶來與通過第五層相同的獎勵。"
+    },
+    {
+      "id": "TutoMD05_P20_P1",
+      "content": "25.02.27 (CST) 已追加更新"
+    }
+  ]
+}

@@ -1,0 +1,5014 @@
+{
+  "dataList": [
+    {
+      "id": 9001,
+      "name": "煉獄炎蝶之夢",
+      "desc": "通過技能效果使已帶有燒傷 或特殊燒傷的敵方單位增加燒傷 強度或施加特殊燒傷時，隨機使敵方單位增加共計3級燒傷 強度。\n\n激活暴怒完全共鳴時，戰鬥開始時，隨機使敵方單位增加共計5級燒傷 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 9001,
+          "simpleDesc": "隨機增加3級燒傷 強度"
+        },
+        {
+          "abilityID": 90011,
+          "simpleDesc": "隨機增加5級燒傷 強度"
+        }
+      ]
+    },
+    {
+      "id": 19001,
+      "name": "煉獄炎蝶之夢+",
+      "desc": "通過技能效果使已帶有燒傷 或特殊燒傷的敵方單位增加燒傷 強度或施加特殊燒傷時，隨機使敵方單位增加共計<style=\"upgradeHighlight\">4級燒傷 強度</style>。\n\n激活暴怒完全共鳴時，戰鬥開始時，隨機使敵方單位增加共計<style=\"upgradeHighlight\">6級燒傷 強度</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19001,
+          "simpleDesc": "隨機增加4級燒傷 強度"
+        },
+        {
+          "abilityID": 190011,
+          "simpleDesc": "隨機增加6級燒傷 強度"
+        }
+      ]
+    },
+    {
+      "id": 29001,
+      "name": "煉獄炎蝶之夢++",
+      "desc": "通過技能效果使已帶有燒傷 或特殊燒傷的敵方單位增加燒傷 強度或施加特殊燒傷時，隨機使敵方單位增加共計<style=\"upgradeHighlight\">5級燒傷 強度</style>。\n\n激活<style=\"upgradeHighlight\">暴怒共鳴</style>時，戰鬥開始時，隨機使敵方單位增加共計<style=\"upgradeHighlight\">8級燒傷 強度</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29001,
+          "simpleDesc": "隨機增加5級燒傷 強度"
+        },
+        {
+          "abilityID": 290011,
+          "simpleDesc": "隨機增加8級燒傷 強度"
+        }
+      ]
+    },
+    {
+      "id": 9002,
+      "name": "倒錯症",
+      "desc": "通過攻擊技能擊殺不低於1名敵方單位時，下回合開始時獲得1個擊殺技能所對應的罪孽碎片。\n\n若該技能為暴怒技能，則改為下回合獲得擊殺者所有攻擊技能對應的罪孽碎片各1個。",
+      "simpleDesc": [
+        {
+          "abilityID": 9002,
+          "simpleDesc": "獲得1個技能所對應的罪孽碎片"
+        },
+        {
+          "abilityID": 90021,
+          "simpleDesc": "獲得所有技能所對應的罪孽碎片各1個"
+        }
+      ]
+    },
+    {
+      "id": 9003,
+      "name": "塵歸塵",
+      "desc": "戰鬥開始時，若全體敵方單位(或所有異想體部位)都帶有燒傷 或特殊燒傷，則使全體敵方單位(或所有異想體部位)增加2級燒傷 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 9003,
+          "simpleDesc": "增加2級燒傷 強度"
+        }
+      ]
+    },
+    {
+      "id": 19003,
+      "name": "塵歸塵+",
+      "desc": "戰鬥開始時，<style=\"upgradeHighlight\">使帶有燒傷 或特殊燒傷的全體敵方單位(或所有異想體部位)增加2級燒傷 強度</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19003,
+          "simpleDesc": "增加2級燒傷 強度"
+        }
+      ]
+    },
+    {
+      "id": 29003,
+      "name": "塵歸塵++",
+      "desc": "戰鬥開始時，<style=\"upgradeHighlight\">使全體敵方單位(或所有異想體部位)增加3級燒傷 強度</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29003,
+          "simpleDesc": "增加3級燒傷 強度"
+        }
+      ]
+    },
+    {
+      "id": 9004,
+      "name": "採血包",
+      "desc": "通過技能對敵方單位造成傷害時，恢復技能使用者已失去體力12.5%的體力(每回合每名友方單位最多1次)。\n\n若該技能為暴怒技能，則恢復量改為25%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9004,
+          "simpleDesc": "恢復已失去體力12.5%的體力"
+        },
+        {
+          "abilityID": 90041,
+          "simpleDesc": "恢復已失去體力25%的體力"
+        }
+      ]
+    },
+    {
+      "id": 9005,
+      "name": "嗜傷甲蟲",
+      "desc": "使用增加流血 強度或施加特殊流血的技能對敵方單位造成傷害時，使目標增加4級流血 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 9005,
+          "simpleDesc": "增加4級流血 強度"
+        }
+      ]
+    },
+    {
+      "id": 19005,
+      "name": "嗜傷甲蟲+",
+      "desc": "使用<style=\"upgradeHighlight\">增加流血 強度或施加特殊流血的技能或暴怒技能</style>對敵方單位造成傷害時，使目標<style=\"upgradeHighlight\">增加5級流血 強度</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19005,
+          "simpleDesc": "增加5級流血 強度"
+        }
+      ]
+    },
+    {
+      "id": 29005,
+      "name": "嗜傷甲蟲++",
+      "desc": "使用增加流血 強度或施加特殊流血的技能或暴怒技能對敵方單位造成傷害時，使目標增加5級流血 強度<style=\"upgradeHighlight\">並對其施加1層流血 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29005,
+          "simpleDesc": "增加5級流血 強度並施加1層流血 "
+        }
+      ]
+    },
+    {
+      "id": 9006,
+      "name": "咖啡與紙鶴",
+      "desc": "回合開始時，隨機獲得1個上回合使用的攻擊技能屬性以外的1種罪孽碎片。\n\n若上回合使用了色慾攻擊技能，則改為獲得上回合使用的攻擊技能屬性以外的所有罪孽碎片各1個。",
+      "simpleDesc": [
+        {
+          "abilityID": 9006,
+          "simpleDesc": "隨機獲得1個上回合未使用的罪孽碎片"
+        },
+        {
+          "abilityID": 90061,
+          "simpleDesc": "獲得上回合未使用的所有罪孽碎片各1個"
+        }
+      ]
+    },
+    {
+      "id": 9007,
+      "name": "朱紅蛾群",
+      "desc": "回合開始時，隨機對1名敵方單位造成首次對敵方單位造成傷害的攻擊技能傷害量50%的固定傷害。\n\n若該技能為色慾技能，則改為隨機對2名敵方單位造成固定傷害。",
+      "simpleDesc": [
+        {
+          "abilityID": 9007,
+          "simpleDesc": "造成首次使用攻擊技能造成傷害量50%的固定傷害"
+        },
+        {
+          "abilityID": 90071,
+          "simpleDesc": "造成首次使用攻擊技能造成傷害量50%的固定傷害"
+        }
+      ]
+    },
+    {
+      "id": 9008,
+      "name": "染血鐵釘",
+      "desc": "使用單硬幣技能造成傷害時，使目標增加1級流血 強度並對其施加2層防禦等級降低 直到下回合結束。\n\n若目標帶有流血 或特殊流血，則增加的流血 強度改為3級。",
+      "simpleDesc": [
+        {
+          "abilityID": 9008,
+          "simpleDesc": "增加1級流血 強度並施加2層防禦等級降低 直到下回合結束"
+        },
+        {
+          "abilityID": 90081,
+          "simpleDesc": "增加3級流血 強度"
+        }
+      ]
+    },
+    {
+      "id": 9009,
+      "name": "熾熱的羽毛",
+      "desc": "使用增加燒傷 強度或施加特殊燒傷的技能或色慾技能對敵方單位造成傷害時，使目標增加3級燒傷 強度。\n\n回合開始時，使燒傷 強度不低於20級的全體敵方單位的燒傷 強度變為2倍。",
+      "simpleDesc": [
+        {
+          "abilityID": 9009,
+          "simpleDesc": "增加3級燒傷 強度"
+        },
+        {
+          "abilityID": 90091,
+          "simpleDesc": "燒傷 強度變為2倍"
+        }
+      ]
+    },
+    {
+      "id": 19009,
+      "name": "熾熱的羽毛+",
+      "desc": "使用增加燒傷 強度或施加特殊燒傷的技能或色慾技能對敵方單位造成傷害時，使目標<style=\"upgradeHighlight\">增加4級燒傷 強度</style>。\n\n回合開始時，使燒傷 強度不低於20級的全體敵方單位的燒傷 強度變為2倍。",
+      "simpleDesc": [
+        {
+          "abilityID": 19009,
+          "simpleDesc": "增加4級燒傷 強度"
+        },
+        {
+          "abilityID": 190091,
+          "simpleDesc": "燒傷 強度變為2倍"
+        }
+      ]
+    },
+    {
+      "id": 29009,
+      "name": "熾熱的羽毛++",
+      "desc": "使用增加燒傷 強度或施加特殊燒傷的技能或色慾技能對敵方單位造成傷害時，使目標增加4級燒傷 強度。\n\n回合開始時，使燒傷 強度不低於20級的全體敵方單位的<style=\"upgradeHighlight\">燒傷 強度變為2.5倍</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29009,
+          "simpleDesc": "增加4級燒傷 強度"
+        },
+        {
+          "abilityID": 290091,
+          "simpleDesc": "燒傷 強度變為2.5倍"
+        }
+      ]
+    },
+    {
+      "id": 9010,
+      "name": "鮮血裝飾",
+      "desc": "回合開始時，隨機使1名友方單位獲得2層傷害強化 。\n\n優先選取擁有色慾攻擊技能的友方單位，且該情況下使其額外獲得1層傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9010,
+          "simpleDesc": "獲得2層傷害強化 "
+        },
+        {
+          "abilityID": 90101,
+          "simpleDesc": "獲得3層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 19010,
+      "name": "鮮血裝飾+",
+      "desc": "回合開始時，隨機使1名友方單位獲得2層傷害強化 。\n\n優先選取擁有色慾攻擊技能的友方單位，且該情況下使其額外獲得<style=\"upgradeHighlight\">2層傷害強化 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19010,
+          "simpleDesc": "獲得2層傷害強化 "
+        },
+        {
+          "abilityID": 190101,
+          "simpleDesc": "獲得4層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 29010,
+      "name": "鮮血裝飾++",
+      "desc": "回合開始時，<style=\"upgradeHighlight\">隨機使2名友方單位</style>獲得2層傷害強化 。\n\n優先選取擁有色慾攻擊技能的友方單位，且該情況下使其額外獲得2層傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 29010,
+          "simpleDesc": "獲得2層傷害強化 "
+        },
+        {
+          "abilityID": 290101,
+          "simpleDesc": "獲得4層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 9011,
+      "name": "狐雨",
+      "desc": "激活怠惰完全共鳴或使用攻擊容量不低於2的技能時：\n\n戰鬥開始時，使全體友方單位技能威力+2。",
+      "simpleDesc": [
+        {
+          "abilityID": 9011,
+          "simpleDesc": "技能威力+2"
+        }
+      ]
+    },
+    {
+      "id": 9012,
+      "name": "此刻的神色",
+      "desc": "使用怠惰技能或打擊技能擊殺敵方單位時，使擊殺者的打擊技能威力+2，持續到下回合結束。",
+      "simpleDesc": [
+        {
+          "abilityID": 9012,
+          "simpleDesc": "打擊技能威力+2"
+        }
+      ]
+    },
+    {
+      "id": 9013,
+      "name": "成捆的符咒",
+      "desc": "使用單個技能對敵方單位造成不低於12點體力傷害時，使其增加2級破裂 強度。\n\n若該技能為斬擊技能，則改為增加4級破裂 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 9013,
+          "simpleDesc": "增加2級破裂 強度"
+        },
+        {
+          "abilityID": 90131,
+          "simpleDesc": "增加4級破裂 強度"
+        }
+      ]
+    },
+    {
+      "id": 19013,
+      "name": "成捆的符咒+",
+      "desc": "使用單個技能對敵方單位造成不低於12點體力傷害時，使其<style=\"upgradeHighlight\">增加3級破裂 強度</style>。\n\n若該技能為斬擊技能，則改為<style=\"upgradeHighlight\">增加5級破裂 強度</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19013,
+          "simpleDesc": "增加3級破裂 強度"
+        },
+        {
+          "abilityID": 190131,
+          "simpleDesc": "增加5級破裂 強度 "
+        }
+      ]
+    },
+    {
+      "id": 29013,
+      "name": "成捆的符咒++",
+      "desc": "使用單個技能<style=\"upgradeHighlight\">對敵方單位造成不低於1點體力傷害時</style>，使其增加3級破裂 強度。\n\n若該技能為斬擊技能，則改為增加5級破裂 強度<style=\"upgradeHighlight\">並施加1層破裂 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 9013,
+          "simpleDesc": "增加3級破裂 強度"
+        },
+        {
+          "abilityID": 90131,
+          "simpleDesc": "增加5級破裂 強度並施加1層破裂 "
+        }
+      ]
+    },
+    {
+      "id": 9014,
+      "name": "鏽蝕的紀念幣",
+      "desc": "戰鬥開始時，若友方單位使用的首個單硬幣攻擊技能未能擊殺敵方單位，則重複使用該技能。\n\n使用怠惰技能或單硬幣攻擊技能擊殺敵方單位時，使擊殺者下回合技能威力+1。",
+      "simpleDesc": [
+        {
+          "abilityID": 9014,
+          "simpleDesc": "重複使用技能"
+        },
+        {
+          "abilityID": 90141,
+          "simpleDesc": "技能威力+1"
+        }
+      ]
+    },
+    {
+      "id": 9015,
+      "name": "膏血",
+      "desc": "技能對陷入混亂的敵方單位造成的傷害+10%。\n\n若該技能為怠惰技能，則改為造成的傷害+20%",
+      "simpleDesc": [
+        {
+          "abilityID": 9015,
+          "simpleDesc": "造成的傷害+10%"
+        },
+        {
+          "abilityID": 90151,
+          "simpleDesc": "造成的傷害+20%"
+        }
+      ]
+    },
+    {
+      "id": 19015,
+      "name": "膏血+",
+      "desc": "技能對陷入混亂的敵方單位<style=\"upgradeHighlight\">造成的傷害+12.5%。</style>\n\n若該技能為怠惰技能，則改為<style=\"upgradeHighlight\">造成的傷害+25%</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19015,
+          "simpleDesc": "造成的傷害+12.5%"
+        },
+        {
+          "abilityID": 190151,
+          "simpleDesc": "造成的傷害+25%"
+        }
+      ]
+    },
+    {
+      "id": 29015,
+      "name": "膏血++",
+      "desc": "技能對陷入混亂的敵方單位<style=\"upgradeHighlight\">造成的傷害+15%。</style>\n\n若該技能為怠惰技能，則改為<style=\"upgradeHighlight\">造成的傷害+30%</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29015,
+          "simpleDesc": "造成的傷害+15%"
+        },
+        {
+          "abilityID": 290151,
+          "simpleDesc": "造成的傷害+30%"
+        }
+      ]
+    },
+    {
+      "id": 9016,
+      "name": "綠光果實",
+      "desc": "使用暴食技能對未陷入混亂的敵方單位造成傷害，或通過技能效果增加震顫 強度時，隨機使全體敵方單位(或所有異想體部位)增加共計4級震顫 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 9016,
+          "simpleDesc": "隨機增加4級震顫 強度"
+        }
+      ]
+    },
+    {
+      "id": 19016,
+      "name": "綠光果實+",
+      "desc": "使用暴食技能對未陷入混亂的敵方單位造成傷害，或通過技能效果增加震顫 強度時，隨機使全體敵方單位(或所有異想體部位)增加共計<style=\"upgradeHighlight\">6級震顫 強度</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19016,
+          "simpleDesc": "隨機增加6級震顫 強度"
+        }
+      ]
+    },
+    {
+      "id": 29016,
+      "name": "綠光果實++",
+      "desc": "使用暴食技能對未陷入混亂的敵方單位造成傷害，或通過技能效果增加震顫 強度時，隨機使全體敵方單位(或所有異想體部位)增加共計<style=\"upgradeHighlight\">8級震顫 強度</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29016,
+          "simpleDesc": "隨機增加8級震顫 強度"
+        }
+      ]
+    },
+    {
+      "id": 9017,
+      "name": "石版字符",
+      "desc": "敵方單位陷入混亂時，使現存體力最低的友方單位恢復其體力上限5%的體力。\n\n若該友方單位擁有暴食攻擊技能，則恢復量改為10%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9017,
+          "simpleDesc": "恢復體力上限5%的體力"
+        },
+        {
+          "abilityID": 90171,
+          "simpleDesc": "恢復體力上限10%的體力"
+        }
+      ]
+    },
+    {
+      "id": 9018,
+      "name": "玫瑰王冠",
+      "desc": "回合開始時，隨機使1名敵方單位(或所有異想體部位)增加4級破裂 強度。\n\n激活暴食完全共鳴時，在戰鬥開始時使全體敵方單位增加2級破裂 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 9018,
+          "simpleDesc": "增加4級破裂 強度"
+        },
+        {
+          "abilityID": 90181,
+          "simpleDesc": "增加2級破裂 強度"
+        }
+      ]
+    },
+    {
+      "id": 19018,
+      "name": "玫瑰王冠+",
+      "desc": "回合開始時，隨機使<style=\"upgradeHighlight\">2名敵方單位</style>(或所有異想體部位)增加4級破裂 強度。\n\n激活暴食完全共鳴時，在戰鬥開始時使全體敵方單位<style=\"upgradeHighlight\">增加3級破裂 強度</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19018,
+          "simpleDesc": "增加4級破裂 強度"
+        },
+        {
+          "abilityID": 190181,
+          "simpleDesc": "增加3級破裂 強度"
+        }
+      ]
+    },
+    {
+      "id": 29018,
+      "name": "玫瑰王冠++",
+      "desc": "回合開始時，隨機使<style=\"upgradeHighlight\">3名敵方單位</style>(或所有異想體部位)增加4級破裂 強度。\n\n激活暴食完全共鳴時，在戰鬥開始時使全體敵方單位<style=\"upgradeHighlight\">增加4級破裂 強度</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29018,
+          "simpleDesc": "增加4級破裂 強度"
+        },
+        {
+          "abilityID": 290181,
+          "simpleDesc": "增加4級破裂 強度"
+        }
+      ]
+    },
+    {
+      "id": 9019,
+      "name": "黏性淤漿",
+      "desc": "使用暴食技能或突刺技能造成傷害時，對目標施加2層防禦等級降低 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9019,
+          "simpleDesc": "施加2層防禦等級降低 "
+        }
+      ]
+    },
+    {
+      "id": 9020,
+      "name": "白棉花",
+      "desc": "回合開始時，解除敵方單位的混亂，使其增加(8+混亂階段×4)級流血 強度並對其施加 (8+混亂階段×4)/2層攻擊等級降低 。(每場戰鬥每名敵方單位最多1次，不對不能解除混亂的特定敵方單位生效)",
+      "simpleDesc": [
+        {
+          "abilityID": 9020,
+          "simpleDesc": "增加(8+混亂階段x4)級流血 強度"
+        }
+      ]
+    },
+    {
+      "id": 19020,
+      "name": "白棉花+",
+      "desc": "回合開始時，解除敵方單位的混亂，使其<style=\"upgradeHighlight\">增加(10+混亂階段×5)級流血 強度並對其施加 (10+混亂階段×5)層攻擊等級降低 </style>。(每場戰鬥每名敵方單位最多1次，不對不能解除混亂的特定敵方單位生效)",
+      "simpleDesc": [
+        {
+          "abilityID": 19020,
+          "simpleDesc": "增加(10+混亂階段x5)級流血 強度"
+        }
+      ]
+    },
+    {
+      "id": 29020,
+      "name": "白棉花++",
+      "desc": "回合開始時，解除敵方單位的混亂，使其<style=\"upgradeHighlight\">增加(12+混亂階段×6)級流血 強度並對其施加 (12+混亂階段×6)層攻擊等級降低 與防禦等級降低 </style>。(每場戰鬥每名敵方單位最多1次，不對不能解除混亂的特定敵方單位生效)",
+      "simpleDesc": [
+        {
+          "abilityID": 29020,
+          "simpleDesc": "增加(12+混亂階段x6)級流血 強度"
+        }
+      ]
+    },
+    {
+      "id": 9021,
+      "name": "藍色芝寶牌打火機",
+      "desc": "回合開始時，獲得憂鬱罪孽碎片和隨機2種其他罪孽碎片各1個。",
+      "simpleDesc": [
+        {
+          "abilityID": 9021,
+          "simpleDesc": "獲得憂鬱罪孽碎片和隨機2種其他罪孽碎片各1個。"
+        }
+      ]
+    },
+    {
+      "id": 9022,
+      "name": "幻痛",
+      "desc": "攻擊容量為1的技能造成的傷害+15%。\n\n激活憂鬱完全共鳴時，戰鬥開始時，使全體友方單位獲得2層攻擊等級提升 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9022,
+          "simpleDesc": "造成的傷害+15%"
+        },
+        {
+          "abilityID": 90221,
+          "simpleDesc": "獲得2層攻擊等級提升 "
+        }
+      ]
+    },
+    {
+      "id": 9023,
+      "name": "雷擊木",
+      "desc": "通過技能效果增加破裂 強度時，使目標增加1級破裂 強度並對其施加1層破裂 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9023,
+          "simpleDesc": "增加1級破裂 強度並施加1層破裂 "
+        }
+      ]
+    },
+    {
+      "id": 19023,
+      "name": "雷擊木+",
+      "desc": "通過技能效果增加破裂 強度時，使目標<style=\"upgradeHighlight\">增加2級破裂 強度</style>並對其施加1層破裂 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19023,
+          "simpleDesc": "增加2級破裂 強度並施加1層破裂 "
+        }
+      ]
+    },
+    {
+      "id": 29023,
+      "name": "雷擊木++",
+      "desc": "通過技能效果增加破裂 強度時，使目標<style=\"upgradeHighlight\">增加3級破裂 強度</style>並對其施加1層破裂 。\n\n<style=\"upgradeHighlight\">若該技能為憂鬱技能，則改為使目標增加3級破裂 強度並對其施加2層破裂 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29023,
+          "simpleDesc": "增加3級破裂 強度並施加1層破裂 "
+        },
+        {
+          "abilityID": 290231,
+          "simpleDesc": "增加3級破裂 強度並施加2層破裂 "
+        }
+      ]
+    },
+    {
+      "id": 9024,
+      "name": "融化的眼球",
+      "desc": "敵方單位被震顫引爆 時，下回合對其施加5層攻擊等級降低 與5層防禦等級降低 。(每回合最多3次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9024,
+          "simpleDesc": "施加5層攻擊等級降低 與5層防禦等級降低 "
+        }
+      ]
+    },
+    {
+      "id": 9025,
+      "name": "灰色大衣",
+      "desc": "使用攻擊容量不低於2的技能時，使其造成的傷害+20%。\n\n使用憂鬱技能或攻擊容量不低於2的技能造成傷害時，恢復該友方單位傷害量20%的體力。",
+      "simpleDesc": [
+        {
+          "abilityID": 9025,
+          "simpleDesc": "造成的傷害+20%"
+        },
+        {
+          "abilityID": 90251,
+          "simpleDesc": "恢復傷害量20%的體力"
+        }
+      ]
+    },
+    {
+      "id": 9026,
+      "name": "刺青：大器晚成",
+      "desc": "使用傲慢技能或單硬幣技能造成傷害時，下回合使該友方單位獲得2層攻擊等級提升 與2層防禦等級提升 。(最多5層)",
+      "simpleDesc": [
+        {
+          "abilityID": 9026,
+          "simpleDesc": "獲得2層攻擊等級提升 與2層防禦等級提升 "
+        }
+      ]
+    },
+    {
+      "id": 9027,
+      "name": "谷底之星",
+      "desc": "使用打擊技能或傲慢技能造成傷害時，對目標造成2點固定理智傷害。\n\n理智值不高於0點的友方單位造成的傷害+10%",
+      "simpleDesc": [
+        {
+          "abilityID": 9027,
+          "simpleDesc": "造成2點理智傷害"
+        },
+        {
+          "abilityID": 90271,
+          "simpleDesc": "造成的傷害+10%"
+        }
+      ]
+    },
+    {
+      "id": 19027,
+      "name": "谷底之星+",
+      "desc": "使用打擊技能或傲慢技能造成傷害時，對目標造成<style=\"upgradeHighlight\">3點固定理智傷害</style>。\n\n理智值不高於0點的友方單位<style=\"upgradeHighlight\">造成的傷害+15%</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19027,
+          "simpleDesc": "造成3點理智傷害"
+        },
+        {
+          "abilityID": 190271,
+          "simpleDesc": "造成的傷害+15%"
+        }
+      ]
+    },
+    {
+      "id": 29027,
+      "name": "谷底之星++",
+      "desc": "使用打擊技能或傲慢技能造成傷害時，對目標造成<style=\"upgradeHighlight\">5點固定理智傷害</style>。\n\n理智值不高於0點的友方單位<style=\"upgradeHighlight\">造成的傷害+25%</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29027,
+          "simpleDesc": "造成5點理智傷害"
+        },
+        {
+          "abilityID": 290271,
+          "simpleDesc": "造成的傷害+25%"
+        }
+      ]
+    },
+    {
+      "id": 9028,
+      "name": "偏見",
+      "desc": "關卡的首個回合開始時，現存體力最低的友方單位恢復其體力上限15%的體力。\n\n激活傲慢完全共鳴時，戰鬥開始時，使現存體力最低的友方單位恢復已失去體力12.5%的體力。",
+      "simpleDesc": [
+        {
+          "abilityID": 9028,
+          "simpleDesc": "恢復體力上限15%的體力"
+        },
+        {
+          "abilityID": 90281,
+          "simpleDesc": "恢復已失去體力12.5%的體力"
+        }
+      ]
+    },
+    {
+      "id": 9029,
+      "name": "又小又可能很壞的玩偶",
+      "desc": "對戰鬥開始時帶有流血 或特殊流血的敵方單位造成的傷害+10%\n\n受到來自戰鬥開始時帶有流血 或特殊流血的敵方單位的傷害-20%\n\n擁有傲慢攻擊技能的友方單位改為對帶有流血或特殊流血的敵方單位造成的傷害+20%\n\n擁有傲慢攻擊技能的友方單位改為受到來自帶有流血 或特殊流血的敵方單位的傷害-30%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9029,
+          "simpleDesc": "造成的傷害+10%"
+        },
+        {
+          "abilityID": 90291,
+          "simpleDesc": "受到的傷害-20%"
+        },
+        {
+          "abilityID": 90292,
+          "simpleDesc": "造成的傷害+20%"
+        },
+        {
+          "abilityID": 90293,
+          "simpleDesc": "受到的傷害-30%"
+        }
+      ]
+    },
+    {
+      "id": 9030,
+      "name": "頭骨收藏",
+      "desc": "使用傲慢技能或造成突刺傷害的技能擊殺敵方單位時，下2回合使擊殺者的突刺技能威力+2。",
+      "simpleDesc": [
+        {
+          "abilityID": 9030,
+          "simpleDesc": "突刺技能威力+2"
+        }
+      ]
+    },
+    {
+      "id": 9031,
+      "name": "輝光變動儀",
+      "desc": "關卡的首個回合開始時，使全體敵方單位(或所有異想體部位)增加4級震顫 強度，並對其施加4層震顫 。\n\n使用嫉妒技能造成傷害時，使目標增加2級震顫 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 9031,
+          "simpleDesc": "增加4級震顫 強度並施加4層震顫 。"
+        },
+        {
+          "abilityID": 90311,
+          "simpleDesc": "增加2級震顫 強度"
+        }
+      ]
+    },
+    {
+      "id": 19031,
+      "name": "輝光變動儀+",
+      "desc": "<style=\"upgradeHighlight\">波次的首個回合開始時</style>，使全體敵方單位(或所有異想體部位)增加4級震顫 強度，並對其施加4層震顫 。\n\n使用嫉妒技能造成傷害時，使目標增加2級震顫 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 19031,
+          "simpleDesc": "增加4級震顫 強度並施加4層震顫 。"
+        },
+        {
+          "abilityID": 190311,
+          "simpleDesc": "增加2級震顫 強度"
+        }
+      ]
+    },
+    {
+      "id": 29031,
+      "name": "輝光變動儀++",
+      "desc": "波次的首個回合開始時，使全體敵方單位(或所有異想體部位)<style=\"upgradeHighlight\">增加5級震顫 強度，並對其施加5層震顫 。</style>\n\n使用嫉妒技能造成傷害時，使目標<style=\"upgradeHighlight\">增加3級震顫 強度。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29031,
+          "simpleDesc": "增加5級震顫 強度並施加5層震顫 。"
+        },
+        {
+          "abilityID": 290311,
+          "simpleDesc": "增加3級震顫 強度"
+        }
+      ]
+    },
+    {
+      "id": 9032,
+      "name": "夢中的電子羊",
+      "desc": "使用嫉妒技能或斬擊技能擊殺敵方單位時，下2回合使擊殺者的斬擊技能威力+2。\n\n激活嫉妒完全共鳴時，戰鬥開始時，使全體友方單位獲得2層攻擊等級提升 與2層防禦等級提升 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9032,
+          "simpleDesc": "斬擊技能威力+2"
+        },
+        {
+          "abilityID": 90321,
+          "simpleDesc": "獲得2層攻擊等級提升 與2層防禦等級提升 "
+        }
+      ]
+    },
+    {
+      "id": 9033,
+      "name": "標準負載電池",
+      "desc": "使用技能對敵方單位造成傷害時，使目標增加3級破裂 強度。\n\n若該技能為嫉妒技能，則改為使目標增加5級破裂 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 9033,
+          "simpleDesc": "增加3級破裂 強度"
+        },
+        {
+          "abilityID": 90331,
+          "simpleDesc": "增加5級破裂 強度"
+        }
+      ]
+    },
+    {
+      "id": 9034,
+      "name": "單點打擊邏輯電路",
+      "desc": "使用增加燒傷 強度或施加特殊燒傷的技能或嫉妒技能對敵方單位造成傷害時，使目標增加(技能硬幣數/2)級燒傷 強度(向上取整)",
+      "simpleDesc": [
+        {
+          "abilityID": 9034,
+          "simpleDesc": "增加(技能硬幣數/2)級燒傷 強度"
+        }
+      ]
+    },
+    {
+      "id": 9035,
+      "name": "巫毒娃娃",
+      "desc": "回合開始時，對全體敵方單位造成3點固定嫉妒傷害。\n\n對現存體力不高於33%的敵方單位施加1層威力降低 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9035,
+          "simpleDesc": "造成3點嫉妒傷害"
+        },
+        {
+          "abilityID": 90351,
+          "simpleDesc": "造成3點嫉妒傷害並施加1層威力降低 "
+        }
+      ]
+    },
+    {
+      "id": 19035,
+      "name": "巫毒娃娃+",
+      "desc": "回合開始時，對全體敵方單位造成<style=\"upgradeHighlight\">4點固定嫉妒傷害</style>。\n\n對<style=\"upgradeHighlight\">現存體力不高於50%</style>的敵方單位施加1層威力降低 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19035,
+          "simpleDesc": "造成4點嫉妒傷害"
+        },
+        {
+          "abilityID": 190351,
+          "simpleDesc": "造成4點嫉妒傷害並施加1層威力降低 "
+        }
+      ]
+    },
+    {
+      "id": 29035,
+      "name": "巫毒娃娃++",
+      "desc": "回合開始時，對全體敵方單位造成<style=\"upgradeHighlight\">5點固定嫉妒傷害</style>。\n\n對現存體力不高於50%的敵方單位<style=\"upgradeHighlight\">施加2層威力降低 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29035,
+          "simpleDesc": "造成5點嫉妒傷害"
+        },
+        {
+          "abilityID": 290351,
+          "simpleDesc": "造成5點嫉妒傷害並施加2層威力降低 "
+        }
+      ]
+    },
+    {
+      "id": 9036,
+      "name": "卡蜜拉",
+      "desc": "非集中遭遇戰開始時，對全體敵方單位造成其體力上限20%的固定傷害。",
+      "simpleDesc": [
+        {
+          "abilityID": 9036,
+          "simpleDesc": "造成體力上限20%的固定傷害"
+        }
+      ]
+    },
+    {
+      "id": 19036,
+      "name": "卡蜜拉+",
+      "desc": "非集中遭遇戰開始時，對全體敵方單位造成其<style=\"upgradeHighlight\">體力上限25%</style>的固定傷害。",
+      "simpleDesc": [
+        {
+          "abilityID": 19036,
+          "simpleDesc": "造成體力上限25%的固定傷害"
+        }
+      ]
+    },
+    {
+      "id": 29036,
+      "name": "卡蜜拉++",
+      "desc": "非集中遭遇戰開始時，對全體敵方單位造成其<style=\"upgradeHighlight\">體力上限30%</style>的固定傷害。",
+      "simpleDesc": [
+        {
+          "abilityID": 29036,
+          "simpleDesc": "造成體力上限30%的固定傷害"
+        }
+      ]
+    },
+    {
+      "id": 9037,
+      "name": "瓶中嬰孩",
+      "desc": "關卡開始時，所有罪孽碎片+1。",
+      "simpleDesc": [
+        {
+          "abilityID": 9037,
+          "simpleDesc": "所有罪孽碎片+1"
+        }
+      ]
+    },
+    {
+      "id": 9038,
+      "name": "異想狩獵",
+      "desc": "集中遭遇戰開始時，使全體友方單位獲得2層傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9038,
+          "simpleDesc": "獲得2層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 9039,
+      "name": "歸途",
+      "desc": "關卡開始時，使全體友方單位恢復其體力上限12%的體力。",
+      "simpleDesc": [
+        {
+          "abilityID": 9039,
+          "simpleDesc": "恢復體力上限12%的體力。"
+        }
+      ]
+    },
+    {
+      "id": 9040,
+      "name": "明日的運勢",
+      "desc": "遭遇戰獎勵卡中的第一張變為其可能出現的最高等級。",
+      "simpleDesc": [
+        {
+          "abilityID": 9040,
+          "simpleDesc": "遭遇戰獎勵卡中的第一張變為其可能出現的最高等級"
+        }
+      ]
+    },
+    {
+      "id": 9041,
+      "name": "赤色指令",
+      "desc": "友方單位通過技能效果使敵方單位增加沉淪 強度，對敵方單位施加沉淪 層數或對敵方單位施加特殊沉淪時，下回合使該友方單位增加1級攻擊等級（最多增加3級）。\n\n若該友方單位擁有暴怒攻擊技能，則改為每次增加沉淪 強度或施加沉淪 層數時，下回合使該友方單位增加2級攻擊等級（最多增加4級）。",
+      "simpleDesc": [
+        {
+          "abilityID": 9041,
+          "simpleDesc": "增加1級攻擊等級"
+        },
+        {
+          "abilityID": 90411,
+          "simpleDesc": "增加2級攻擊等級"
+        }
+      ]
+    },
+    {
+      "id": 19041,
+      "name": "赤色指令+",
+      "desc": "友方單位通過技能效果使敵方單位增加沉淪 強度，對敵方單位施加沉淪 層數或對敵方單位施加特殊沉淪時，下回合使該友方單位增加1級攻擊等級<style=\"upgradeHighlight\">（最多增加4級）。</style>\n\n若該友方單位擁有暴怒攻擊技能，則改為每次增加沉淪 強度或施加沉淪 層數時，下回合使該友方單位增加2級攻擊等級<style=\"upgradeHighlight\">（最多增加5級）。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19041,
+          "simpleDesc": "增加1級攻擊等級"
+        },
+        {
+          "abilityID": 190411,
+          "simpleDesc": "增加2級攻擊等級"
+        }
+      ]
+    },
+    {
+      "id": 29041,
+      "name": "赤色指令++",
+      "desc": "友方單位通過技能效果使敵方單位增加沉淪 強度，對敵方單位施加沉淪 層數或對敵方單位施加特殊沉淪時，下回合使該友方單位<style=\"upgradeHighlight\">增加2級攻擊等級</style>（最多增加4級）。\n\n若該友方單位擁有暴怒攻擊技能，則改為每次增加沉淪 強度或施加沉淪 層數時，下回合使該友方單位<style=\"upgradeHighlight\">增加3級攻擊等級（最多增加6級）。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29041,
+          "simpleDesc": "增加2級攻擊等級"
+        },
+        {
+          "abilityID": 290411,
+          "simpleDesc": "增加3級攻擊等級"
+        }
+      ]
+    },
+    {
+      "id": 9042,
+      "name": "煙霾與鐵絲網",
+      "desc": "友方單位通過技能效果使敵方單位增加的流血 強度變為2倍。\n\n回合結束時帶有流血 或特殊流血的敵方單位在下回合速度值-2。",
+      "simpleDesc": [
+        {
+          "abilityID": 9042,
+          "simpleDesc": "增加的流血 強度變為2倍"
+        },
+        {
+          "abilityID": 90421,
+          "simpleDesc": "速度值減少2"
+        }
+      ]
+    },
+    {
+      "id": 19042,
+      "name": "煙霾與鐵絲網+",
+      "desc": "友方單位通過技能效果使敵方單位增加的流血 強度變為2倍。\n\n回合結束時帶有流血 或特殊流血的敵方單位在下回合<style=\"upgradeHighlight\">速度值-3。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19042,
+          "simpleDesc": "增加的流血 強度變為2倍"
+        },
+        {
+          "abilityID": 190421,
+          "simpleDesc": "速度值減少3"
+        }
+      ]
+    },
+    {
+      "id": 29042,
+      "name": "煙霾與鐵絲網++",
+      "desc": "友方單位通過技能效果使敵方單位<style=\"upgradeHighlight\">增加的流血 強度變為2.5倍。</style>\n\n回合結束時帶有流血 或特殊流血的敵方單位在下回合速度值-3。",
+      "simpleDesc": [
+        {
+          "abilityID": 29042,
+          "simpleDesc": "增加的流血 強度變為2.5倍"
+        },
+        {
+          "abilityID": 290421,
+          "simpleDesc": "速度值減少3"
+        }
+      ]
+    },
+    {
+      "id": 9043,
+      "name": "員工證",
+      "desc": "激活暴怒完全共鳴或使用獲得充能 層數或特殊充能的技能時，下回合開始時使全體友方單位獲得3層充能 。(每回合最多1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9043,
+          "simpleDesc": "獲得3層充能 "
+        }
+      ]
+    },
+    {
+      "id": 19043,
+      "name": "員工證+",
+      "desc": "<style=\"upgradeHighlight\">激活暴怒共鳴</style>或使用獲得充能 層數或特殊充能的技能時，下回合開始時使全體友方單位獲得3層充能 。(每回合最多1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 19043,
+          "simpleDesc": "獲得3層充能 "
+        }
+      ]
+    },
+    {
+      "id": 29043,
+      "name": "員工證++",
+      "desc": "激活暴怒共鳴或使用獲得充能 層數或特殊充能的技能時，下回合開始時使全體友方單位<style=\"upgradeHighlight\">獲得4層充能 。</style>(每回合最多1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 29043,
+          "simpleDesc": "獲得4層充能 "
+        }
+      ]
+    },
+    {
+      "id": 9044,
+      "name": "震盪手環",
+      "desc": "使用技能對敵方單位造成傷害時，下回合使目標增加1級震顫 強度。\n\n若該技能為暴怒技能，則改為使目標增加2級震顫 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 9044,
+          "simpleDesc": "增加1級震顫 強度"
+        },
+        {
+          "abilityID": 90441,
+          "simpleDesc": "增加2級震顫 強度"
+        }
+      ]
+    },
+    {
+      "id": 19044,
+      "name": "震盪手環+",
+      "desc": "使用技能對敵方單位造成傷害時，下回合使目標增加1級震顫 強度。\n\n若該技能為暴怒技能，則改為使目標<style=\"upgradeHighlight\">增加3級震顫 強度。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19044,
+          "simpleDesc": "增加1級震顫 強度"
+        },
+        {
+          "abilityID": 190441,
+          "simpleDesc": "增加3級震顫 強度"
+        }
+      ]
+    },
+    {
+      "id": 29044,
+      "name": "震盪手環++",
+      "desc": "使用技能對敵方單位造成傷害時，下回合使目標<style=\"upgradeHighlight\">增加2級震顫 強度。</style>\n\n若該技能為暴怒技能，則改為使目標<style=\"upgradeHighlight\">增加4級震顫 強度。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29044,
+          "simpleDesc": "增加2級震顫 強度"
+        },
+        {
+          "abilityID": 290441,
+          "simpleDesc": "增加4級震顫 強度"
+        }
+      ]
+    },
+    {
+      "id": 9045,
+      "name": "炎鱗",
+      "desc": "回合結束時，使帶有燒傷 的敵方單位消耗一半燒傷 層數並對其額外造成(燒傷 強度×消耗的燒傷 層數)點暴怒傷害。下回合使其防禦等級減少(炎鱗消耗的燒傷 層數/2)級(最多減少3級)",
+      "simpleDesc": [
+        {
+          "abilityID": 9045,
+          "simpleDesc": "造成(燒傷 強度×燒傷 層數)點暴怒傷害"
+        },
+        {
+          "abilityID": 90451,
+          "simpleDesc": "造成(燒傷 強度×燒傷 層數)點暴怒傷害。下回合使目標的防禦等級減少(消耗的燒傷 層數/2)級"
+        }
+      ]
+    },
+    {
+      "id": 19045,
+      "name": "炎鱗+",
+      "desc": "回合結束時，使帶有燒傷 的敵方單位消耗一半燒傷 層數並對其額外造成<style=\"upgradeHighlight\">(燒傷 強度×消耗的燒傷 層數×1.5)</style>點暴怒傷害。下回合使其防禦等級減少(炎鱗消耗的燒傷 層數/2)級<style=\"upgradeHighlight\">(最多減少5級)</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19045,
+          "simpleDesc": "造成(燒傷 強度×燒傷 層數×1.5)點暴怒傷害"
+        },
+        {
+          "abilityID": 190451,
+          "simpleDesc": "造成(燒傷 強度×燒傷 層數×1.5)點暴怒傷害。下回合使目標的防禦等級減少(消耗的燒傷 層數/2)級"
+        }
+      ]
+    },
+    {
+      "id": 29045,
+      "name": "炎鱗++",
+      "desc": "回合結束時，使帶有燒傷 的敵方單位消耗一半燒傷 層數並對其額外造成<style=\"upgradeHighlight\">(燒傷 強度×消耗的燒傷 層數×2)</style>點暴怒傷害。下回合使其防禦等級減少(炎鱗消耗的燒傷 層數/2)級<style=\"upgradeHighlight\">(最多減少8級)</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29045,
+          "simpleDesc": "造成(燒傷 強度×燒傷 層數×2)點暴怒傷害"
+        },
+        {
+          "abilityID": 290451,
+          "simpleDesc": "造成(燒傷 強度×燒傷 層數×2)點暴怒傷害。下回合使目標的防禦等級減少(消耗的燒傷 層數/2)級"
+        }
+      ]
+    },
+    {
+      "id": 9046,
+      "name": "菸斗",
+      "desc": "回合開始時，使帶有呼吸法 的友方單位獲得1層威力提升 。\n\n帶有不低於5層呼吸法 的友方單位改為獲得2層威力提升 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9046,
+          "simpleDesc": "獲得1層威力提升 "
+        },
+        {
+          "abilityID": 90461,
+          "simpleDesc": "獲得2層威力提升 "
+        }
+      ]
+    },
+    {
+      "id": 9047,
+      "name": "荊棘套索",
+      "desc": "回合結束時，使全體敵方單位增加與其速度值相等的破裂 強度。\n\n激活色慾完全共鳴時，在戰鬥開始時隨機使1名敵方單位增加3級破裂 強度並對其施加3層破裂 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9047,
+          "simpleDesc": "增加與速度值相等的破裂 強度"
+        },
+        {
+          "abilityID": 90471,
+          "simpleDesc": "增加3級破裂 強度並施加3層破裂 "
+        }
+      ]
+    },
+    {
+      "id": 19047,
+      "name": "荊棘套索+",
+      "desc": "回合結束時，使全體敵方單位增加與其<style=\"upgradeHighlight\">(速度值+1)</style>相等的破裂 強度。\n\n激活色慾完全共鳴時，在戰鬥開始時隨機使1名敵方單位<style=\"upgradeHighlight\">增加4級破裂 強度</style>並對其施加3層破裂 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19047,
+          "simpleDesc": "增加與(速度值+1)相等的破裂 強度"
+        },
+        {
+          "abilityID": 190471,
+          "simpleDesc": "增加4級破裂 強度並施加3層破裂 "
+        }
+      ]
+    },
+    {
+      "id": 29047,
+      "name": "荊棘套索++",
+      "desc": "回合結束時，使全體敵方單位增加與其<style=\"upgradeHighlight\">(速度值+2)</style>相等的破裂 強度。\n\n激活色慾完全共鳴時，在戰鬥開始時隨機使1名敵方單位<style=\"upgradeHighlight\">增加5級破裂 強度並對其施加4層破裂 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29047,
+          "simpleDesc": "增加與(速度值+2)相等的破裂 強度"
+        },
+        {
+          "abilityID": 290471,
+          "simpleDesc": "增加5級破裂 強度並施加4層破裂 "
+        }
+      ]
+    },
+    {
+      "id": 9048,
+      "name": "鏽蝕的美工刀",
+      "desc": "通過技能效果使未陷入混亂的敵方單位增加流血 強度或施加特殊流血時，使目標增加1級流血 強度並對其施加1層流血 。\n\n若該技能為色慾技能，則改為使目標增加3級流血 強度並對其施加1層流血 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9048,
+          "simpleDesc": "增加1級流血 強度並施加1層流血 "
+        },
+        {
+          "abilityID": 90481,
+          "simpleDesc": "增加3級流血 強度並施加1層流血 "
+        }
+      ]
+    },
+    {
+      "id": 19048,
+      "name": "鏽蝕的美工刀+",
+      "desc": "通過技能效果增加流血 強度或施加特殊流血時，使目標<style=\"upgradeHighlight\">增加2級流血 強度</style>並對其施加1層流血 。\n\n若該技能為色慾技能，則改為使目標增加3級流血 強度並對其施加1層流血 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19048,
+          "simpleDesc": "增加2級流血 強度並施加1層流血 "
+        },
+        {
+          "abilityID": 190481,
+          "simpleDesc": "增加3級流血 強度並施加1層流血 "
+        }
+      ]
+    },
+    {
+      "id": 29048,
+      "name": "鏽蝕的美工刀++",
+      "desc": "通過技能效果增加流血 強度或施加特殊流血時，使目標<style=\"upgradeHighlight\">增加3級流血 強度</style>並對其施加1層流血 。\n\n若該技能為色慾技能，則改為使目標增加3級流血 強度並對其<style=\"upgradeHighlight\">施加2層流血 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29048,
+          "simpleDesc": "增加3級流血 強度並施加1層流血 "
+        },
+        {
+          "abilityID": 290481,
+          "simpleDesc": "增加3級流血 強度並施加2層流血 "
+        }
+      ]
+    },
+    {
+      "id": 9049,
+      "name": "荊棘之路",
+      "desc": "使用增加沉淪 強度或施加特殊沉淪的技能對敵方單位造成體力傷害時，回合結束時額外使其增加3級沉淪 強度並施加2層沉淪 。(每個回合，每名敵方單位最多1次)\n\n若激活色慾完全共鳴，則在戰鬥開始時，使全體敵方單位(若是異想體，則隨機對一個部位)增加2級沉淪 強度並施加3層沉淪 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9049,
+          "simpleDesc": "施加2層沉淪 並增加3級沉淪 強度"
+        },
+        {
+          "abilityID": 90491,
+          "simpleDesc": "施加3層沉淪 並增加2級沉淪 強度"
+        }
+      ]
+    },
+    {
+      "id": 19049,
+      "name": "荊棘之路+",
+      "desc": "使用增加沉淪 強度或施加特殊沉淪的技能對敵方單位造成體力傷害時，回合結束時額外使其增加3級沉淪 強度並施加2層沉淪 。(每個回合，每名敵方單位最多1次)\n\n若<style=\"upgradeHighlight\">激活色慾共鳴</style>，則在戰鬥開始時，使全體敵方單位(若是異想體，則隨機對一個部位)增加2級沉淪 強度並施加3層沉淪 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19049,
+          "simpleDesc": "施加2層沉淪 並增加3級沉淪 強度"
+        },
+        {
+          "abilityID": 190491,
+          "simpleDesc": "施加3層沉淪 並增加2級沉淪 強度"
+        }
+      ]
+    },
+    {
+      "id": 29049,
+      "name": "荊棘之路++",
+      "desc": "使用增加沉淪 強度或施加特殊沉淪的技能對敵方單位造成體力傷害時，回合結束時額外使其<style=\"upgradeHighlight\">增加4級沉淪 強度並施加3層沉淪 </style>。(每個回合，每名敵方單位最多1次)\n\n若激活色慾共鳴，則在戰鬥開始時，使全體敵方單位(若是異想體，則隨機對一個部位)增加3級沉淪 強度並施加3層沉淪 。",
+      "simpleDesc": [
+        {
+          "abilityID": 29049,
+          "simpleDesc": "施加3層沉淪 並增加4級沉淪 強度"
+        },
+        {
+          "abilityID": 290491,
+          "simpleDesc": "施加3層沉淪 並增加3級沉淪 強度"
+        }
+      ]
+    },
+    {
+      "id": 9050,
+      "name": "紅染棉花",
+      "desc": "關卡的首個回合開始時，使全體敵方單位增加1級流血 強度並對其施加15層流血 。(若是異想體，則對所有部位造成此效果。)\n\n回合開始時，帶有流血 的敵方單位在本回合減少(其流血 強度/3)級攻擊等級與防禦等級。(流血 強度積累至30級時效果最高)",
+      "simpleDesc": [
+        {
+          "abilityID": 9050,
+          "simpleDesc": "增加1級流血 強度並施加15層流血 "
+        },
+        {
+          "abilityID": 90501,
+          "simpleDesc": "本回合內減少(流血 強度/3)級攻擊等級和防禦等級"
+        }
+      ]
+    },
+    {
+      "id": 19050,
+      "name": "紅染棉花+",
+      "desc": "<style=\"upgradeHighlight\">波次的首個回合開始時</style>，使全體敵方單位<style=\"upgradeHighlight\">增加2級流血 強度</style>並對其施加15層流血 。(若是異想體，則對所有部位造成此效果。)\n\n回合開始時，帶有流血 的敵方單位在本回合減少(其流血 強度/3)級攻擊等級與防禦等級。(流血 強度積累至30級時效果最高)",
+      "simpleDesc": [
+        {
+          "abilityID": 19050,
+          "simpleDesc": "增加2級流血 強度並施加15層流血 "
+        },
+        {
+          "abilityID": 190501,
+          "simpleDesc": "本回合內減少(流血 強度/3)級攻擊等級和防禦等級"
+        }
+      ]
+    },
+    {
+      "id": 29050,
+      "name": "紅染棉花++",
+      "desc": "波次的首個回合開始時，使全體敵方單位<style=\"upgradeHighlight\">增加4級流血 強度並對其施加20層流血 。</style>(若是異想體，則對所有部位造成此效果。)\n\n回合開始時，帶有流血 的敵方單位在本回合減少<style=\"upgradeHighlight\">(其流血 強度/2)級攻擊等級與防禦等級。</style>(流血 強度積累至30級時效果最高)",
+      "simpleDesc": [
+        {
+          "abilityID": 29050,
+          "simpleDesc": "增加4級流血 強度並施加20層流血 "
+        },
+        {
+          "abilityID": 290501,
+          "simpleDesc": "本回合內減少(流血 強度/2)級攻擊等級和防禦等級"
+        }
+      ]
+    },
+    {
+      "id": 9051,
+      "name": "石冢",
+      "desc": "友方單位通過技能效果獲得的呼吸法 強度變為1.5倍。\n\n若友方單位使用了怠惰技能擊殺了敵方單位，則下回合開始時使其增加2級呼吸法 強度並獲得2層呼吸法 。(每回合最多1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9051,
+          "simpleDesc": "呼吸法 強度變為1.5倍"
+        },
+        {
+          "abilityID": 90511,
+          "simpleDesc": "增加2級呼吸法 強度並獲得2層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 19051,
+      "name": "石冢+",
+      "desc": "友方單位通過技能效果獲得的呼吸法 強度變為1.5倍。\n\n<style=\"upgradeHighlight\">若友方單位擊殺了敵方單位</style>，則下回合開始時使其<style=\"upgradeHighlight\">增加3級呼吸法 強度</style>並獲得2層呼吸法 (每回合最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 19051,
+          "simpleDesc": "呼吸法 強度變為1.5倍"
+        },
+        {
+          "abilityID": 190511,
+          "simpleDesc": "增加3級呼吸法 強度並獲得2層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 29051,
+      "name": "石冢++",
+      "desc": "友方單位通過技能效果<style=\"upgradeHighlight\">獲得的呼吸法 強度變為2倍</style>。\n\n若友方單位擊殺了敵方單位，則下回合開始時使其<style=\"upgradeHighlight\">增加4級呼吸法 強度</style>並獲得2層呼吸法 (每回合最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 29051,
+          "simpleDesc": "呼吸法 強度變為2倍"
+        },
+        {
+          "abilityID": 290511,
+          "simpleDesc": "增加4級呼吸法 強度並獲得2層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 9052,
+      "name": "便攜式電源插座",
+      "desc": "回合開始時，隨機使2名友方單位獲得2層充能 (優先選取擁有獲得充能 層數或特殊充能的技能的友方單位)。\n\n激活怠惰完全共鳴時，戰鬥開始時隨機使1名友方單位獲得3層充能 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9052,
+          "simpleDesc": "獲得2層充能 "
+        },
+        {
+          "abilityID": 90521,
+          "simpleDesc": "獲得3層充能 "
+        }
+      ]
+    },
+    {
+      "id": 19052,
+      "name": "便攜式電源插座+",
+      "desc": "回合開始時，隨機使2名友方單位<style=\"upgradeHighlight\">獲得3層充能 </style>(優先選取擁有獲得充能 層數或特殊充能的技能的友方單位)。\n\n<style=\"upgradeHighlight\">激活怠惰共鳴</style>時，戰鬥開始時隨機使1名友方單位獲得3層充能 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19052,
+          "simpleDesc": "獲得3層充能 "
+        },
+        {
+          "abilityID": 190521,
+          "simpleDesc": "獲得3層充能 "
+        }
+      ]
+    },
+    {
+      "id": 29052,
+      "name": "便攜式電源插座++",
+      "desc": "回合開始時，隨機使<style=\"upgradeHighlight\">3名友方單位獲得3層充能 </style>(優先選取擁有獲得充能 層數或特殊充能的技能的友方單位)。\n\n激活怠惰共鳴時，戰鬥開始時隨機使1名友方單位<style=\"upgradeHighlight\">獲得5層充能 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29052,
+          "simpleDesc": "獲得3層充能 "
+        },
+        {
+          "abilityID": 290521,
+          "simpleDesc": "獲得5層充能 "
+        }
+      ]
+    },
+    {
+      "id": 9053,
+      "name": "土歸土",
+      "desc": "波次的首個回合開始時，使全體敵方單位(若是異想體，則隨機對一個部位)增加5級燒傷 強度並對其施加3層燒傷 。\n\n激活怠惰完全共鳴時，戰鬥開始時使全體敵方單位(若是異想體，則隨機對一個部位)增加3級燒傷 強度並對其施加2層燒傷 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9053,
+          "simpleDesc": "增加5級燒傷 強度並施加3層燒傷 "
+        },
+        {
+          "abilityID": 90531,
+          "simpleDesc": "增加3級燒傷 強度並施加2層燒傷 "
+        }
+      ]
+    },
+    {
+      "id": 19053,
+      "name": "土歸土+",
+      "desc": "波次的首個回合開始時，使全體敵方單位(若是異想體，則隨機對一個部位)<style=\"upgradeHighlight\">增加6級燒傷 強度並對其施加3層燒傷 。</style>\n\n激活怠惰完全共鳴時，戰鬥開始時使全體敵方單位(若是異想體，則隨機對一個部位)<style=\"upgradeHighlight\">增加4級燒傷 強度</style>並對其施加2層燒傷 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19053,
+          "simpleDesc": "增加6級燒傷 強度並施加3層燒傷 "
+        },
+        {
+          "abilityID": 190531,
+          "simpleDesc": "增加4級燒傷 強度並施加2層燒傷 "
+        }
+      ]
+    },
+    {
+      "id": 29053,
+      "name": "土歸土++",
+      "desc": "波次的首個回合開始時，使全體敵方單位(若是異想體，則隨機對一個部位)<style=\"upgradeHighlight\">增加8級燒傷 強度並對其施加3層燒傷 。</style>\n\n<style=\"upgradeHighlight\">激活怠惰共鳴</style>時，戰鬥開始時使全體敵方單位(若是異想體，則隨機對一個部位)增加4級燒傷 強度並對其<style=\"upgradeHighlight\">施加3層燒傷 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29053,
+          "simpleDesc": "增加8級燒傷 強度並施加3層燒傷 "
+        },
+        {
+          "abilityID": 290531,
+          "simpleDesc": "增加4級燒傷 強度並施加3層燒傷 "
+        }
+      ]
+    },
+    {
+      "id": 9054,
+      "name": "融化的時鐘發條",
+      "desc": "回合開始時，帶有沉淪 的敵方單位攻擊等級和防禦等級在本回合內減少3級。",
+      "simpleDesc": [
+        {
+          "abilityID": 9054,
+          "simpleDesc": "本回合內減少3級攻擊等級與防禦等級"
+        }
+      ]
+    },
+    {
+      "id": 9055,
+      "name": "暴雨",
+      "desc": "回合開始時，使全體敵方單位(或所有異想體部位)增加(當前回合數×2)級震顫 強度並對其施加2層震顫 。\n\n回合結束時，使全體敵方單位(或所有異想體部位)震顫引爆 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9055,
+          "simpleDesc": "增加(當前回合數×2)級震顫 強度並施加2層震顫 "
+        },
+        {
+          "abilityID": 90551,
+          "simpleDesc": "使目標震顫引爆 "
+        }
+      ]
+    },
+    {
+      "id": 19055,
+      "name": "暴雨+",
+      "desc": "回合開始時，使全體敵方單位(或所有異想體部位)<style=\"upgradeHighlight\">增加(3+當前回合數×2)級震顫 強度並對其施加3層震顫 。</style>\n\n回合結束時，使全體敵方單位(或所有異想體部位)震顫引爆 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19055,
+          "simpleDesc": "增加(3+當前回合數×2)級震顫 強度並施加3層震顫 "
+        },
+        {
+          "abilityID": 190551,
+          "simpleDesc": "震顫引爆 "
+        }
+      ]
+    },
+    {
+      "id": 29055,
+      "name": "暴雨++",
+      "desc": "回合開始時，使全體敵方單位(或所有異想體部位)<style=\"upgradeHighlight\">增加(5+當前回合數×2)級震顫 強度</style>並對其施加3層震顫 。\n\n回合結束時，<style=\"upgradeHighlight\">使全體敵方單位(或所有異想體部位)震顫引爆 2次</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29055,
+          "simpleDesc": "增加(5+當前回合數×2)級震顫 強度並施加3層震顫 "
+        },
+        {
+          "abilityID": 290551,
+          "simpleDesc": "震顫引爆 2次"
+        }
+      ]
+    },
+    {
+      "id": 9056,
+      "name": "四葉草",
+      "desc": "當戰鬥開始時帶有呼吸法 的友方單位使用技能對敵方單位造成暴擊時，下回合開始時使該友方單位增加5級呼吸法 強度並獲得2層呼吸法 。(每回合最多1次)\n\n若技能為暴食技能，則改為下回合開始時增加7級呼吸法 強度並獲得3層呼吸法 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9056,
+          "simpleDesc": "增加5級呼吸法 強度並獲得2層呼吸法 "
+        },
+        {
+          "abilityID": 90561,
+          "simpleDesc": "增加7級呼吸法 強度並獲得3層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 9057,
+      "name": "夜視鏡",
+      "desc": "回合開始時，若有友方單位的充能 層數不低於15層，則發動效果。\n\n戰鬥開始時，該友方單位消耗3層充能 並在本回合內增加5級攻擊等級。",
+      "simpleDesc": [
+        {
+          "abilityID": 9057,
+          "simpleDesc": "增加5級攻擊等級"
+        }
+      ]
+    },
+    {
+      "id": 9058,
+      "name": "星象盤碎片",
+      "desc": "回合開始時，上回合每使用一個暴食以外屬性的E.G.O技能，隨機獲得1個罪孽碎片。\n\n若上回合使用了暴食屬性E.G.O技能，則改為上一回合每使用一個暴食屬性的E.G.O技能，隨機獲得3個罪孽碎片。",
+      "simpleDesc": [
+        {
+          "abilityID": 9058,
+          "simpleDesc": "隨機獲得1個罪孽碎片"
+        },
+        {
+          "abilityID": 90581,
+          "simpleDesc": "隨機獲得3個罪孽碎片"
+        }
+      ]
+    },
+    {
+      "id": 9059,
+      "name": "仲冬夜之噩夢",
+      "desc": "使用技能對敵方單位造成體力傷害時，使目標增加3級沉淪 強度。\n\n若該技能為暴食技能，則改為使目標增加5級沉淪 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 9059,
+          "simpleDesc": "增加3級沉淪 強度"
+        },
+        {
+          "abilityID": 90591,
+          "simpleDesc": "增加5級沉淪 強度"
+        }
+      ]
+    },
+    {
+      "id": 9060,
+      "name": "快感",
+      "desc": "回合開始時，使全體敵方單位(若是異想體，則使所有部位)增加3級破裂 強度並對其施加3層破裂 。\n\n回合結束時，對破裂 層數不低於3層的全體敵方單位(若是異想體，則根據部位另外判定)造成(破裂 強度×破裂 層數)點暴食傷害並使目標減少2層破裂 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9060,
+          "simpleDesc": "增加3級破裂 強度並施加3層破裂 "
+        },
+        {
+          "abilityID": 90601,
+          "simpleDesc": "造成(破裂 強度×破裂 層數)的暴食傷害並使目標減少2層破裂  "
+        }
+      ]
+    },
+    {
+      "id": 19060,
+      "name": "快感+",
+      "desc": "回合開始時，使全體敵方單位(若是異想體，則使所有部位)<style=\"upgradeHighlight\">增加4級破裂 強度</style>並對其施加3層破裂 。\n\n回合結束時，對破裂 層數不低於3層的全體敵方單位(若是異想體，則根據部位另外判定)造成(破裂 強度×破裂 層數)點暴食傷害並<style=\"upgradeHighlight\">使目標減少1層破裂 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19060,
+          "simpleDesc": "增加4級破裂 強度並施加3層破裂 "
+        },
+        {
+          "abilityID": 190601,
+          "simpleDesc": "造成(破裂 強度×破裂 層數)的暴食傷害並使目標減少1層破裂 "
+        }
+      ]
+    },
+    {
+      "id": 29060,
+      "name": "快感++",
+      "desc": "回合開始時，使全體敵方單位(若是異想體，則使所有部位)<style=\"upgradeHighlight\">增加6級破裂 強度</style>並對其施加3層破裂 。\n\n回合結束時，對破裂 層數不低於3層的全體敵方單位(若是異想體，則根據部位另外判定)造成(破裂 強度×破裂 層數)點暴食傷害。",
+      "simpleDesc": [
+        {
+          "abilityID": 29060,
+          "simpleDesc": "增加6級破裂 強度並施加3層破裂 "
+        },
+        {
+          "abilityID": 290601,
+          "simpleDesc": "造成(破裂 強度×破裂 層數)的暴食傷害"
+        }
+      ]
+    },
+    {
+      "id": 9061,
+      "name": "遺骸碎片",
+      "desc": "對戰鬥開始時帶有沉淪 的敵方單位造成的傷害+12.5%，受到來自以上單位的傷害-12.5%。\n\n對於擁有憂鬱攻擊技能的友方單位，則改為對帶有沉淪 的敵方單位造成的傷害+20%，受到來自以上單位的傷害-20%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9061,
+          "simpleDesc": "造成的傷害增加12.5%"
+        },
+        {
+          "abilityID": 90611,
+          "simpleDesc": "受到的傷害減少12.5%"
+        },
+        {
+          "abilityID": 90612,
+          "simpleDesc": "造成的傷害增加20%"
+        },
+        {
+          "abilityID": 90613,
+          "simpleDesc": "受到的傷害減少20%"
+        }
+      ]
+    },
+    {
+      "id": 9062,
+      "name": "簡歷",
+      "desc": "回合結束時，充能 與特殊充能層數之和不低於7層的友方單位在下回合獲得1層迅捷 。\n\n若該友方單位擁有憂鬱攻擊技能，則改為獲得2層迅捷 與1層威力提升 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9062,
+          "simpleDesc": "下回合獲得1層迅捷 "
+        },
+        {
+          "abilityID": 90621,
+          "simpleDesc": "下回合獲得2層迅捷 與1層威力提升 "
+        }
+      ]
+    },
+    {
+      "id": 19062,
+      "name": "簡歷+",
+      "desc": "回合結束時，充能 與特殊充能層數之和不低於7層的友方單位在下回合<style=\"upgradeHighlight\">獲得2層迅捷 。</style>\n\n若該友方單位擁有憂鬱攻擊技能，則改為<style=\"upgradeHighlight\">獲得3層迅捷 </style>與1層威力提升 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19062,
+          "simpleDesc": "下回合獲得2層迅捷 "
+        },
+        {
+          "abilityID": 190621,
+          "simpleDesc": "下回合獲得3層迅捷 與1層威力提升 "
+        }
+      ]
+    },
+    {
+      "id": 29062,
+      "name": "簡歷++",
+      "desc": "回合結束時，充能 與特殊充能層數之和不低於7層的友方單位在下回合<style=\"upgradeHighlight\">獲得3層迅捷 。</style>\n\n若該友方單位擁有憂鬱攻擊技能，則改為<style=\"upgradeHighlight\">獲得4層迅捷 </style>與1層威力提升 。",
+      "simpleDesc": [
+        {
+          "abilityID": 29062,
+          "simpleDesc": "下回合獲得3層迅捷 "
+        },
+        {
+          "abilityID": 290621,
+          "simpleDesc": "下回合獲得4層迅捷 與1層威力提升 "
+        }
+      ]
+    },
+    {
+      "id": 9063,
+      "name": "追憶吊墜",
+      "desc": "戰鬥開始時，隨機使1名友方單位增加3級呼吸法 強度(優先選取擁有獲得呼吸法 層數的攻擊技能的友方單位)。\n\n優先選取擁有憂鬱攻擊技能的友方單位，且該情況下改為使其增加3級呼吸法 強度並獲得2層呼吸法 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9063,
+          "simpleDesc": "增加3級呼吸法 強度"
+        },
+        {
+          "abilityID": 90631,
+          "simpleDesc": "增加3級呼吸法 強度並獲得2層呼吸法 層數"
+        }
+      ]
+    },
+    {
+      "id": 19063,
+      "name": "追憶吊墜+",
+      "desc": "戰鬥開始時，隨機使1名友方單位<style=\"upgradeHighlight\">增加4級呼吸法 強度</style>。(優先選取擁有獲得呼吸法 層數的攻擊技能的友方單位)\n\n優先選取擁有憂鬱攻擊技能的友方單位，且該情況下改為使其<style=\"upgradeHighlight\">增加4級呼吸法 強度並獲得3層呼吸法 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19063,
+          "simpleDesc": "增加4級呼吸法 強度並獲得4層呼吸法 "
+        },
+        {
+          "abilityID": 190631,
+          "simpleDesc": "增加4級呼吸法 強度並獲得3層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 29063,
+      "name": "追憶吊墜++",
+      "desc": "戰鬥開始時，隨機使<style=\"upgradeHighlight\">2名友方單位</style>增加4級呼吸法 強度。(優先選取擁有獲得呼吸法 層數的攻擊技能的友方單位)\n\n優先選取擁有憂鬱攻擊技能的友方單位，且該情況下改為使其增加4級呼吸法 強度並獲得3層呼吸法 。",
+      "simpleDesc": [
+        {
+          "abilityID": 29063,
+          "simpleDesc": "增加4級呼吸法 強度並獲得4層呼吸法 "
+        },
+        {
+          "abilityID": 290631,
+          "simpleDesc": "增加4級呼吸法 強度並獲得3層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 9064,
+      "name": "損壞的左輪手槍",
+      "desc": "回合開始時，帶有破裂 的敵方單位(若是異想體，則改為部位)攻擊等級與防禦等級在本回合內減少2級。",
+      "simpleDesc": [
+        {
+          "abilityID": 9064,
+          "simpleDesc": "減少2級攻擊等級與防禦等級"
+        }
+      ]
+    },
+    {
+      "id": 9065,
+      "name": "美感",
+      "desc": "對由於理智值降低而獲得負面效果(士氣低落，恐慌)的敵方單位造成的傷害+35%。\n\n對沒有理智值的敵方單位觸發沉淪 效果時，不對其造成憂鬱傷害，而是以所有罪孽屬性中最有效的屬性傷害進行替代。",
+      "simpleDesc": [
+        {
+          "abilityID": 9065,
+          "simpleDesc": "造成的傷害+35%"
+        },
+        {
+          "abilityID": 90651,
+          "simpleDesc": "變更為罪孽屬性中最有效的屬性傷害"
+        }
+      ]
+    },
+    {
+      "id": 19065,
+      "name": "美感+",
+      "desc": "對<style=\"upgradeHighlight\">理智值不高於0點的敵方單位造成的傷害+40%</style>。\n\n對沒有理智值的敵方單位觸發沉淪 效果時，不對其造成憂鬱傷害，而是以所有罪孽屬性中最有效的屬性傷害進行替代。",
+      "simpleDesc": [
+        {
+          "abilityID": 19065,
+          "simpleDesc": "造成的傷害+40%"
+        },
+        {
+          "abilityID": 90651,
+          "simpleDesc": "變更為罪孽屬性中最有效的屬性傷害"
+        }
+      ]
+    },
+    {
+      "id": 29065,
+      "name": "美感++",
+      "desc": "對<style=\"upgradeHighlight\">沒有理智值或理智值不高於0點的敵方單位造成的傷害+50%</style>。\n\n對沒有理智值的敵方單位觸發沉淪 效果時，不對其造成憂鬱傷害，而是以所有罪孽屬性中最有效的屬性傷害進行替代。",
+      "simpleDesc": [
+        {
+          "abilityID": 29065,
+          "simpleDesc": "造成的傷害+50%"
+        },
+        {
+          "abilityID": 90651,
+          "simpleDesc": "變更為罪孽屬性中最有效的屬性傷害"
+        }
+      ]
+    },
+    {
+      "id": 9066,
+      "name": "霧化吸入器",
+      "desc": "關卡的首個回合開始時，使全體友方單位增加4級呼吸法 強度並獲得4層呼吸法 。\n\n激活傲慢完全共鳴時，戰鬥開始時，使全體友方單位增加2級呼吸法 強度並獲得2層呼吸法 。\n- [不可重複觸發] 胸痛 良秀 E.G.O被動“息”觸發時，該效果不會觸發",
+      "simpleDesc": [
+        {
+          "abilityID": 9066,
+          "simpleDesc": "增加4級呼吸法 強度並獲得4層呼吸法 層數"
+        },
+        {
+          "abilityID": 90661,
+          "simpleDesc": "增加2級呼吸法 強度並獲得2層呼吸法 層數"
+        }
+      ]
+    },
+    {
+      "id": 19066,
+      "name": "霧化吸入器+",
+      "desc": "<style=\"upgradeHighlight\">波次的首個回合開始時</style>，使全體友方單位<style=\"upgradeHighlight\">增加5級呼吸法 強度</style>並獲得4層呼吸法 。\n\n激活傲慢完全共鳴時，戰鬥開始時，使全體友方單位<style=\"upgradeHighlight\">增加3級呼吸法 強度</style>並獲得2層呼吸法 。\n- [不可重複觸發] 胸痛 良秀 E.G.O被動“息”觸發時，該效果不會觸發",
+      "simpleDesc": [
+        {
+          "abilityID": 19066,
+          "simpleDesc": "增加5級呼吸法 強度並獲得4層呼吸法 層數"
+        },
+        {
+          "abilityID": 190661,
+          "simpleDesc": "增加3級呼吸法 強度並獲得2層呼吸法 層數"
+        }
+      ]
+    },
+    {
+      "id": 29066,
+      "name": "霧化吸入器++",
+      "desc": "波次的首個回合開始時，使全體友方單位增加5級呼吸法 強度並<style=\"upgradeHighlight\">獲得5層呼吸法 。</style>\n\n<style=\"upgradeHighlight\">激活傲慢共鳴</style>時，戰鬥開始時，使全體友方單位增加3級呼吸法 強度並<style=\"upgradeHighlight\">獲得3層呼吸法 。</style>\n- [不可重複觸發] 胸痛 良秀 E.G.O被動“息”觸發時，該效果不會觸發",
+      "simpleDesc": [
+        {
+          "abilityID": 29066,
+          "simpleDesc": "增加5級呼吸法 強度並獲得5層呼吸法 層數"
+        },
+        {
+          "abilityID": 290661,
+          "simpleDesc": "增加3級呼吸法 強度並獲得3層呼吸法 層數"
+        }
+      ]
+    },
+    {
+      "id": 9067,
+      "name": "特別合約",
+      "desc": "戰鬥中通過技能傷害使敵方單位陷入混亂時，對目標追加其體力上限33%(若是異想體，則為相應的部位)的固定傷害，並在下回合對其施加2層易損 (每場戰鬥最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9067,
+          "simpleDesc": "造成體力上限33%的固定傷害，下回合施加2層易損 "
+        }
+      ]
+    },
+    {
+      "id": 9068,
+      "name": "盛情款待",
+      "desc": "關卡開始時，獲得5個傲慢屬性罪孽碎片。\n\n敵方單位陣亡時，獲得2個傲慢屬性罪孽碎片，並隨機獲得2種其餘屬性的罪孽碎片各1個。",
+      "simpleDesc": [
+        {
+          "abilityID": 9068,
+          "simpleDesc": "獲得5個傲慢屬性罪孽碎片"
+        },
+        {
+          "abilityID": 90681,
+          "simpleDesc": "獲得2個傲慢屬性罪孽碎片，並隨機獲得2種其餘屬性的罪孽碎片各1個"
+        }
+      ]
+    },
+    {
+      "id": 9069,
+      "name": "護腕",
+      "desc": "回合開始時，充能 與特殊充能層數之和不低於5層的友方單位獲得1層傷害強化 。\n\n若該友方單位擁有傲慢攻擊技能，則改為獲得2層傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9069,
+          "simpleDesc": "獲得1層傷害強化 "
+        },
+        {
+          "abilityID": 90691,
+          "simpleDesc": "獲得2層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 19069,
+      "name": "護腕+",
+      "desc": "回合開始時，<style=\"upgradeHighlight\">充能 與特殊充能層數之和不低於3層</style>的友方單位獲得1層傷害強化 。\n\n若該友方單位擁有傲慢攻擊技能，則改為獲得2層傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19069,
+          "simpleDesc": "獲得1層傷害強化 "
+        },
+        {
+          "abilityID": 190691,
+          "simpleDesc": "獲得2層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 29069,
+      "name": "護腕++",
+      "desc": "回合開始時，<style=\"upgradeHighlight\">帶有充能 或特殊充能</style>的友方單位獲得2層傷害強化 。\n\n若該友方單位擁有傲慢攻擊技能，則改為<style=\"upgradeHighlight\">獲得3層傷害強化 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29069,
+          "simpleDesc": "獲得2層傷害強化 "
+        },
+        {
+          "abilityID": 290691,
+          "simpleDesc": "獲得3層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 9070,
+      "name": "明鏡止水",
+      "desc": "友方單位的暴擊倍率從1.2倍增加至1.7倍。\n\n若因暴擊消耗了呼吸法 層數，則下回合使該單位獲得10層攻擊等級提升 。(每回合每名友方單位最多生效1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9070,
+          "simpleDesc": "獲得10層攻擊等級提升 "
+        }
+      ]
+    },
+    {
+      "id": 19070,
+      "name": "明鏡止水+",
+      "desc": "友方單位的暴擊倍率從1.2倍<style=\"upgradeHighlight\">增加至2倍</style>\n\n若因暴擊消耗了呼吸法 層數，則下回合使該單位<style=\"upgradeHighlight\">獲得12層攻擊等級提升 </style>。(每回合每名友方單位最多生效1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 19070,
+          "simpleDesc": "獲得12層攻擊等級提升 "
+        }
+      ]
+    },
+    {
+      "id": 29070,
+      "name": "明鏡止水++",
+      "desc": "友方單位的暴擊倍率從1.2倍<style=\"upgradeHighlight\">增加至2.5倍</style>\n\n若因暴擊消耗了呼吸法 層數，則下回合使該單位<style=\"upgradeHighlight\">獲得15層攻擊等級提升 </style>。(每回合每名友方單位最多生效1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 29070,
+          "simpleDesc": "獲得15層攻擊等級提升 "
+        }
+      ]
+    },
+    {
+      "id": 9071,
+      "name": "燒焦的圓盤",
+      "desc": "帶有燒傷 的敵方單位陣亡時(若是異想體，則在本體陣亡時)，在下回合開始時使燒傷 強度最低的1名敵方單位增加相當於陣亡單位燒傷 強度一半的燒傷 強度。\n\n回合開始時，本回合對帶有燒傷 的敵方單位施加4層攻擊等級降低 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9071,
+          "simpleDesc": "增加相當於陣亡的敵方單位所剩餘燒傷強度一半的燒傷 強度"
+        },
+        {
+          "abilityID": 90711,
+          "simpleDesc": "施加4層攻擊等級降低 "
+        }
+      ]
+    },
+    {
+      "id": 9072,
+      "name": "避雷針",
+      "desc": "關卡開始時，使全體友方單位獲得3層充能 。\n\n若參戰的擁有嫉妒攻擊技能的友方單位不低於2名，則改為獲得5層充能 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9072,
+          "simpleDesc": "獲得3層充能 "
+        },
+        {
+          "abilityID": 90721,
+          "simpleDesc": "獲得5層充能 "
+        }
+      ]
+    },
+    {
+      "id": 19072,
+      "name": "避雷針+",
+      "desc": "關卡開始時，使全體友方單位<style=\"upgradeHighlight\">獲得4層充能 。</style>\n\n若參戰的擁有嫉妒攻擊技能的友方單位不低於2名，則改為<style=\"upgradeHighlight\">獲得6層充能 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19072,
+          "simpleDesc": "獲得4層充能 "
+        },
+        {
+          "abilityID": 190721,
+          "simpleDesc": "獲得6層充能 "
+        }
+      ]
+    },
+    {
+      "id": 29072,
+      "name": "避雷針++",
+      "desc": "關卡開始時，使全體友方單位<style=\"upgradeHighlight\">獲得5層充能 。</style>\n\n若參戰的擁有嫉妒攻擊技能的友方單位不低於2名，則改為<style=\"upgradeHighlight\">獲得7層充能 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29072,
+          "simpleDesc": "獲得5層充能 "
+        },
+        {
+          "abilityID": 290721,
+          "simpleDesc": "獲得7層充能 "
+        }
+      ]
+    },
+    {
+      "id": 9073,
+      "name": "內啡肽試劑組",
+      "desc": "通過技能效果增加呼吸法 強度時，額外增加1級呼吸法 強度並獲得1層呼吸法 。\n\n若該技能為嫉妒技能，則改為額外增加2級呼吸法 強度並獲得2層呼吸法 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9073,
+          "simpleDesc": "增加1級呼吸法 強度並獲得1層呼吸法 "
+        },
+        {
+          "abilityID": 90731,
+          "simpleDesc": "增加2級呼吸法 強度並獲得2層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 19073,
+      "name": "內啡肽試劑組+",
+      "desc": "通過技能效果增加呼吸法 強度時，額外<style=\"upgradeHighlight\">增加2級呼吸法 強度並獲得2層呼吸法 。</style>\n\n若該技能為嫉妒技能，則改為額外<style=\"upgradeHighlight\">增加3級呼吸法 強度並獲得3層呼吸法 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19073,
+          "simpleDesc": "增加2級呼吸法 強度並獲得2層呼吸法 "
+        },
+        {
+          "abilityID": 190731,
+          "simpleDesc": "增加3級呼吸法 強度並獲得3層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 29073,
+      "name": "內啡肽試劑組++",
+      "desc": "通過技能效果增加呼吸法 強度時，額外<style=\"upgradeHighlight\">增加3級呼吸法 強度並獲得3層呼吸法 。</style>\n\n若該技能為嫉妒技能，則改為額外<style=\"upgradeHighlight\">增加4級呼吸法 強度並獲得4層呼吸法 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29073,
+          "simpleDesc": "增加3級呼吸法 強度並獲得3層呼吸法 "
+        },
+        {
+          "abilityID": 290731,
+          "simpleDesc": "增加4級呼吸法 強度並獲得4層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 9074,
+      "name": "無頭肖像",
+      "desc": "戰鬥開始時，使全體理智值低於0點的敵方單位(若是異想體，則隨機對一個部位)增加2級沉淪 強度。\n\n每當使用嫉妒屬性技能時，都會於下回合隨機使敵方單位(若是異想體，則隨機對一個部位)增加共計1級沉淪 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 9074,
+          "simpleDesc": "增加2級沉淪 強度"
+        },
+        {
+          "abilityID": 90741,
+          "simpleDesc": "增加1級沉淪 強度"
+        }
+      ]
+    },
+    {
+      "id": 19074,
+      "name": "無頭肖像+",
+      "desc": "戰鬥開始時，使全體理智值低於0點的敵方單位(若是異想體，則隨機對一個部位)<style=\"upgradeHighlight\">增加3級沉淪 強度。</style>\n\n每當使用嫉妒屬性技能時，都會於下回合隨機使敵方單位(若是異想體，則隨機對一個部位)增加共計<style=\"upgradeHighlight\">2級沉淪 強度</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19074,
+          "simpleDesc": "增加3級沉淪 強度"
+        },
+        {
+          "abilityID": 190741,
+          "simpleDesc": "增加共計2級沉淪 強度"
+        }
+      ]
+    },
+    {
+      "id": 29074,
+      "name": "無頭肖像++",
+      "desc": "戰鬥開始時，使全體理智值低於0點的敵方單位(若是異想體，則隨機對一個部位)<style=\"upgradeHighlight\">增加4級沉淪 強度並對其施加1層沉淪 。</style>\n\n每當使用嫉妒屬性技能時，都會於下回合隨機使敵方單位(若是異想體，則隨機對一個部位)增加共計<style=\"upgradeHighlight\">3級沉淪 強度</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29074,
+          "simpleDesc": "增加4級沉淪 強度並施加1層沉淪 "
+        },
+        {
+          "abilityID": 290741,
+          "simpleDesc": "增加共計3級沉淪 強度"
+        }
+      ]
+    },
+    {
+      "id": 9075,
+      "name": "充能式手套",
+      "desc": "最大充能 層數+10\n\n關卡開始時，使全體友方單位獲得5層充能 。\n\n回合開始時，使全體友方單位獲得2層充能 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9075,
+          "simpleDesc": "最大充能 層數+10"
+        },
+        {
+          "abilityID": 90751,
+          "simpleDesc": "獲得5層充能 "
+        },
+        {
+          "abilityID": 90752,
+          "simpleDesc": "回合開始時，使全體友方單位獲得2層充能 "
+        }
+      ]
+    },
+    {
+      "id": 19075,
+      "name": "充能式手套+",
+      "desc": "最大充能 層數+10\n\n關卡開始時，使全體友方單位<style=\"upgradeHighlight\">獲得6層充能 。</style>\n\n回合開始時，使全體友方單位<style=\"upgradeHighlight\">獲得3層充能 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19075,
+          "simpleDesc": "最大充能 層數+10"
+        },
+        {
+          "abilityID": 190751,
+          "simpleDesc": "獲得6層充能 "
+        },
+        {
+          "abilityID": 190752,
+          "simpleDesc": "回合開始時，使全體友方單位獲得3層充能 "
+        }
+      ]
+    },
+    {
+      "id": 29075,
+      "name": "充能式手套++",
+      "desc": "最大充能 層數+10\n\n關卡開始時，使全體友方單位<style=\"upgradeHighlight\">獲得8層充能 。</style>\n\n回合開始時，使全體友方單位<style=\"upgradeHighlight\">獲得4層充能 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29075,
+          "simpleDesc": "最大充能 層數+10"
+        },
+        {
+          "abilityID": 290751,
+          "simpleDesc": "獲得8層充能 "
+        },
+        {
+          "abilityID": 290752,
+          "simpleDesc": "回合開始時，使全體友方單位獲得3層充能 "
+        }
+      ]
+    },
+    {
+      "id": 9076,
+      "name": "便攜式急救包",
+      "desc": "回合開始時，使現存體力不高於50%的1名友方單位恢復其體力上限25%的體力(單位陣亡時不觸發，每場戰鬥最多1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9076,
+          "simpleDesc": "恢復體力上限25%的體力"
+        }
+      ]
+    },
+    {
+      "id": 9077,
+      "name": "止痛藥",
+      "desc": "回合開始時，若有陷入混亂的友方單位，則使其恢復體力上限12.5%的體力並在本回合獲得3層守護 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9077,
+          "simpleDesc": "恢復體力上限12.5%的體力並在本回合內獲得3層守護 "
+        }
+      ]
+    },
+    {
+      "id": 9078,
+      "name": "貪婪之錘",
+      "desc": "戰鬥勝利後，獲得(陣亡敵方單位數量×3)點經費。",
+      "simpleDesc": [
+        {
+          "abilityID": 9078,
+          "simpleDesc": "獲得(陣亡敵方單位數量×3)點經費"
+        }
+      ]
+    },
+    {
+      "id": 9079,
+      "name": "金甕",
+      "desc": "戰鬥勝利後獲得的經費增加20%(不受開局增益與其他E.G.O飾品的影響)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9079,
+          "simpleDesc": "獲得的經費增加20%"
+        }
+      ]
+    },
+    {
+      "id": 9080,
+      "name": "生存的里程標",
+      "desc": "通過階層頭目時，額外獲得(80+該戰鬥參戰人格數×5)點經費(不受通過戰鬥時獲得經費增加的效果影響)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9080,
+          "simpleDesc": "獲得經費"
+        }
+      ]
+    },
+    {
+      "id": 9081,
+      "name": "信念",
+      "desc": "使用硬幣類型為加算的技能後，在下回合開始時使該單位的理智值變為最大值(侵蝕狀態除外)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9036,
+          "simpleDesc": "理智值變為最大值"
+        }
+      ]
+    },
+    {
+      "id": 9082,
+      "name": "緣分殘片",
+      "desc": "獲得該飾品時，編隊中的所有人格提升5級。",
+      "simpleDesc": [
+        {
+          "abilityID": 9082,
+          "simpleDesc": "人格提升5級"
+        }
+      ]
+    },
+    {
+      "id": 19082,
+      "name": "緣分殘片+",
+      "desc": "獲得該飾品時，編隊中的所有人格<style=\"upgradeHighlight\">提升7級。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19082,
+          "simpleDesc": "人格提升7級"
+        }
+      ]
+    },
+    {
+      "id": 29082,
+      "name": "緣分殘片++",
+      "desc": "獲得該飾品時，編隊中的所有人格<style=\"upgradeHighlight\">提升10級。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29082,
+          "simpleDesc": "人格提升10級"
+        }
+      ]
+    },
+    {
+      "id": 9083,
+      "name": "月之記憶",
+      "desc": "全體敵方單位(異想體則為所有部位)的物理抗性及罪孽抗性全部變為“致命”。",
+      "simpleDesc": [
+        {
+          "abilityID": 9083,
+          "simpleDesc": "物理抗性及罪孽抗性全部變為“致命”"
+        }
+      ]
+    },
+    {
+      "id": 9084,
+      "name": "古代雕像",
+      "desc": "回合開始時，使速度值最高的1名友方單位在下回合獲得5層迅捷 。\n下回合開始時，使未受古代雕像影響的速度值最高的1名友方單位獲得該效果。\n(若沒有可選擇的單位，則解除該效果)",
+      "simpleDesc": [
+        {
+          "abilityID": 9084,
+          "simpleDesc": "獲得5層迅捷 "
+        }
+      ]
+    },
+    {
+      "id": 9085,
+      "name": "保密協議",
+      "desc": "回合開始時，隨機使1名友方單位造成的傷害+10%。(直到保密協議的效果被移除)\n\n每當該友方單位使用技能對敵方單位造成體力傷害，使其造成的傷害額外+10%(最多+40%)。當該友方單位受到體力傷害時，移除該效果。下回合開始時，隨機使另一名友方單位獲得該效果。(若沒有可選擇的單位，則移除該效果)",
+      "simpleDesc": [
+        {
+          "abilityID": 9085,
+          "simpleDesc": "造成的傷害+10%"
+        }
+      ]
+    },
+    {
+      "id": 9086,
+      "name": "殘響",
+      "desc": "回合結束時，對震顫 強度不低於10級的全體敵方單位(或異想體的對應部位)在下回合施加2層束縛 。若該單位的震顫 強度不低於20級，則改為施加2層束縛 與1層麻痺 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9086,
+          "simpleDesc": "施加2層束縛 "
+        },
+        {
+          "abilityID": 90861,
+          "simpleDesc": "施加2層束縛 與1層麻痺 "
+        }
+      ]
+    },
+    {
+      "id": 9087,
+      "name": "熾熱的智慧",
+      "desc": "通過燒傷 效果擊殺敵方單位後，下回合開始時使擁有增加燒傷 強度的技能的2名友方單位獲得1層傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9087,
+          "simpleDesc": "獲得1層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 19087,
+      "name": "熾熱的智慧+",
+      "desc": "通過燒傷 效果擊殺敵方單位後，下回合開始時使擁有增加燒傷 強度的技能的2名友方單位<style=\"upgradeHighlight\">獲得2層傷害強化 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19087,
+          "simpleDesc": "獲得2層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 29087,
+      "name": "熾熱的智慧++",
+      "desc": "通過燒傷 效果擊殺敵方單位後，下回合開始時使擁有增加燒傷 強度的技能的<style=\"upgradeHighlight\">3名友方單位</style>獲得2層傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 29087,
+          "simpleDesc": "獲得2層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 9088,
+      "name": "鎮魂",
+      "desc": "關卡開始時，若擁有增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n波次的首個回合開始時，對全體敵方單位(或異想體的所有部位)施加3層燒傷 並隨機使全體敵方單位增加共計15級燒傷 強度。\n\n使增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的技能的最終威力+1，硬幣威力+1，使目標增加的燒傷 強度額外+1級，對目標施加的燒傷 層數額外+1層。\n\n增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的技能拼點勝利時，使目標敵方單位增加(剩餘硬幣數+1)級燒傷 強度",
+      "simpleDesc": [
+        {
+          "abilityID": 9088,
+          "simpleDesc": "施加3層燒傷 並隨機使全體敵方單位增加共計15級燒傷 強度"
+        },
+        {
+          "abilityID": 90881,
+          "simpleDesc": "技能的最終威力+1，硬幣威力+1，增加的燒傷 強度額外+1級，施加的燒傷 層數額外+1層"
+        },
+        {
+          "abilityID": 90882,
+          "simpleDesc": "增加(剩餘硬幣數+1)級燒傷 強度"
+        }
+      ]
+    },
+    {
+      "id": 9089,
+      "name": "鏽蝕的籠頭",
+      "desc": "使用單個技能對敵方單位造成不低於12點體力傷害時，使其增加2級流血 強度。\n\n若該技能為斬擊技能，則改為增加4級流血 強度。",
+      "simpleDesc": [
+        {
+          "abilityID": 9089,
+          "simpleDesc": "增加2級流血 強度"
+        },
+        {
+          "abilityID": 9089,
+          "simpleDesc": "增加4級流血 強度"
+        }
+      ]
+    },
+    {
+      "id": 19089,
+      "name": "鏽蝕的籠頭+",
+      "desc": "使用單個技能對敵方單位造成不低於12點體力傷害時，使其<style=\"upgradeHighlight\">增加3級流血 強度。</style>\n\n若該技能為斬擊技能，則改為<style=\"upgradeHighlight\">增加5級流血 強度。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19089,
+          "simpleDesc": "增加3級流血 強度"
+        },
+        {
+          "abilityID": 19089,
+          "simpleDesc": "增加5級流血 強度"
+        }
+      ]
+    },
+    {
+      "id": 29089,
+      "name": "鏽蝕的籠頭++",
+      "desc": "使用單個技能<style=\"upgradeHighlight\">對敵方單位造成不低於1點體力傷害時</style>，使其增加3級流血 強度。\n\n若該技能為斬擊技能，則改為增加5級流血 強度<style=\"upgradeHighlight\">並施加1層流血 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29089,
+          "simpleDesc": "增加3級流血 強度"
+        },
+        {
+          "abilityID": 29089,
+          "simpleDesc": "增加5級流血 強度並施加1層流血 "
+        }
+      ]
+    },
+    {
+      "id": 9090,
+      "name": "血霧",
+      "desc": "關卡開始時，若擁有增加流血 強度，施加流血 層數或施加特殊流血的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n全體友方單位通過技能效果使敵方單位增加的流血 強度與對敵方單位施加的流血 層數變為2倍。\n\n首個編入的友方單位增加流血 強度，施加流血 層數或施加特殊流血的技能的硬幣威力+2，造成的傷害+100%。受到其攻擊或與其拼點的敵方單位陣亡時，隨機使全體敵方單位增加共計相當於陣亡敵方單位流血 強度的流血 強度。(若是集中遭遇戰，則改為部位)\n\n所有增加流血 強度，施加流血 層數或施加特殊流血的技能的硬幣威力+1",
+      "simpleDesc": [
+        {
+          "abilityID": 9090,
+          "simpleDesc": "增加的流血 強度與施加流血 層數變為2倍"
+        },
+        {
+          "abilityID": 90901,
+          "simpleDesc": "技能的硬幣威力+2，造成的傷害+100%"
+        },
+        {
+          "abilityID": 90902,
+          "simpleDesc": "增加流血 強度，施加流血 層數或施加特殊流血的技能的硬幣威力+1"
+        },
+        {
+          "abilityID": 90903,
+          "simpleDesc": "隨機使全體敵方單位增加共計相當於陣亡敵方單位流血 強度的流血 強度"
+        }
+      ]
+    },
+    {
+      "id": 9091,
+      "name": "真理之鐘",
+      "desc": "使敵方單位震顫引爆 時，本回合對其施加1層易損 (每個震顫引爆 的攻擊技能最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9091,
+          "simpleDesc": "施加1層易損 "
+        }
+      ]
+    },
+    {
+      "id": 19091,
+      "name": "真理之鐘+",
+      "desc": "使敵方單位震顫引爆 時，<style=\"upgradeHighlight\">本回合與下回合</style>對其施加1層易損 (每個震顫引爆 的攻擊技能最多1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 19091,
+          "simpleDesc": "施加1層易損 "
+        }
+      ]
+    },
+    {
+      "id": 29091,
+      "name": "真理之鐘++",
+      "desc": "使敵方單位震顫引爆 時，本回合與下回合對其<style=\"upgradeHighlight\">施加2層易損 </style>(每個震顫引爆 的攻擊技能最多1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 29091,
+          "simpleDesc": "施加2層易損 "
+        }
+      ]
+    },
+    {
+      "id": 9092,
+      "name": "震顫耦合",
+      "desc": "關卡開始時，若擁有增加震顫 強度或施加震顫 層數的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n波次的首個回合開始時，使全體敵方單位(若是異想體，則改為所有部位)增加5級震顫 強度並對其施加5層震顫 。\n\n使敵方單位震顫引爆 時，本回合與下回合使其增加5級震顫 強度並對其施加2層易損 。(每個震顫引爆 的攻擊技能最多觸發1次)\n\n若本回合使1名敵方單位震顫引爆 3次，則下回合開始時使其陷入混亂並在現存體力66%與33%處生成1條混亂閾值。(每場戰鬥最多1次)\n\n觸發振幅轉換 或振幅糾纏 時，額外施加1層易損 (每回合最多3次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9092,
+          "simpleDesc": "施加5級震顫 強度與2層易損 "
+        },
+        {
+          "abilityID": 90921,
+          "simpleDesc": "使目標陷入混亂"
+        },
+        {
+          "abilityID": 90922,
+          "simpleDesc": "施加1層易損 "
+        }
+      ]
+    },
+    {
+      "id": 9093,
+      "name": "螢光燈",
+      "desc": "回合結束時，若有敵方單位或異想體部位帶有破裂 ，則下回合隨機使1名友方單位獲得1層傷害強化 或1層迅捷 。觸發(帶有破裂 的敵方單位或異想體部位數量+1)次。",
+      "simpleDesc": [
+        {
+          "abilityID": 9093,
+          "simpleDesc": "獲得1層傷害強化 或1層迅捷 "
+        }
+      ]
+    },
+    {
+      "id": 19093,
+      "name": "螢光燈+",
+      "desc": "回合結束時，若有敵方單位或異想體部位帶有破裂 ，則下回合隨機使1名友方單位獲得1層傷害強化 或1層迅捷 。<style=\"upgradeHighlight\">觸發(帶有破裂 的敵方單位或異想體部位數量+3)次</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19093,
+          "simpleDesc": "獲得1層傷害強化 或1層迅捷 "
+        }
+      ]
+    },
+    {
+      "id": 29093,
+      "name": "螢光燈++",
+      "desc": "回合結束時，若有敵方單位或異想體部位帶有破裂 ，則下回合隨機使1名友方單位<style=\"upgradeHighlight\">獲得1層傷害強化 與1層迅捷 。</style>觸發(帶有破裂 的敵方單位或異想體部位數量+3)次。",
+      "simpleDesc": [
+        {
+          "abilityID": 29093,
+          "simpleDesc": "獲得1層傷害強化 與1層迅捷 "
+        }
+      ]
+    },
+    {
+      "id": 9094,
+      "name": "恍惚鏡",
+      "desc": "關卡開始時，若擁有增加破裂 強度或施加破裂 層數的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n技能命中敵方單位時，使其增加5級破裂 強度。\n\n若敵方單位的破裂 層數降至1以下，則優先消耗10級破裂 強度以取代破裂 層數。(破裂 強度降至10以下時失效)\n\n若目標的破裂 層數低於3層，則對其施加破裂 層數時的施加量+1層(每場戰鬥最多3次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9094,
+          "simpleDesc": "增加5級破裂 強度"
+        },
+        {
+          "abilityID": 90941,
+          "simpleDesc": "優先消耗10級破裂 強度以取代破裂 層數"
+        },
+        {
+          "abilityID": 90942,
+          "simpleDesc": "施加的破裂 層數額外+1層"
+        }
+      ]
+    },
+    {
+      "id": 9095,
+      "name": "破碎羅盤",
+      "desc": "波次的首個回合開始時，隨機對全體敵方單位(或所有異想體部位)施加共計(5+敵方單位數量×3)層沉淪 。（若是異想體，僅其本體算作1名敵方單位）",
+      "simpleDesc": [
+        {
+          "abilityID": 9095,
+          "simpleDesc": "隨機施加共計(5+敵方單位數量×3)層沉淪 "
+        }
+      ]
+    },
+    {
+      "id": 19095,
+      "name": "破碎羅盤+",
+      "desc": "波次的首個回合開始時，隨機對全體敵方單位(或所有異想體部位)施加共計<style=\"upgradeHighlight\">(10+敵方單位數量×3)層沉淪 </style>。(若是異想體，僅其本體算作1名敵方單位)",
+      "simpleDesc": [
+        {
+          "abilityID": 19095,
+          "simpleDesc": "隨機施加共計(10+敵方單位數量×3)層沉淪 "
+        }
+      ]
+    },
+    {
+      "id": 29095,
+      "name": "破碎羅盤++",
+      "desc": "波次的首個回合開始時，隨機對全體敵方單位(或所有異想體部位)施加共計<style=\"upgradeHighlight\">(10+敵方單位數量×4)層沉淪 </style>。(若是異想體，僅其本體算作1名敵方單位)",
+      "simpleDesc": [
+        {
+          "abilityID": 29095,
+          "simpleDesc": "隨機施加共計(10+敵方單位數量×4)層沉淪 "
+        }
+      ]
+    },
+    {
+      "id": 9096,
+      "name": "黑色樂譜",
+      "desc": "關卡開始時，若擁有增加沉淪 強度，施加沉淪 層數或施加特殊沉淪的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n使用技能命中敵方單位時，使其增加5級沉淪 強度。\n\n回合開始時，對全體敵方單位或所有部位重新施加(上回合受擊而消耗的沉淪 層數/2)層沉淪 。\n\n基礎技能命中時，若目標的理智值低於0點(沒有理智值的目標改為若其憂鬱抗性不低於1.2)，則對其造成(其沉淪 強度/10)點憂鬱傷害(最少1點，該效果每回合最多觸發10次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9096,
+          "simpleDesc": "增加5級沉淪 強度"
+        },
+        {
+          "abilityID": 90961,
+          "simpleDesc": "施加沉淪 層數"
+        },
+        {
+          "abilityID": 90961,
+          "simpleDesc": "造成憂鬱傷害"
+        }
+      ]
+    },
+    {
+      "id": 9097,
+      "name": "馬蹄鐵飾物",
+      "desc": "回合開始時，隨機使未帶有呼吸法 強度的1名友方單位增加2級呼吸法 強度。\n\n若全體友方單位都帶有呼吸法 強度，則改為使全體友方單位獲得1層呼吸法 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9097,
+          "simpleDesc": "增加2級呼吸法 強度。"
+        },
+        {
+          "abilityID": 90971,
+          "simpleDesc": "獲得1層呼吸法 。"
+        }
+      ]
+    },
+    {
+      "id": 19097,
+      "name": "馬蹄鐵飾物+",
+      "desc": "回合開始時，隨機使未帶有呼吸法 強度的1名友方單位<style=\"upgradeHighlight\">增加3級呼吸法 強度。</style>\n\n若全體友方單位都帶有呼吸法 強度，則改為使全體友方單位<style=\"upgradeHighlight\">獲得2層呼吸法 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19097,
+          "simpleDesc": "增加3級呼吸法 強度。"
+        },
+        {
+          "abilityID": 190971,
+          "simpleDesc": "獲得2層呼吸法 。"
+        }
+      ]
+    },
+    {
+      "id": 29097,
+      "name": "馬蹄鐵飾物++",
+      "desc": "回合開始時，隨機使未帶有呼吸法 強度的<style=\"upgradeHighlight\">2名友方單位增加3級呼吸法 強度。</style>\n\n若全體友方單位都帶有呼吸法 強度，則改為使全體友方單位<style=\"upgradeHighlight\">獲得3層呼吸法 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29097,
+          "simpleDesc": "增加3級呼吸法 強度。"
+        },
+        {
+          "abilityID": 290971,
+          "simpleDesc": "獲得3層呼吸法 。"
+        }
+      ]
+    },
+    {
+      "id": 9098,
+      "name": "福袋",
+      "desc": "關卡開始時，若擁有增加呼吸法 強度或獲得呼吸法 層數的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n隨機1名戰鬥開始時帶有呼吸法 的友方單位通過技能對敵方單位造成暴擊時，下回合開始時使全體友方單位增加7級呼吸法 強度並獲得7層呼吸法 。(每回合最多1次)\n\n使擁有增加呼吸法 強度或獲得呼吸法 層數的技能(不包括E.G.O技能)的友方單位3技能的最終威力+3，硬幣威力+(12/硬幣數)，造成的傷害+(50/硬幣數)%。\n\n戰鬥開始時，隨機使1名友方單位增加3級呼吸法 強度(優先選取擁有增加呼吸法 強度或獲得呼吸法 層數的攻擊技能的友方單位)。優先選取擁有憂鬱攻擊技能的友方單位，且該情況下改為使其增加3級呼吸法 強度並獲得2層呼吸法 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9098,
+          "simpleDesc": "增加7級呼吸法 強度並獲得7層呼吸法 "
+        },
+        {
+          "abilityID": 90981,
+          "simpleDesc": "最終威力+3，硬幣威力+(12/硬幣數)，造成的傷害+(50/硬幣數)%"
+        },
+        {
+          "abilityID": 90982,
+          "simpleDesc": "增加3級呼吸法 強度。擁有憂鬱攻擊技能的友方單位額外獲得2層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 9099,
+      "name": "物理屏蔽力場",
+      "desc": "波次的首個回合開始時，使全體友方單位獲得3層充能力場 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9099,
+          "simpleDesc": "獲得3層充能力場 。"
+        }
+      ]
+    },
+    {
+      "id": 19099,
+      "name": "物理屏蔽力場+",
+      "desc": "波次的首個回合開始時，使全體友方單位<style=\"upgradeHighlight\">獲得5層充能力場 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19099,
+          "simpleDesc": "獲得5層充能力場 。"
+        }
+      ]
+    },
+    {
+      "id": 29099,
+      "name": "物理屏蔽力場++",
+      "desc": "波次的首個回合開始時，使全體友方單位<style=\"upgradeHighlight\">獲得7層充能力場 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29099,
+          "simpleDesc": "獲得7層充能力場 。"
+        }
+      ]
+    },
+    {
+      "id": 9100,
+      "name": "第一類永動機",
+      "desc": "關卡開始時，若擁有獲得充能 層數或特殊充能的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n波次的首個回合開始時，使全體友方單位獲得7層充能力場 。\n\n回合開始時，使全體友方單位獲得(其充能 層數與特殊充能之和/5 +1)層傷害強化 。(最多9層，向上取整)\n\n回合開始時，使全體友方單位獲得(本場戰鬥中其通過攻擊技能消耗的充能 層數與特殊充能之和/4)層攻擊等級提升 。(累計消耗充能 40層時效果最高)\n\n每當1名友方單位累計消耗20層充能 時，使其增加1級充能 強度。(每場戰鬥每名友方單位最多2次，不包括特殊充能)\n\n消耗自身的充能 層數的技能攻擊後，對目標施加(自身的充能 強度-1)層防禦等級降低 (每回合每名敵方單位最多5次。每次最多對目標施加3層防禦等級降低 )",
+      "simpleDesc": [
+        {
+          "abilityID": 9100,
+          "simpleDesc": "獲得7層充能力場 "
+        },
+        {
+          "abilityID": 91001,
+          "simpleDesc": "獲得3層充能力場 "
+        },
+        {
+          "abilityID": 91002,
+          "simpleDesc": "獲得傷害強化 "
+        },
+        {
+          "abilityID": 91003,
+          "simpleDesc": "增加1級充能 強度"
+        },
+        {
+          "abilityID": 91004,
+          "simpleDesc": "施加(自身的充能 強度-1)層防禦等級降低 "
+        }
+      ]
+    },
+    {
+      "id": 9101,
+      "name": "熔化的石蠟",
+      "desc": "增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的技能拼點勝利時，使目標增加(剩餘硬幣數/2)級燒傷 強度",
+      "simpleDesc": [
+        {
+          "abilityID": 9101,
+          "simpleDesc": "拼點勝利時，使目標增加(剩餘硬幣數/2)級燒傷 強度"
+        }
+      ]
+    },
+    {
+      "id": 19101,
+      "name": "熔化的石蠟+",
+      "desc": "增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的技能拼點勝利時，使目標增加<style=\"upgradeHighlight\">(剩餘硬幣數/2 +1)級燒傷 強度</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19101,
+          "simpleDesc": "拼點勝利時，使目標增加(剩餘硬幣數/2 +1)級燒傷 強度"
+        }
+      ]
+    },
+    {
+      "id": 29101,
+      "name": "熔化的石蠟++",
+      "desc": "增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的技能拼點勝利時，使目標增加<style=\"upgradeHighlight\">(剩餘硬幣數+1)級燒傷 強度</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29101,
+          "simpleDesc": "拼點勝利時，使目標增加(剩餘硬幣數+1)級燒傷 強度"
+        }
+      ]
+    },
+    {
+      "id": 9102,
+      "name": "偏振光",
+      "desc": "若友方單位的理智值高於目標至少30點，則使該友方單位增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的技能造成的傷害+7.5%(沒有理智值的敵方單位以理智值為0點計算)",
+      "simpleDesc": [
+        {
+          "abilityID": 9102,
+          "simpleDesc": "施加燒傷 的技能造成的傷害+7.5%"
+        }
+      ]
+    },
+    {
+      "id": 19102,
+      "name": "偏振光+",
+      "desc": "若友方單位的理智值高於目標至少<style=\"upgradeHighlight\">25</style>點，則使該友方單位增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的技能<style=\"upgradeHighlight\">造成的傷害+12.5%</style>(沒有理智值的敵方單位以理智值為0點計算)",
+      "simpleDesc": [
+        {
+          "abilityID": 19102,
+          "simpleDesc": "施加燒傷 的技能造成的傷害+12.5%"
+        }
+      ]
+    },
+    {
+      "id": 29102,
+      "name": "偏振光++",
+      "desc": "若友方單位的理智值高於目標至少<style=\"upgradeHighlight\">15</style>點，則使該友方單位增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的技能<style=\"upgradeHighlight\">造成的傷害+20%</style>(沒有理智值的敵方單位以理智值為0點計算)",
+      "simpleDesc": [
+        {
+          "abilityID": 29102,
+          "simpleDesc": "施加燒傷 的技能造成的傷害+20%"
+        }
+      ]
+    },
+    {
+      "id": 9103,
+      "name": "鬱火",
+      "desc": "[第1、第2順位友方單位專屬]\n\n通過技能效果對帶有燒傷 或特殊燒傷的敵方單位施加燒傷 或特殊燒傷時，下回合使自身獲得1層迅捷 。(每個技能最多1次，每回合最多2次)\n\n若該友方單位帶有迅捷 ，則改為獲得1層迅捷 與2層攻擊等級提升 。(每個技能最多1次，每回合最多2次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9103,
+          "simpleDesc": "通過技能效果施加燒傷 或特殊燒傷時，下回合獲得1層迅捷 。"
+        }
+      ]
+    },
+    {
+      "id": 19103,
+      "name": "鬱火+",
+      "desc": "[第1、第2、<style=\"upgradeHighlight\">第3</style>順位友方單位專屬]\n\n通過技能效果對帶有燒傷 或特殊燒傷的敵方單位施加燒傷 或特殊燒傷時，下回合使自身獲得1層迅捷 。(每個技能最多1次，每回合最多2次)\n\n若該友方單位帶有迅捷 ，則改為獲得<style=\"upgradeHighlight\">2層迅捷 </style>與2層攻擊等級提升 。(每個技能最多1次，每回合最多2次)",
+      "simpleDesc": [
+        {
+          "abilityID": 19103,
+          "simpleDesc": "通過技能效果施加燒傷 或特殊燒傷時，下回合獲得1層迅捷 。"
+        }
+      ]
+    },
+    {
+      "id": 29103,
+      "name": "鬱火++",
+      "desc": "[第1、第2、第3順位友方單位專屬]\n\n通過技能效果對帶有燒傷 或特殊燒傷的敵方單位施加燒傷 或特殊燒傷時，下回合使自身獲得1層迅捷 。(每個技能最多1次，每回合最多2次)\n\n若該友方單位帶有迅捷 ，則改為獲得2層迅捷 ，2層攻擊等級提升 與<style=\"upgradeHighlight\">2層傷害強化 </style>。(每個技能最多1次，每回合最多2次)",
+      "simpleDesc": [
+        {
+          "abilityID": 29103,
+          "simpleDesc": "通過技能效果對帶有燒傷 或特殊燒傷的敵方單位施加燒傷 或特殊燒傷時，下回合獲得1層迅捷 。"
+        }
+      ]
+    },
+    {
+      "id": 9104,
+      "name": "火光花",
+      "desc": "[第1、第2順位友方單位專屬]\n\n友方單位攻擊敵方單位時，若目標現存體力不高於(目標的燒傷 強度)%(若是異想體，則改為本體體力)，則使該友方單位增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的攻擊技能造成的傷害+50%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9104,
+          "simpleDesc": "符合條件時，使增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的技能造成的傷害+50%"
+        }
+      ]
+    },
+    {
+      "id": 9105,
+      "name": "業火殘片",
+      "desc": "使用增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的E.G.O技能時觸發\n\n最終威力增加相當於消耗的(暴怒罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害+50%。\n\n若是暴怒E.G.O技能，則攻擊前根據其E.G.O等級，相應額外對目標施加燒傷 層數(ZAYIN施加2層，等級每提升1級，額外施加1層)並使該技能造成的傷害+(攻擊容量/攻擊目標數×20)%",
+      "simpleDesc": [
+        {
+          "abilityID": 9105,
+          "simpleDesc": "最終威力增加相當於消耗的(暴怒罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害增加"
+        },
+        {
+          "abilityID": 91051,
+          "simpleDesc": "攻擊前，額外施加燒傷 層數並使造成的傷害增加"
+        }
+      ]
+    },
+    {
+      "id": 9106,
+      "name": "被扣留的頌歌",
+      "desc": "戰鬥開始時，若全體敵方單位(若是異想體，則改為所有部位)均帶有流血 ，則下回合使全體友方單位獲得1層迅捷 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9106,
+          "simpleDesc": "若全體敵方單位均帶有流血 ，則下回合使全體友方單位獲得1層迅捷 。"
+        }
+      ]
+    },
+    {
+      "id": 19106,
+      "name": "被扣留的頌歌+",
+      "desc": "戰鬥開始時，若全體敵方單位(若是異想體，則改為所有部位)均帶有流血 ，則下回合使全體友方單位獲得1層迅捷 與<style=\"upgradeHighlight\">1層傷害強化 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19106,
+          "simpleDesc": "若全體敵方單位均帶有流血 ，則下回合使全體友方單位獲得1層迅捷 與1層傷害強化 。"
+        }
+      ]
+    },
+    {
+      "id": 29106,
+      "name": "被扣留的頌歌++",
+      "desc": "戰鬥開始時，若全體敵方單位(若是異想體，則改為所有部位)均帶有流血 ，則下回合使全體友方單位獲得<style=\"upgradeHighlight\">2層迅捷 </style>，1層傷害強化 與<style=\"upgradeHighlight\">2層攻擊等級提升 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29106,
+          "simpleDesc": "若全體敵方單位均帶有流血 ，則下回合使全體友方單位獲得2層迅捷 ，1層傷害強化 與2層攻擊等級提升 。"
+        }
+      ]
+    },
+    {
+      "id": 9107,
+      "name": "糾纏捆束",
+      "desc": "速度值最高的友方單位增加流血 強度，施加流血 層數或施加特殊流血的技能對敵方單位造成的傷害+12.5%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9107,
+          "simpleDesc": "增加流血 強度，施加流血 層數或施加特殊流血的技能對敵方單位造成的傷害+12.5%"
+        }
+      ]
+    },
+    {
+      "id": 19107,
+      "name": "糾纏捆束+",
+      "desc": "速度值最高的<style=\"upgradeHighlight\">2名友方單位</style>增加流血 強度，施加流血 層數或施加特殊流血的技能對敵方單位造成的傷害+15%。",
+      "simpleDesc": [
+        {
+          "abilityID": 19107,
+          "simpleDesc": "增加流血 強度，施加流血 層數或施加特殊流血的技能對敵方單位造成的傷害+15%"
+        }
+      ]
+    },
+    {
+      "id": 29107,
+      "name": "糾纏捆束++",
+      "desc": "速度值最高的<style=\"upgradeHighlight\">3名友方單位</style>增加流血 強度，施加流血 層數或施加特殊流血的技能對敵方單位<style=\"upgradeHighlight\">造成的傷害+20%。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29107,
+          "simpleDesc": "增加流血 強度，施加流血 層數或施加特殊流血的技能對敵方單位造成的傷害+20%"
+        }
+      ]
+    },
+    {
+      "id": 9108,
+      "name": "敬畏",
+      "desc": "[第1、第2順位友方單位專屬]\n\n若主要目標的流血 層數不低於7層，則使增加流血 強度，施加流血 層數或施加特殊流血的技能造成的傷害+10%",
+      "simpleDesc": [
+        {
+          "abilityID": 9108,
+          "simpleDesc": "滿足條件時，若主要目標的流血 層數不低於7層，則對其造成的傷害+10%"
+        }
+      ]
+    },
+    {
+      "id": 19108,
+      "name": "敬畏+",
+      "desc": "[第1、第2、<style=\"upgradeHighlight\">第3</style>順位友方單位專屬]\n\n若主要目標的流血 層數不低於5層，則使增加流血 強度，施加流血 層數或施加特殊流血的技能<style=\"upgradeHighlight\">造成的傷害+15%</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19108,
+          "simpleDesc": "滿足條件時，若主要目標的流血 層數不低於5層，則對其造成的傷害+15%"
+        }
+      ]
+    },
+    {
+      "id": 29108,
+      "name": "敬畏++",
+      "desc": "[第1、第2、第3順位友方單位專屬]\n\n若主要目標的流血 層數不低於3層，則使增加流血 強度，施加流血 層數或施加特殊流血的技能<style=\"upgradeHighlight\">造成的傷害+20%</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29108,
+          "simpleDesc": "滿足條件時，若主要目標的流血 層數不低於3層，則對其造成的傷害+20%"
+        }
+      ]
+    },
+    {
+      "id": 9109,
+      "name": "安息之地",
+      "desc": "[第1、第2順位友方單位專屬]\n\n增加流血 強度，施加流血 層數或施加特殊流血的技能拼點勝利時生效\n\n對目標施加(剩餘硬幣數/2)層流血 並在下回合獲得相應層數的攻擊等級提升 \n\n硬幣數不高於2枚的技能改為以(剩餘硬幣數+3)計算",
+      "simpleDesc": [
+        {
+          "abilityID": 9109,
+          "simpleDesc": "對目標施加(剩餘硬幣數/2)層流血 並在下回合獲得相應層數的攻擊等級提升 "
+        },
+        {
+          "abilityID": 91091,
+          "simpleDesc": "硬幣數不高於2枚的技能改為以(剩餘硬幣數+3)計算"
+        }
+      ]
+    },
+    {
+      "id": 9110,
+      "name": "魅惑殘片",
+      "desc": "使用增加流血 強度，施加流血 層數或施加特殊流血的E.G.O技能時觸發\n\n最終威力增加相當於消耗的(色慾罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害+50%。\n\n若是色慾E.G.O技能，則攻擊前根據其E.G.O等級，相應額外對目標施加流血 層數(ZAYIN施加2層，等級每提升1級，額外施加1層)並對目標造成相當於其流血 強度點色慾傷害",
+      "simpleDesc": [
+        {
+          "abilityID": 9110,
+          "simpleDesc": "最終威力增加相當於消耗的(色慾罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害增加"
+        },
+        {
+          "abilityID": 91101,
+          "simpleDesc": "若符合條件，則額外施加流血 層數並對目標造成相當於其流血 強度點色慾傷害"
+        }
+      ]
+    },
+    {
+      "id": 9111,
+      "name": "生物劇毒藥瓶",
+      "desc": "帶有震顫 強度的敵方單位陣亡時，下回合隨機對1名敵方單位(若是異想體，則改為隨機部位)造成(陣亡單位的震顫 強度與層數之和×0.5)點怠惰傷害",
+      "simpleDesc": [
+        {
+          "abilityID": 9110,
+          "simpleDesc": "若符合條件，則隨機對1名敵方單位造成怠惰傷害"
+        }
+      ]
+    },
+    {
+      "id": 19111,
+      "name": "生物劇毒藥瓶+",
+      "desc": "帶有震顫 強度的敵方單位陣亡時，下回合隨機對1名敵方單位(若是異想體，則改為隨機部位)造成(陣亡單位的震顫 強度與層數之和×<style=\"upgradeHighlight\">0.75</style>)點怠惰傷害",
+      "simpleDesc": [
+        {
+          "abilityID": 19110,
+          "simpleDesc": "若符合條件，則隨機對1名敵方單位造成怠惰傷害"
+        }
+      ]
+    },
+    {
+      "id": 29111,
+      "name": "生物劇毒藥瓶++",
+      "desc": "帶有震顫 強度的敵方單位陣亡時，下回合隨機對1名敵方單位(若是異想體，則改為隨機部位)造成(陣亡單位的震顫 強度與層數之和×<style=\"upgradeHighlight\">1.25</style>)點怠惰傷害",
+      "simpleDesc": [
+        {
+          "abilityID": 29110,
+          "simpleDesc": "若符合條件，則隨機對1名敵方單位造成怠惰傷害"
+        }
+      ]
+    },
+    {
+      "id": 9112,
+      "name": "劇毒外皮",
+      "desc": "增加震顫 強度或施加震顫 層數的技能(包括對自身施加的技能)拼點勝利時，使目標增加(剩餘硬幣數/2)級震顫 強度",
+      "simpleDesc": [
+        {
+          "abilityID": 9110,
+          "simpleDesc": "拼點勝利時：使目標增加(剩餘硬幣數/2)級震顫 強度"
+        }
+      ]
+    },
+    {
+      "id": 19112,
+      "name": "劇毒外皮+",
+      "desc": "增加震顫 強度或施加震顫 層數的技能(包括對自身施加的技能)拼點勝利時，使目標增加<style=\"upgradeHighlight\">(剩餘硬幣數)</style>級震顫 強度",
+      "simpleDesc": [
+        {
+          "abilityID": 19110,
+          "simpleDesc": "拼點勝利時：使目標增加(剩餘硬幣數)級震顫 強度"
+        }
+      ]
+    },
+    {
+      "id": 29112,
+      "name": "劇毒外皮++",
+      "desc": "增加震顫 強度或施加震顫 層數的技能(包括對自身施加的技能)拼點勝利時，使目標增加(剩餘硬幣數)級震顫 強度<style=\"upgradeHighlight\">並對其施加(剩餘硬幣數/2)層震顫 </style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29110,
+          "simpleDesc": "拼點勝利時：使目標增加(剩餘硬幣數)級震顫 強度並對其施加(剩餘硬幣數)層震顫 "
+        }
+      ]
+    },
+    {
+      "id": 9113,
+      "name": "酸味的酒香",
+      "desc": "[第1、第2順位友方單位專屬]\n\n增加震顫 強度或施加震顫 層數技能(包括對自身施加的技能)的攻擊等級+2\n\n若主要目標帶有震顫 且陷入混亂，則使技能造成的傷害+(混亂階段×7.5)%\n\n增加震顫 強度或施加震顫 層數的技能則改為造成的傷害+(混亂階段×15)%",
+      "simpleDesc": [
+        {
+          "abilityID": 9113,
+          "simpleDesc": "增加震顫 強度或施加震顫 層數技能的攻擊等級+2"
+        },
+        {
+          "abilityID": 91131,
+          "simpleDesc": "若符合條件，則使技能造成的傷害+(混亂階段×7.5)%"
+        },
+        {
+          "abilityID": 91132,
+          "simpleDesc": "若符合條件，則使技能造成的傷害+(混亂階段×15)%"
+        }
+      ]
+    },
+    {
+      "id": 19113,
+      "name": "酸味的酒香+",
+      "desc": "[第1、第2、<style=\"upgradeHighlight\">第3</style>順位友方單位專屬]\n\n增加震顫 強度或施加震顫 層數技能(包括對自身施加的技能)的攻擊等級+2\n\n若主要目標帶有震顫 且陷入混亂，則使技能造成的傷害+(混亂階段×<style=\"upgradeHighlight\">10</style>)%\n\n增加震顫 強度或施加震顫 層數的技能則改為造成的傷害+(混亂階段×<style=\"upgradeHighlight\">20</style>)%",
+      "simpleDesc": [
+        {
+          "abilityID": 19113,
+          "simpleDesc": "增加震顫 強度或施加震顫 層數技能的攻擊等級+2"
+        },
+        {
+          "abilityID": 191131,
+          "simpleDesc": "若符合條件，則使技能造成的傷害+(混亂階段×10)%"
+        },
+        {
+          "abilityID": 191132,
+          "simpleDesc": "若符合條件，則使技能造成的傷害+(混亂階段×20)%"
+        }
+      ]
+    },
+    {
+      "id": 29113,
+      "name": "酸味的酒香++",
+      "desc": "[第1、第2、第3順位友方單位專屬]\n\n增加震顫 強度或施加震顫 層數技能(包括對自身施加的技能)的攻擊等級+<style=\"upgradeHighlight\">3</style>\n\n若主要目標帶有震顫 且陷入混亂，則使技能造成的傷害+(混亂階段×<style=\"upgradeHighlight\">12.5</style>)%\n\n增加震顫 強度或施加震顫 層數的技能則改為造成的傷害+(混亂階段×<style=\"upgradeHighlight\">25</style>)%",
+      "simpleDesc": [
+        {
+          "abilityID": 29113,
+          "simpleDesc": "增加震顫 強度或施加震顫 層數技能的攻擊等級+3"
+        },
+        {
+          "abilityID": 291131,
+          "simpleDesc": "若符合條件，則使技能造成的傷害+(混亂階段×12.5)%"
+        },
+        {
+          "abilityID": 291132,
+          "simpleDesc": "若符合條件，則使技能造成的傷害+(混亂階段×25)%"
+        }
+      ]
+    },
+    {
+      "id": 9114,
+      "name": "鏡觸覺通感",
+      "desc": "友方單位通過增加震顫 強度或施加震顫 層數的攻擊技能(包括對自身施加的技能，不包括E.G.O技能)使敵方單位陷入混亂時，隨機使除該單位以外的全體敵方單位(若是異想體，則改為隨機部位)增加共計該單位震顫 強度1/3的震顫 強度\n\n若沒有敵方單位可增加震顫 強度，則改為下回合使目標的震顫 強度變為1.5倍",
+      "simpleDesc": [
+        {
+          "abilityID": 9114,
+          "simpleDesc": "若符合條件，則隨機使其他敵方單位增加震顫 強度1/3的震顫 強度"
+        },
+        {
+          "abilityID": 91141,
+          "simpleDesc": "若沒有敵方單位可增加震顫 強度，則改為下回合使目標的震顫 強度變為1.5倍"
+        }
+      ]
+    },
+    {
+      "id": 9115,
+      "name": "齒輪發條",
+      "desc": "[第1、第2順位友方單位專屬]\n\n增加震顫 強度或施加震顫 層數的技能(包括對自身施加的技能)拼點威力+1。\n\n增加震顫 強度或施加震顫 層數的攻擊技能(不包括E.G.O技能)對帶有震顫 的敵方單位造成傷害時，使該技能造成的傷害+(目標的震顫 強度+5)%\n\n傲慢技能改為造成的傷害+(目標的震顫 強度與層數之和+5)%",
+      "simpleDesc": [
+        {
+          "abilityID": 9115,
+          "simpleDesc": "增加震顫 強度或施加震顫 層數的技能拼點威力+1"
+        },
+        {
+          "abilityID": 91151,
+          "simpleDesc": "若符合條件，則使造成的傷害+(目標的震顫 強度+5)%"
+        },
+        {
+          "abilityID": 91152,
+          "simpleDesc": "若符合條件，則使造成的傷害+(目標的震顫 強度與層數之和+5)%"
+        }
+      ]
+    },
+    {
+      "id": 9116,
+      "name": "惰性殘片",
+      "desc": "使用增加震顫 強度，施加震顫 層數或施加特殊震顫的E.G.O技能時觸發\n\n最終威力增加相當於消耗的(怠惰罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害+50%。\n\n若是怠惰E.G.O技能，則攻擊前根據其E.G.O等級，相應額外對目標施加震顫 層數(ZAYIN施加2層，等級每提升1級，額外施加1層)並使該技能造成的傷害+(目標的震顫 強度×1.5)%",
+      "simpleDesc": [
+        {
+          "abilityID": 9116,
+          "simpleDesc": "最終威力增加相當於消耗的(怠惰罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害增加"
+        },
+        {
+          "abilityID": 91161,
+          "simpleDesc": "若符合條件，則攻擊前額外對目標施加震顫 層數(ZAYIN施加2層，等級每提升1級，額外施加1層)並使造成的傷害+(目標的震顫 強度×1.5)%"
+        }
+      ]
+    },
+    {
+      "id": 9117,
+      "name": "有煙火藥",
+      "desc": "[第1、第2順位友方單位專屬]\n\n回合結束時，若本回合使用過增加破裂 強度或施加破裂 層數的攻擊技能，則下回合使自身獲得1層迅捷 \n\n若自身的速度值不低於6，則使增加破裂 強度或施加破裂 層數的攻擊技能造成的傷害+12.5%",
+      "simpleDesc": [
+        {
+          "abilityID": 9117,
+          "simpleDesc": "若符合條件，則下回合使自身獲得1層迅捷 。"
+        },
+        {
+          "abilityID": 91171,
+          "simpleDesc": "若符合條件，則使造成的傷害+12.5%"
+        }
+      ]
+    },
+    {
+      "id": 9118,
+      "name": "骨樁",
+      "desc": "破裂 效果對敵方單位帶有的護盾造成的傷害+100%",
+      "simpleDesc": [
+        {
+          "abilityID": 9118,
+          "simpleDesc": "破裂 效果對敵方單位帶有的護盾造成的傷害+100%"
+        }
+      ]
+    },
+    {
+      "id": 9119,
+      "name": "破損的雨傘",
+      "desc": "[第1、第2順位友方單位專屬]\n\n增加破裂 強度或施加破裂 層數的攻擊技能拼點勝利時，對目標施加2層破裂 (每回合每名友方單位最多1次)\n\n若目標未帶有破裂 ，則改為使其增加3級破裂 強度並對其施加2層破裂 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9119,
+          "simpleDesc": "對目標施加2層破裂 "
+        },
+        {
+          "abilityID": 91191,
+          "simpleDesc": "使目標增加2級破裂 強度並對其施加2層破裂 "
+        }
+      ]
+    },
+    {
+      "id": 19119,
+      "name": "破損的雨傘+",
+      "desc": "[第1、第2、<style=\"upgradeHighlight\">第3</style>順位友方單位專屬]\n\n增加破裂 強度或施加破裂 層數的攻擊技能拼點勝利時，使目標增加<style=\"upgradeHighlight\">2級破裂 強度</style>並對其施加2層破裂 (每回合每名友方單位最多1次)\n\n若目標未帶有破裂 ，則改為使其<style=\"upgradeHighlight\">增加4級破裂 強度</style>並對其施加2層破裂 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19119,
+          "simpleDesc": "使目標增加2級破裂 強度並對其施加2層破裂 "
+        },
+        {
+          "abilityID": 191191,
+          "simpleDesc": "使目標增加4級破裂 強度並對其施加2層破裂 "
+        }
+      ]
+    },
+    {
+      "id": 29119,
+      "name": "破損的雨傘++",
+      "desc": "[第1、第2、第3順位友方單位專屬]\n\n增加破裂 強度或施加破裂 層數的攻擊技能拼點勝利時，使目標增加<style=\"upgradeHighlight\">4級破裂 強度</style>並對其施加2層破裂 (每回合每名友方單位最多1次)\n\n若目標未帶有破裂 ，則改為使其<style=\"upgradeHighlight\">增加6級破裂 強度</style>並對其<style=\"upgradeHighlight\">施加3層破裂 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29119,
+          "simpleDesc": "使目標增加4級破裂 強度並對其施加2層破裂 "
+        },
+        {
+          "abilityID": 291191,
+          "simpleDesc": "使目標增加6級破裂 強度並對其施加3層破裂 "
+        }
+      ]
+    },
+    {
+      "id": 9120,
+      "name": "尋死者",
+      "desc": "[第1、第2順位友方單位專屬]\n\n增加破裂 強度或施加破裂 層數的攻擊技能(不包括E.G.O技能)拼點威力+1，攻擊等級+2，造成的傷害+15%。\n\n單硬幣技能改為拼點威力+2，攻擊等級+2，造成的傷害+40%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9120,
+          "simpleDesc": "拼點威力+1，攻擊等級+2，造成的傷害+15%"
+        },
+        {
+          "abilityID": 91201,
+          "simpleDesc": "拼點威力+2，攻擊等級+2，造成的傷害+40%"
+        }
+      ]
+    },
+    {
+      "id": 9121,
+      "name": "慾望殘片",
+      "desc": "使用增加破裂 強度或施加破裂 層數的E.G.O技能時觸發\n\n最終威力增加相當於消耗的(暴食罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害+50%。\n\n若是暴食E.G.O技能，則根據其E.G.O等級，相應額外對目標施加破裂 層數(ZAYIN施加2層，等級每提升1級，額外施加1層)並使該技能造成的傷害+(消耗的罪孽碎片種類數×15)%",
+      "simpleDesc": [
+        {
+          "abilityID": 9121,
+          "simpleDesc": "最終威力增加相當於消耗的(暴食罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害增加"
+        },
+        {
+          "abilityID": 91211,
+          "simpleDesc": "根據E.G.O等級，相應額外對目標施加破裂 層數(ZAYIN施加2層，等級每提升1級，額外施加1層)並使造成的傷害+(消耗的罪孽碎片種類數×15)%"
+        }
+      ]
+    },
+    {
+      "id": 9122,
+      "name": "古木陷阱",
+      "desc": "增加沉淪 強度，施加沉淪 層數或施加特殊沉淪的攻擊技能(不包括E.G.O技能)造成的傷害+5%。\n\n硬幣數不高於2枚的技能改為拼點威力+1，造成的傷害+10%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9122,
+          "simpleDesc": "攻擊技能造成的傷害+5%"
+        },
+        {
+          "abilityID": 91221,
+          "simpleDesc": "改為拼點威力+1，造成的傷害+10%"
+        }
+      ]
+    },
+    {
+      "id": 19122,
+      "name": "古木陷阱+",
+      "desc": "增加沉淪 強度，施加沉淪 層數或施加特殊沉淪的攻擊技能(不包括E.G.O技能)<style=\"upgradeHighlight\">造成的傷害+7.5%。</style>\n\n硬幣數不高於2枚的技能改為拼點威力+1，<style=\"upgradeHighlight\">造成的傷害+12.5%。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19122,
+          "simpleDesc": "攻擊技能造成的傷害+7.5%"
+        },
+        {
+          "abilityID": 191221,
+          "simpleDesc": "改為拼點威力+1，造成的傷害+12.5%"
+        }
+      ]
+    },
+    {
+      "id": 29122,
+      "name": "古木陷阱++",
+      "desc": "增加沉淪 強度，施加沉淪 層數或施加特殊沉淪的攻擊技能(不包括E.G.O技能)<style=\"upgradeHighlight\">造成的傷害+10%。</style>\n\n硬幣數不高於2枚的技能改為拼點威力+1，<style=\"upgradeHighlight\">造成的傷害+15%。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29122,
+          "simpleDesc": "攻擊技能造成的傷害+10%"
+        },
+        {
+          "abilityID": 291221,
+          "simpleDesc": "改為拼點威力+1，造成的傷害+15%"
+        }
+      ]
+    },
+    {
+      "id": 9123,
+      "name": "破布",
+      "desc": "擁有增加沉淪 強度，施加沉淪 層數或施加特殊沉淪的攻擊技能的友方單位拼點勝利時，使其額外恢復5點理智值(每回合最多1次)，若該單位理智值為最大值，則使其造成的傷害+7.5%。\n\n該單位使用減算硬幣技能(不包括E.G.O技能)時效果改變，若該單位理智值不低於-15點，則使其理智值減少至-15點並使其造成的傷害+(理智值減少量)%，若該單位理智值低於-15點，則使其造成的傷害+15%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9123,
+          "simpleDesc": "理智值為最大值時造成的傷害+7.5%"
+        },
+        {
+          "abilityID": 91231,
+          "simpleDesc": "若理智值不低於-15點，則使理智值減少至-15點並使造成的傷害+(理智值減少量)%，若理智值低於-15點，則使造成的傷害+15%"
+        }
+      ]
+    },
+    {
+      "id": 19123,
+      "name": "破布+",
+      "desc": "擁有增加沉淪 強度，施加沉淪 層數或施加特殊沉淪的攻擊技能的友方單位拼點勝利時，使其額外恢復<style=\"upgradeHighlight\">6</style>點理智值(每回合最多1次)，若該單位理智值為最大值，則使其<style=\"upgradeHighlight\">造成的傷害+10%。</style>\n\n該單位使用減算硬幣技能(不包括E.G.O技能)時效果改變，若該單位理智值不低於-15點，則使其理智值減少至-15點並使其造成的傷害+(理智值減少量<style=\"upgradeHighlight\">+5</style>)%，若該單位理智值低於-15點，則使其<style=\"upgradeHighlight\">造成的傷害+20%。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19123,
+          "simpleDesc": "理智值為最大值時造成的傷害+10%"
+        },
+        {
+          "abilityID": 191231,
+          "simpleDesc": "若理智值不低於-15點，則使理智值減少至-15點並使造成的傷害+(理智值減少量+5)%，若理智值低於-15點，則使其造成的傷害+20%"
+        }
+      ]
+    },
+    {
+      "id": 29123,
+      "name": "破布++",
+      "desc": "擁有增加沉淪 強度，施加沉淪 層數或施加特殊沉淪的攻擊技能的友方單位拼點勝利時，使其額外恢復<style=\"upgradeHighlight\">7</style>點理智值(每回合最多1次)，若該單位理智值為最大值，則使其<style=\"upgradeHighlight\">造成的傷害+12.5%。</style>\n\n該單位使用減算硬幣技能(不包括E.G.O技能)時效果改變，若該單位理智值不低於-15點，則使其理智值減少至-15點並使其造成的傷害+(理智值減少量+<style=\"upgradeHighlight\">10</style>)%，若該單位理智值低於-15點，則使其<style=\"upgradeHighlight\">造成的傷害+25%。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29123,
+          "simpleDesc": "理智值為最大值時造成的傷害+12.5%"
+        },
+        {
+          "abilityID": 291231,
+          "simpleDesc": "若理智值不低於-15點，則使理智值減少至-15點並使造成的傷害+(理智值減少量+10)%，若理智值低於-15點，則使其造成的傷害+25%"
+        }
+      ]
+    },
+    {
+      "id": 9124,
+      "name": "莊嚴",
+      "desc": "[第1、第2順位友方單位專屬]\n\n若目標的沉淪 強度與層數之和不低於10，對目標使用增加沉淪 強度，施加沉淪 層數或施加特殊沉淪的攻擊技能造成傷害時，自身攻擊結束後使目標增加2級沉淪 強度並對其施加2層沉淪 (每回合每名友方單位最多2次)。\n若是集中遭遇戰，則改為增加4級沉淪 強度並施加2層沉淪 (每回合每名友方單位最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9124,
+          "simpleDesc": "隨機對理智值最低的1名敵方單位增加2級沉淪 強度並對其施加2層沉淪 "
+        }
+      ]
+    },
+    {
+      "id": 19124,
+      "name": "莊嚴+",
+      "desc": "[第1、第2、<style=\"upgradeHighlight\">第3</style>順位友方單位專屬]\n\n若目標的沉淪 強度與層數之和不低於<style=\"upgradeHighlight\">8</style>，對目標使用增加沉淪 強度，施加沉淪 層數或施加特殊沉淪的攻擊技能造成傷害時，自身攻擊結束後使目標<style=\"upgradeHighlight\">增加3級沉淪 強度</style>並對其施加2層沉淪 (每回合每名友方單位最多2次)。\n若是集中遭遇戰，則改為<style=\"upgradeHighlight\">增加5級沉淪 強度</style>並施加2層沉淪 (每回合每名友方單位最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 19124,
+          "simpleDesc": "隨機對理智值最低的1名敵方單位額外增加3級沉淪 強度並施加2層沉淪 "
+        }
+      ]
+    },
+    {
+      "id": 29124,
+      "name": "莊嚴++",
+      "desc": "[第1、第2、第3順位友方單位專屬]\n\n若目標的沉淪 強度與層數之和不低於<style=\"upgradeHighlight\">5</style>，對目標使用增加沉淪 強度，施加沉淪 層數或施加特殊沉淪的攻擊技能造成傷害時，自身攻擊結束後使目標增加3級沉淪 強度並對其<style=\"upgradeHighlight\">施加3層沉淪 </style>(每回合每名友方單位最多2次)。\n若是集中遭遇戰，則改為增加5級沉淪 強度並<style=\"upgradeHighlight\">施加3層沉淪 </style>(每回合每名友方單位最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 29124,
+          "simpleDesc": "隨機對理智值最低的1名敵方單位額外增加4級沉淪 強度並施加3層沉淪 "
+        }
+      ]
+    },
+    {
+      "id": 9125,
+      "name": "彼方之星",
+      "desc": "使用增加沉淪 強度，施加沉淪 層數或施加特殊沉淪(包括使自身增加或對自身施加)的基礎攻擊技能命中敵方單位時，每觸發1次目標的沉淪 效果(包括特殊沉淪)，在回合結束時，使自身恢復3點理智值(每回合每名友方單位最多2次)\n\n若該友方單位在回合開始時理智值為45點，則改為使用基礎攻擊技能命中敵方單位並觸發目標的沉淪 效果(包括特殊沉淪)時，對目標施加2層沉淪 (每回合每名友方單位最多2次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9124,
+          "simpleDesc": "施加沉淪 層數"
+        }
+      ]
+    },
+    {
+      "id": 9126,
+      "name": "蠶食殘片",
+      "desc": "使用增加沉淪 強度，施加沉淪 層數或施加特殊沉淪的E.G.O技能時觸發\n\n最終威力增加相當於消耗的(憂鬱罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害+50%。\n\n若是憂鬱E.G.O技能，則攻擊前根據其E.G.O等級，相應額外對目標施加沉淪 層數(ZAYIN施加2層，等級每提升1級，額外施加1層)並使該技能造成的傷害+(使用該E.G.O技能時消耗的理智值×2.5)%",
+      "simpleDesc": [
+        {
+          "abilityID": 9126,
+          "simpleDesc": "最終威力增加相當於消耗的(憂鬱罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害增加"
+        },
+        {
+          "abilityID": 91261,
+          "simpleDesc": "滿足條件時，攻擊前額外對目標施加沉淪 層數(ZAYIN施加2層，等級每提升1級，額外施加1層)並使該技能造成的傷害+(使用該E.G.O技能時消耗的理智值×2.5)%"
+        }
+      ]
+    },
+    {
+      "id": 9127,
+      "name": "魔鬼所享",
+      "desc": "回合結束時，下回合使呼吸法 強度最高的1名友方單位與呼吸法 層數最高的1名友方單位獲得1層迅捷 。(該效果可能對同一單位重複生效)\n\n若該友方單位擁有色慾攻擊技能，則改為使其獲得2層迅捷 。(不包括E.G.O技能)",
+      "simpleDesc": [
+        {
+          "abilityID": 9127,
+          "simpleDesc": "下回合獲得1層迅捷 "
+        }
+      ]
+    },
+    {
+      "id": 19127,
+      "name": "魔鬼所享+",
+      "desc": "回合結束時，下回合使呼吸法 強度最高的1名友方單位與呼吸法 層數最高的1名友方單位獲得1層迅捷 與<style=\"upgradeHighlight\">1層攻擊等級提升 </style>。(該效果可能對同一單位重複生效)\n\n若該友方單位擁有色慾攻擊技能，則改為使其獲得2層迅捷 與<style=\"upgradeHighlight\">2層攻擊等級提升 </style>。(不包括E.G.O技能)",
+      "simpleDesc": [
+        {
+          "abilityID": 19127,
+          "simpleDesc": "下回合獲得1層迅捷 與1層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 29127,
+      "name": "魔鬼所享++",
+      "desc": "回合結束時，下回合使呼吸法 強度最高的1名友方單位與呼吸法 層數最高的1名友方單位獲得1層迅捷 ，1層攻擊等級提升 與<style=\"upgradeHighlight\">1層傷害強化 </style>。(該效果可能對同一單位重複生效)\n\n若該友方單位擁有色慾攻擊技能，則改為使其獲得2層迅捷 2層攻擊等級提升 與<style=\"upgradeHighlight\">2層傷害強化 </style>。(不包括E.G.O技能)",
+      "simpleDesc": [
+        {
+          "abilityID": 29127,
+          "simpleDesc": "下回合獲得2層迅捷 與1層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 9128,
+      "name": "綠色鞘翅",
+      "desc": "波次的首個回合開始時，使速度值最高的1名友方單位增加3級呼吸法 強度並使其獲得2層呼吸法 。\n\n若該友方單位擁有嫉妒攻擊技能，則改為增加4級呼吸法 強度並獲得3層呼吸法 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9128,
+          "simpleDesc": "使速度值最高的1名友方單位增加3級呼吸法 強度並使其獲得2層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 19128,
+      "name": "綠色鞘翅+",
+      "desc": "波次的首個回合開始時，使速度值最高的1名友方單位<style=\"upgradeHighlight\">增加4級呼吸法 強度</style>並使其<style=\"upgradeHighlight\">獲得4層呼吸法 </style>。\n\n若該友方單位擁有嫉妒攻擊技能，則改為<style=\"upgradeHighlight\">增加5級呼吸法 強度</style>並<style=\"upgradeHighlight\">獲得5層呼吸法 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19128,
+          "simpleDesc": "使速度值最高的1名友方單位增加5級呼吸法 強度並使其獲得4層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 29128,
+      "name": "綠色鞘翅++",
+      "desc": "<style=\"upgradeHighlight\">回合開始時</style>，使速度值最高的1名友方單位增加4級呼吸法 強度並使其獲得4層呼吸法 。\n\n若該友方單位擁有嫉妒攻擊技能，則改為增加5級呼吸法 強度並獲得5層呼吸法 。",
+      "simpleDesc": [
+        {
+          "abilityID": 29128,
+          "simpleDesc": "使速度值最高的1名友方單位增加4級呼吸法 強度並使其獲得4層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 9129,
+      "name": "陳舊的木雕人偶",
+      "desc": "[第1、第2順位友方單位專屬]\n\n暴擊時，下回合對目標施加1層防禦等級降低 (每回合每名友方單位最多3次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9129,
+          "simpleDesc": "下回合對目標施加1層防禦等級降低 "
+        }
+      ]
+    },
+    {
+      "id": 19129,
+      "name": "陳舊的木雕人偶+",
+      "desc": "[第1、第2、<style=\"upgradeHighlight\">第3</style>順位友方單位專屬]\n\n暴擊時，下回合對目標施加1層防禦等級降低 (每回合每名友方單位<style=\"upgradeHighlight\">最多4次</style>)。",
+      "simpleDesc": [
+        {
+          "abilityID": 19129,
+          "simpleDesc": "下回合對目標施加1層防禦等級降低 "
+        }
+      ]
+    },
+    {
+      "id": 29129,
+      "name": "陳舊的木雕人偶++",
+      "desc": "[第1、第2、第3順位友方單位專屬]\n\n暴擊時，下回合對目標施加1層防禦等級降低 (每回合每名友方單位<style=\"upgradeHighlight\">最多6次</style>)。",
+      "simpleDesc": [
+        {
+          "abilityID": 29129,
+          "simpleDesc": "下回合對目標施加1層防禦等級降低 "
+        }
+      ]
+    },
+    {
+      "id": 9130,
+      "name": "留戀",
+      "desc": "[第1、第2順位友方單位專屬]\n\n回合開始時，使呼吸法 強度與呼吸法 層數之和不低於10的友方單位拼點威力+1並獲得1層傷害強化 。\n\n若總和不低於20，則改為拼點威力+1並獲得3層傷害強化 。\n\n若總和不低於40，則改為拼點威力+2並獲得3層傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9130,
+          "simpleDesc": "友方單位拼點威力+1並獲得1層傷害強化 "
+        },
+        {
+          "abilityID": 91301,
+          "simpleDesc": "拼點威力+1並獲得3層傷害強化 "
+        },
+        {
+          "abilityID": 91302,
+          "simpleDesc": "拼點威力+2並獲得3層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 9131,
+      "name": "驕慢殘片",
+      "desc": "使用增加呼吸法 強度或獲得呼吸法 層數的E.G.O技能時觸發\n\n最終威力增加相當於消耗的(傲慢罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害+50%。\n\n若是傲慢E.G.O技能，則攻擊前根據其E.G.O等級，相應額外獲得呼吸法 層數(ZAYIN獲得2層，等級每提升1級，額外獲得1層)並使本技能造成的傷害+(消耗的罪孽碎片總和×8)%",
+      "simpleDesc": [
+        {
+          "abilityID": 9131,
+          "simpleDesc": "最終威力增加相當於消耗的(傲慢罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害增加"
+        },
+        {
+          "abilityID": 91311,
+          "simpleDesc": "若是傲慢E.G.O覺醒技能，則攻擊前額外獲得呼吸法 層數(ZAYIN獲得2層，等級每提升1級，額外獲得1層)並使傷害量+(消耗的罪孽碎片總和×8)%"
+        }
+      ]
+    },
+    {
+      "id": 9132,
+      "name": "不間斷電源裝置",
+      "desc": "回合結束時，若自身的充能 層數不高於3層，則下回合開始時使自身獲得3層充能 。\n\n回合結束時，若自身的充能 層數高於3層，則下回合開始時使自身獲得1層傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9132,
+          "simpleDesc": "下回合開始時獲得3層充能 "
+        },
+        {
+          "abilityID": 91321,
+          "simpleDesc": "下回合開始時獲得1層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 19132,
+      "name": "不間斷電源裝置+",
+      "desc": "回合結束時，若自身的充能 層數不高於<style=\"upgradeHighlight\">4</style>層，則下回合開始時使自身獲得3層充能 。\n\n回合結束時，若自身的充能 層數高於<style=\"upgradeHighlight\">4</style>層，則下回合開始時使自身獲得1層傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19132,
+          "simpleDesc": "下回合開始時獲得3層充能 "
+        },
+        {
+          "abilityID": 191321,
+          "simpleDesc": "下回合開始時獲得1層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 29132,
+      "name": "不間斷電源裝置++",
+      "desc": "回合結束時，若自身的充能 層數不高於<style=\"upgradeHighlight\">5</style>層，則下回合開始時使自身獲得<style=\"upgradeHighlight\">4</style>層充能 。\n\n回合結束時，若自身的充能 層數高於<style=\"upgradeHighlight\">5</style>層，則下回合開始時使自身獲得<style=\"upgradeHighlight\">2</style>層傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 29132,
+          "simpleDesc": "下回合開始時獲得4層充能 "
+        },
+        {
+          "abilityID": 291321,
+          "simpleDesc": "下回合開始時獲得2層傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 9133,
+      "name": "解除限制的除顫儀",
+      "desc": "回合結束時，使自身恢復(本回合攻擊技能消耗的充能 層數與特殊充能之和)點體力與理智值。\n\n若現存體力不高於50%，則使恢復量變為1.5倍。",
+      "simpleDesc": [
+        {
+          "abilityID": 9133,
+          "simpleDesc": "恢復(消耗的充能 層數)點體力與理智值"
+        }
+      ]
+    },
+    {
+      "id": 19133,
+      "name": "解除限制的除顫儀+",
+      "desc": "回合結束時，使自身恢復(本回合攻擊技能消耗的充能 層數與特殊充能之和<style=\"upgradeHighlight\">+1</style>)點體力與理智值。\n\n若現存體力不高於50%，則使恢復量<style=\"upgradeHighlight\">變為2倍</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19133,
+          "simpleDesc": "恢復(消耗的充能 層數+1)點體力與理智值"
+        }
+      ]
+    },
+    {
+      "id": 29133,
+      "name": "解除限制的除顫儀++",
+      "desc": "回合結束時，使自身恢復(本回合攻擊技能消耗的充能 層數與特殊充能之和<style=\"upgradeHighlight\">+2</style>)點體力與理智值。\n\n若現存體力不高於<style=\"upgradeHighlight\">75</style>%，則使恢復量變為2倍。",
+      "simpleDesc": [
+        {
+          "abilityID": 29133,
+          "simpleDesc": "恢復(消耗的充能 層數+2)點體力與理智值"
+        }
+      ]
+    },
+    {
+      "id": 9134,
+      "name": "巡邏用手電筒",
+      "desc": "[第1、第2順位友方單位專屬]\n\n回合開始時，若適用的友方單位擁有獲得或消耗充能 層數或特殊充能的技能且帶有充能力場 ，則使其1技能的拼點威力+1，造成的傷害+10%。\n\n回合結束時，若適用的友方單位未帶有充能力場 ，則下回合使其獲得2層充能力場 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9134,
+          "simpleDesc": "1技能的拼點威力+1，造成的傷害+10%"
+        },
+        {
+          "abilityID": 91341,
+          "simpleDesc": "下回合獲得2層充能力場 "
+        }
+      ]
+    },
+    {
+      "id": 19134,
+      "name": "巡邏用手電筒+",
+      "desc": "[第1、第2、<style=\"upgradeHighlight\">第3</style>順位友方單位專屬]\n\n回合開始時，若適用的友方單位擁有獲得或消耗充能 層數或特殊充能的技能且帶有充能力場 ，則使其1技能的拼點威力+1，<style=\"upgradeHighlight\">造成的傷害+15%。</style>\n\n回合結束時，若適用的友方單位未帶有充能力場 ，則下回合使其<style=\"upgradeHighlight\">獲得3層充能力場 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19134,
+          "simpleDesc": "1技能的拼點威力+1，造成的傷害+15%"
+        },
+        {
+          "abilityID": 191341,
+          "simpleDesc": "下回合獲得3層充能力場 "
+        }
+      ]
+    },
+    {
+      "id": 29134,
+      "name": "巡邏用手電筒++",
+      "desc": "[第1、第2、第3順位友方單位專屬]\n\n回合開始時，若適用的友方單位擁有獲得或消耗充能 層數或特殊充能的技能且帶有充能力場 ，則使其1技能的拼點威力+1，<style=\"upgradeHighlight\">造成的傷害+25%。</style>\n\n回合結束時，若適用的友方單位未帶有充能力場 ，則下回合使其<style=\"upgradeHighlight\">獲得4層充能力場 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29134,
+          "simpleDesc": "1技能的拼點威力+1，造成的傷害+25%"
+        },
+        {
+          "abilityID": 291341,
+          "simpleDesc": "下回合獲得4層充能力場 "
+        }
+      ]
+    },
+    {
+      "id": 9135,
+      "name": "仿造發電機",
+      "desc": "[第1、第2順位友方單位專屬]\n\n回合開始時，若單位的充能 與特殊充能層數之和不低於10層，則發動效果。\n\n使獲得或消耗充能 層數或特殊充能的3技能的硬幣威力+1。\n\n若該技能的基礎威力低於5，則使該技能造成的傷害+25%。若該技能的基礎威力不低於5，則使該技能的硬幣威力額外+1。",
+      "simpleDesc": [
+        {
+          "abilityID": 9135,
+          "simpleDesc": "使獲得或消耗充能 層數或特殊充能的3技能的硬幣威力+1"
+        },
+        {
+          "abilityID": 91351,
+          "simpleDesc": "造成的傷害+25%或硬幣威力額外+1"
+        }
+      ]
+    },
+    {
+      "id": 9136,
+      "name": "摩擦殘片",
+      "desc": "使用獲得或消耗充能 層數或特殊充能的E.G.O技能時觸發\n\n最終威力增加相當於消耗的(嫉妒罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害+50%。\n\n若是嫉妒E.G.O技能，則攻擊前根據其E.G.O等級，相應額外獲得充能 層數(ZAYIN獲得2層，等級每提升1級，額外獲得1層)並使該技能造成的傷害+(自身的充能 層數與特殊充能之和×5)%(最多+200%)",
+      "simpleDesc": [
+        {
+          "abilityID": 9136,
+          "simpleDesc": "最終威力增加相當於消耗的(嫉妒罪孽碎片+其他罪孽碎片總和/3)的數值，造成的傷害增加"
+        },
+        {
+          "abilityID": 91361,
+          "simpleDesc": "額外獲得充能 層數(ZAYIN獲得2層，等級每提升1級，額外獲得1層)並使造成的傷害+(自身的充能 層數×5)%"
+        }
+      ]
+    },
+    {
+      "id": 9137,
+      "name": "手術用刀",
+      "desc": "[第4順位友方單位專屬]\n\n回合結束時，擁有斬擊攻擊技能的友方單位下回合獲得(其擁有的斬擊攻擊技能數)層迅捷 (相同的技能僅計入1次，不包括E.G.O技能與反擊)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9137,
+          "simpleDesc": "下回合獲得迅捷 "
+        }
+      ]
+    },
+    {
+      "id": 19137,
+      "name": "手術用刀+",
+      "desc": "[第4順位友方單位專屬]\n\n回合結束時，擁有斬擊攻擊技能的友方單位下回合獲得(其擁有的斬擊攻擊技能數<style=\"upgradeHighlight\">+1</style>)層迅捷 (相同的技能僅計入1次，不包括E.G.O技能與反擊)。",
+      "simpleDesc": [
+        {
+          "abilityID": 19137,
+          "simpleDesc": "下回合獲得迅捷 "
+        }
+      ]
+    },
+    {
+      "id": 29137,
+      "name": "手術用刀++",
+      "desc": "[第4、<style=\"upgradeHighlight\">第5</style>順位友方單位專屬]\n\n回合結束時，擁有斬擊攻擊技能的友方單位下回合獲得(其擁有的斬擊攻擊技能數+1)層迅捷 (相同的技能僅計入1次，不包括E.G.O技能與反擊)。",
+      "simpleDesc": [
+        {
+          "abilityID": 29137,
+          "simpleDesc": "下回合獲得迅捷 "
+        }
+      ]
+    },
+    {
+      "id": 9138,
+      "name": "虛飾的和平",
+      "desc": "[第5順位友方單位專屬]\n\n若自身的速度值與目標相差至少3點，則使自身斬擊技能造成的傷害+15%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9138,
+          "simpleDesc": "斬擊技能造成的傷害+15%"
+        }
+      ]
+    },
+    {
+      "id": 19138,
+      "name": "虛飾的和平+",
+      "desc": "[第5順位友方單位專屬]\n\n若自身的速度值與目標相差至少3點，則使自身斬擊技能<style=\"upgradeHighlight\">造成的傷害+20%。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19138,
+          "simpleDesc": "斬擊技能造成的傷害+20%"
+        }
+      ]
+    },
+    {
+      "id": 29138,
+      "name": "虛飾的和平++",
+      "desc": "[第5、<style=\"upgradeHighlight\">第6</style>順位友方單位專屬]\n\n若自身的速度值與目標相差至少<style=\"upgradeHighlight\">2</style>點，則使自身斬擊技能造成的傷害+20%。",
+      "simpleDesc": [
+        {
+          "abilityID": 29138,
+          "simpleDesc": "斬擊技能的傷害+20%"
+        }
+      ]
+    },
+    {
+      "id": 9139,
+      "name": "裁縫用剪刀",
+      "desc": "[第6順位友方單位專屬]\n\n硬幣數不高於2枚的斬擊技能(不包括E.G.O技能)拼點威力+1，造成的傷害+10%。\n\n單硬幣技能改為拼點威力+1，造成的傷害+20%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9139,
+          "simpleDesc": "斬擊技能的拼點威力+1，造成的傷害+10%"
+        },
+        {
+          "abilityID": 91391,
+          "simpleDesc": "斬擊技能的拼點威力+1，造成的傷害+20%"
+        }
+      ]
+    },
+    {
+      "id": 19139,
+      "name": "裁縫用剪刀+",
+      "desc": "[<style=\"upgradeHighlight\">第4</style>、第6順位友方單位專屬]\n\n硬幣數不高於2枚的斬擊技能(不包括E.G.O技能)拼點威力+1，<style=\"upgradeHighlight\">造成的傷害+15%。</style>\n\n單硬幣技能改為拼點威力+1，<style=\"upgradeHighlight\">造成的傷害+25%。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19139,
+          "simpleDesc": "斬擊技能的拼點威力+1，造成的傷害+15%"
+        },
+        {
+          "abilityID": 191391,
+          "simpleDesc": "斬擊技能的拼點威力+1，造成的傷害+25%"
+        }
+      ]
+    },
+    {
+      "id": 29139,
+      "name": "裁縫用剪刀++",
+      "desc": "[第4、第6順位友方單位專屬]\n\n硬幣數不高於2枚的斬擊技能(不包括E.G.O技能)拼點威力+1，<style=\"upgradeHighlight\">造成的傷害+20%。</style>\n\n單硬幣技能改為拼點威力+1，<style=\"upgradeHighlight\">造成的傷害+30%。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29139,
+          "simpleDesc": "斬擊技能的拼點威力+1，造成的傷害+20%"
+        },
+        {
+          "abilityID": 29139,
+          "simpleDesc": "斬擊技能的拼點威力+1，造成的傷害+30%"
+        }
+      ]
+    },
+    {
+      "id": 9140,
+      "name": "決意",
+      "desc": "本場戰鬥中，擁有不低於2個斬擊技能的友方單位首個回合的拼點威力+1，從第2回合起使其獲得1層迅捷 並使其拼點威力+1。\n\n屬於し協會的友方單位恢復體力至多恢復至體力上限的75%，但受到的傷害與恢復-50%(關卡開始時立即觸發)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9140,
+          "simpleDesc": "擁有不低於2個斬擊技能的友方單位拼點威力增加"
+        },
+        {
+          "abilityID": 91401,
+          "simpleDesc": "體力最大值固定為體力上限的75%，但受到的傷害與恢復-50%"
+        }
+      ]
+    },
+    {
+      "id": 19140,
+      "name": "決意+",
+      "desc": "本場戰鬥中，擁有不低於2個斬擊技能的友方單位首個回合的拼點威力+1，從第2回合起使其獲得<style=\"upgradeHighlight\">2層迅捷 </style>並使其拼點威力+1。\n\n屬於し協會的友方單位恢復體力至多恢復至體力上限的<style=\"upgradeHighlight\">50</style>%，但受到的傷害與恢復-<style=\"upgradeHighlight\">75</style>%(關卡開始時立即觸發)。",
+      "simpleDesc": [
+        {
+          "abilityID": 19140,
+          "simpleDesc": "擁有不低於2個斬擊技能的友方單位拼點威力增加"
+        },
+        {
+          "abilityID": 191401,
+          "simpleDesc": "體力最大值固定為體力上限的50%，但受到的傷害與恢復-75%"
+        }
+      ]
+    },
+    {
+      "id": 29140,
+      "name": "決意++",
+      "desc": "本場戰鬥中，擁有不低於2個斬擊技能的友方單位首個回合的拼點威力+1，從第2回合起使其獲得2層迅捷 並使其<style=\"upgradeHighlight\">最終威力+1。</style>\n\n屬於し協會的友方單位恢復體力至多恢復至體力上限的<style=\"upgradeHighlight\">49</style>%，但受到的傷害與恢復-75%(關卡開始時立即觸發)。",
+      "simpleDesc": [
+        {
+          "abilityID": 29140,
+          "simpleDesc": "擁有不低於2個斬擊技能的友方單位拼點威力增加"
+        },
+        {
+          "abilityID": 291401,
+          "simpleDesc": "體力最大值固定為體力上限的49%，但受到的傷害與恢復-75%"
+        }
+      ]
+    },
+    {
+      "id": 9141,
+      "name": "宣判之刻",
+      "desc": "[第3、第4順位友方單位專屬]\n\n單方面攻擊時，斬擊技能造成的傷害+10%\n\n拼點勝利時，斬擊技能造成的傷害+(40/剩餘硬幣數)%",
+      "simpleDesc": [
+        {
+          "abilityID": 9141,
+          "simpleDesc": "斬擊技能造成的傷害+10%"
+        },
+        {
+          "abilityID": 91411,
+          "simpleDesc": "斬擊技能造成的傷害+(40/剩餘硬幣數)%"
+        }
+      ]
+    },
+    {
+      "id": 19141,
+      "name": "宣判之刻+",
+      "desc": "[第3、第4、<style=\"upgradeHighlight\">第5</style>順位友方單位專屬]\n\n單方面攻擊時，斬擊技能造成的傷害+10%\n\n拼點勝利時，斬擊技能造成的傷害+(40/剩餘硬幣數)%",
+      "simpleDesc": [
+        {
+          "abilityID": 19141,
+          "simpleDesc": "斬擊技能造成的傷害+10%"
+        },
+        {
+          "abilityID": 191411,
+          "simpleDesc": "斬擊技能造成的傷害+(40/剩餘硬幣數)%"
+        }
+      ]
+    },
+    {
+      "id": 29141,
+      "name": "宣判之刻++",
+      "desc": "[第3、第4、第5、<style=\"upgradeHighlight\">第6</style>順位友方單位專屬]\n\n單方面攻擊時，斬擊技能<style=\"upgradeHighlight\">造成的傷害+12.5%</style>\n\n拼點勝利時，斬擊技能造成的傷害+(<style=\"upgradeHighlight\">50</style>/剩餘硬幣數)%",
+      "simpleDesc": [
+        {
+          "abilityID": 29141,
+          "simpleDesc": "斬擊技能造成的傷害+12.5%"
+        },
+        {
+          "abilityID": 291411,
+          "simpleDesc": "斬擊技能造成的傷害+(50/剩餘硬幣數)%"
+        }
+      ]
+    },
+    {
+      "id": 9142,
+      "name": "切開的記憶",
+      "desc": "[第1、2順位友方單位專屬]\n\n斬擊攻擊技能的基礎威力+2，加算硬幣威力+1，減算硬幣威力-1(包括E.G.O技能)。\n\n斬擊攻擊技能拼點勝利時，使其造成的傷害+30%。該技能命中時，自身每失去5%體力，使該技能造成的傷害+5%(最多+20%)(不包括E.G.O技能)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9142,
+          "simpleDesc": "斬擊技能威力增加"
+        },
+        {
+          "abilityID": 91421,
+          "simpleDesc": "斬擊技能造成的傷害增加，根據已失去體力相應額外使造成的傷害增加"
+        }
+      ]
+    },
+    {
+      "id": 9143,
+      "name": "木工用長釘",
+      "desc": "[第4順位友方單位專屬]\n\n若自身擁有不低於2個突刺攻擊技能，則回合開始時使自身獲得1層突刺傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9143,
+          "simpleDesc": "使自身獲得1層突刺傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 19143,
+      "name": "木工用長釘+",
+      "desc": "[第4順位友方單位專屬]\n\n若自身擁有不低於2個突刺攻擊技能，則回合開始時使自身<style=\"upgradeHighlight\">獲得2層突刺傷害強化 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19143,
+          "simpleDesc": "使自身獲得2層突刺傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 29143,
+      "name": "木工用長釘++",
+      "desc": "[第4、<style=\"upgradeHighlight\">第5</style>順位友方單位專屬]\n\n若自身擁有不低於2個突刺攻擊技能，則回合開始時使自身獲得2層突刺傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 29143,
+          "simpleDesc": "使自身獲得2層突刺傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 9144,
+      "name": "曾經的祝福",
+      "desc": "[第6順位友方單位專屬]\n\n使用突刺技能命中敵方單位時，下回合使自身獲得1層迅捷 與1層突刺傷害強化 (每回合最多1次)。\n\n該技能擊殺敵方單位時，下回合使自身額外獲得1層迅捷 (每回合最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9144,
+          "simpleDesc": "下回合使自身獲得1層迅捷 與1層突刺傷害強化 "
+        },
+        {
+          "abilityID": 91441,
+          "simpleDesc": "下回合使自身額外獲得1層迅捷 "
+        }
+      ]
+    },
+    {
+      "id": 19144,
+      "name": "曾經的祝福+",
+      "desc": "[<style=\"upgradeHighlight\">第5</style>、第6順位友方單位專屬]\n\n使用突刺技能命中敵方單位時，下回合使自身獲得1層迅捷 與1層突刺傷害強化 (每回合最多1次)。\n\n該技能擊殺敵方單位時，下回合使自身額外獲得1層迅捷 與<style=\"upgradeHighlight\">1層突刺傷害強化 </style>(每回合最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 19144,
+          "simpleDesc": "下回合使自身獲得1層迅捷 與1層突刺傷害強化 "
+        },
+        {
+          "abilityID": 191441,
+          "simpleDesc": "下回合使自身額外獲得1層迅捷 與1層突刺傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 29144,
+      "name": "曾經的祝福++",
+      "desc": "[第5、第6順位友方單位專屬]\n\n使用突刺技能命中敵方單位時，下回合使自身獲得1層迅捷 與1層突刺傷害強化 (每回合<style=\"upgradeHighlight\">最多2次</style>)。\n\n該技能擊殺敵方單位時，下回合使自身額外獲得1層迅捷 與<style=\"upgradeHighlight\">2層突刺傷害強化 </style>(每回合最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 29144,
+          "simpleDesc": "下回合使自身獲得1層迅捷 與1層突刺傷害強化 "
+        },
+        {
+          "abilityID": 291441,
+          "simpleDesc": "下回合使自身額外獲得1層迅捷 與2層突刺傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 9145,
+      "name": "撕裂的彈帶",
+      "desc": "突刺攻擊技能的拼點威力+1\n\n消耗彈藥 的技能造成的傷害+(40/硬幣數)%\n\n若自身消耗了所有的彈藥 ，則下回合開始時使自身獲得2發彈藥 (每場戰鬥每名友方單位最多1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9145,
+          "simpleDesc": "突刺攻擊技能的拼點威力+1"
+        },
+        {
+          "abilityID": 91451,
+          "simpleDesc": "技能造成的傷害+(40/硬幣數)%"
+        },
+        {
+          "abilityID": 91452,
+          "simpleDesc": "下回合開始時獲得2發彈藥 "
+        }
+      ]
+    },
+    {
+      "id": 19145,
+      "name": "撕裂的彈帶+",
+      "desc": "突刺攻擊技能的拼點威力+1，<style=\"upgradeHighlight\">造成的傷害+5%</style>\n\n消耗彈藥 的技能造成的傷害+(<style=\"upgradeHighlight\">50</style>/硬幣數)%\n\n若自身消耗了所有的彈藥 ，則下回合開始時使自身獲得2發彈藥 (每場戰鬥每名友方單位最多1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 19145,
+          "simpleDesc": "突刺攻擊技能的拼點威力+1，造成的傷害+5%"
+        },
+        {
+          "abilityID": 191451,
+          "simpleDesc": "技能造成的傷害+(40/硬幣數)%"
+        },
+        {
+          "abilityID": 191452,
+          "simpleDesc": "下回合開始時獲得2發彈藥 "
+        }
+      ]
+    },
+    {
+      "id": 29145,
+      "name": "撕裂的彈帶++",
+      "desc": "突刺攻擊技能的拼點威力+1，<style=\"upgradeHighlight\">造成的傷害+10%</style>\n\n消耗彈藥 的技能造成的傷害+(<style=\"upgradeHighlight\">60</style>/硬幣數)%\n\n若自身消耗了所有的彈藥 ，則下回合開始時使自身獲得2發彈藥 (每場戰鬥每名友方單位最多1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 29145,
+          "simpleDesc": "突刺攻擊技能的拼點威力+1，造成的傷害+10%"
+        },
+        {
+          "abilityID": 291451,
+          "simpleDesc": "技能造成的傷害+(40/硬幣數)%"
+        },
+        {
+          "abilityID": 291452,
+          "simpleDesc": "下回合開始時獲得2發彈藥 "
+        }
+      ]
+    },
+    {
+      "id": 9146,
+      "name": "磨尖的樹枝",
+      "desc": "[第3、第4順位友方單位專屬]\n\n進行拼點時，使自身的拼點威力+1，突刺技能造成的傷害+20%。\n\n單方面攻擊時，突刺技能造成的傷害+10%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9146,
+          "simpleDesc": "進行拼點時拼點威力+1，突刺技能造成的傷害+20%"
+        },
+        {
+          "abilityID": 91461,
+          "simpleDesc": "單方面攻擊時，突刺技能造成的傷害+10%"
+        }
+      ]
+    },
+    {
+      "id": 19146,
+      "name": "磨尖的樹枝+",
+      "desc": "[第3、第4、<style=\"upgradeHighlight\">第5</style>順位友方單位專屬]\n\n進行拼點時，使自身的拼點威力+1，突刺技能造成的傷害+20%。\n\n單方面攻擊時，突刺技能造成的傷害+10%。",
+      "simpleDesc": [
+        {
+          "abilityID": 19146,
+          "simpleDesc": "進行拼點時拼點威力+1，突刺技能造成的傷害+20%"
+        },
+        {
+          "abilityID": 191461,
+          "simpleDesc": "單方面攻擊時，突刺技能造成的傷害+10%"
+        }
+      ]
+    },
+    {
+      "id": 29146,
+      "name": "磨尖的樹枝++",
+      "desc": "[第3、第4、第5、<style=\"upgradeHighlight\">第6</style>順位友方單位專屬]\n\n進行拼點時，使自身的拼點威力+1，突刺技能<style=\"upgradeHighlight\">造成的傷害+25%。</style>\n\n單方面攻擊時，突刺技能<style=\"upgradeHighlight\">造成的傷害+12.5%。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29146,
+          "simpleDesc": "進行拼點時拼點威力+1，突刺技能造成的傷害+25%"
+        },
+        {
+          "abilityID": 291461,
+          "simpleDesc": "單方面攻擊時，突刺技能造成的傷害+12.5%"
+        }
+      ]
+    },
+    {
+      "id": 9147,
+      "name": "洞穿的記憶",
+      "desc": "[第1、2順位友方單位專屬]\n\n突刺攻擊技能的基礎威力+2，加算硬幣威力+1，減算硬幣威力-1(包括E.G.O技能)。\n\n突刺攻擊技能拼點勝利時，使其造成的傷害+15%。該技能命中時，若自身速度值高於主要目標，則使該技能造成的傷害+(速度差×2.5)%(最多+35%)(不包括E.G.O技能)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9147,
+          "simpleDesc": "突刺技能威力增加"
+        },
+        {
+          "abilityID": 91471,
+          "simpleDesc": "突刺攻擊技能造成的傷害增加，根據速度差相應額外使造成的傷害增加"
+        }
+      ]
+    },
+    {
+      "id": 9148,
+      "name": "作祟",
+      "desc": "[第6順位友方單位專屬]\n\n打擊技能拼點勝利時，下回合使自身獲得1層迅捷 (每回合最多2次)。\n\n回合結束時，若本回合自身沒有對敵方單位造成傷害，則改為下回合使自身獲得3層迅捷 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9148,
+          "simpleDesc": "下回合獲得1層迅捷 "
+        },
+        {
+          "abilityID": 91481,
+          "simpleDesc": "下回合獲得3層迅捷 "
+        }
+      ]
+    },
+    {
+      "id": 19148,
+      "name": "作祟+",
+      "desc": "[第6順位友方單位專屬]\n\n<style=\"upgradeHighlight\">使用</style>打擊技能時，下回合使自身獲得1層迅捷 (每回合最多2次)。\n\n回合結束時，若本回合自身沒有對敵方單位造成傷害，則改為下回合使自身獲得3層迅捷 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19148,
+          "simpleDesc": "下回合獲得1層迅捷 "
+        },
+        {
+          "abilityID": 191481,
+          "simpleDesc": "下回合獲得3層迅捷 "
+        }
+      ]
+    },
+    {
+      "id": 29148,
+      "name": "作祟++",
+      "desc": "[<style=\"upgradeHighlight\">第4</style>、第6順位友方單位專屬]\n\n使用打擊技能時，下回合使自身獲得1層迅捷 與<style=\"upgradeHighlight\">1層打擊傷害強化 </style>(每回合最多2次)。\n\n回合結束時，若本回合自身沒有對敵方單位造成傷害，則改為下回合使自身獲得3層迅捷 與<style=\"upgradeHighlight\">2層打擊傷害強化 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29148,
+          "simpleDesc": "下回合獲得1層迅捷 與1層打擊傷害強化 "
+        },
+        {
+          "abilityID": 291481,
+          "simpleDesc": "下回合獲得3層迅捷 與2層打擊傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 9149,
+      "name": "加壓繃帶",
+      "desc": "[第5順位友方單位專屬]\n\n打擊技能命中敵方單位時，對目標額外造成3點打擊傷害。\n\n若是憂鬱攻擊技能，則額外使自身恢復3點體力。",
+      "simpleDesc": [
+        {
+          "abilityID": 9149,
+          "simpleDesc": "額外造成3點打擊傷害"
+        },
+        {
+          "abilityID": 91491,
+          "simpleDesc": "額外恢復3點體力"
+        }
+      ]
+    },
+    {
+      "id": 19149,
+      "name": "加壓繃帶+",
+      "desc": "[第5、<style=\"upgradeHighlight\">第6</style>順位友方單位專屬]\n\n打擊技能命中敵方單位時，對目標額外造成<style=\"upgradeHighlight\">3~5</style>點打擊傷害。\n\n若是憂鬱攻擊技能，則額外使自身恢復<style=\"upgradeHighlight\">4</style>點體力。",
+      "simpleDesc": [
+        {
+          "abilityID": 19149,
+          "simpleDesc": "額外造成3~5點打擊傷害"
+        },
+        {
+          "abilityID": 191491,
+          "simpleDesc": "額外恢復4點體力"
+        }
+      ]
+    },
+    {
+      "id": 29149,
+      "name": "加壓繃帶++",
+      "desc": "[第5、第6順位友方單位專屬]\n\n打擊技能命中敵方單位時，對目標額外造成<style=\"upgradeHighlight\">3~7</style>點打擊傷害。\n\n若是憂鬱攻擊技能，則額外使自身恢復<style=\"upgradeHighlight\">6</style>點體力。",
+      "simpleDesc": [
+        {
+          "abilityID": 29149,
+          "simpleDesc": "額外造成3~7點打擊傷害"
+        },
+        {
+          "abilityID": 291491,
+          "simpleDesc": "額外恢復6點體力"
+        }
+      ]
+    },
+    {
+      "id": 9150,
+      "name": "時間的枷鎖",
+      "desc": "回合開始時，使擁有打擊攻擊技能(不包括E.G.O技能)的友方單位獲得1層攻擊等級提升 。\n\n若該單位擁有不低於2個打擊攻擊技能，則改為獲得1層攻擊等級提升 與1層打擊傷害強化 。\n\n若該單位擁有不低於2個使用減算硬幣的打擊攻擊技能，則改為獲得2層攻擊等級提升 與2層打擊傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9150,
+          "simpleDesc": "獲得1層攻擊等級提升 "
+        },
+        {
+          "abilityID": 91501,
+          "simpleDesc": "獲得1層攻擊等級提升 與1層打擊傷害強化 "
+        },
+        {
+          "abilityID": 91502,
+          "simpleDesc": "獲得2層攻擊等級提升 與2層打擊傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 19150,
+      "name": "時間的枷鎖+",
+      "desc": "回合開始時，使擁有打擊攻擊技能(不包括E.G.O技能)的友方單位獲得<style=\"upgradeHighlight\">2層攻擊等級提升 。</style>\n\n若該單位擁有不低於2個打擊攻擊技能，則改為獲得<style=\"upgradeHighlight\">2層攻擊等級提升 </style>與1層打擊傷害強化 。\n\n若該單位擁有不低於2個使用減算硬幣的打擊攻擊技能，則改為獲得<style=\"upgradeHighlight\">3層攻擊等級提升 </style>與2層打擊傷害強化 。",
+      "simpleDesc": [
+        {
+          "abilityID": 19150,
+          "simpleDesc": "獲得2層攻擊等級提升 "
+        },
+        {
+          "abilityID": 191501,
+          "simpleDesc": "獲得2層攻擊等級提升 與1層打擊傷害強化 "
+        },
+        {
+          "abilityID": 191502,
+          "simpleDesc": "獲得3層攻擊等級提升 與2層打擊傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 29150,
+      "name": "時間的枷鎖++",
+      "desc": "回合開始時，使擁有打擊攻擊技能(不包括E.G.O技能)的友方單位獲得2層攻擊等級提升 與<style=\"upgradeHighlight\">1層打擊傷害強化 。</style>\n\n若該單位擁有不低於2個打擊攻擊技能，則改為獲得2層攻擊等級提升 與<style=\"upgradeHighlight\">2層打擊傷害強化 。</style>\n\n若該單位擁有不低於2個使用減算硬幣的打擊攻擊技能，則改為獲得3層攻擊等級提升 與<style=\"upgradeHighlight\">3層打擊傷害強化 。</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29150,
+          "simpleDesc": "獲得2層攻擊等級提升 與1層打擊傷害強化 "
+        },
+        {
+          "abilityID": 291501,
+          "simpleDesc": "獲得2層攻擊等級提升 與2層打擊傷害強化 "
+        },
+        {
+          "abilityID": 291502,
+          "simpleDesc": "獲得3層攻擊等級提升 與3層打擊傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 9151,
+      "name": "緊握的雕像",
+      "desc": "[第3、第4順位友方單位專屬]\n\n打擊技能拼點結束後，若剩餘硬幣數不低於2枚，則使其造成的傷害+10%，若剩餘硬幣數不低於3枚，則使其造成的傷害+20%，若剩餘硬幣數不低於4枚，則使其造成的傷害+40%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9151,
+          "simpleDesc": "根據條件增加傷害"
+        }
+      ]
+    },
+    {
+      "id": 19151,
+      "name": "緊握的雕像+",
+      "desc": "[第3、第4、<style=\"upgradeHighlight\">第5</style>順位友方單位專屬]\n\n打擊技能拼點結束後，若剩餘硬幣數不低於2枚，則使其造成的傷害+10%，若剩餘硬幣數不低於3枚，則使其造成的傷害+20%，若剩餘硬幣數不低於4枚，則使其造成的傷害+40%。",
+      "simpleDesc": [
+        {
+          "abilityID": 19151,
+          "simpleDesc": "根據條件增加傷害"
+        }
+      ]
+    },
+    {
+      "id": 29151,
+      "name": "緊握的雕像++",
+      "desc": "[第3、第4、第5、<style=\"upgradeHighlight\">第6</style>順位友方單位專屬]\n\n打擊技能拼點結束後，若剩餘硬幣數不低於2枚，則使其<style=\"upgradeHighlight\">造成的傷害+12.5%</style>，若剩餘硬幣數不低於3枚，則使其<style=\"upgradeHighlight\">造成的傷害+25%</style>，若剩餘硬幣數不低於4枚，則使其<style=\"upgradeHighlight\">造成的傷害+50%</style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29151,
+          "simpleDesc": "根據條件增加傷害"
+        }
+      ]
+    },
+    {
+      "id": 9152,
+      "name": "粉碎的記憶",
+      "desc": "[第1、2順位友方單位專屬]\n\n打擊攻擊技能的基礎威力+2，加算硬幣威力+1，減算硬幣威力-1(包括E.G.O技能)。\n\n打擊攻擊技能拼點勝利時，使其造成的傷害+20%。該技能命中時，造成的傷害+(30/硬幣數)%(最少+10%)(不包括E.G.O技能)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9152,
+          "simpleDesc": "打擊技能威力增加"
+        },
+        {
+          "abilityID": 91521,
+          "simpleDesc": "打擊技能造成的傷害增加，硬幣數越少，額外使造成的傷害增加"
+        }
+      ]
+    },
+    {
+      "id": 9153,
+      "name": "神諭",
+      "desc": "回合結束時，將持有量最多的1個罪孽碎片轉化為持有量最少的1個罪孽碎片。",
+      "simpleDesc": [
+        {
+          "abilityID": 9153,
+          "simpleDesc": "轉換1個隨機的罪孽碎片"
+        }
+      ]
+    },
+    {
+      "id": 9154,
+      "name": "強壓的重擔",
+      "desc": "回合結束時，若沒有除自身以外的友方單位存活，則下回合消耗剩餘體力5%的體力並獲得2層強壯 (現存體力不高於25%時不生效)。\n\n若自身剩餘體力不高於50%，則改為獲得3層強壯 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9154,
+          "simpleDesc": "消耗剩餘體力的5%並獲得2層強壯 "
+        }
+      ]
+    },
+    {
+      "id": 19086,
+      "name": "殘響+",
+      "desc": "回合結束時，對震顫 強度不低於<style=\"upgradeHighlight\">8</style>級的全體敵方單位(或異想體的對應部位)在下回合施加2層束縛 與<style=\"upgradeHighlight\">2層防禦等級降低 </style>。若該單位的震顫 強度不低於<style=\"upgradeHighlight\">15</style>級，則改為施加2層束縛 ，1層麻痺 ，以及<style=\"upgradeHighlight\">2層防禦等級降低 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 19086,
+          "simpleDesc": "對目標施加2層束縛 與2層防禦等級降低 "
+        },
+        {
+          "abilityID": 190861,
+          "simpleDesc": "對目標施加2層束縛 ，1層麻痺 與2層防禦等級降低 "
+        }
+      ]
+    },
+    {
+      "id": 29086,
+      "name": "殘響++",
+      "desc": "回合結束時，對震顫 強度不低於<style=\"upgradeHighlight\">5</style>級的全體敵方單位(或異想體的對應部位)在下回合施加2層束縛 與<style=\"upgradeHighlight\">3層防禦等級降低 </style>。若該單位的震顫 強度不低於<style=\"upgradeHighlight\">10</style>級，則改為施加2層束縛 ，1層麻痺 ，以及<style=\"upgradeHighlight\">4層防禦等級降低 </style>。",
+      "simpleDesc": [
+        {
+          "abilityID": 29086,
+          "simpleDesc": "對目標施加2層束縛 與3層防禦等級降低 "
+        },
+        {
+          "abilityID": 290861,
+          "simpleDesc": "對目標施加2層束縛 ，1層麻痺 與4層防禦等級降低 "
+        }
+      ]
+    },
+    {
+      "id": 19117,
+      "name": "有煙火藥+",
+      "desc": "[第1、第2、<style=\"upgradeHighlight\">第3</style>順位友方單位專屬]\n\n回合結束時，若本回合使用過增加破裂 強度或施加破裂 層數的攻擊技能，則下回合使自身獲得1層迅捷 \n\n若自身的速度值不低於<style=\"upgradeHighlight\">5</style>，則使增加破裂 強度或施加破裂 層數的攻擊技能<style=\"upgradeHighlight\">造成的傷害+15%</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 19117,
+          "simpleDesc": "若符合條件，則下回合使自身獲得1層迅捷 。"
+        },
+        {
+          "abilityID": 191171,
+          "simpleDesc": "若符合條件，則使造成的傷害+15%"
+        }
+      ]
+    },
+    {
+      "id": 29117,
+      "name": "有煙火藥++",
+      "desc": "[第1、第2、第3順位友方單位專屬]\n\n回合結束時，若本回合使用過增加破裂 強度或施加破裂 層數的攻擊技能，則下回合使自身獲得<style=\"upgradeHighlight\">1~2</style>層迅捷 。\n\n若自身的速度值不低於<style=\"upgradeHighlight\">4</style>，則使增加破裂 強度或施加破裂 層數的攻擊技能<style=\"upgradeHighlight\">造成的傷害+20%</style>",
+      "simpleDesc": [
+        {
+          "abilityID": 29117,
+          "simpleDesc": "若符合條件，則下回合使自身獲得1~2層迅捷 。"
+        },
+        {
+          "abilityID": 291171,
+          "simpleDesc": "若符合條件，則使造成的傷害+20%"
+        }
+      ]
+    },
+    {
+      "id": 9155,
+      "name": "萬年燉鍋",
+      "desc": "增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的技能拼點威力+1。",
+      "simpleDesc": [
+        {
+          "abilityID": 9155,
+          "simpleDesc": "拼點威力+1"
+        }
+      ]
+    },
+    {
+      "id": 9157,
+      "name": "烹飪秘訣書",
+      "desc": "關卡開始時，若擁有增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n使增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的技能的最終威力+1\n\n增加燒傷 強度，施加燒傷 層數或施加特殊燒傷的技能拼點勝利時，使目標敵方單位增加(剩餘硬幣數/2 +1)級燒傷 強度",
+      "simpleDesc": [
+        {
+          "abilityID": 9157,
+          "simpleDesc": "技能的最終威力+1"
+        },
+        {
+          "abilityID": 91571,
+          "simpleDesc": "增加(剩餘硬幣數/2 +1)級燒傷 強度"
+        }
+      ]
+    },
+    {
+      "id": 9159,
+      "name": "蜜拉卡",
+      "desc": "增加流血 強度，施加流血 層數或施加特殊流血的技能拼點威力+1。",
+      "simpleDesc": [
+        {
+          "abilityID": 9159,
+          "simpleDesc": "拼點威力+1"
+        }
+      ]
+    },
+    {
+      "id": 9161,
+      "name": "虔誠",
+      "desc": "關卡開始時，若擁有增加流血 強度，施加流血 層數或施加特殊流血的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n速度值最高的1名友方單位增加流血 強度，施加流血 層數或施加特殊流血的技能的硬幣威力+1，造成的傷害+50%\n\n所有增加流血 強度，施加流血 層數或施加特殊流血的技能的最終威力+1。",
+      "simpleDesc": [
+        {
+          "abilityID": 9161,
+          "simpleDesc": "硬幣威力+1，造成的傷害+50%"
+        },
+        {
+          "abilityID": 91611,
+          "simpleDesc": "增加流血 強度，施加流血 層數或施加特殊流血的技能的最終威力+1"
+        }
+      ]
+    },
+    {
+      "id": 9165,
+      "name": "齧合的齒輪",
+      "desc": "關卡開始時，若擁有增加震顫 強度或施加震顫 層數的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n若本回合使目標震顫引爆 6次，則在其現存體力0%處生成1條混亂閾值。(每場戰鬥最多1次)\n\n觸發振幅轉換 或振幅糾纏 時，額外施加1層易損 (每回合最多1次)",
+      "simpleDesc": [
+        {
+          "abilityID": 9165,
+          "simpleDesc": "生成混亂閾值"
+        },
+        {
+          "abilityID": 91651,
+          "simpleDesc": "施加1層易損 "
+        }
+      ]
+    },
+    {
+      "id": 9169,
+      "name": "荊棘捕繩",
+      "desc": "關卡開始時，若擁有增加破裂 強度或施加破裂 層數的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n若敵方單位的破裂 層數降至1以下，則優先消耗20級破裂 強度以取代破裂 層數。(破裂 強度降至20以下時失效)\n\n命中時，若目標的破裂 層數為1層，則對其施加破裂 層數時的施加量+1層(每場戰鬥最多2次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9169,
+          "simpleDesc": "優先消耗破裂 強度以取代破裂 層數"
+        },
+        {
+          "abilityID": 91691,
+          "simpleDesc": "施加的破裂 層數額外+1層"
+        }
+      ]
+    },
+    {
+      "id": 9174,
+      "name": "碎裂的骨片",
+      "desc": "關卡開始時，若擁有增加沉淪 強度，施加沉淪 層數或施加特殊沉淪的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n回合開始時，對全體敵方單位(若是異想體，則改為所有部位)重新施加(上回合受擊而消耗的沉淪 層數/3)層沉淪 。\n\n基礎技能命中時，若目標的理智值低於0點(沒有理智值的目標改為若其憂鬱抗性不低於1.5)，則對其造成(其沉淪 強度/10)點憂鬱傷害(最少1點，該效果每回合最多觸發10次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9174,
+          "simpleDesc": "施加沉淪 層數"
+        },
+        {
+          "abilityID": 91741,
+          "simpleDesc": "造成憂鬱傷害"
+        }
+      ]
+    },
+    {
+      "id": 9177,
+      "name": "某日的記憶",
+      "desc": "擁有增加呼吸法 強度或獲得呼吸法 層數的技能(不包括E.G.O技能)的友方單位的3技能最終威力+2",
+      "simpleDesc": [
+        {
+          "abilityID": 9177,
+          "simpleDesc": "最終威力+2"
+        }
+      ]
+    },
+    {
+      "id": 9179,
+      "name": "追憶",
+      "desc": "關卡開始時，若擁有增加呼吸法 強度或獲得呼吸法 層數的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)使擁有增加呼吸法 強度或獲得呼吸法 層數的技能(不包括E.G.O技能)的友方單位3技能的硬幣威力+1。\n\n戰鬥開始時，隨機使1名友方單位增加3級呼吸法 強度(優先選取擁有增加呼吸法 強度或獲得呼吸法 層數的攻擊技能的友方單位)。優先選取擁有憂鬱攻擊技能的友方單位，且該情況下改為使其增加3級呼吸法 強度並獲得2層呼吸法 。",
+      "simpleDesc": [
+        {
+          "abilityID": 9179,
+          "simpleDesc": "硬幣威力+1"
+        },
+        {
+          "abilityID": 91791,
+          "simpleDesc": "增加3級呼吸法 強度。擁有憂鬱攻擊技能的友方單位額外獲得2層呼吸法 "
+        }
+      ]
+    },
+    {
+      "id": 9182,
+      "name": "1B型八角螺栓",
+      "desc": "關卡開始時，若擁有獲得充能 層數或特殊充能的攻擊技能的友方單位不低於5名，則觸發該效果。(不包括E.G.O技能，以參戰人員為基準)\n\n回合開始時，使全體友方單位獲得(其充能 層數與特殊充能之和/10)層傷害強化 。(最多2層，向上取整)\n\n回合結束時，使未帶有充能力場 的友方單位獲得1層充能力場 。\n\n每當1名友方單位累計消耗20層充能 時，使其增加1級充能 強度。(每場戰鬥每名友方單位最多2次，不包括特殊充能)",
+      "simpleDesc": [
+        {
+          "abilityID": 9182,
+          "simpleDesc": "獲得(充能 層數/10)層傷害強化 "
+        },
+        {
+          "abilityID": 91821,
+          "simpleDesc": "獲得1層充能力場 "
+        },
+        {
+          "abilityID": 91822,
+          "simpleDesc": "增加1級充能 強度"
+        }
+      ]
+    },
+    {
+      "id": 9185,
+      "name": "返利禮券",
+      "desc": "在商店進行強化時，有20%概率返還消耗的經費。",
+      "simpleDesc": [
+        {
+          "abilityID": 9185,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9186,
+      "name": "新品小冊",
+      "desc": "在商店進行刷新時，有20%概率返還消耗的經費。",
+      "simpleDesc": [
+        {
+          "abilityID": 9186,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9187,
+      "name": "特別目錄",
+      "desc": "遭遇戰獎勵卡出現數+1",
+      "simpleDesc": [
+        {
+          "abilityID": 9187,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9188,
+      "name": "預約優惠券",
+      "desc": "商店一般刷新所需經費減少30%",
+      "simpleDesc": [
+        {
+          "abilityID": 19188,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9189,
+      "name": "翻新的商品",
+      "desc": "商店強化E.G.O飾品所需經費減少30%",
+      "simpleDesc": [
+        {
+          "abilityID": 19189,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9190,
+      "name": "試用計畫指南",
+      "desc": "商店技能替換所需經費減少30%",
+      "simpleDesc": [
+        {
+          "abilityID": 29190,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9191,
+      "name": "貴賓卡",
+      "desc": "商店購買E.G.O飾品所需經費減少30%",
+      "simpleDesc": [
+        {
+          "abilityID": 29191,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9991,
+      "name": "黯淡的殘影",
+      "desc": "視作1級E.G.O飾品，可在商店中進行售賣或作為合成材料使用。",
+      "simpleDesc": [
+        {
+          "abilityID": 9991,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9992,
+      "name": "微茫的殘影",
+      "desc": "視作2級E.G.O飾品，可在商店中進行售賣或作為合成材料使用。",
+      "simpleDesc": [
+        {
+          "abilityID": 9992,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9993,
+      "name": "閃耀的殘影",
+      "desc": "視作3級E.G.O飾品，可在商店中進行售賣或作為合成材料使用。",
+      "simpleDesc": [
+        {
+          "abilityID": 9993,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9994,
+      "name": "輝煌的殘影",
+      "desc": "視作4級E.G.O飾品，可在商店中進行售賣或作為合成材料使用。",
+      "simpleDesc": [
+        {
+          "abilityID": 9994,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9995,
+      "name": "月之殘影",
+      "desc": "視作5級E.G.O飾品，可在商店中進行售賣或作為合成材料使用。",
+      "simpleDesc": [
+        {
+          "abilityID": 9995,
+          "simpleDesc": ""
+        }
+      ]
+    },
+    {
+      "id": 9192,
+      "name": "重疊的創可貼",
+      "desc": "回合結束時，使帶有流血 且現存體力最低的1名友方單位恢復其體力上限5%的體力。",
+      "simpleDesc": [
+        {
+          "abilityID": 9192,
+          "simpleDesc": "使帶有流血 的1名友方單位恢復體力"
+        }
+      ]
+    },
+    {
+      "id": 19192,
+      "name": "重疊的創可貼+",
+      "desc": "回合結束時，使帶有流血 且現存體力最低的2名友方單位恢復其體力上限5%的體力。",
+      "simpleDesc": [
+        {
+          "abilityID": 19192,
+          "simpleDesc": "使帶有流血 的2名友方單位恢復體力"
+        }
+      ]
+    },
+    {
+      "id": 9193,
+      "name": "磨損的砥石",
+      "desc": "[第3順位友方單位專屬]\n\n斬擊技能的攻擊等級+(該友方單位擁有的斬擊基本攻擊技能數)(同技能不重複計數，最多+3)。\n\n攻擊斬擊抗性為脆弱(抗性高於1.0，陷入混亂的單位不計入)的敵方單位時，造成的斬擊傷害+(5+目標的斬擊抗性×10)%(最多+25%)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9193,
+          "simpleDesc": "斬擊技能攻擊等級提升"
+        },
+        {
+          "abilityID": 91931,
+          "simpleDesc": "造成的斬擊傷害增加"
+        }
+      ]
+    },
+    {
+      "id": 9194,
+      "name": "柺杖短劍",
+      "desc": "斬擊基礎攻擊技能拼點勝利時，下回合對目標施加2層防禦等級降低 。(每回合每名友方單位最多1次，不會對同一名敵方單位疊加)\n- 對於屬於Seven協會的友方單位，該效果同樣適用於突刺與打擊基礎攻擊技能\n\n關卡開始時，使屬於Seven協會的友方單位獲得(除自身外屬於Seven協會的友方單位數/2)層拼點威力提升 。(向下取整，最多2層)",
+      "simpleDesc": [
+        {
+          "abilityID": 9193,
+          "simpleDesc": "施加防禦等級降低 。屬於Seven協會的友方單位獲得拼點威力提升 "
+        },
+        {
+          "abilityID": 91931,
+          "simpleDesc": "獲得拼點威力提升 "
+        }
+      ]
+    },
+    {
+      "id": 19194,
+      "name": "柺杖短劍+",
+      "desc": "斬擊基礎攻擊技能拼點勝利時，下回合對目標施加2層防禦等級降低 。(每回合每名友方單位最多1次，不會對同一名敵方單位疊加)\n- 對於屬於Seven協會的友方單位，該效果同樣適用於突刺與打擊基礎攻擊技能，並額外施加弱點分析 \n\n奇數回合開始時，使屬於Seven協會的友方單位獲得(除自身外屬於Seven協會的友方單位數/2)層拼點威力提升 。(向下取整，最多2層)",
+      "simpleDesc": [
+        {
+          "abilityID": 19193,
+          "simpleDesc": "施加防禦等級降低 。屬於Seven協會的友方單位獲得拼點威力提升 並施加弱點分析 "
+        },
+        {
+          "abilityID": 191931,
+          "simpleDesc": "獲得拼點威力提升 "
+        }
+      ]
+    },
+    {
+      "id": 29194,
+      "name": "柺杖短劍++",
+      "desc": "斬擊基礎攻擊技能拼點勝利時，下回合對目標施加2層防禦等級降低 。(每回合每名友方單位最多1次，不會對同一名敵方單位疊加)\n- 對於屬於Seven協會的友方單位，該效果同樣適用於突刺與打擊基礎攻擊技能，並額外施加弱點分析 與1層拼點威力降低 \n\n回合開始時，使屬於Seven協會的友方單位獲得(除自身外屬於Seven協會的友方單位數/2)層拼點威力提升 (向下取整，最多2層)。拼點勝利時，使該技能造成的傷害+20%。",
+      "simpleDesc": [
+        {
+          "abilityID": 29193,
+          "simpleDesc": "施加防禦等級降低 。屬於Seven協會的友方單位獲得拼點威力提升 並施加弱點分析 "
+        },
+        {
+          "abilityID": 291931,
+          "simpleDesc": "獲得拼點威力提升 ，造成的傷害+20%"
+        }
+      ]
+    },
+    {
+      "id": 9195,
+      "name": "雲紋鶴頸瓶",
+      "desc": "斬擊1技能的拼點威力+1，命中時對目標施加2層攻擊等級降低 。\n- 對於屬於黑雲會的友方單位，該效果同樣適用於所有斬擊基礎攻擊技能\n\n回合開始時，使屬於黑雲會的友方單位獲得1層威力提升 ，基礎攻擊技能命中並增加流血 強度或施加流血 層數時，使自身增加1級呼吸法 強度(每回合每名友方單位最多4次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9195,
+          "simpleDesc": "拼點威力+1，命中時施加攻擊等級降低 "
+        },
+        {
+          "abilityID": 91951,
+          "simpleDesc": "獲得1層威力提升 ，施加流血 時增加呼吸法 強度"
+        }
+      ]
+    },
+    {
+      "id": 19195,
+      "name": "雲紋鶴頸瓶+",
+      "desc": "斬擊1技能的拼點威力+1，命中時對目標施加2層攻擊等級降低 。\n- 對於屬於黑雲會的友方單位，該效果同樣適用於所有斬擊或色慾基礎攻擊技能(該效果不會疊加)\n\n回合開始時，使屬於黑雲會的友方單位獲得1層威力提升 ，基礎攻擊技能命中並增加流血 強度或施加流血 層數時，使自身增加1級呼吸法 強度(每回合每名友方單位最多6次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 19195,
+          "simpleDesc": "拼點威力+1，命中時施加攻擊等級降低 "
+        },
+        {
+          "abilityID": 191951,
+          "simpleDesc": "獲得1層威力提升 ，施加流血 時增加呼吸法 強度"
+        }
+      ]
+    },
+    {
+      "id": 29195,
+      "name": "雲紋鶴頸瓶++",
+      "desc": "斬擊1技能的拼點威力+1，命中時對目標施加2層攻擊等級降低 。\n- 對於屬於黑雲會的友方單位，該效果同樣適用於所有基礎攻擊技能(該效果不會疊加)\n\n回合開始時，使屬於黑雲會的友方單位獲得1層威力提升 ，基礎攻擊技能命中並增加流血 強度或施加流血 層數時，使自身增加1~2級呼吸法 強度(每回合每名友方單位最多8次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 29195,
+          "simpleDesc": "拼點威力+1，命中時施加攻擊等級降低 "
+        },
+        {
+          "abilityID": 291951,
+          "simpleDesc": "獲得1層威力提升 ，施加流血 時增加呼吸法 強度"
+        }
+      ]
+    },
+    {
+      "id": 9196,
+      "name": "破碎的大劍",
+      "desc": "斬擊基礎攻擊技能的拼點威力+2。戰鬥開始時，本回合除自身以外每有1名友方單位使用了斬擊基礎攻擊技能，使自身獲得1層攻擊等級提升 。(最多3層)\n\n回合開始時，使擁有的基礎攻擊技能全部為斬擊技能的友方單位獲得2層斬擊傷害強化 。(不包括強化技能或需要特殊條件的技能)\n\n使用防禦技能(不包括強化防禦)時，使自身獲得1層守護 與3層防禦等級提升 (每回合每名友方單位最多1次)。 單個回合內，友方單位每因敵方單位的單目標攻擊技能攻擊並受到2次體力或護盾體力傷害，下回合使該友方單位獲得1層防禦等級提升 (最多3層)\n\n回合開始時，使屬於Zwei協會的友方單位獲得2層強壯 與1層斬擊威力提升 ，除自身以外每有1名屬於Zwei協會的友方單位，使自身獲得2層防禦等級提升 (最多8層)",
+      "simpleDesc": [
+        {
+          "abilityID": 9196,
+          "simpleDesc": "獲得攻擊等級提升 "
+        },
+        {
+          "abilityID": 91961,
+          "simpleDesc": "獲得防禦等級提升 "
+        },
+        {
+          "abilityID": 91962,
+          "simpleDesc": "獲得強壯 與防禦等級提升 "
+        }
+      ]
+    },
+    {
+      "id": 9197,
+      "name": "高彈性鋼鞋",
+      "desc": "[第3順位友方單位專屬]\n\n突刺技能的攻擊等級+(該友方單位擁有的突刺基本攻擊技能數)(同技能不重複計數，最多+3)。\n\n帶有的迅捷 層數不低於3層時，攻擊敵方單位時造成的突刺傷害+(10+自身的迅捷 層數×3)%(最多25%)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9197,
+          "simpleDesc": "突刺技能的攻擊等級+(該友方單位擁有的突刺基本攻擊技能數)(同技能不重複計數，最多+3)。"
+        },
+        {
+          "abilityID": 91971,
+          "simpleDesc": "帶有的迅捷 層數不低於3層時，攻擊敵方單位時造成的突刺傷害+(10+自身的迅捷 層數×3)%(最多25%)。"
+        }
+      ]
+    },
+    {
+      "id": 9198,
+      "name": "見證的羽飾",
+      "desc": "突刺基礎攻擊技能拼點勝利後命中時，下回合對目標施加1層束縛 。(每回合每名友方單位最多1次，不會對同一名敵方單位疊加)\n- 對於屬於Cinq協會的友方單位，下回合額外使自身獲得1層迅捷 (每回合每名友方單位最多1次)\n\n屬於Cinq協會的友方單位使用基礎攻擊技能與帶有該單位施加的決鬥宣告，點穴或集中攻擊的敵方單位(若是異想體，則改為部位)拼點勝利後命中時，使該友方單位增加2級呼吸法 強度(每回合每名友方單位最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9198,
+          "simpleDesc": "施加束縛 ，屬於Cinq協會的友方單位額外獲得迅捷 "
+        },
+        {
+          "abilityID": 91981,
+          "simpleDesc": "增加呼吸法 強度"
+        }
+      ]
+    },
+    {
+      "id": 19198,
+      "name": "見證的羽飾+",
+      "desc": "突刺基礎攻擊技能拼點勝利後命中時，下回合對目標施加1層束縛 。(每回合每名友方單位最多1次，每名敵方單位最多2次)\n- 對於屬於Cinq協會的友方單位，下回合額外使自身獲得1層迅捷 (每回合每名友方單位最多1次)\n\n屬於Cinq協會的友方單位使用基礎攻擊技能與帶有該單位施加的決鬥宣告，點穴或集中攻擊的敵方單位(若是異想體，則改為部位)拼點勝利後命中時，使該友方單位增加4級呼吸法 強度(每回合每名友方單位最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 19198,
+          "simpleDesc": "施加束縛 ，屬於Cinq協會的友方單位額外獲得迅捷 "
+        },
+        {
+          "abilityID": 191981,
+          "simpleDesc": "增加呼吸法 強度"
+        }
+      ]
+    },
+    {
+      "id": 29198,
+      "name": "見證的羽飾++",
+      "desc": "突刺基礎攻擊技能拼點勝利後命中時，下回合對目標施加1層束縛 。(每回合每名友方單位最多1次，每名敵方單位最多2次)\n- 對於屬於Cinq協會的友方單位，下回合額外使自身獲得1層迅捷 (每回合每名友方單位最多2次)\n\n屬於Cinq協會的友方單位使用基礎攻擊技能與帶有該單位施加的決鬥宣告，點穴或集中攻擊的敵方單位(若是異想體，則改為部位)拼點勝利後命中時，使該友方單位增加4級呼吸法 強度(每回合每名友方單位最多2次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 29198,
+          "simpleDesc": "施加束縛 ，屬於Cinq協會的友方單位額外獲得迅捷 "
+        },
+        {
+          "abilityID": 291981,
+          "simpleDesc": "增加呼吸法 強度"
+        }
+      ]
+    },
+    {
+      "id": 9199,
+      "name": "磨破的衣袖",
+      "desc": "突刺2技能的攻擊等級+2，硬幣數不高於2枚的技能改為攻擊等級+2，拼點威力+(2/硬幣數)。\n- 對於屬於技術解放聯盟的友方單位，該效果同樣適用於所有突刺基礎攻擊技能\n\n回合開始時，使屬於技術解放聯盟的友方單位獲得(其帶有的負面狀態數)層攻擊等級提升 (最多3層)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9199,
+          "simpleDesc": "攻擊等級增加，硬幣數不高於2枚的技能拼點威力增加"
+        },
+        {
+          "abilityID": 91991,
+          "simpleDesc": "獲得攻擊等級提升 "
+        }
+      ]
+    },
+    {
+      "id": 19199,
+      "name": "磨破的衣袖+",
+      "desc": "突刺2技能的攻擊等級+2，硬幣數不高於2枚的技能改為攻擊等級+2，拼點威力+(2/硬幣數)。\n- 對於屬於技術解放聯盟的友方單位，該效果同樣適用於所有突刺或暴食基礎攻擊技能\n\n回合開始時，使屬於技術解放聯盟的友方單位獲得(其帶有的負面狀態數+1)層攻擊等級提升 (最多4層)。",
+      "simpleDesc": [
+        {
+          "abilityID": 19199,
+          "simpleDesc": "攻擊等級增加，硬幣數不高於2枚的技能拼點威力增加"
+        },
+        {
+          "abilityID": 191991,
+          "simpleDesc": "獲得攻擊等級提升 "
+        }
+      ]
+    },
+    {
+      "id": 29199,
+      "name": "磨破的衣袖++",
+      "desc": "突刺2技能的攻擊等級+2，硬幣數不高於2枚的技能改為攻擊等級+2，拼點威力+(2/硬幣數)。\n- 對於屬於技術解放聯盟的友方單位，該效果同樣適用於所有基礎攻擊技能\n\n回合開始時，使屬於技術解放聯盟的友方單位獲得1層拼點威力提升與(其帶有的負面狀態的最高點數+1)層攻擊等級提升 (最多5層)。",
+      "simpleDesc": [
+        {
+          "abilityID": 29199,
+          "simpleDesc": "攻擊等級增加，硬幣數不高於2枚的技能拼點威力增加"
+        },
+        {
+          "abilityID": 291991,
+          "simpleDesc": "獲得拼點威力提升 與攻擊等級提升  "
+        }
+      ]
+    },
+    {
+      "id": 9200,
+      "name": "決鬥教材第三卷",
+      "desc": "突刺基礎攻擊技能的拼點威力+2。戰鬥開始時，本回合除自身以外每有1名友方單位使用了突刺基礎攻擊技能，使自身獲得1層攻擊等級提升 。(最多3層)\n\n回合開始時，使擁有的基礎攻擊技能全部為突刺技能的友方單位獲得2層突刺傷害強化 。(不包括強化技能或需要特殊條件的技能)\n\n閃避技能的威力+2。 單個回合內，友方單位每閃避成功2次，下回合使該友方單位獲得1層傷害強化  (最多3層)\n\n回合開始時，使屬於Cinq協會的友方單位獲得1層突刺威力提升 與2層突刺傷害強化 ，屬於Cinq協會的友方單位攻擊命中帶有其施加的決鬥宣告，點穴或集中攻擊的敵方單位時，在下回合使該友方單位獲得2層突刺傷害強化 與1層迅捷 (每回合每名友方單位最多1次)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9200,
+          "simpleDesc": "拼點威力增加"
+        },
+        {
+          "abilityID": 92001,
+          "simpleDesc": "突刺傷害強化"
+        },
+        {
+          "abilityID": 92002,
+          "simpleDesc": "閃避技能威力增加。每閃避成功3次，獲得突刺傷害強化 "
+        },
+        {
+          "abilityID": 92003,
+          "simpleDesc": "獲得突刺威力提升 ，造成的突刺傷害增加"
+        }
+      ]
+    },
+    {
+      "id": 9201,
+      "name": "次元分類回收箱",
+      "desc": "[第3順位友方單位專屬]\n\n打擊技能的攻擊等級+(該友方單位擁有的打擊基本攻擊技能數)(同技能不重複計數，最多+3)。\n\n使用技能攻擊敵方單位時，若丟棄 了其他技能，則使造成的打擊傷害+(10+被丟棄技能的級別×5)%(以最高級別計算，最多+25%)。",
+      "simpleDesc": [
+        {
+          "abilityID": 9201,
+          "simpleDesc": "打擊技能的攻擊等級增加"
+        },
+        {
+          "abilityID": 92011,
+          "simpleDesc": "造成的打擊傷害增加"
+        }
+      ]
+    },
+    {
+      "id": 9202,
+      "name": "口袋助記卡",
+      "desc": "打擊基礎攻擊技能拼點勝利時，下回合對目標施加2層防禦等級降低 。(每回合每名友方單位最多1次，不會對同一名敵方單位疊加)\n- 對於屬於Dieci協會的友方單位，該效果同樣適用於斬擊與突刺基礎攻擊技能，並額外施加1層防禦等級降低 \n\n若屬於Dieci協會的友方單位通過丟棄 技能丟棄 了自身的技能，則下回合開始時使其獲得(被丟棄技能的級別)層攻擊等級提升 。(以最高級別計算，最多3層)",
+      "simpleDesc": [
+        {
+          "abilityID": 9202,
+          "simpleDesc": "下回合施加防禦等級降低 "
+        },
+        {
+          "abilityID": 92021,
+          "simpleDesc": "下回合獲得(被丟棄技能的級別)層攻擊等級提升 "
+        }
+      ]
+    },
+    {
+      "id": 19202,
+      "name": "口袋助記卡+",
+      "desc": "打擊基礎攻擊技能拼點勝利時，下回合對目標施加2層防禦等級降低 。(每回合每名友方單位最多1次，不會對同一名敵方單位疊加)\n- 對於屬於Dieci協會的友方單位，該效果同樣適用於斬擊與突刺基礎攻擊技能，並額外施加1層防禦等級降低 \n\n若屬於Dieci協會的友方單位通過丟棄 技能丟棄 了自身的技能，則下回合開始時使其獲得(被丟棄技能的級別+1)層攻擊等級提升 。(以最高級別計算，最多4層)",
+      "simpleDesc": [
+        {
+          "abilityID": 19202,
+          "simpleDesc": "下回合施加防禦等級降低 "
+        },
+        {
+          "abilityID": 192021,
+          "simpleDesc": "下回合獲得(被丟棄技能的級別)層攻擊等級提升 "
+        }
+      ]
+    },
+    {
+      "id": 29202,
+      "name": "口袋助記卡++",
+      "desc": "打擊基礎攻擊技能拼點勝利時，下回合對目標施加2層防禦等級降低 。(每回合每名友方單位最多1次，不會對同一名敵方單位疊加)\n- 對於屬於Dieci協會的友方單位，該效果同樣適用於斬擊與突刺基礎攻擊技能，並額外施加1層防禦等級降低 \n\n若屬於Dieci協會的友方單位通過丟棄 技能丟棄 了自身的技能，則下回合開始時使其獲得(被丟棄技能的級別+2)層攻擊等級提升 。(以最高級別計算，最多5層)",
+      "simpleDesc": [
+        {
+          "abilityID": 29202,
+          "simpleDesc": "下回合施加防禦等級降低 "
+        },
+        {
+          "abilityID": 292021,
+          "simpleDesc": "下回合獲得(被丟棄技能的級別)層攻擊等級提升 "
+        }
+      ]
+    },
+    {
+      "id": 9203,
+      "name": "次元知覺變體",
+      "desc": "打擊1技能與2技能的攻擊等級+(硬幣數-1)(最多+2)\n- 擁有丟棄 效果的技能改為攻擊等級+(硬幣數)(最多+4)\n\n友方單位通過丟棄 技能丟棄 了自身的技能時，下回合使其獲得1層傷害強化 與(被丟棄技能的級別)層攻擊等級提升 (每回合每名友方單位最多1次，以最高級別計算，最多3層)。\n- 若丟棄 了打擊技能，則額外獲得1層打擊傷害強化 ",
+      "simpleDesc": [
+        {
+          "abilityID": 9203,
+          "simpleDesc": "攻擊等級增加"
+        },
+        {
+          "abilityID": 92031,
+          "simpleDesc": "獲得傷害強化 與攻擊等級提升 。若丟棄 了打擊技能，則額外獲得打擊傷害強化 "
+        }
+      ]
+    },
+    {
+      "id": 9204,
+      "name": "復仇帳簿",
+      "desc": "打擊基礎攻擊技能的拼點威力+2。戰鬥開始時，本回合除自身以外每有1名友方單位使用了打擊基礎攻擊技能，使自身獲得1層攻擊等級提升 。(最多3層)\n\n回合開始時，使擁有的基礎攻擊技能全部為打擊技能的友方單位獲得2層打擊傷害強化 。(不包括強化技能或需要特殊條件的技能)\n\n使用反擊技能(不包括強化反擊)時，使自身獲得體力上限7.5%的護盾並使該技能造成的傷害+20%。使用反擊技能時，自身不會因受到傷害而陷入混亂(每場戰鬥每名友方單位最多1次)。\n\n回合開始時，使屬於中指的友方單位獲得1層打擊威力提升 與2層忍耐 。屬於中指的友方單位使用反擊技能時，以上反擊技能的強化效果改為每場戰鬥最多2次，造成的傷害改為+40%。",
+      "simpleDesc": [
+        {
+          "abilityID": 9204,
+          "simpleDesc": "拼點威力與攻擊等級增加"
+        },
+        {
+          "abilityID": 92041,
+          "simpleDesc": "打擊傷害強化"
+        },
+        {
+          "abilityID": 92042,
+          "simpleDesc": "使用反擊技能時不會因傷害而陷入混亂"
+        },
+        {
+          "abilityID": 92042,
+          "simpleDesc": "獲得打擊威力提升 與忍耐，反擊造成的傷害增加"
+        }
+      ]
+    }
+  ]
+}

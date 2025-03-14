@@ -1,0 +1,940 @@
+{
+  "dataList": [
+    {
+      "id": "mirrordungeon_product_list",
+      "content": "商品列表"
+    },
+    {
+      "id": "ego_gift_list",
+      "content": "所持E.G.O飾品"
+    },
+    {
+      "id": "normal_difficulty",
+      "content": "普通"
+    },
+    {
+      "id": "hard_difficulty",
+      "content": "困難"
+    },
+    {
+      "id": "start_buffs",
+      "content": "當前效果"
+    },
+    {
+      "id": "enter_normal_difficulty",
+      "content": "進入普通難度"
+    },
+    {
+      "id": "enter_hard_difficulty",
+      "content": "進入困難難度"
+    },
+    {
+      "id": "list_of_applied_effects",
+      "content": "當前效果"
+    },
+    {
+      "id": "activation_complete",
+      "content": "已激活"
+    },
+    {
+      "id": "lack_of_points",
+      "content": "星芒不足。"
+    },
+    {
+      "id": "require_to_activate_former_buffs",
+      "content": "您需要先對上一階段的增益進行鐫星。"
+    },
+    {
+      "id": "weekly_bonus_reward",
+      "content": "每週加成"
+    },
+    {
+      "id": "hard_dungeon_reward",
+      "content": "困難難度獎勵"
+    },
+    {
+      "id": "dungeon_shop_return_title",
+      "content": "不進行購買。"
+    },
+    {
+      "id": "dungeon_shop_return_desc",
+      "content": "跳轉到商店"
+    },
+    {
+      "id": "dungeon_shop_heal_title_one",
+      "content": "選擇昂貴的滋養強壯劑。"
+    },
+    {
+      "id": "dungeon_shop_heal_desc_one_hp_perc_mp_int",
+      "content": "所選罪人恢復{0}%體力和{1}點理智值"
+    },
+    {
+      "id": "dungeon_shop_heal_title_all",
+      "content": "選擇能量飲料。"
+    },
+    {
+      "id": "dungeon_shop_heal_desc_all_hp_perc_mp_int",
+      "content": "全體罪人恢復{0}%體力和{1}點理智值"
+    },
+    {
+      "id": "dungeon_shop_purchase_title",
+      "content": "進行購買。"
+    },
+    {
+      "id": "dungeon_shop_change_formation_title",
+      "content": "拾起在碎屑中發現的鏡子碎片。"
+    },
+    {
+      "id": "dungeon_shop_change_formation_desc",
+      "content": "為當前編隊追加新的人格或E.G.O"
+    },
+    {
+      "id": "dungeon_shop_heal_character",
+      "content": "治療罪人"
+    },
+    {
+      "id": "dungeon_shop_change_formation",
+      "content": "編隊"
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality",
+      "content": "替換{0}的技能"
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality_0_title",
+      "content": "付一筆合適的費用。"
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality_1_title",
+      "content": "付一大筆費用。"
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality_2_title",
+      "content": "付一筆極其昂貴的費用。"
+    },
+    {
+      "id": "dungeon_shop_upgrade_personality_desc",
+      "content": "將該人格的一個[{2}技能 - {0}]替換為[{3}技能 - {1}]"
+    },
+    {
+      "id": "dungeon_shop_out",
+      "content": "離開"
+    },
+    {
+      "id": "mirrordungeon_2_hard_open_at",
+      "content": "通過鏡中之鏡普通難度時解鎖"
+    },
+    {
+      "id": "mirrordungeon_with_number",
+      "content": "鏡像迷宮 {0}"
+    },
+    {
+      "id": "mirrordungeon_select_buffs_title",
+      "content": "選擇事件效果"
+    },
+    {
+      "id": "acquire_additional_rewards",
+      "content": "領取額外獎勵"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_using_chance_desc",
+      "content": "要消耗“每週加成”以領取額外獎勵嗎？"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_not_using_chance_desc",
+      "content": "“每週加成”的次數仍有剩餘。您確定要在不使用“每週加成”的情況下領取獎勵嗎？"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_no_chance_desc",
+      "content": "是否領取獎勵？"
+    },
+    {
+      "id": "mirror_dungeon_start_buffs_chip_name",
+      "content": "星芒"
+    },
+    {
+      "id": "mirror_dungeon_exit_without_acquire_rewards",
+      "content": "要在不領取獎勵的情況下結束探索嗎？"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_1",
+      "content": "再進半步"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_2",
+      "content": "鬥志昂揚"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_3",
+      "content": "弱點洞察"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_4",
+      "content": "銳意進取"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_5",
+      "content": "弱點專注"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_6",
+      "content": "體力鍛鍊"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_7",
+      "content": "窺見決心"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_8",
+      "content": "極限鍛鍊"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_9",
+      "content": "自體再生"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_10",
+      "content": "概率坍縮"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_11",
+      "content": "多帶一袋"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_12",
+      "content": "再進一步"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_13",
+      "content": "偶然所得"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_14",
+      "content": "再帶一袋"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_15",
+      "content": "固若金湯"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_16",
+      "content": "快步前行"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_17",
+      "content": "飛毛腿"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_18",
+      "content": "小小擦傷"
+    },
+    {
+      "id": "mirror_dungeon_buffs_title_19",
+      "content": "堅韌不拔"
+    },
+    {
+      "id": "mirrordungeon_unable_to_purchase_buffs_when_running_dungeon",
+      "content": "迷宮正在進行時，您無法購買開局增益。"
+    },
+    {
+      "id": "mirrordungeon_resting_open",
+      "content": "請在此隨意休息！\n\n如果您想與我見面，就把那個放到桌子上。\n\n- 在迷宮中尋找自動販賣機的便利店店主敬上"
+    },
+    {
+      "id": "mirrordungeon_shop_open",
+      "content": "自動販賣機發出的震動聲響徹了整個空間。\n\n它知道我們想要什麼。\n\n而我們也知道它想要什麼。"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_title",
+      "content": "稍事歇息。"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_desc",
+      "content": "罪人體力恢復"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_desc_1",
+      "content": "所選罪人恢復{0}%的體力"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_desc_2",
+      "content": "全體罪人恢復{0}%的體力"
+    },
+    {
+      "id": "mirrordungeon_resting_change_formation_title",
+      "content": "將碎屑放到桌面上。"
+    },
+    {
+      "id": "mirrordungeon_resting_change_formation_desc",
+      "content": "為當前編隊追加新的人格或E.G.O"
+    },
+    {
+      "id": "hard_difficulty_en",
+      "content": "困難"
+    },
+    {
+      "id": "mirrordungeon_2_normal_open_at",
+      "content": "通過主線4-54和起始之鏡時解鎖"
+    },
+    {
+      "id": "mirrordungeon_2_shop_stageinfo_title",
+      "content": "震音作響的空間"
+    },
+    {
+      "id": "mirrordungeon_2_shop_stageinfo_desc",
+      "content": "空曠得可怕的空間裡，充滿了自動販賣機的震動聲。\n\n那聲音說：獻上你的碎屑，換成有用的東西。\n\n你彷彿著了魔一樣，接近某個未知實體。"
+    },
+    {
+      "id": "mirrordungeon_2_resting_stageinfo_title",
+      "content": "一片寂靜的空間"
+    },
+    {
+      "id": "mirrordungeon_2_resting_stageinfo_desc",
+      "content": "你可以在這寂靜中埋葬你的痛苦，\n又或者找來某人，與之分擔。"
+    },
+    {
+      "id": "dungeon_resting_change_formation_title",
+      "content": "撿起在碎屑中看到的鏡子碎片。"
+    },
+    {
+      "id": "dungeon_resting_change_formation_desc",
+      "content": "為當前編隊追加新的人格或E.G.O"
+    },
+    {
+      "id": "dungeon_resting_heal_title_one",
+      "content": "讓最疲勞的罪人在椅子上休息。"
+    },
+    {
+      "id": "dungeon_resting_heal_title_all",
+      "content": "讓全體罪人坐在椅子上休息。"
+    },
+    {
+      "id": "ego_gift_info",
+      "content": "E.G.O飾品信息"
+    },
+    {
+      "id": "mirrordungeon_shop_gift_entrance",
+      "content": "一些神奇而怪誕的事物吸引了你的注意力。"
+    },
+    {
+      "id": "mirrordungeon_shop_gift_purchase",
+      "content": "你聽到什麼東西掉落的聲音。"
+    },
+    {
+      "id": "mirrordungeon_reenter",
+      "content": "要再買點什麼嗎？"
+    },
+    {
+      "id": "mirrordungeon_shop_heal_one_who",
+      "content": "不幸的是，這種珍貴的疲勞緩解劑只剩一份了。\n應當由誰來喝？"
+    },
+    {
+      "id": "mirrordungeon_shop_heal_one_answer",
+      "content": "看起來這東西對得起價格。\n喝下滋養強壯劑之後，罪人的疲勞煙消雲散，簡直都要容光煥發了。"
+    },
+    {
+      "id": "mirrordungeon_shop_heal_all_answer",
+      "content": "你買了等同於罪人人數的能量飲料。\n嚐到酸甜可口的味道後，每個人臉上的疲勞都減輕了。"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_one_answer",
+      "content": "你讓罪人們小憩了一下。\n非常幸運，休息結束後大家似乎都已經恢復了精力。"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_all_answer",
+      "content": "所有人都坐下顯得有點侷促，\n不過正所謂久旱逢甘霖，大家都渴望休息。"
+    },
+    {
+      "id": "mirrordungeon_shop_heal_one_after",
+      "content": "所有人都坐下顯得有點侷促，\n不過正所謂久旱逢甘霖，大家都渴望休息。"
+    },
+    {
+      "id": "mirrordungeon_shop_heal_one_who_right",
+      "content": "選擇看上去疲倦的罪人。"
+    },
+    {
+      "id": "mirrordungeon_shop_upgrade_start_left",
+      "content": "“無限的可能性”這一概念，真的有可能存在於一臺自動販賣機之中嗎？"
+    },
+    {
+      "id": "dungeon_encounter_guide_mirror_shop",
+      "content": "商店"
+    },
+    {
+      "id": "dungeon_encounter_guide_mirror_select_event",
+      "content": "休息點"
+    },
+    {
+      "id": "dungeon_explore_floor",
+      "content": "正在探索第{0}層"
+    },
+    {
+      "id": "lack_of_point_for_shop",
+      "content": "經費\n不足"
+    },
+    {
+      "id": "mirrordungeon_select_less_character_at_start",
+      "content": "當前編隊的罪人數量少於最大可選罪人數量。\n您確定要繼續嗎？"
+    },
+    {
+      "id": "list_of_applied_effects_is_empty",
+      "content": "當前沒有效果激活。"
+    },
+    {
+      "id": "give_up_rewards",
+      "content": "放棄獎勵"
+    },
+    {
+      "id": "mirror_dungeon_rewards_back_to_lobby_button",
+      "content": "返回玻璃窗"
+    },
+    {
+      "id": "mirror_dungeon_rewards_back_to_lobby_desc",
+      "content": "要移動到玻璃窗嗎？\n探索獎勵窗口會在您再次進入鏡像迷宮界面時彈出。"
+    },
+    {
+      "id": "mirror_dungeon_rewards_back_to_lobby_button_lobby",
+      "content": "轉到列表"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_one_who",
+      "content": "座位並不寬敞。\n讓誰休息比較好呢？"
+    },
+    {
+      "id": "mirrordungeon_resting_heal_one_who_right",
+      "content": "選擇看上去疲倦的罪人。"
+    },
+    {
+      "id": "mirror_dungeon_change_formation_release_character",
+      "content": "取消全部所選"
+    },
+    {
+      "id": "mirrordungeon_exit_shop",
+      "content": "要離開商店嗎？"
+    },
+    {
+      "id": "mirrordungeon_exit_resting",
+      "content": "要離開休息點嗎？"
+    },
+    {
+      "id": "mirrordungeon_change_formation_confirm_less_participants",
+      "content": "仍有剩餘的選擇次數。\n確認要完成編隊嗎？"
+    },
+    {
+      "id": "mirrordungeon_change_formation_confirm_exact_participants",
+      "content": "是否確認花費經費以編入所選人格與E.G.O？"
+    },
+    {
+      "id": "mirror_dungeon_clear_battle_reward_label",
+      "content": "通關獎勵"
+    },
+    {
+      "id": "mirror_dungeon_start_change_formation_but_button",
+      "content": "購買"
+    },
+    {
+      "id": "mirror_dungeon_give_up_ego_gift",
+      "content": "拒絕飾品"
+    },
+    {
+      "id": "mirror_dungeon_give_up_ego_gift_ask",
+      "content": "確定不選擇E.G.O飾品，直接繼續嗎？"
+    },
+    {
+      "id": "mirror_dungeon_challenge_mode_description",
+      "content": "挑戰模式激活時，將會隨機組成編隊。\n直到領取獎勵為止都無法更改編隊。\n當以挑戰模式通關時，所獲得的獎勵將會增加。"
+    },
+    {
+      "id": "mirror_dungeon_challenge_mode_ask",
+      "content": "要激活挑戰模式嗎？"
+    },
+    {
+      "id": "mirror_dungeon_challenge_mode",
+      "content": "挑戰模式"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_title",
+      "content": "推薦條件"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_level",
+      "content": "- 人格等級 45"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_ego_gacksung",
+      "content": "- E.G.O異想解析 3階段"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_personality_gacksung",
+      "content": "- 人格同步 3階段"
+    },
+    {
+      "id": "mirror_dungeon_hard_require_condition_start_buf",
+      "content": "- 開局增益全部激活"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_using_hard_using_chance_desc",
+      "content": "要消耗全部剩餘的<color=#a16a3b>每週加成</color>以及<color=#ff0000>困難難度 獎勵</color>嗎？"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_using_hard_not_using_chance_desc",
+      "content": "仍有可以使用的<color=#a16a3b>每週加成</color>。\n\n確定只消耗<color=#ff0000>困難難度 獎勵</color>以領取獎勵嗎？"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_using_hard_no_chance_desc",
+      "content": "要消耗<color=#ff0000>困難難度 獎勵</color>以進行獎勵領取嗎？"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_not_using_hard_chance_using_chance_desc",
+      "content": "仍有可以使用的<color=#ff0000>困難難度 獎勵</color>。\n\n確定只消耗<color=#a16a3b>每週加成</color>以領取獎勵嗎？"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_not_using_hard_chance_not_using_chance_desc",
+      "content": "仍有可以使用的<color=#a16a3b>每週加成</color>及<color=#ff0000>困難難度 獎勵</color>。\n\n確定不使用加成以領取獎勵嗎？"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_not_using_hard_chance_no_chance_desc",
+      "content": "仍有可以使用的<color=#ff0000>困難難度 獎勵</color>。\n\n確定不使用加成來領取獎勵嗎？"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_no_hard_chance_using_chance_desc",
+      "content": "要消耗<color=#a16a3b>每週加成</color>來領取獎勵嗎？"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_no_hard_chance_not_using_chance_desc",
+      "content": "仍有可以使用的<color=#a16a3b>每週加成</color>。\n\n確定不使用加成以領取獎勵嗎？"
+    },
+    {
+      "id": "mirrordungeon_acquire_rewards_no_hard_chance_no_chance_desc",
+      "content": "是否領取獎勵？"
+    },
+    {
+      "id": "mirrordungeon_hard_no_reward_desc",
+      "content": "<color=#ff0000>您已經領取過此獎勵，因此無法獲得獎勵。</color>"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_1",
+      "content": "旅程伊始"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_2",
+      "content": "把握時機"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_3",
+      "content": "有備無患"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_4",
+      "content": "勞動果實"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_5",
+      "content": "豐碩成果"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_6",
+      "content": "新發現"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_7",
+      "content": "戰利品"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_8",
+      "content": "多多益善"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_9",
+      "content": "穩固信任"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_10",
+      "content": "精雕細琢"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_11",
+      "content": "名副其實"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_12",
+      "content": "豐功偉績"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_13",
+      "content": "權利"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_14",
+      "content": "衣錦還鄉"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_15",
+      "content": "目標"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_16",
+      "content": "事前準備"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_17",
+      "content": "銳意進取"
+    },
+    {
+      "id": "mirror_dungeon_3_buffs_title_18",
+      "content": "體力訓練"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_101",
+      "content": "出現3級飾品"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1011",
+      "content": "出現燒傷類飾品的概率提高"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1012",
+      "content": "出現流血類飾品的概率提高"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1013",
+      "content": "出現震顫類飾品的概率提高"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1014",
+      "content": "出現破裂類飾品的概率提高"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1015",
+      "content": "出現沉淪類飾品的概率提高"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1016",
+      "content": "出現呼吸法類飾品的概率提高"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1017",
+      "content": "出現充能類飾品的概率提高"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1018",
+      "content": "出現隨機飾品的概率提高"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_102",
+      "content": "出現4級以上飾品&出現飾品等級提高"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1021",
+      "content": "出現飾品等級上升"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1022",
+      "content": "出現飾品等級上升"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1023",
+      "content": "出現飾品等級上升"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_103",
+      "content": "出現的飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1031",
+      "content": "出現的飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_104",
+      "content": "出現的飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1041",
+      "content": "出現的燒傷類飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1042",
+      "content": "出現的流血類飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1043",
+      "content": "出現的震顫類飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1044",
+      "content": "出現的破裂類飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1045",
+      "content": "出現的沉淪類飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1046",
+      "content": "出現的呼吸法類飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1047",
+      "content": "出現的充能類飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1048",
+      "content": "出現的隨機飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_105",
+      "content": "獲得50點初始經費"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1051",
+      "content": "初始經費+50"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1052",
+      "content": "初始經費+50"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1053",
+      "content": "初始經費+50"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_106",
+      "content": "追加出現3款飾品"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1061",
+      "content": "追加出現2款燒傷類飾品"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1062",
+      "content": "追加出現2款流血類飾品"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1063",
+      "content": "追加出現2款震顫類飾品"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1064",
+      "content": "追加出現2款破裂類飾品"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1065",
+      "content": "追加出現2款沉淪類飾品"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1066",
+      "content": "追加出現2款呼吸法類飾品"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1067",
+      "content": "追加出現2款充能類飾品"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_107",
+      "content": "在戰鬥中獲得的經費增加"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1071",
+      "content": "在常規遭遇戰中獲得的經費增加"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1072",
+      "content": "在集中遭遇戰中獲得的經費增加"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1073",
+      "content": "在危險遭遇戰中獲得的經費增加"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1074",
+      "content": "在階層頭目戰中獲得的經費增加"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_108",
+      "content": "可選擇飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_109",
+      "content": "刷新所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1091",
+      "content": "刷新所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1092",
+      "content": "較低概率免費進行刷新"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1093",
+      "content": "技能替換所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1094",
+      "content": "技能替換所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_110",
+      "content": "強化所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1101",
+      "content": "較低概率免費進行強化"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1102",
+      "content": "強化燒傷類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1103",
+      "content": "強化流血類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1104",
+      "content": "強化震顫類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1105",
+      "content": "強化破裂類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1106",
+      "content": "強化沉淪類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1107",
+      "content": "強化呼吸法類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1108",
+      "content": "強化充能類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_111",
+      "content": "售賣飾品可獲得的經費增加"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1111",
+      "content": "售賣飾品可獲得的經費增加"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_112",
+      "content": "購買飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1121",
+      "content": "購買燒傷類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1122",
+      "content": "購買流血類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1123",
+      "content": "購買震顫類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1124",
+      "content": "購買破裂類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1125",
+      "content": "購買沉淪類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1126",
+      "content": "購買呼吸法類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1127",
+      "content": "購買充能類飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1128",
+      "content": "購買泛用型飾品所需經費減少"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_151",
+      "content": "可選擇E.G.O飾品數量+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_152",
+      "content": "初始經費+250"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_153",
+      "content": "額外獲得初始階段所選項目的4級隨機E.G.O飾品"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_121",
+      "content": "所有罪孽碎片+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1211",
+      "content": "所有罪孽碎片+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1212",
+      "content": "最大速度值+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1213",
+      "content": "最大速度值+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_122",
+      "content": "造成的傷害+3%"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1221",
+      "content": "造成的傷害+3%"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1222",
+      "content": "攻擊等級+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1223",
+      "content": "攻擊等級+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1224",
+      "content": "斬擊傷害+4%"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1225",
+      "content": "突刺傷害+4%"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1226",
+      "content": "打擊傷害+4%"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_123",
+      "content": "受到的傷害-3%"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1231",
+      "content": "受到的傷害-3%"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1232",
+      "content": "防禦等級+1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1233",
+      "content": "防禦等級+2"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1234",
+      "content": "斬擊抗性-0.1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1235",
+      "content": "突刺抗性-0.1"
+    },
+    {
+      "id": "md3_buffs_summaryDesc_1236",
+      "content": "打擊抗性-0.1"
+    }
+  ]
+}

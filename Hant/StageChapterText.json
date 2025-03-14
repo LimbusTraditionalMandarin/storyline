@@ -1,0 +1,166 @@
+{
+  "dataList": [
+    {
+      "id": "chapter_d_100",
+      "company": "D公司",
+      "area": "4區",
+      "chapter": "序章",
+      "chapterNumber": "00",
+      "chaptertitle": "幽暗的森林",
+      "timeline": "984-01"
+    },
+    {
+      "id": "chapter_d_101",
+      "company": "D公司",
+      "area": "4區",
+      "chapter": "章節I",
+      "chapterNumber": "01",
+      "chaptertitle": "無歸屬者",
+      "timeline": "984-01"
+    },
+    {
+      "id": "chapter_j_102",
+      "company": "J公司",
+      "area": "10區",
+      "chapter": "章節II",
+      "chapterNumber": "02",
+      "chaptertitle": "無慈悲者",
+      "timeline": "984-01"
+    },
+    {
+      "id": "chapter_k_103",
+      "company": "K公司",
+      "area": "11區",
+      "chapter": "章節III",
+      "chapterNumber": "03",
+      "chaptertitle": "無作為者",
+      "timeline": "984-02"
+    },
+    {
+      "id": "chapter_k_9103",
+      "company": "K公司",
+      "area": "11區",
+      "chapter": "間章I",
+      "chapterNumber": "3.5",
+      "chaptertitle": "地獄雞",
+      "timeline": "984-03"
+    },
+    {
+      "id": "chapter_k_104",
+      "company": "K公司",
+      "area": "11區",
+      "chapter": "章節IV",
+      "chapterNumber": "04",
+      "chaptertitle": "無改變者",
+      "timeline": "984-05"
+    },
+    {
+      "id": "chapter_u_9104",
+      "company": "U公司",
+      "area": "21區",
+      "chapter": "間章II",
+      "chapterNumber": "4.5",
+      "chaptertitle": "去·海·邊",
+      "timeline": "984-05"
+    },
+    {
+      "id": "chapter_u_105",
+      "company": "U公司",
+      "area": "21區",
+      "chapter": "章節V",
+      "chapterNumber": "05",
+      "chaptertitle": "定義為惡",
+      "timeline": "984-07"
+    },
+    {
+      "id": "chapter_u_9105",
+      "company": "U公司",
+      "area": "21區",
+      "chapter": "間章III",
+      "chapterNumber": "5.5",
+      "chaptertitle": "20區的奇蹟",
+      "timeline": "984-08"
+    },
+    {
+      "id": "chapter_u_9106",
+      "company": "U公司",
+      "area": "21區",
+      "chapter": "",
+      "chapterNumber": "",
+      "chaptertitle": "第2次 瓦爾普吉斯之夜",
+      "timeline": "984-09"
+    },
+    {
+      "id": "chapter_t_9107",
+      "company": "T公司",
+      "area": "20區",
+      "chapter": "間章III",
+      "chapterNumber": "5.5",
+      "chaptertitle": "肉斬骨斷",
+      "timeline": "984-10"
+    },
+    {
+      "id": "chapter_t_106",
+      "company": "T公司",
+      "area": "20區",
+      "chapter": "章節VI",
+      "chapterNumber": "06",
+      "chaptertitle": "心意相悖",
+      "timeline": "984-11"
+    },
+    {
+      "id": "chapter_t_9108",
+      "company": "T公司",
+      "area": "20區",
+      "chapter": "",
+      "chapterNumber": "",
+      "chaptertitle": "第3次 瓦爾普吉斯之夜",
+      "timeline": "984-11"
+    },
+    {
+      "id": "chapter_t_9109",
+      "company": "T公司",
+      "area": "20區",
+      "chapter": "間章IV",
+      "chapterNumber": "6.5",
+      "chaptertitle": "時間殺人時間",
+      "timeline": "984-12"
+    },
+    {
+      "id": "chapter_t_9110",
+      "company": "T公司",
+      "area": "20區",
+      "chapter": "間章IV",
+      "chapterNumber": "6.5",
+      "chaptertitle": "WARP快車謀殺案",
+      "timeline": "984-12"
+    },
+    {
+      "id": "chapter_p_9111",
+      "company": "P公司",
+      "area": "16區",
+      "chapter": "",
+      "chapterNumber": "",
+      "chaptertitle": "第4次 瓦爾普吉斯之夜",
+      "timeline": "984-12"
+    },
+    {
+      "id": "chapter_p_9019",
+      "company": "P公司",
+      "area": "16區",
+      "chapter": "",
+      "chapterNumber": "",
+      "chaptertitle": "第5次 瓦爾普吉斯之夜",
+      "timeline": "984-12"
+    },
+    {
+      "id": "chapter_p_9114",
+      "company": "P公司",
+      "area": "16區",
+      "chapter": "間章V",
+      "chapterNumber": "7.5",
+      "chaptertitle": "LCB定期體檢",
+      "timeline": "984-12"
+    }
+  ]
+}
