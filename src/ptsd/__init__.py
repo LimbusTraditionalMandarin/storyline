@@ -11,12 +11,17 @@ from anyio import create_task_group, run
 from .core import ProjectFile
 from .core.paratranz import APIClient
 from .core.utils import parse_diff
-from .translator import TranslationHandler, TranslationMerger
+from .translator import Replacer, TranslationHandler, TranslationMerger
 
 PARATRANZ_PROJECT_ID: int = 13808
 
 
-async def main_entry(mode: str, storyline_folder: str, max_concurrency: int) -> None:
+async def main_entry(
+    mode: str,
+    storyline_folder: str,
+    max_concurrency: int,
+    reference_file: str | None,
+) -> None:
     """Corutine entry function for ParaTranz Sync Tool."""
     # Tokens by environment variable
     tokens = environ["PARATRANZ_TOKENS"].split(",")
@@ -47,15 +52,23 @@ async def main_entry(mode: str, storyline_folder: str, max_concurrency: int) -> 
             for file in project_files:
                 tg.start_soon(merger.merge_translation, file, hans_dir, hant_dir)
 
+    elif mode == "replace" and (reference_file is not None):
+        replacer = Replacer(client, AnyioPath(reference_file))
+
+        async with create_task_group() as tg:
+            for file in project_files:
+                tg.start_soon(replacer.handle_replace, file)
+
     await client.client.aclose()
 
 
 def main() -> None:
     """Main."""
     parser = argparse.ArgumentParser(description="ParaTranz Synchronization Daemon")
-    parser.add_argument("mode", choices=["upload", "download"])
+    parser.add_argument("mode", choices=["upload", "download", "replace"])
     parser.add_argument("-d", "--storyline-folder", required=True)
     parser.add_argument("-c", "--max-concurrency", type=int, default=8)
+    parser.add_argument("-f", "--reference-file", type=str, default=None)
 
     args = parser.parse_args()
 
@@ -65,4 +78,4 @@ def main() -> None:
         handlers=[logging.StreamHandler(), logging.FileHandler("paratranz_sync.log")],
     )
 
-    run(main_entry, args.mode, args.storyline_folder, args.max_concurrency)
+    run(main_entry, args.mode, args.storyline_folder, args.max_concurrency, args.reference_file)

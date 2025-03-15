@@ -25,7 +25,7 @@ class TranslationHandler:
         updates = [
             {**item, "translation": self.converter.convert(item["original"]), "stage": 1}
             for item in translations
-            if item["stage"] == 0
+            if (item["stage"] == 0) or (item["stage"] == -1)
         ]
 
         if updates:
@@ -112,3 +112,39 @@ class TranslationMerger:
 
         except Exception as e:
             logger.error(f"Failed to merge {file.name}: {e!r}")
+
+
+class Replacer:
+    def __init__(self, client: APIClient, reference_file: AnyioPath):
+        self.client = client
+        self.ref_dict = self.__process_dict(reference_file)
+
+    def __process_dict(self, reference_file: AnyioPath):
+        ref_dict = {}
+        with open(reference_file, encoding="utf-8") as f:
+            while l := f.readline().split():
+                ref_dict[l[0]] = l[1]
+        return str.maketrans(ref_dict)
+
+    async def handle_replace(self, file: ProjectFile):
+        if not (translations := await self.client.request("GET", f"/files/{file.id}/translation")):
+            return
+
+        updates = [
+            {**item, "translation": translated, "stage": 1}
+            for item in translations
+            if item["stage"] != 5
+            and (translated := (original := str(item["translation"])).translate(self.ref_dict))
+            != original
+        ]
+
+        if updates:
+            data = json.dumps(updates, ensure_ascii=False).encode("utf-8")
+            await self.client.request(
+                "POST",
+                f"/files/{file.id}/translation",
+                files={"file": (file.name, data)},
+                data={"force": "true"},
+            )
+
+        logger.info(f"Replaced {file.name} (ID: {file.id})")
