@@ -932,7 +932,7 @@
         {
           "level": 1,
           "name": "派送輔助及管理流程",
-          "desc": "[StartBattle] 若自身的派送箱-羅佳 不低於15層，則改為使用“只是…戰略性休息而已！”(每回合最多1次)\n[StartBattle] 若使用的為本技能，則使自身獲得體力上限(自身的派送箱-羅佳 層數/2)%的護盾(最多15%，每回合最多1次)\n[WhenUse] 使自身獲得2層派送箱-羅佳 (每回合最多1次)\n- 若自身的派送箱-羅佳 層數低於15層，則使自身額外獲得1層派送箱-羅佳 ",
+          "desc": "[StartBattle] 若自身的派送箱-羅佳 不低於15層，則改為使用「只是…戰略性休息而已！」(每回合最多1次)\n[StartBattle] 若使用的為本技能，則使自身獲得體力上限(自身的派送箱-羅佳 層數/2)%的護盾(最多15%，每回合最多1次)\n[WhenUse] 使自身獲得2層派送箱-羅佳 (每回合最多1次)\n- 若自身的派送箱-羅佳 層數低於15層，則使自身額外獲得1層派送箱-羅佳 ",
           "coinlist": [
             {}
           ]
@@ -940,7 +940,7 @@
         {
           "level": 4,
           "name": "派送輔助及管理流程",
-          "desc": "[StartBattle] 若自身的派送箱-羅佳 不低於15層，則改為使用“只是…戰略性休息而已！”(每回合最多1次)\n[StartBattle] 若使用的為本技能，則使自身獲得體力上限<style=\"highlight\">(自身的派送箱-羅佳 層數)%</style>的護盾(最多<style=\"highlight\">25%</style>，每回合最多1次)\n[WhenUse] 使自身獲得2層派送箱-羅佳 (每回合最多1次)\n- 若自身的派送箱-羅佳 層數低於15層，則使自身額外獲得1層派送箱-羅佳 ",
+          "desc": "[StartBattle] 若自身的派送箱-羅佳 不低於15層，則改為使用「只是…戰略性休息而已！」(每回合最多1次)\n[StartBattle] 若使用的為本技能，則使自身獲得體力上限<style=\"highlight\">(自身的派送箱-羅佳 層數)%</style>的護盾(最多<style=\"highlight\">25%</style>，每回合最多1次)\n[WhenUse] 使自身獲得2層派送箱-羅佳 (每回合最多1次)\n- 若自身的派送箱-羅佳 層數低於15層，則使自身額外獲得1層派送箱-羅佳 ",
           "coinlist": [
             {}
           ]
@@ -1122,7 +1122,7 @@
         {
           "level": 3,
           "name": "慶典總會結束",
-          "desc": "[BeforeUse] 若自身的[BloomingThornsRodionFirst]層數不低於25層，則改為使用“堂吉訶德派硬血[TabExplain]奧義 落幕”\n[WhenUse] 本回合與下回合使自身與(最大共鳴數)名友方單位獲得3層[FestivalFeverRodion]，自身每帶有50層[BloodDinner_Accumulation]，額外獲得1層[FestivalFeverRodion](最多10層)\n[WhenUse] 使自身與(最大共鳴數)名友方單位獲得3層[BloomingThornsRodionFirst]",
+          "desc": "[BeforeUse] 若自身的[BloomingThornsRodionFirst]層數不低於25層，則改為使用「堂吉訶德派硬血[TabExplain]奧義 落幕」\n[WhenUse] 本回合與下回合使自身與(最大共鳴數)名友方單位獲得3層[FestivalFeverRodion]，自身每帶有50層[BloodDinner_Accumulation]，額外獲得1層[FestivalFeverRodion](最多10層)\n[WhenUse] 使自身與(最大共鳴數)名友方單位獲得3層[BloomingThornsRodionFirst]",
           "coinlist": [
             {
               "coindescs": [
@@ -1159,7 +1159,7 @@
         {
           "level": 4,
           "name": "慶典總會結束",
-          "desc": "[BeforeUse] 若自身的[BloomingThornsRodionFirst]層數不低於25層，則改為使用“堂吉訶德派硬血[TabExplain]奧義 落幕”\n[WhenUse] 若目標的流血 強度不低於6級，則使本技能的硬幣威力+1\n[WhenUse] 本回合與下回合使自身與(最大共鳴數)名友方單位獲得3層[FestivalFeverRodion]，自身每帶有50層[BloodDinner_Accumulation]，額外獲得1層[FestivalFeverRodion](最多10層)\n[WhenUse] 使自身與(最大共鳴數)名友方單位獲得3層[BloomingThornsRodionFirst]",
+          "desc": "[BeforeUse] 若自身的[BloomingThornsRodionFirst]層數不低於25層，則改為使用「堂吉訶德派硬血[TabExplain]奧義 落幕」\n[WhenUse] 若目標的流血 強度不低於6級，則使本技能的硬幣威力+1\n[WhenUse] 本回合與下回合使自身與(最大共鳴數)名友方單位獲得3層[FestivalFeverRodion]，自身每帶有50層[BloodDinner_Accumulation]，額外獲得1層[FestivalFeverRodion](最多10層)\n[WhenUse] 使自身與(最大共鳴數)名友方單位獲得3層[BloomingThornsRodionFirst]",
           "coinlist": [
             {
               "coindescs": [

@@ -791,7 +791,7 @@
         {
           "level": 3,
           "name": "鎮魂曲",
-          "desc": "[WinDuel] 使自身恢復10點理智值\n[BeforeUse] 若自身帶有杜拉罕 ，則改為使用“悲嘆、哀慟、破滅吧”\n[WhenUse] 目標每帶有6級沉淪 強度，使本技能的硬幣威力+1(最多+2)\n[WhenUse] 自身每帶有1層棺 ，使本技能造成的傷害+7%(最多+70%)\n[WhenUse] 使自身獲得1層棺 \n[EndSkill] 若本技能攻擊擊殺了目標，則使自身獲得2層棺 ",
+          "desc": "[WinDuel] 使自身恢復10點理智值\n[BeforeUse] 若自身帶有杜拉罕 ，則改為使用「悲嘆、哀慟、破滅吧」\n[WhenUse] 目標每帶有6級沉淪 強度，使本技能的硬幣威力+1(最多+2)\n[WhenUse] 自身每帶有1層棺 ，使本技能造成的傷害+7%(最多+70%)\n[WhenUse] 使自身獲得1層棺 \n[EndSkill] 若本技能攻擊擊殺了目標，則使自身獲得2層棺 ",
           "coinlist": [
             {
               "coindescs": [
@@ -818,7 +818,7 @@
         {
           "level": 4,
           "name": "鎮魂曲",
-          "desc": "[WinDuel] 使自身恢復10點理智值\n[BeforeUse] 若自身帶有杜拉罕 ，則改為使用“悲嘆、哀慟、破滅吧”\n[WhenUse] 目標每帶有3級沉淪 強度，使本技能的硬幣威力+1(最多+4)\n[WhenUse] 自身每帶有1層棺 ，使本技能造成的傷害+12%(最多+120%)\n[WhenUse] 使自身獲得1層棺 \n[EndSkill] 若本技能攻擊擊殺了目標，則使自身獲得2層棺 ",
+          "desc": "[WinDuel] 使自身恢復10點理智值\n[BeforeUse] 若自身帶有杜拉罕 ，則改為使用「悲嘆、哀慟、破滅吧」\n[WhenUse] 目標每帶有3級沉淪 強度，使本技能的硬幣威力+1(最多+4)\n[WhenUse] 自身每帶有1層棺 ，使本技能造成的傷害+12%(最多+120%)\n[WhenUse] 使自身獲得1層棺 \n[EndSkill] 若本技能攻擊擊殺了目標，則使自身獲得2層棺 ",
           "coinlist": [
             {
               "coindescs": [
@@ -865,7 +865,7 @@
         {
           "level": 3,
           "name": "杜拉罕啊…！",
-          "desc": "[DuelCounter]\n[BeforeUse] 若自身帶有杜拉罕 且自身的理智值不低於15點，則使用“悲嘆、哀慟、破滅吧”進行反擊(每回合最多1次)\n[StartBattle] 若自身未帶有杜拉罕 ，則下回合使自身獲得1層杜拉罕 (每回合最多1層)\n[WhenUse] 若目標的沉淪 強度不低於6級，則使本技能的硬幣威力+1\n[EndBattle] 若自身帶有杜拉罕 ，則解除自身的杜拉罕 ",
+          "desc": "[DuelCounter]\n[BeforeUse] 若自身帶有杜拉罕 且自身的理智值不低於15點，則使用「悲嘆、哀慟、破滅吧」進行反擊(每回合最多1次)\n[StartBattle] 若自身未帶有杜拉罕 ，則下回合使自身獲得1層杜拉罕 (每回合最多1層)\n[WhenUse] 若目標的沉淪 強度不低於6級，則使本技能的硬幣威力+1\n[EndBattle] 若自身帶有杜拉罕 ，則解除自身的杜拉罕 ",
           "coinlist": [
             {},
             {
@@ -880,7 +880,7 @@
         {
           "level": 4,
           "name": "杜拉罕啊…！",
-          "desc": "[DuelCounter]\n[BeforeUse] 若自身帶有杜拉罕 且自身的理智值不低於15點，則使用“悲嘆、哀慟、破滅吧”進行反擊(每回合最多1次)\n[StartBattle] 若自身未帶有杜拉罕 ，則下回合使自身獲得1層杜拉罕 (每回合最多1層)\n[WhenUse] 目標每帶有3級沉淪 強度，使本技能的硬幣威力+1(最多+2)\n[WinDuel] 下回合使自身獲得(本技能拼點次數/3)層攻擊等級提升 (最多3層，每回合最多1次)\n[EndBattle] 若自身帶有杜拉罕 ，則解除自身的杜拉罕 ",
+          "desc": "[DuelCounter]\n[BeforeUse] 若自身帶有杜拉罕 且自身的理智值不低於15點，則使用「悲嘆、哀慟、破滅吧」進行反擊(每回合最多1次)\n[StartBattle] 若自身未帶有杜拉罕 ，則下回合使自身獲得1層杜拉罕 (每回合最多1層)\n[WhenUse] 目標每帶有3級沉淪 強度，使本技能的硬幣威力+1(最多+2)\n[WinDuel] 下回合使自身獲得(本技能拼點次數/3)層攻擊等級提升 (最多3層，每回合最多1次)\n[EndBattle] 若自身帶有杜拉罕 ，則解除自身的杜拉罕 ",
           "coinlist": [
             {},
             {
@@ -1193,7 +1193,7 @@
         {
           "level": 3,
           "name": "瞄準眉心",
-          "desc": "[BeforeUse] 若自身帶有[Bullet_LogicAtelier]，則改為使用“邏輯工作室製 高速粉碎彈”\n若自身的速度值高於目標，則每相差1點，使本技能造成的傷害+10%(最多+50%)\n[WhenUse] 使自身增加5級呼吸法 強度\n[WhenUse] 消耗所有[LogicAtelierAM]，使自身增加(消耗的[LogicAtelierAM]層數×2)級呼吸法 強度並使本技能造成的傷害+(消耗的[LogicAtelierAM]層數×12.5)%",
+          "desc": "[BeforeUse] 若自身帶有[Bullet_LogicAtelier]，則改為使用「邏輯工作室製 高速粉碎彈」\n若自身的速度值高於目標，則每相差1點，使本技能造成的傷害+10%(最多+50%)\n[WhenUse] 使自身增加5級呼吸法 強度\n[WhenUse] 消耗所有[LogicAtelierAM]，使自身增加(消耗的[LogicAtelierAM]層數×2)級呼吸法 強度並使本技能造成的傷害+(消耗的[LogicAtelierAM]層數×12.5)%",
           "coinlist": [
             {
               "coindescs": [
@@ -1213,7 +1213,7 @@
         {
           "level": 4,
           "name": "瞄準眉心",
-          "desc": "[BeforeUse] 若自身帶有[Bullet_LogicAtelier]，則改為使用“邏輯工作室製 高速粉碎彈”\n若自身的速度值高於目標，則每相差1點，使本技能造成的傷害+10%(最多+50%)\n[WhenUse] 使自身增加5級呼吸法 強度\n[WhenUse] 消耗所有[LogicAtelierAM]，使自身增加(消耗的[LogicAtelierAM]層數×2)級呼吸法 強度並使本技能造成的傷害+(消耗的[LogicAtelierAM]層數×12.5)%\n[EndSkill] 使自身獲得2層呼吸法 ",
+          "desc": "[BeforeUse] 若自身帶有[Bullet_LogicAtelier]，則改為使用「邏輯工作室製 高速粉碎彈」\n若自身的速度值高於目標，則每相差1點，使本技能造成的傷害+10%(最多+50%)\n[WhenUse] 使自身增加5級呼吸法 強度\n[WhenUse] 消耗所有[LogicAtelierAM]，使自身增加(消耗的[LogicAtelierAM]層數×2)級呼吸法 強度並使本技能造成的傷害+(消耗的[LogicAtelierAM]層數×12.5)%\n[EndSkill] 使自身獲得2層呼吸法 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1241,7 +1241,7 @@
         {
           "level": 1,
           "name": "戰鬥呼吸",
-          "desc": "回合開始時，若自身的彈藥 數為0，則改為使用“掩護”\n[WhenUse] 若句點事務所 代表 鴻璐在場，則向其申請[MeleeCover](每回合最多1次)\n[EndBattle] 下回合使自身獲得1層[LogicAtelierAM](每回合最多1次)",
+          "desc": "回合開始時，若自身的彈藥 數為0，則改為使用「掩護」\n[WhenUse] 若句點事務所 代表 鴻璐在場，則向其申請[MeleeCover](每回合最多1次)\n[EndBattle] 下回合使自身獲得1層[LogicAtelierAM](每回合最多1次)",
           "coinlist": [
             {
               "coindescs": []
@@ -1251,7 +1251,7 @@
         {
           "level": 4,
           "name": "戰鬥呼吸",
-          "desc": "回合開始時，若自身的彈藥 數為0，則改為使用“掩護”\n[WhenUse] 若句點事務所 代表 鴻璐在場，則向其申請[MeleeCover](每回合最多1次)\n[OnSucceedEvade] 使自身增加3級呼吸法 強度(每回合最多3次)\n[EndBattle] 下回合使自身獲得1層[LogicAtelierAM](每回合最多1次)",
+          "desc": "回合開始時，若自身的彈藥 數為0，則改為使用「掩護」\n[WhenUse] 若句點事務所 代表 鴻璐在場，則向其申請[MeleeCover](每回合最多1次)\n[OnSucceedEvade] 使自身增加3級呼吸法 強度(每回合最多3次)\n[EndBattle] 下回合使自身獲得1層[LogicAtelierAM](每回合最多1次)",
           "coinlist": [
             {
               "coindescs": []

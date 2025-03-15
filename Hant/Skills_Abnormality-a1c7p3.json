@@ -218,7 +218,7 @@
         {
           "level": 1,
           "name": "表達愛意",
-          "desc": "優先指定負面狀態數最少的目標\n[WhenUse] 若目標未帶有負面狀態，則下回合使用“粗暴示愛”\n\n[WhenUse] 若目標的負面狀態數高於自身的[FaintMemory]層數，則下回合使用“悲傷的擁抱”",
+          "desc": "優先指定負面狀態數最少的目標\n[WhenUse] 若目標未帶有負面狀態，則下回合使用「粗暴示愛」\n\n[WhenUse] 若目標的負面狀態數高於自身的[FaintMemory]層數，則下回合使用「悲傷的擁抱」",
           "coinlist": [
             {
               "coindescs": [
@@ -316,7 +316,7 @@
         {
           "level": 1,
           "name": "粗暴示愛",
-          "desc": "[CantChangeTarget]\n指定上回合與“表達愛意”拼點的目標",
+          "desc": "[CantChangeTarget]\n指定上回合與「表達愛意」拼點的目標",
           "coinlist": [
             {
               "coindescs": [
@@ -344,7 +344,7 @@
         {
           "level": 1,
           "name": "悲傷的擁抱",
-          "desc": "[CantChangeTarget]\n指定上回合與“表達愛意”拼點的目標\n對該目標造成的傷害固定為0點\n[StartBattle] 下回合對自身施加2層易損 \n[EndBattle] 使自身陷入混亂",
+          "desc": "[CantChangeTarget]\n指定上回合與「表達愛意」拼點的目標\n對該目標造成的傷害固定為0點\n[StartBattle] 下回合對自身施加2層易損 \n[EndBattle] 使自身陷入混亂",
           "coinlist": [
             {
               "coindescs": [
