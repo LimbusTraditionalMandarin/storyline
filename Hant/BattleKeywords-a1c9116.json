@@ -30,14 +30,14 @@
     },
     {
       "id": "RepressedMurderousIntend",
-      "name": "被抑制的殺意",
+      "name": "壓抑的殺氣",
       "desc": "攻擊等級-10，防禦等級-10",
       "summary": "",
       "undefined": "-"
     },
     {
       "id": "WeighedMurderousIntend",
-      "name": "被摧毀的殺意",
+      "name": "被壓潰的殺氣",
       "desc": "攻擊等級-25，防禦等級-25",
       "summary": "",
       "undefined": "-"
