@@ -1,0 +1,69 @@
+{
+  "dataList": [
+    {
+      "id": "battle_awaken_20601_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "讓我們一起步入這幻境中的世界吧。"
+    },
+    {
+      "id": "battle_awaken_20602_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "我會好好把握這捆縛的力度。"
+    },
+    {
+      "id": "battle_erosion_20602_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "一同，咔嚓……咔嚓……"
+    },
+    {
+      "id": "battle_awaken_20603_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "想要躍遷到下一個世界的話……嘿咻！是這裡啊！"
+    },
+    {
+      "id": "battle_erosion_20603_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "反正……我也不是必須待在那邊……嘿嘿。"
+    },
+    {
+      "id": "battle_awaken_20604_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "好~變身完成！呼，滿載而歸哦！"
+    },
+    {
+      "id": "battle_erosion_20604_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "海鷗……海鷗的叫聲一直停不下來……！"
+    },
+    {
+      "id": "battle_awaken_20605_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "應該會很痛哦~一旦你被割傷，它就再也取不出來了。"
+    },
+    {
+      "id": "battle_erosion_20605_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "汙穢寄宿進我的身體……從而重生為可用之材。"
+    },
+    {
+      "id": "battle_awaken_20606_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "因悲傷而動搖的心會像這樣……破裂開來。"
+    },
+    {
+      "id": "battle_erosion_20606_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "與我一同哭泣吧……直至身體破裂。"
+    },
+    {
+      "id": "battle_awaken_20607_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "順水推舟~果然藏在這兒吧？"
+    },
+    {
+      "id": "battle_erosion_20607_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "哈哈！抓到了~！不知分寸試圖逃跑……就是這種下場啦。"
+    }
+  ]
+}

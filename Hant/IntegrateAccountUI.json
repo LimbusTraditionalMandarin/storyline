@@ -1,0 +1,104 @@
+{
+  "dataList": [
+    {
+      "id": "receive_integrate_account_code",
+      "content": "生成繼承碼"
+    },
+    {
+      "id": "receive_integrate_account_code_description",
+      "content": "收到您的繼承碼後，請確保在失效之前完成繼承。"
+    },
+    {
+      "id": "request_integrate_account_code",
+      "content": "請求碼"
+    },
+    {
+      "id": "input_integrate_account_code",
+      "content": "輸入繼承碼"
+    },
+    {
+      "id": "input_code",
+      "content": "輸入代碼"
+    },
+    {
+      "id": "integrate_account_code",
+      "content": "繼承碼"
+    },
+    {
+      "id": "input_integrate_account_code_description",
+      "content": "請輸入你的UID與繼承碼。"
+    },
+    {
+      "id": "unable_to_integrate_account",
+      "content": "無法繼承帳戶。"
+    },
+    {
+      "id": "not_exist_integrate_code",
+      "content": "繼承碼不存在。"
+    },
+    {
+      "id": "select_account_for_integrate",
+      "content": "請選擇繼承的帳戶。"
+    },
+    {
+      "id": "current_account",
+      "content": "當前帳戶"
+    },
+    {
+      "id": "new_account",
+      "content": "新帳戶"
+    },
+    {
+      "id": "warning_none_integrate_account_removed",
+      "content": "※ 未選擇的帳戶將被刪除。"
+    },
+    {
+      "id": "ask_to_integrate_account",
+      "content": "是否將數據繼承到所選帳戶中？"
+    },
+    {
+      "id": "ask_to_integrate_account_warning",
+      "content": "是否將數據繼承到所選帳戶中？"
+    },
+    {
+      "id": "receiving_integrate_account_code",
+      "content": "生成中……"
+    },
+    {
+      "id": "success_integrate_account_message",
+      "content": "帳戶數據繼承成功。"
+    },
+    {
+      "id": "warning_before_integrate",
+      "content": "<color=red>未選擇的帳戶將被刪除。</color>"
+    },
+    {
+      "id": "link_error_link_failed",
+      "content": "無法繼承"
+    },
+    {
+      "id": "link_error_expired",
+      "content": "繼承碼已過期。"
+    },
+    {
+      "id": "link_error",
+      "content": "帳戶數據繼承失敗。\n您無法與同一平臺帳戶或遊客帳戶繼承遊戲數據。"
+    },
+    {
+      "id": "input_unlink_account",
+      "content": "解除綁定"
+    },
+    {
+      "id": "alarm_unlink_account",
+      "content": "已解除綁定"
+    },
+    {
+      "id": "unlink_account_ask_title",
+      "content": "解除綁定"
+    },
+    {
+      "id": "unlink_account_ask_content",
+      "content": "解除綁定該帳號。\n解除綁定後，{0}日內無法再次解除。"
+    }
+  ]
+}

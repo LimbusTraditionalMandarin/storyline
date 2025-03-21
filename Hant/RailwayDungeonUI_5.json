@@ -1,0 +1,92 @@
+{
+  "dataList": [
+    {
+      "id": "railway_5_must_participate_all",
+      "content": "存在未編隊的人格。\n\n※在折射軌道5號線，必須將所有罪人編入隊伍才能進入戰鬥。"
+    },
+    {
+      "id": "mainui_personality_blocked",
+      "content": "無法出戰"
+    },
+    {
+      "id": "railway5_clear_info",
+      "content": "通關信息"
+    },
+    {
+      "id": "railway5_clear_info_node_ui",
+      "content": "通關信息"
+    },
+    {
+      "id": "railway_dungeon_5_entrance_recommended_level",
+      "content": "- 人格：同步 4階段，50級"
+    },
+    {
+      "id": "railway5_clear_info_clear_turn_count",
+      "content": "通關回合數"
+    },
+    {
+      "id": "railway5_clear_info_ego_stock",
+      "content": "剩餘罪孽碎片"
+    },
+    {
+      "id": "railway5_clear_info_selected_buffs",
+      "content": "選擇增益"
+    },
+    {
+      "id": "railway_dungeon_5_reward_condition_special_ticket",
+      "content": "第5賽季 忘卻期間內，以總計回合數100以下通關5號線時獲得。"
+    },
+    {
+      "id": "railway_dungeon_5_statistics_button",
+      "content": "詳細信息"
+    },
+    {
+      "id": "railway_dungeon_5_required_condition_to_enter_format",
+      "content": "※注意事項\n\n為了進入{0}，每位罪人至少需要2個人格。"
+    },
+    {
+      "id": "railway_dungeon_5_reward_condition_special_ticket_warning",
+      "content": "<color=#990000>※第5賽季 忘卻結束後便無法獲得。</color>"
+    },
+    {
+      "id": "railway_dungeon_5_reward_condition_warning",
+      "content": "※第5賽季 忘卻結束後領取獎勵時，適用於賽季變化的賽季相關道具<color=#990000>自我碎片箱與自我碎片自選箱獲得數量將減半</color>，請注意。\n（未被繼承的自我碎片箱與自我碎片自選箱將會被轉換為紡錘箱。）"
+    },
+    {
+      "id": "railway_dungeon_5_banner_reward_condition_1",
+      "content": "通關折射軌道5號線時獲得"
+    },
+    {
+      "id": "railway_dungeon_5_banner_reward_condition_2",
+      "content": "<color=#9a0634>第5賽季 忘卻</color>期間內，以累計回合數{0}以下通關折射軌道5號線時獲得"
+    },
+    {
+      "id": "railway_5_banned_personality_exist",
+      "content": "存在無法使用的人格。\n\n※在折射軌道5號線第1區段選擇過的人格，無法在第2區段使用。"
+    },
+    {
+      "id": "railway_5_ally_buff",
+      "content": "增益"
+    },
+    {
+      "id": "railway_5_enemy_buff",
+      "content": "苦難"
+    },
+    {
+      "id": "railway_5_section",
+      "content": "第{0}區段"
+    },
+    {
+      "id": "railway_5_warning_enter_node_1",
+      "content": "參加第1區段戰鬥的人格將無法參加第2區段的戰鬥。\n\n以當前編隊進行第1區段的戰鬥？"
+    },
+    {
+      "id": "railway_5_select_buff_title",
+      "content": "選擇增益"
+    },
+    {
+      "id": "railway_5_stage_level_warning",
+      "content": "※當前人格平均等級 ：<color=#990000>{0}</color>  (推薦等級：<color=#990000>{1}</color> )"
+    }
+  ]
+}

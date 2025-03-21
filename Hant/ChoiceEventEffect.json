@@ -1,0 +1,448 @@
+{
+  "dataList": [
+    {
+      "id": "Empty",
+      "content": ""
+    },
+    {
+      "id": "Nothing",
+      "content": "<color=#ebcaa2>什麼都沒有發生。</color>"
+    },
+    {
+      "id": "LevelupPersonality",
+      "content": "<color=#ebcaa2>觸發罪人強化事件！</color>"
+    },
+    {
+      "id": "GetEgogift",
+      "content": "<color=#ebcaa2>觸發E.G.O飾品獲取事件！</color>"
+    },
+    {
+      "id": "GetCharacter",
+      "content": "<color=#ebcaa2>觸發罪人追加事件！</color>"
+    },
+    {
+      "id": "LevelupPersonalityOnWinBattle",
+      "content": "<color=#ebcaa2>下場戰鬥勝利後，將觸發罪人追加事件！</color>"
+    },
+    {
+      "id": "GetConfirmedEgogiftOnWinBattle",
+      "content": "<color=#ebcaa2>下場戰鬥勝利後，將獲得 {reward} ！</color>"
+    },
+    {
+      "id": "StartBattle",
+      "content": "<color=#ff0000>觸發遭遇戰！</color>"
+    },
+    {
+      "id": "StartBattle_Normal",
+      "content": "<color=#ff0000>觸發常規遭遇戰！</color>"
+    },
+    {
+      "id": "StartBattle_Danger",
+      "content": "<color=#ff0000>觸發危險遭遇戰！</color>"
+    },
+    {
+      "id": "StartBattle_Abnormality",
+      "content": "<color=#ff0000>觸發集中遭遇戰！</color>"
+    },
+    {
+      "id": "StartBattle_FloorBoss",
+      "content": "<color=#ff0000>觸發階層頭目遭遇戰！</color>"
+    },
+    {
+      "id": "RecoverHpOnly",
+      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#ebcaa2>恢復</color><color=#00ff9c>{amount}點體力</color>"
+    },
+    {
+      "id": "RecoverMpOnly",
+      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#ebcaa2>恢復</color><color=#80c9ff>{amount}點理智值</color>"
+    },
+    {
+      "id": "RecoverHpOnlyUntilMax",
+      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#ebcaa2>恢復至</color><color=#00ff9c>體力上限</color>"
+    },
+    {
+      "id": "RecoverMpOnlyUntilMax",
+      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#ebcaa2>恢復至</color><color=#80c9ff>理智值上限</color>"
+    },
+    {
+      "id": "LoseHpOnly",
+      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#ebcaa2>失去</color><color=#e30000>{amount}點體力！</color>"
+    },
+    {
+      "id": "LoseMpOnly",
+      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#ebcaa2>失去</color><color=#fe4b48>{amount}點理智值！</color>"
+    },
+    {
+      "id": "RecoverHpMpSameAmount",
+      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#ebcaa2>恢復</color><color=#00ff9c>{amount}點體力</color>及<color=#80c9ff>理智值</color>"
+    },
+    {
+      "id": "RecoverHpMpDifferentAmount",
+      "content": "<color=#ebcaa2>{conditions}{targets}</color><color=#ebcaa2>恢復</color> <color=#00ff9c>{amount}點體力</color>及<color=#80c9ff>{amount}點理智值</color>"
+    },
+    {
+      "id": "LoseHpMpSameAmount",
+      "content": "<color=#ebcaa2>{conditions}{targets}</color> <color=#ebcaa2>失去</color><color=#e30000>{amount}點體力</color>及<color=#fe4b48>理智值！</color>"
+    },
+    {
+      "id": "LoseHpMpDifferentAmount",
+      "content": "<color=#ebcaa2>{conditions}{targets}</color><color=#ebcaa2>失去</color><color=#e30000>{amount}點體力</color>及<color=#fe4b48>{amount}點理智值！</color>"
+    },
+    {
+      "id": "GetConfirmedEgogift",
+      "content": "<color=#ebcaa2>獲得{reward}！</color>"
+    },
+    {
+      "id": "GetBuff_OnStageStart",
+      "content": "<color=#ebcaa2>進入下場戰鬥時，將獲得{target}{conditional}{stack} {buffName}</color>"
+    },
+    {
+      "id": "UnlockHiddenRoute",
+      "content": "<color=#ebcaa2>地圖中追加了新的路線！</color>"
+    },
+    {
+      "id": "ReduceEnemyWave",
+      "content": "<color=#ebcaa2>下場戰鬥中，敵人波次將減少{waveNum}波</color>"
+    },
+    {
+      "id": "DestroyEgogift",
+      "content": "<color=#ebcaa2>{reward}</color> <color=#e30000>失效！</color>"
+    },
+    {
+      "id": "Choice_90103301",
+      "content": "<color=#ebcaa2>本場戰鬥中，</color><color=#f8c200>速度+1</color>"
+    },
+    {
+      "id": "Choice_901001",
+      "content": "<color=#ebcaa2>戰鬥開始時，</color>技能組不包含<color=#a0392b>暴怒屬性攻擊技能</color>的友方單位<color=#ebcaa2>將受到</color><color=#e30000>5點暴怒傷害</color>"
+    },
+    {
+      "id": "Choice_901007",
+      "content": "<color=#ebcaa2>回合開始時，</color></color=#ebcaa2>恢復</color><color=#00ff9c>10點體力</color>及<color=#80c9ff>10點理智值</color>（最多3回合）"
+    },
+    {
+      "id": "Choice_901009",
+      "content": "<color=#ebcaa2>戰鬥開始時，</color><color=#e30000>技能最終威力-1</color>"
+    },
+    {
+      "id": "Choice_901010",
+      "content": "<color=#ebcaa2>下場戰鬥開始時，技能組不包含</color> <color=#bb521f>色慾屬性攻擊技能</color><color=#ebcaa2>的友方單位將陷入混亂</color>"
+    },
+    {
+      "id": "Choice_901019",
+      "content": "<color=#ebcaa2>戰鬥開始時，</color><color=#e30000>速度-2</color>"
+    },
+    {
+      "id": "Choice_90103402",
+      "content": "<color=#ebcaa2>本場戰鬥中，</color><color=#f8c200>速度+2</color>"
+    },
+    {
+      "id": "Choice_1030301",
+      "content": "<color=#ebcaa2>下場戰鬥開始時，全體友方單位</color><color=#ebcaa2>獲得</color><color=#f8c200>3層強壯 </color>"
+    },
+    {
+      "id": "Choice_1030501",
+      "content": "<color=#ff0000>遭遇戰鬥！</color>\n<color=#ebcaa2>賦予</color><color=#ebcaa2>全體敵方單位</color><color=#e30000>5層虛弱 ！</color>"
+    },
+    {
+      "id": "Choice_1031001",
+      "content": "<color=#ebcaa2>所選人格在下兩場戰鬥中，獲得</color><color=#e30000>3層虛弱 </color><color=#ebcaa2></color>"
+    },
+    {
+      "id": "Choice_90100201",
+      "content": "<color=#ebcaa2>判定失敗的罪人失去</color> <color=#e30000>12點體力</color><color=#ebcaa2>及</color><color=#fe4b48>8點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90100502",
+      "content": "<color=#ebcaa2>判定失敗的罪人失去</color> <color=#e30000>15點體力</color><color=#ebcaa2>及</color><color=#fe4b48>12點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90101001",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#bb521f>色慾屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>10點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90101101",
+      "content": "<color=#ebcaa2>判定失敗的罪人失去</color><color=#fe4b48>15點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90101701",
+      "content": "<color=#ebcaa2>判定成功的罪人失去</color><color=#fe4b48>5點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90101702",
+      "content": "<color=#ebcaa2>判定失敗的罪人失去</color><color=#fe4b48>25點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90101801",
+      "content": "<color=#ebcaa2>判定失敗的罪人失去</color><color=#fe4b48>12點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90101901",
+      "content": "<color=#ebcaa2>判定失敗的罪人失去</color><color=#fe4b48>10點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90102001",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#61822b>暴食屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>5點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90102002",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#61822b>暴食屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>10點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90102201",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#306471>憂鬱屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>13點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90103302",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#7d4e94>嫉妒屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#e30000>15點體力</color><color=#ebcaa2>及</color><color=#fe4b48>15點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90100101",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#a0392b>暴怒屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>16點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_901004",
+      "content": "<color=#ebcaa2>技能組內包含</color><color=#a0392b>暴怒屬性攻擊技能</color><color=#ebcaa2>的友方單位恢復</color><color=#f8c200>15點體力</color>"
+    },
+    {
+      "id": "Choice_90100701",
+      "content": "<color=#ebcaa2>技能組內包含</color><color=#bb521f>色慾屬性攻擊技能</color></color=#ebcaa2>的友方單位恢復</color><color=#80c9ff>理智值</color>"
+    },
+    {
+      "id": "Choice_901008",
+      "content": "<color=#ebcaa2>技能組內包含</color><color=#bb521f>色慾屬性攻擊技能</color><color=#ebcaa2>的友方單位恢復</color><color=#f8c200>10點體力</color>"
+    },
+    {
+      "id": "Choice_90100901",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#bb521f>色慾屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>20點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_901014",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#e48801>怠惰屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>20點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90101401",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#e48801>怠惰屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>12點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90101601",
+      "content": "<color=#ebcaa2>技能組內包含</color><color=#61822b>暴食屬性攻擊技能</color></color=#ebcaa2>的友方單位恢復</color><color=#80c9ff>理智值</color>"
+    },
+    {
+      "id": "Choice_901018",
+      "content": "<color=#ebcaa2>隨機使一名技能組不包含</color><color=#a0392b>暴怒屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>10點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_901021",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#306471>憂鬱屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>10點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_901023",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#306471>憂鬱屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>9點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90102301",
+      "content": "<color=#ebcaa2>隨機使一名技能組不包含</color><color=#306471>憂鬱屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>10點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_901024",
+      "content": "<color=#ebcaa2>技能組內包含</color><color=#306471>憂鬱屬性攻擊技能</color></color=#ebcaa2>的友方單位中理智值最低者的</color><color=#f8c200>體力恢復至上限</color>"
+    },
+    {
+      "id": "Choice_901025",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#306471>憂鬱屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>20點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90102501",
+      "content": "<color=#ebcaa2>技能組內包含</color><color=#306471>憂鬱屬性攻擊技能</color><color=#ebcaa2>的友方單位恢復</color><color=#f8c200>20點體力</color>"
+    },
+    {
+      "id": "Choice_901026",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#185188>傲慢屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>10點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90102601",
+      "content": "<color=#ebcaa2>技能組內包含</color><color=#185188>傲慢屬性攻擊技能</color><color=#ebcaa2>的友方單位恢復</color><color=#f8c200>10點體力</color>"
+    },
+    {
+      "id": "Choice_901027",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#185188>傲慢屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>25點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90102701",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#185188>傲慢屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>25點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_901028",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#185188>傲慢屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>5點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90102801",
+      "content": "<color=#ebcaa2>技能組內包含</color><color=#185188>傲慢屬性攻擊技能</color><color=#ebcaa2>的友方單位恢復</color><color=#f8c200>15點體力</color>"
+    },
+    {
+      "id": "Choice_901032",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#7d4e94>嫉妒屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>20點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_901034",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#7d4e94>嫉妒屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#e30000>15點體力</color><color=#ebcaa2>及</color><color=#fe4b48>15點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_901035",
+      "content": "<color=#ebcaa2>技能組不包含</color><color=#7d4e94>嫉妒屬性攻擊技能</color><color=#ebcaa2>的友方單位失去</color><color=#fe4b48>12點體力</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_90103501",
+      "content": "<color=#ebcaa2>技能組內包含</color><color=#7d4e94>嫉妒屬性攻擊技能</color><color=#ebcaa2>的友方單位恢復</color><color=#f8c200>15點體力</color>"
+    },
+    {
+      "id": "Choice_1040301",
+      "content": "<color=#ebcaa2>所選人格在下場戰鬥的1回合中</color> <color=#ebcaa2>增加</color><color=#e30000>10級破裂 強度</color>"
+    },
+    {
+      "id": "MirrorDungeonAcquireCost",
+      "content": "<color=#ebcaa2>獲得{amount}經費</color>"
+    },
+    {
+      "id": "MirrorDungeonLossCost",
+      "content": "<color=#ebcaa2>失去{amount}經費</color>"
+    },
+    {
+      "id": "Choice_90104001",
+      "content": "<color=#ebcaa2>下場戰鬥開始時生效獲得所有<color=#f8c200>罪孽碎片各2個</color><color=#ebcaa2></color>"
+    },
+    {
+      "id": "Choice_9010400101",
+      "content": "<color=#ebcaa2>下場戰鬥全體友方單位<color=#f8c200>技能最終威力+2</color><color=#ebcaa2></color>"
+    },
+    {
+      "id": "Choice_90104002",
+      "content": "<color=#ebcaa2>下場戰鬥全體友方單位<color=#f8c200>技能威力+1</color><color=#ebcaa2></color>"
+    },
+    {
+      "id": "ChangeEventIllust",
+      "content": ""
+    },
+    {
+      "id": "Choice_90105801",
+      "content": "編隊中的所有人格提升2級"
+    },
+    {
+      "id": "Choice_90106802",
+      "content": "編隊中的所有人格提升3級"
+    },
+    {
+      "id": "Choice_90107402",
+      "content": "編隊中的所有人格提升2級"
+    },
+    {
+      "id": "Choice_90109101",
+      "content": "編隊中的所有人格提升2級"
+    },
+    {
+      "id": "Choice_90200502",
+      "content": "<color=#ebcaa2>判定失敗的罪人失去</color> <color=#e30000>15點體力</color><color=#ebcaa2>及</color><color=#fe4b48>12點理智值</color><color=#ebcaa2>！</color>"
+    },
+    {
+      "id": "Choice_LoseBattle",
+      "content": "<color=#ff0000>戰鬥失敗時，沒有獎勵</color>"
+    },
+    {
+      "id": "Choice_EGO901001",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「煉獄炎蝶之夢」、「火光花」"
+    },
+    {
+      "id": "Choice_EGO901002",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「倒錯症」、「敬畏」"
+    },
+    {
+      "id": "Choice_EGO901009",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「熾熱的羽毛」、「熔化的石蠟」"
+    },
+    {
+      "id": "Choice_EGO901010",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「鮮血裝飾」、「莊嚴」"
+    },
+    {
+      "id": "Choice_EGO901011",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「狐雨」、「破損的雨傘」"
+    },
+    {
+      "id": "Choice_EGO901013",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「成捆的符咒」、「陳舊的木雕人偶」"
+    },
+    {
+      "id": "Choice_EGO901014",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「鏽蝕的紀念幣」、「鬱火」"
+    },
+    {
+      "id": "Choice_EGO901016",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「綠光果實」、「酸味的酒香」"
+    },
+    {
+      "id": "Choice_EGO901018",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「玫瑰王冠」、「安息之地」"
+    },
+    {
+      "id": "Choice_EGO901019",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「黏性淤漿」、「生物劇毒藥瓶」"
+    },
+    {
+      "id": "Choice_EGO901020",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「白棉花」、「糾纏捆束」"
+    },
+    {
+      "id": "Choice_EGO901021",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「藍色芝寶牌打火機」、「巡邏用手電筒」"
+    },
+    {
+      "id": "Choice_EGO901024",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「融化的眼球」、「劇毒外皮」"
+    },
+    {
+      "id": "Choice_EGO901031",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「輝光變動儀」、「齒輪發條」"
+    },
+    {
+      "id": "Choice_EGO901033",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「標準負載電池」、「解除限制的除顫儀」"
+    },
+    {
+      "id": "Choice_EGO901034",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「單點打擊邏輯電路」、「不間斷電源裝置」"
+    },
+    {
+      "id": "Choice_EGO901056",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「四葉草」、「綠色鞘翅」"
+    },
+    {
+      "id": "Choice_EGO901059",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「仲冬夜之噩夢」、「古木陷阱」"
+    },
+    {
+      "id": "Choice_EGO901073",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「內啡肽試劑組」、「螢光燈」"
+    },
+    {
+      "id": "Choice_EGO971029",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「E式次元短劍」、「便攜式力場電池」"
+    },
+    {
+      "id": "GetImmediateConfirmedEgogifts",
+      "content": "<color=#ebcaa2>獲得{reward}！</color>"
+    },
+    {
+      "id": "Choice_EGO901101",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「微縮電線杆」"
+    },
+    {
+      "id": "Choice_EGO901104",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「撕裂的血囊」"
+    },
+    {
+      "id": "Choice_EGO971054",
+      "content": "戰鬥勝利後，獲得E.G.O飾品「滿滿當當的燃料罐」"
+    }
+  ]
+}

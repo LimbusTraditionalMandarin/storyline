@@ -1,0 +1,79 @@
+{
+  "dataList": [
+    {
+      "id": "battle_awaken_21201_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "我的手臂……發生了變化。"
+    },
+    {
+      "id": "battle_awaken_21202_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "聽著，你有自信能抗住這一招嗎？"
+    },
+    {
+      "id": "battle_erosion_21202_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "我們一起……腐爛吧。"
+    },
+    {
+      "id": "battle_awaken_21203_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "我給你讀一則童話故事怎麼樣？"
+    },
+    {
+      "id": "battle_erosion_21203_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "所有人都已經……被迷惑了。"
+    },
+    {
+      "id": "battle_awaken_21204_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "來啊，嚐嚐這個……我要把你煎個剛剛好。"
+    },
+    {
+      "id": "battle_erosion_21204_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "唔呵呵呵呵……你就是新的實驗體嗎？"
+    },
+    {
+      "id": "battle_awaken_21205_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "算不上是禮物……來！用這個代替吧！"
+    },
+    {
+      "id": "battle_erosion_21205_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "別碰我！……別想解開這些荊棘。這才是……在幫我。"
+    },
+    {
+      "id": "battle_awaken_21206_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "請讓我來……為你介紹宅邸吧……"
+    },
+    {
+      "id": "battle_erosion_21206_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "管家們……執事們在哪裡？你知道的吧……馬上帶我過去！"
+    },
+    {
+      "id": "battle_awaken_21207_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "可憐而又可悲的孩子們啊……我只能，向他們致以哀悼。"
+    },
+    {
+      "id": "battle_erosion_21207_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "那份信念僅是毫無意義的期望……放下一切，隨後安眠吧。"
+    },
+    {
+      "id": "battle_awaken_21208_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "看到了怪物……？難道，是這樣的嗎？！"
+    },
+    {
+      "id": "battle_erosion_21208_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "畏懼、恐慌、不安。昏暗的床底下……棲息著怪物！！"
+    }
+  ]
+}

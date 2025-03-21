@@ -1,0 +1,4800 @@
+{
+  "dataList": [
+    {
+      "id": 9000101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "突刺"
+        }
+      ]
+    },
+    {
+      "id": 9000102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "無力化",
+          "desc": "[OnSucceedAttack] 對目標施加2層束縛 ；使自身恢復體力上限5%的體力"
+        }
+      ]
+    },
+    {
+      "id": 9000201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "卑鄙攻擊",
+          "desc": "[OnSucceedAttack] 下回合使自身獲得1層強壯 "
+        }
+      ]
+    },
+    {
+      "id": 9000202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "無差別攻擊"
+        }
+      ]
+    },
+    {
+      "id": 9000301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "撕裂傷口",
+          "desc": "[OnSucceedAttack] 下回合對目標施加1層虛弱 "
+        }
+      ]
+    },
+    {
+      "id": 9000302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "弱點洞察",
+          "desc": "[OnSucceedAttack] 下回合對目標施加3層易損 "
+        }
+      ]
+    },
+    {
+      "id": 9100101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "戰時號令"
+        }
+      ]
+    },
+    {
+      "id": 9100102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "攻擊命令",
+          "desc": "[WhenUse] 下回合隨機使1名友方單位獲得1層強壯 "
+        }
+      ]
+    },
+    {
+      "id": 9100103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防禦命令",
+          "desc": "[2xPostLine]\n[WhenUse] 下回合隨機使2名友方單位獲得2層忍耐 "
+        }
+      ]
+    },
+    {
+      "id": 9100104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "精神波動",
+          "desc": "[5xPostLine]\n[OnSucceedAttack] 使目標失去20點理智值"
+        }
+      ]
+    },
+    {
+      "id": 9000401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "拙劣斬擊",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "笨重突刺",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "軟弱打擊",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "打擊",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "沉重一擊",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "格擋",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9000801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "揮掃",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "連續招架",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9000901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "突刺",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "連續突刺",
+          "desc": "",
+          "coinlist": [
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "揮砍",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "割裂",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "揮掃",
+          "desc": "",
+          "keywords": [
+            "Bleeding"
+          ],
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加1層束縛 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "連續招架",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9001201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "突刺",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "連續突刺",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "揮砍",
+          "desc": "",
+          "keywords": [
+            "Bleeding"
+          ],
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "割裂",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加3層破裂 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "揮掃",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加1層束縛 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防禦",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9000203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "突刺",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "連續突刺",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加1層流血 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加1層流血 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加1層流血 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "揮砍",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9000304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "割裂",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加3層破裂 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "揮掃",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加3層束縛 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "連續招架",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9001501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "突刺",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "連續突刺",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加1層流血 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加1層流血 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加1層流血 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "揮砍",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "割裂",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加3層破裂 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "連續招架",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9100105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "戰時號令",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100106,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防禦命令",
+          "desc": "[WhenUse] 下回合隨機使2名友方單位獲得1層守護 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100108,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "硬化",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9100109,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "攻擊命令",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加5層破裂 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "戰時號令",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標失去5點理智值"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標失去5點理智值"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "攻擊命令",
+          "desc": "[WhenUse] 下回合隨機使2名友方單位獲得1層傷害強化 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加5層破裂 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "精神波動",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標失去15點理智值"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "硬化",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9100205,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防禦命令",
+          "desc": "[WhenUse] 下回合隨機使2名友方單位獲得1層守護 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標失去5點理智值"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "橫掃",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "卑鄙打擊",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加1層束縛 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加1層束縛 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "時來運轉",
+          "desc": "[StartBattle] 使自身本回合第2個行動槽的技能中所有硬幣的朝向都必定是正面",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "縱斬",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "沉重斬擊",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加1層流血 "
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加1層流血 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "時來運轉",
+          "desc": "[StartBattle] 使自身本回合第2個行動槽的技能中所有硬幣的朝向都必定是正面",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "穿刺",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "刁鑽突刺",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加2級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "時來運轉",
+          "desc": "[StartBattle] 使自身本回合第2個行動槽的技能中所有硬幣的朝向都必定是正面",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9001904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "格擋",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "利刃封喉",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合使目標增加3級流血 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "入骨尖刀",
+          "desc": "[BeforeAttack] 若目標現存體力不高於50%，則重複使用本技能的前兩枚硬幣1次",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合使目標增加2級破裂 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合使目標增加2級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "碎屍萬段",
+          "desc": "[EnemyKill] 重複使用本技能1次",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標額外造成3點傷害"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標額外造成3點傷害"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標額外造成3點傷害"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "都瞧好了…！",
+          "desc": "[StartBattle] 使自身獲得1層強壯 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100305,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "吉星高照",
+          "desc": "[StartBattle] 使自身本回合的所有硬幣的朝向都變為正面",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100306,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "莫挨老子！",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "發現入侵者！",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加1層束縛 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "不許動！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加4層加算硬幣弱化 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "站住！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層威力降低 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層威力降低 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "自討苦吃！",
+          "desc": "[WinDuel] 使本技能威力+1",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "鎖定入侵者",
+          "desc": "",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加3層束縛 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "牽制",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層麻痺 "
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "無差別鎮壓",
+          "desc": "[WinDuel] 使本技能威力+2",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加3層麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "休想靠近",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "來跳舞吧~",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身恢復2點理智值"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身恢復2點理智值"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身恢復2點理智值"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "寧靜之舞",
+          "desc": "[WhenUse] 下回合使全體友方單位獲得1層忍耐 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "舞蹈決鬥",
+          "desc": "[WinDuel] 使目標失去5點理智值",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層虛弱 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "笑裡藏刀",
+          "desc": "若目標的理智值不高於0點，則使本技能威力+1",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "誒~呀！",
+          "desc": "[OnSucceedEvade] 使目標失去5點理智值",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "熱情之舞",
+          "desc": "[WhenUse] 下回合使自身獲得1層強壯 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "激昂舞步",
+          "desc": "[WhenUse] 使自身恢復5點理智值",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身增加1級呼吸法 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身增加1級呼吸法 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身增加1級呼吸法 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身增加1級呼吸法 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "不過如此？",
+          "desc": "[WinDuel] 對目標造成10點理智傷害",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加3層虛弱 和3層麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "再利落點！",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身獲得2層強壯 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "再迅速點~",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身獲得2層忍耐 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100405,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "皮納塔派對~！",
+          "desc": "[WhenUse] 若目標的理智值不高於0點，則根據其理智值按比例增加自身的暴擊率",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使自身的混亂閾值後移本硬幣傷害量的50%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100406,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "精彩絕倫！",
+          "desc": "[OnSucceedEvade] 使自身的混亂閾值後移5；對目標造成5點理智傷害",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "扒了你的皮",
+          "desc": "若目標的理智值不高於自身，則使本技能威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標增加3級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標增加3級流血 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "「熱烈」歡迎",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標造成15點理智傷害"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "汙言穢語",
+          "desc": "[WinDuel] 隨機使1名友方單位恢復10點理智值",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標造成5點理智傷害"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "滾犢子！",
+          "desc": "[WinDuel] 使目標失去15點理智值",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加3層麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "往哪瞅呢？",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "給你開個瓢",
+          "desc": "若目標的理智值不高於自身，則使本技能威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層流血 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "突襲",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標增加1級震顫 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標增加1級震顫 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標增加1級震顫 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "阻截",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "壓制目標",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合使目標增加3級震顫 強度"
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "激活HP彈",
+          "desc": "[WhenUse] 使自身恢復10點體力",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9002901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "鎮壓",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層震顫 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防護",
+          "desc": "[WinDuel] 下回合隨機使2名友方單位獲得1層忍耐 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "阻截",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "id": 9003101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "掩護",
+          "desc": "[WinDuel] 下回合隨機使除自身以外的1名友方單位獲得2層守護 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "刺入",
+          "desc": "",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標增加2級流血 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "釘擊",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層N公司的尖釘 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層N公司的尖釘 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "擊打",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層麻痺 和1層破綻 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "錘打",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加3層束縛 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "異端審判",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加1層N公司的尖釘 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標增加3級流血 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {},
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "粗暴釘擊",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層N公司的尖釘 並使其增加1級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層N公司的尖釘 並使其增加1級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層N公司的尖釘 並使其增加1級流血 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "狂熱的宣教",
+          "desc": "[DefeatDuel] 下回合對自身施加2層易損 ",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層易損 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "竟敢！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加1層N公司的尖釘 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "強力錘打",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加3層束縛 和2層麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "威嚴的宣教",
+          "desc": "[DefeatDuel] 下回合對自身施加2層虛弱 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層虛弱 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "粗暴的異端審判",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加1層N公司的尖釘 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目標的N公司的尖釘 層數不低於5層，則在下回合對其施加10層束縛 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "貫穿之釘",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層N公司的尖釘 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "集結",
+          "desc": "[WinDuel] 下回合隨機使2名友方單位獲得1層狂信 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標增加2級流血 強度"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "堅定信仰",
+          "desc": "[WhenUse] 使自身獲得1層守護 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "裁決之錘",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加3層束縛 和2層虛弱 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9003903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "團結",
+          "desc": "[WinDuel] 使理智值最低的2名友方單位恢復15點理智值",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標增加2級流血 強度"
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "沉重的異端審判",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加2層N公司的尖釘 "
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目標的N公司的尖釘 層數不低於5層，則在下回合對其施加10層虛弱 和10層麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "尖釘洗禮",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層N公司的尖釘 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層N公司的尖釘 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層N公司的尖釘 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "穿刺釘刑",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標增加5級流血 強度並對其施加2層易損 "
+                }
+              ]
+            },
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "錘們，聽命…！",
+          "desc": "[WinDuel] 下回合使全體友方單位獲得1層狂信 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使理智值最低的2名友方單位恢復10點理智值"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "滌淨汝罪",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加3層N公司的尖釘 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目標的N公司的尖釘 層數不低於5層，則使其陷入混亂"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100505,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "虔誠信仰",
+          "desc": "[WhenUse] 使自身獲得2層守護 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "尖釘洗禮",
+          "desc": "若現存體力不高於50%，則使本技能施加的N公司的尖釘 層數額外+1層",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層N公司的尖釘 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層N公司的尖釘 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層N公司的尖釘 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "穿刺釘刑",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標增加5級流血 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "鑄就偉業…！",
+          "desc": "[WhenUse] 下回合使全體友方單位獲得1層狂信 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "滌淨…汝罪！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加5層N公司的尖釘 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目標的N公司的尖釘 層數不低於5層，則使其陷入混亂"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "異端抹殺",
+          "desc": "若目標帶有N公司的尖釘 ，則使本技能造成的傷害+100%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標增加10級破裂 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加5層易損 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "愚不可及…！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層N公司的尖釘 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "下劈",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "斜線順劈",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嘰",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加3級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嘰伊",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加3層破裂 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加2級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防禦",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嘰伊",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加3級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嘰伊伊伊",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加3級破裂 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加層數等同於本技能正面硬幣數的麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防禦",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嘰嘰！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加3級流血 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嘰伊！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加3級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加2層防禦等級降低 與1層流血 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防禦",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嘰嘰嘰嘰",
+          "desc": "若自身在上回合未受到傷害，則使本技能的硬幣威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加5級震顫 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嘰嘰嘰嘰",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層束縛 與2層防禦等級降低 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嘰伊嘰嘰",
+          "desc": "[WhenUse] 使自身獲得2層守護 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防禦",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "開始近距攝影",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "撤退 撤退",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "開始近距攝影",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "撤退 撤退",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004605,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "閃光 閃光",
+          "desc": "[WhenUse] 使目標失去10點理智值",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004606,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "正在掃描弱點。",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層易損 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004607,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "正在阻滯移動。",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "正在分割。",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加3層破裂 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "正在切削。",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加1層易損 "
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加5層防禦等級降低 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "裝填…發射",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加3級震顫 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "正在鎮壓。",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層虛弱 "
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "正在分割。",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加5層破裂 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加3級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "正在切削。",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加5層防禦等級降低 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層易損 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "圓鋸…下切。",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加5層破裂 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加5級破裂 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加3層易損 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9004904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "切換防禦模式",
+          "desc": "[WhenUse] 使自身獲得2層守護 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "裝填…發射",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加5級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加2層震顫 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "正在鎮壓。",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層虛弱 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "注意 注意 不穩",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加5層攻擊等級降低 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "切換防禦模式",
+          "desc": "[WhenUse] 使自身獲得2層守護 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "會受傷的。",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加5級破裂 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加5層破裂 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "發現 發現 損傷",
+          "desc": "優先指定帶有破裂 的單位",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據目標的破裂 層數，對其額外造成相應的固定傷害"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "搖動增幅",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加5級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加3層震顫 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "崩潰瓦解。",
+          "desc": "優先指定帶有震顫 的單位",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加5層麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "注意 注意 正在搖晃",
+          "desc": "優先指定帶有震顫 的單位",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加10級震顫 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100706,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "漏洞 確認",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 傷害量-50%\n使目標陷入混亂"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100707,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "切換防禦模式",
+          "desc": "[StartBattle] 使自身獲得3層守護 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100708,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "如數奉還。",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據上回合攻擊自身的硬幣數，使目標增加相應的震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "頭暈眼花",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加3層震顫 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "震顫加速",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標的震顫 層數翻倍"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "收工了！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "發動引擎",
+          "desc": "[WhenUse] 下回合使自身獲得1層震顫同步 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "嚐嚐這招！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級震顫 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "震顫增幅",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據目標帶有的震顫 強度，相應增加震顫 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "結束了！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加2級震顫 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加2級震顫 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005204,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "發動引擎",
+          "desc": "[WhenUse] 下回合使自身獲得1層震顫同步 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005301,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "摩擦加速",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加1級破裂 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加2級破裂 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加3級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005302,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "碾碎你！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加3級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005303,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "震震顫顫",
+          "desc": "",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 前兩枚硬幣為正面時，根據目標帶有的震顫 強度，增加相應的震顫 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 前兩枚硬幣為正面時，根據技能硬幣的正面數，增加相應的破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005304,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "發動引擎",
+          "desc": "[WhenUse] 下回合使自身獲得1層震顫同步 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "請你退後！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級震顫 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "會有點吵！",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級震顫 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 根據目標帶有的震顫 強度，下回合對其施加相應層數的麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "強力增幅",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據目標帶有的震顫 強度，相應增加震顫 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "震顫變換",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級震顫 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據目標帶有的震顫 強度，相應增加震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 根據目標帶有的震顫 強度，下回合對其施加相應層數的麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100805,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "震顫壓縮",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加2級震顫 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加2級震顫 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100806,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "大幹一場",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標的混亂閾值前移10"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標的混亂閾值前移20"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100807,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "最終預熱",
+          "desc": "[StartBattle] 使自身獲得4層守護 \n恢復15點理智值",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005401,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "阻止入侵者",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加3層破裂 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005402,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "禁止入內",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005403,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "禁止通行",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加2層易損 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005404,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "掩護！掩護！",
+          "desc": "[StartBattle] 使自身恢復體力上限5%的體力",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005501,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "暫停！暫停！",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級震顫 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005502,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "請停下來！",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加3級震顫 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005503,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "進行拘捕！",
+          "desc": "優先指定帶有震顫 的單位",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005504,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "尋找掩護！",
+          "desc": "[StartBattle] 使自身恢復體力上限5%的體力",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "注射HP安瓿",
+          "desc": "[CantDuel][WhenUse] 指定友方單位\n使目標恢復等同於傷害量的體力。\n造成傷害為0",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "注射防禦安瓿",
+          "desc": "[CantDuel][WhenUse] 指定友方單位\n使目標獲得1層隨機屬性守護。\n造成傷害為0。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005603,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "注射崩解安瓿",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層崩解安瓿 \n下回合對目標施加1層麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "啟動閃避功能",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "緊急發射崩解安瓿",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層麻痺 "
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加2層崩解安瓿 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "弱點 弱點暴露。",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層易損 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加2層易損 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加3層崩解安瓿 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005703,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "請繼續戰鬥。",
+          "desc": "[CantDuel] 指定友方單位",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標獲得2層傷害強化 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "請不要愛惜身體。",
+          "desc": "[CantDuel] 指定友方單位",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使目標獲得2層強壯 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層易損 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005705,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "撤退。",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "傷痕詛咒",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加3層破裂 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "咒縛增殖",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層破裂 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層破裂 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "傷口開裂",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加3級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防禦護符",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "液體壓制",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層束縛 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "液體爆發",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "液體晃動",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加3級震顫 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層震顫 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9005804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "液體阻塞",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "傷痕詛咒",
+          "desc": "[WhenUse] 使自身獲得1層糾纏的咒符 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加3層破裂 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "咒縛增殖",
+          "desc": "[WhenUse] 使自身獲得2層糾纏的咒符 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層破裂 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層破裂 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "束縛詛咒",
+          "desc": "[WhenUse] 使自身獲得2層糾纏的咒符 ",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合對目標施加2層束縛 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "凸顯傷口",
+          "desc": "[EndBattle] 消耗所有糾纏的咒符 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層破裂 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層破裂 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層束縛 "
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加5級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006105,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防禦護符",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "液體壓制",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層束縛 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "液體爆發",
+          "desc": "[WhenUse] 使自身獲得1層昂揚 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "液體晃動",
+          "desc": "[WhenUse] 使自身獲得1層昂揚 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加4級震顫 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層震顫 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "液體阻塞",
+          "desc": "[WhenUse] 使自身恢復體力上限5%的體力\n下回合對自身施加2層易損 \n[EndBattle] 消耗所有醉意 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "束縛詛咒",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層束縛 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "打擊詛咒",
+          "desc": "[WhenUse] 獲得1層復貼的咒符 ",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加3層打擊易損 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "增殖護符",
+          "desc": "優先指定破裂 強度最高的單位",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據復貼的咒符 層數，使目標增加相應的破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "麻痺詛咒",
+          "desc": "[EndBattle] 消耗目標所有復貼的咒符 ",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加3級破裂 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 根據復貼的咒符 層數，對目標施加相應層數的麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "束縛咒符",
+          "desc": "優先指定復貼的咒符 層數最高的單位",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加5層復貼的咒符 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "泯滅咒符",
+          "desc": "優先指定復貼的咒符 層數最高的單位\n[EndBattle] 消耗目標所有復貼的咒符 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層復貼的咒符 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 若目標帶有不低於9層復貼的咒符 ，則對目標施加5層麻痺 \n造成傷害量50%的固定傷害"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9100907,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "蔓延咒符",
+          "desc": "[WhenUse] 對目標施加2層復貼的咒符 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9101001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "泯滅咒符",
+          "desc": "優先指定復貼的咒符 層數最高的單位\n[EndBattle] 消耗目標所有復貼的咒符 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層復貼的咒符 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] 若目標帶有的復貼的咒符 不低於9層，則對其施加5層麻痺 \n對目標追加本硬幣傷害量50%的固定傷害"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "發現可疑目標",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] 使目標增加3級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "制服",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackTail] 使目標增加3級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9006803,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "攔截可疑目標",
+          "desc": "優先指定體力最高的單位",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "若第1枚硬幣的朝向為反面，則使本硬幣造成的傷害+10%"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "若第2枚硬幣的朝向為反面，則使本硬幣造成的傷害+10%"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "若第2和第3枚硬幣的朝向為反面，則使本硬幣造成的傷害+30%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "齧合的瞬間",
+          "desc": "[WhenUse] 使自身獲得1層充能 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層齧合的時間 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗2層充能 ，對目標施加3層麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "吸收時間",
+          "desc": "[WhenUse] 使自身獲得1層充能 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層束縛 並使自身獲得1層迅捷 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007003,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "加速的瞬間",
+          "desc": "[StartBattle] 使自身獲得3層充能 \n[WhenUse] 若自身充能 層數不低於5層，則使本技能的拼點威力 +2\n下回合陷入無法行動狀態",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加1層束縛 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若自身的充能 層數不低於5層，則消耗所有充能 層數，每層使本硬幣造成的傷害 +10%"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層齧合的時間 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "時間租賃",
+          "desc": "[StartBattle] 使自身獲得3層[TimeRental]與1層充能 ",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "開始近距攝影",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "撤退 撤退",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007103,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "閃光 閃光",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標失去5點理智值"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標失去5點理智值"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9007104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "進行拘束。",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合對目標施加2層束縛 和3層麻痺 。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9008201,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "發現可疑目標",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加3級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9008202,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "制服",
+          "desc": "",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加3級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9008203,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "攔截可疑目標",
+          "desc": "優先指定體力最高的單位",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "若第1枚硬幣的朝向為正面，則使本硬幣造成的傷害+10%"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "若第2枚硬幣的朝向為正面，則使本硬幣造成的傷害+10%"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "若第2和第3枚硬幣的朝向為正面，則使本硬幣造成的傷害+30%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

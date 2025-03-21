@@ -1,0 +1,79 @@
+{
+  "dataList": [
+    {
+      "id": "battle_awaken_20201_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "浮士德通曉一切答案。"
+    },
+    {
+      "id": "battle_awaken_20202_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "這場戰鬥，將以勝利告終。"
+    },
+    {
+      "id": "battle_awaken_20203_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "刺穿……直到心靈的深邃之處……"
+    },
+    {
+      "id": "battle_erosion_20202_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "即便我必須把一切盡數吐出……"
+    },
+    {
+      "id": "battle_erosion_20203_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "來吧……讓我們抱緊緊……"
+    },
+    {
+      "id": "battle_awaken_20204_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "雷電，完全充能。"
+    },
+    {
+      "id": "battle_erosion_20204_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": ""
+    },
+    {
+      "id": "battle_awaken_20205_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "記錄完成。所剩唯有……放你自由。"
+    },
+    {
+      "id": "battle_erosion_20205_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "真理、真理近在眼前……嘻嘻、嘻嘻嘻、嘻嘻！！！"
+    },
+    {
+      "id": "battle_awaken_20206_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "在你眼中，我是何種模樣？或許那答案，就於時間的發條中隱藏？"
+    },
+    {
+      "id": "battle_erosion_20206_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "就那樣。停下吧。在靜止的時間中。永遠地。"
+    },
+    {
+      "id": "battle_awaken_20207_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "遵循既定的故事。順理成章將其捕獲。"
+    },
+    {
+      "id": "battle_erosion_20207_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "滾開……！蘋果……蘋果被藏到哪裡去了？"
+    },
+    {
+      "id": "battle_awaken_20208_1",
+      "desc": "E.G.O覺醒",
+      "dlg": "你還記得第一次暢快呼吸的瞬間嗎？對我而言……就是此刻。"
+    },
+    {
+      "id": "battle_erosion_20208_1",
+      "desc": "E.G.O侵蝕",
+      "dlg": "深深地，吸氣吧……那或許是你的最後一次呼吸了。"
+    }
+  ]
+}

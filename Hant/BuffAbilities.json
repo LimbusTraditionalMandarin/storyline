@@ -1,0 +1,348 @@
+{
+  "dataList": [
+    {
+      "id": "AtkDamageMultiplier",
+      "desc": "造成的傷害{0}%",
+      "variation": "造成的{0}傷害{1}%"
+    },
+    {
+      "id": "AtkAndTakeAtkDamageMultiplier",
+      "desc": "造成/受到的傷害{0}%",
+      "variation": "受到及造成的{0}屬性技能傷害 {1}%"
+    },
+    {
+      "id": "GiveBuffOnSucceedAttack",
+      "desc": "命中時對目標施加{0}{1}"
+    },
+    {
+      "id": "MaxHpMultiplierRail",
+      "desc": "體力上限{0}%"
+    },
+    {
+      "id": "SlotWeightAdder",
+      "desc": "行動槽容量 {0}"
+    },
+    {
+      "id": "AtkAdder",
+      "desc": "攻擊等級{0}"
+    },
+    {
+      "id": "DefAdder",
+      "desc": "防禦等級{0}"
+    },
+    {
+      "id": "AtkAdderIfNotDamagedPrevTurn",
+      "desc": "若一回合內未受到傷害，則下回合攻擊等級{0}\n(護盾受到的傷害不計入)"
+    },
+    {
+      "id": "MaxSpeedAdderAsStack",
+      "desc": "最大速度值{0}"
+    },
+    {
+      "id": "MaxSpeedAdder",
+      "desc": "最大速度值{0}"
+    },
+    {
+      "id": "MinSpeedAdder",
+      "desc": "最小速度值{0}"
+    },
+    {
+      "id": "TakeHpHealMultiplier",
+      "desc": "通過技能效果獲得的體力恢復量 {0}%"
+    },
+    {
+      "id": "RecoverSelfHpOnSucceedAttackByDmg",
+      "desc": "恢復造成傷害{0}%的體力"
+    },
+    {
+      "id": "RailEnemyBuffF",
+      "desc": "罪人使用E.G.O技能時需要的罪孽碎片的數量{0}"
+    },
+    {
+      "id": "MaxHpMultiplier",
+      "desc": "體力上限{0}%"
+    },
+    {
+      "id": "AtkAndDefAdder",
+      "desc": "攻擊等級{0}，防禦等級{0}"
+    },
+    {
+      "id": "GiveBuffOnRoundStartToAllAlly",
+      "desc": "回合開始時使全體友方單位獲得{1}級{0} 強度，並施加{2}層{0} ",
+      "variation": "回合開始時使全體友方單位增加{1}級{0} 強度",
+      "variation2": "回合開始時使全體友方單位獲得{1} 層 {0} "
+    },
+    {
+      "id": "GiveBuffOnRoundStartToAllAllyExtra",
+      "desc": "回合開始時使全體友方單位增加{1}級{0} 強度，額外使帶有{0}狀態的友方單位獲得{2}層{0} "
+    },
+    {
+      "id": "GiveBuffOnRoundStartToAllEnemyExtra",
+      "desc": "回合開始時使全體敵方單位增加{1}級{0} 強度，額外對帶有{0}狀態的敵方單位施加{2}層{0} "
+    },
+    {
+      "id": "LoseTurnOnRoundEnd",
+      "desc": "回合結束時，失去{0}層"
+    },
+    {
+      "id": "Vibration",
+      "desc": "在{1}回合內，受到造成震顫引爆 的攻擊時，混亂閾值前移{0}。"
+    },
+    {
+      "id": "DefAdderByStackCeilToInt",
+      "desc": "每帶有4級震顫 強度，使自身降低1級防禦等級"
+    },
+    {
+      "id": "Crack",
+      "desc": "若處於混亂時，自身的震顫 強度與層數之和不低於20，使自身的混亂階段加深1層\n該效果不能超過最大混亂階段"
+    },
+    {
+      "id": "VibrationEcho",
+      "desc": "在{1}回合內，受到造成震顫引爆 的攻擊時，受到{0}點怠惰傷害。"
+    },
+    {
+      "id": "VibrationDistribution",
+      "desc": "- 回合結束時，下回合使自身獲得(全體友方單位震顫-分配 層數之和/帶有震顫-分配 的友方單位數)層攻擊等級提升 (最多5層)"
+    },
+    {
+      "id": "VibrationChain",
+      "desc": "- 每帶有10級震顫 強度，使自身的拼點威力-1(最多-3)"
+    },
+    {
+      "id": "VibrationContinue",
+      "desc": "通過自身的技能或硬幣效果造成震顫引爆時，以{0}%概率額外造成1次震顫引爆 。(最高50%)\n- 通過自身的技能或硬幣效果造成震顫引爆時，以{1}%概率額外造成1次震顫引爆 。(最高50%)"
+    },
+    {
+      "id": "TimeSuspend",
+      "desc": "效果觸發時，自身受到{3}點怠惰傷害並使自身震顫引爆 {0}次"
+    },
+    {
+      "id": "TimeRentalTwoPersonality",
+      "name": "時間租賃",
+      "desc": " 下回合使自身獲得{1}層迅捷 、拼點威力提升 並對自身施加易損 \n若本效果的層數為1層，則改為下回合對自身施加{0}層束縛",
+      "summary": ""
+    },
+    {
+      "id": "VibrationChainPersonality",
+      "name": "震顫-鎖鏈",
+      "desc": "- 每帶有10級震顫 強度，使自身的拼點威力-1(最多-3)",
+      "summary": ""
+    },
+    {
+      "id": "DefSkillPowerResultAdder",
+      "desc": "守備技能的最終威力 {0}"
+    },
+    {
+      "id": "TakeAtkDamageMultiplier",
+      "desc": "受到的傷害 {0}%"
+    },
+    {
+      "id": "ParryingResultAdder",
+      "desc": "拼點威力 {0}"
+    },
+    {
+      "id": "SkillPowerResultAdder",
+      "desc": "最終威力 {0}"
+    },
+    {
+      "id": "SkillPowerAdder",
+      "desc": "基礎威力 {0}"
+    },
+    {
+      "id": "PlusCoinScaleAdder",
+      "desc": "加算技能硬幣威力 {0}"
+    },
+    {
+      "id": "MinusCoinScaleAdder",
+      "desc": "減算技能硬幣威力 {0}"
+    },
+    {
+      "id": "DefaultMaxHpMultiplier",
+      "desc": "體力上限{0}%"
+    },
+    {
+      "id": "ResistAdderForLastBoss",
+      "desc": "第3區段的最終頭目的{0}抗性{1}"
+    },
+    {
+      "id": "MRR519P",
+      "desc": "友方單位陣亡時，對全體敵方單位造成相當於該友方單位體力上限20%的固定傷害"
+    },
+    {
+      "id": "HealSelfOnSucceedAttackByDmgRatio",
+      "desc": "攻擊命中時，若使敵方單位失去體力，則使自身恢復造成傷害量{0}%的體力"
+    },
+    {
+      "id": "MRR524P",
+      "desc": "自身每帶有10層{0}，使自身所有技能造成的傷害+1%(最多+30%)"
+    },
+    {
+      "id": "MRR525",
+      "desc": "回合結束時，使{0}層數減少{1}層"
+    },
+    {
+      "id": "CoinScaleAdderByAtkType",
+      "desc": "{0}技能的加算硬幣威力+{1}，減算硬幣威力-{1}"
+    },
+    {
+      "id": "GiveBuffOnReleaseStandBy",
+      "desc": "待機解除時獲得{1}層{0}"
+    },
+    {
+      "id": "MRR532",
+      "desc": "覺醒E.G.O技能攻擊結束後，隨機消耗持有量多於1個的罪孽碎片1個，總計消耗2個"
+    },
+    {
+      "id": "LacerationStackAndTurnAdder",
+      "desc": "通過技能或硬幣效果增加的{1}強度與施加的{1}層數額外{0}"
+    },
+    {
+      "id": "MRR536",
+      "desc": "受到技能攻擊時，下回合隨機獲得1層{0}或1層{1}(每回合最多4次)"
+    },
+    {
+      "id": "MRR540",
+      "desc": "消耗{0}的技能最終威力+1，造成的傷害+10%"
+    },
+    {
+      "id": "MRR541",
+      "desc": "以{1}最低的單位為主要目標時，技能的最終威力+{0}"
+    },
+    {
+      "id": "MRR518P",
+      "desc": "戰鬥開始時，使最先編入的3名友方單位增加10級呼吸法 強度"
+    },
+    {
+      "id": "MRR520P",
+      "desc": "陣亡時，對全體敵方單位造成相當於陣亡單位體力上限{0}%的固定傷害(若是集中遭遇戰，則改為所有部位)"
+    },
+    {
+      "id": "MRR517",
+      "desc": "受到技能攻擊時，下回合獲得2層攻擊等級提升 (最多6層)"
+    },
+    {
+      "id": "MRR5051",
+      "desc": "消耗不低於8層{0}的技能命中時，本場戰鬥期間使目標的{1}抗性+0.1\n- 每名敵方單位每個技能最多1次\n- 本效果最多使每名敵方單位的抗性+0.3"
+    },
+    {
+      "id": "MRR5052",
+      "desc": "獲得或消耗{0}層數的技能造成的傷害增加+(10+消耗的層數×2)%(最大50%)"
+    },
+    {
+      "id": "MRR506",
+      "desc": "回合結束時，對各個關鍵詞層數不低於2層的所有部位造成相當於其{0}強度的{1}傷害，並使其{0}層數減少1層；使其{2}1次，並使其{3}層數減少1層"
+    },
+    {
+      "id": "MRR507",
+      "desc": "增加{0}強度或施加{0}層數的技能最終威力+2"
+    },
+    {
+      "id": "MRR508",
+      "desc": "對理智值低於0點或沒有理智值的敵方單位造成的傷害+(目標的{0}強度)%(最多+45%)"
+    },
+    {
+      "id": "MRR509P",
+      "desc": "對被破壞或陷入混亂的部位造成的傷害{0}%"
+    },
+    {
+      "id": "GiveBuffOnFirstRoundStartPerWave",
+      "desc": "波次的首個回合開始時，增加{1}級{0}強度並獲得{2}層{0}"
+    },
+    {
+      "id": "GiveBuffOnBattleStartAR",
+      "desc": "啟動{0}共鳴時，戰鬥開始時，使全體友方單位增加{2}級{1}強度並獲得{3}層{1}"
+    },
+    {
+      "id": "MRR511PMaxSpeedAdder",
+      "desc": "第1順位友方單位的最大速度值+1"
+    },
+    {
+      "id": "MRR511PMinSpeedAdder",
+      "desc": "第1順位友方單位的最小速度值+1"
+    },
+    {
+      "id": "MRR511PMinSpeedChangeSkill",
+      "desc": "第1順位友方單位減少1個1技能，增加1個3技能"
+    },
+    {
+      "id": "MRR512",
+      "desc": "從第7順位友方單位起，其待機解除的回合開始時，使其恢復{0}點理智值，本場戰鬥期間使其獲得{2}層{1}，獲得其1、2、3技能對應的罪孽碎片各{3}個"
+    },
+    {
+      "id": "AddSinStockOnKillTargetByUsedSkillAttribute",
+      "desc": "攻擊或反擊技能結束時，若擊殺了敵方單位，則獲得該技能對應的罪孽碎片{0}個(每個技能最多1次，包括E.G.O技能)"
+    },
+    {
+      "id": "MRR514",
+      "desc": "新的敵方單位增援時，戰鬥開始時使其增加5級流血 強度並對其施加3層流血 。若友方單位中存在<血魔>，則新的敵方單位登場時觸發全體敵方單位的流血 1次，並使全體敵方單位的流血 層數減少1層"
+    },
+    {
+      "id": "EnemyLevelTextOnly",
+      "desc": "敵方等級 {0}"
+    },
+    {
+      "id": "MRR501",
+      "desc": "通過技能或硬幣效果使敵方單位增加的燒傷 、流血 、震顫 、破裂 與沉淪 強度額外{0}級"
+    },
+    {
+      "id": "TakeBuffTurnAdder",
+      "desc": "友方單位通過技能或硬幣效果獲得的{0}層數額外{1}層"
+    },
+    {
+      "id": "MRR503",
+      "desc": "回合結束時使理智值最低的{0}名友方單位恢復{1}點理智值(不包括陷入恐慌或侵蝕的友方單位)"
+    },
+    {
+      "id": "CriticalDamageBoostWithBuffUse",
+      "desc": "暴擊時，若自身的{0}強度高於{1}級，則消耗至多{1}級超出的{0}強度並使自身暴擊時造成的傷害+(消耗的強度×{2})%(最多{3}%)"
+    },
+    {
+      "id": "GainSinStockOnDieByDefaultSkill",
+      "desc": "陣亡時，根據自身擁有的基礎攻擊技能的罪孽與級別，獲得相應的罪孽碎片"
+    },
+    {
+      "id": "MRR547",
+      "desc": "回合開始時，使全體敵方單位技能的最終威力+1~3"
+    },
+    {
+      "id": "MRR544",
+      "desc": "回合開始時，使全體友方單位技能的最終威力+1~3"
+    },
+    {
+      "id": "MRR551",
+      "desc": "回合開始時，若體力為最大值，則增加{1}級{0}強度並施加{2}層{0}(每場戰鬥每名敵方單位每個部位最多1次)"
+    },
+    {
+      "id": "MRR552",
+      "desc": "陣亡時，下回合使現存體力最低的1名友方單位獲得{1}層{0}"
+    },
+    {
+      "id": "MRR553",
+      "desc": "E.G.O技能造成的傷害{0}%"
+    },
+    {
+      "id": "MRR521",
+      "desc": "第一混亂閾值無效"
+    },
+    {
+      "id": "MRR557",
+      "desc": "暴擊時造成的傷害+(10+自身的{0}強度與層數之和)%(最多+50%)"
+    },
+    {
+      "id": "LacerationStackAndTurnAdderIfNotZero",
+      "desc": "通過技能或硬幣效果增加的{1}強度與施加的{1}層數額外{0}"
+    },
+    {
+      "id": "AttackDmgMultiplierSpecificType",
+      "desc": "{0}技能造成的傷害+30%"
+    },
+    {
+      "id": "MRR565MaxSpeedAdder",
+      "desc": "最大速度值 {0}"
+    },
+    {
+      "id": "MRR565MinSpeedAdder",
+      "desc": "最小速度值 {0}"
+    }
+  ]
+}

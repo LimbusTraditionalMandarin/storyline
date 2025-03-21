@@ -1,0 +1,88 @@
+{
+  "dataList": [
+    {
+      "id": "InfinityFloor_CheckEnter_Modal_Title",
+      "content": "平行疊加模式"
+    },
+    {
+      "id": "InfinityFloor_CheckEnter_Modal_Desc",
+      "content": "平行疊加模式當前可用。\n\n要應用平行疊加模式並進入下一層嗎？"
+    },
+    {
+      "id": "InfinityFloor_Mode_Button_Title",
+      "content": "平行疊加模式："
+    },
+    {
+      "id": "InfinityFloor_Mode_Button_Title_forProgressPopup",
+      "content": "平行疊加"
+    },
+    {
+      "id": "mirror_dungeon_infinity_difficulty",
+      "content": "infinity"
+    },
+    {
+      "id": "mirror_dungeon_achievement_panel_title",
+      "content": "成就"
+    },
+    {
+      "id": "mirror_dungeon_achievement_reward_title",
+      "content": "獎勵列表"
+    },
+    {
+      "id": "mirror_dungeon_achievement_list_title",
+      "content": "成就列表"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_COLLECTION",
+      "content": "收集"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_CLEAR",
+      "content": "通關"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_DECK",
+      "content": "編隊"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_SHOP",
+      "content": "商店"
+    },
+    {
+      "id": "mirrordungeon_mission_date",
+      "content": "您可以在鏡像迷宮#6更新前領取獎勵。"
+    },
+    {
+      "id": "mirrordungeon_infinityFloor_Entrance_ThemeSelectPanel",
+      "content": "平行疊加模式已激活"
+    },
+    {
+      "id": "mirrordungeon_mission_clear_condition",
+      "content": "※ 僅在消耗腦啡肽模塊領取獎勵的情況下，鏡像迷宮才被視為通關完成。"
+    },
+    {
+      "id": "mirrordungeon_infinity_open_condition",
+      "content": "通過第6章"
+    },
+    {
+      "id": "InfinityFloor_Mode_Button_Notie",
+      "content": "※ 在困難難度下通關所有階層以進入。"
+    },
+    {
+      "id": "IsOnInfinityMod",
+      "content": "ON"
+    },
+    {
+      "id": "IsOFFInfinityMod",
+      "content": "OFF"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_BATTLE",
+      "content": "戰鬥"
+    },
+    {
+      "id": "mirrordungeon_mission_category_title_MIRROR_DUNGEON5_ALL",
+      "content": "完成度"
+    }
+  ]
+}

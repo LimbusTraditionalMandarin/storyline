@@ -1,0 +1,502 @@
+{
+  "dataList": [
+    {
+      "id": 2030511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "祈願石",
+          "abName": "繞佛塔",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加3層流血 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加4級震顫 強度"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "祈願石",
+          "abName": "繞佛塔",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加4層流血 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加5級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加2層麻痺 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "祈願石",
+          "abName": "繞佛塔",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加4層流血 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加5級震顫 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加2層麻痺 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "祈願石",
+          "abName": "繞佛塔",
+          "desc": "[CantIdentify]\n隨機指定目標\n",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標增加4級流血 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 ，並使目標的震顫 層數減少2層"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "祈願石",
+          "abName": "繞佛塔",
+          "desc": "[CantIdentify]\n隨機指定目標",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標增加6級流血 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 ，並使目標的震顫 層數減少2層"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "祈願石",
+          "abName": "繞佛塔",
+          "desc": "[CantIdentify]\n隨機指定目標",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標增加8級流血 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttackTail] 使目標震顫引爆 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標震顫引爆 ，並使目標的震顫 層數減少2層"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "電子哀鳴",
+          "abName": "夢中的電子羊",
+          "desc": "[BeforeAttack] 使本技能的攻擊容量+(嫉妒共鳴數-2)(最多+1)\n[BeforeAttack] 若自身的充能 層數不低於20層，則消耗20層充能 並使本技能造成的傷害+30%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] 使自身獲得2層充能 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "電子哀鳴",
+          "abName": "夢中的電子羊",
+          "desc": "[BeforeAttack] 使本技能的攻擊容量+(嫉妒共鳴數-2)(最多+2)\n[BeforeAttack] 使本技能造成的傷害+(嫉妒共鳴數-3)×5%(最多+15%)\n[BeforeAttack] 若自身的充能 層數不低於20層，則消耗20層充能 並使本技能造成的傷害+35%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] 使自身獲得2層充能 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "電子哀鳴",
+          "abName": "夢中的電子羊",
+          "desc": "[BeforeAttack] 使本技能的攻擊容量+(嫉妒共鳴數-2)(最多+3)\n[BeforeAttack] 使本技能造成的傷害+(嫉妒共鳴數-3)×10%(最多+30%)\n[BeforeAttack] 若自身的充能 層數不低於20層，則消耗20層充能 並使本技能造成的傷害+40%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] 使自身獲得2層充能 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "電子哀鳴",
+          "abName": "夢中的電子羊",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使本技能的攻擊容量+(嫉妒共鳴數-2)(最多+1)\n[BeforeAttack] 使本技能造成的傷害+(嫉妒共鳴數-3)×5%(最多+15%)\n[BeforeAttack] 若自身的充能 層數低於20層，則每相差1層充能 ，消耗自身體力上限1.5%的體力以獲得至20層充能 \n[BeforeAttack] 消耗至多20層充能 ，每消耗1層充能 ，使本技能造成的傷害+2.5%(最多+50%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] 使自身獲得3層充能 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "電子哀鳴",
+          "abName": "夢中的電子羊",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使本技能的攻擊容量+(嫉妒共鳴數-2)(最多+<style=\"highlight\">2</style>)\n[BeforeAttack] 使本技能造成的傷害+(嫉妒共鳴數-3)×<style=\"highlight\">8</style>%(最多+<style=\"highlight\">24</style>%)\n[BeforeAttack] 若自身的充能 層數低於20層，則每相差1層充能 ，消耗自身體力上限1.5%的體力以獲得至20層充能 \n[BeforeAttack] 消耗至多20層充能 ，每消耗1層充能 ，使本技能造成的傷害+<style=\"highlight\">3.5</style>%(最多+<style=\"highlight\">70</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] 使自身獲得3層充能 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "電子哀鳴",
+          "abName": "夢中的電子羊",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使本技能的攻擊容量+(嫉妒共鳴數-2)(最多+<style=\"highlight\">3</style>)\n[BeforeAttack] 使本技能造成的傷害+(嫉妒共鳴數-3)×<style=\"highlight\">12</style>%(最多+<style=\"highlight\">36</style>%)\n[BeforeAttack] 若自身的充能 層數低於20層，則每相差1層充能 ，消耗自身體力上限<style=\"highlight\">1</style>%的體力以獲得至20層充能 \n[BeforeAttack] 消耗至多20層充能 ，每消耗1層充能 ，使本技能造成的傷害+<style=\"highlight\">5</style>%(最多+<style=\"highlight\">100</style>%)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[EnemyKill] 使自身獲得3層充能 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "渴望-蜜卡拉",
+          "abName": "四百朵玫瑰",
+          "desc": "使用本技能期間，自身的體力不會降至1點以下。\n自身每帶有100層[BloodDinner_Accumulation]，使本技能的拼點威力+1(最多+2)\n[BeforeAttack] 若血宴 層數低於50層，則令本技能每次命中時使目標增加1級流血 強度\n[EndSkill] 3回合內，回合結束時使自身失去10點理智值。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "每有1層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+0.1%(最多+10%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若[BloodDinner_Common_Accumulation]不低於100層，則每有1層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+0.1%(最多+10%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若[BloodDinner_Common_Accumulation]不低於200層，則每有1層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+0.1%(最多+20%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若[BloodDinner_Common_Accumulation]不低於300層，則每有1層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+0.1%(最多+30%)"
+                },
+                {
+                  "desc": "[WinDuelAttack] 根據最大色慾完全共鳴數，相應對目標施加[ThirstyRose](最多3層)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "渴望-蜜卡拉",
+          "abName": "四百朵玫瑰",
+          "desc": "使用本技能期間，自身的體力不會降至1點以下。\n<style=\"highlight\">若目標的流血 強度不低於10級，則使本技能的硬幣威力+1</style>\n自身每帶有100層[BloodDinner_Accumulation]，使本技能的拼點威力+1(最多+<style=\"highlight\">3</style>)\n[BeforeAttack] 若血宴 層數低於<style=\"highlight\">75</style>層，則令本技能每次命中時使目標增加1級流血 強度\n[EndSkill] 3回合內，回合結束時使自身失去10點理智值。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "每有1層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+0.1%(最多+10%)<style=\"highlight\"></style>"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若[BloodDinner_Common_Accumulation]不低於100層，則每有1層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+0.1%(最多+<style=\"highlight\">15</style>%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若[BloodDinner_Common_Accumulation]不低於200層，則每有1層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+0.1%(最多+<style=\"highlight\">25</style>%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若[BloodDinner_Common_Accumulation]不低於300層，則每有1層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+0.1%(最多+<style=\"highlight\">40</style>%)"
+                },
+                {
+                  "desc": "[WinDuelAttack] 根據最大色慾完全共鳴數，相應對目標施加[ThirstyRose](最多3層)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "渴望-蜜卡拉",
+          "abName": "四百朵玫瑰",
+          "desc": "使用本技能期間，自身的體力不會降至1點以下。\n目標每帶有10級流血 強度，使本技能的硬幣威力+1(最多+2)\n自身每帶有100層[BloodDinner_Accumulation]，使本技能的拼點威力+1(最多+5)\n[BeforeAttack] 若血宴 層數低於100層，則令本技能每次命中時使目標增加1級流血 強度\n[EndSkill] 3回合內，回合結束時使自身失去10點理智值。",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "每有1層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+0.1%(最多+10%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若[BloodDinner_Common_Accumulation]不低於100層，則每有1層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+0.1%(最多+<style=\"highlight\">20</style>%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若[BloodDinner_Common_Accumulation]不低於200層，則每有1層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+0.1%(最多+<style=\"highlight\">30</style>%)"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "若[BloodDinner_Common_Accumulation]不低於300層，則每有1層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+0.1%(最多+<style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "[WinDuelAttack] 根據最大色慾完全共鳴數，相應對目標施加[ThirstyRose](最多4層)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2030721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "渴望-蜜卡拉",
+          "abName": "四百朵玫瑰",
+          "desc": "[CantIdentify]\n隨機指定目標\n使用本技能期間，自身的體力不會降至1點以下\n若目標的流血 強度不低於10級，則使本技能的硬幣威力-1\n[BeforeAttack] 若血宴 層數低於150層，則令本技能每次命中時使目標增加1級流血 強度\n[BeforeAttack] 使自身增加20級流血 強度，立即觸發自身的流血 1次並使自身的流血 層數減少2層",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 每有50層[BloodDinner_Common_Accumulation]，使目標增加1級流血 強度(最多10級)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若血宴 層數不高於100層，則使目標增加10級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "每有100層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+5%(最多+25%)"
+                },
+                {
+                  "desc": "[WinDuelAttack] 根據最大色慾完全共鳴數，相應對目標施加[ThirstyRose](最多3層)"
+                },
+                {
+                  "desc": "[WinDuelAttack] 使自身恢復本硬幣造成體力傷害量50%的體力(最多10點)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "渴望-蜜卡拉",
+          "abName": "四百朵玫瑰",
+          "desc": "[CantIdentify]\n隨機指定目標\n使用本技能期間，自身的體力不會降至1點以下\n若目標的流血 強度不低於10級，則使本技能的硬幣威力-1\n若自身的[BloodDinner_Accumulation]層數不低於200層，則使本技能的硬幣威力-1\n[BeforeAttack] 若血宴 層數低於150層，則令本技能每次命中時使目標增加1級流血 強度\n[BeforeAttack] 使自身增加20級流血 強度，立即觸發自身的流血 1次並使自身的流血 層數減少2層",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 每有50層[BloodDinner_Common_Accumulation]，使目標增加1級流血 強度(最多10級)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若血宴 層數不高於100層，則使目標增加10級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "每有100層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+<style=\"highlight\">10</style>%(最多+<style=\"highlight\">50</style>%)"
+                },
+                {
+                  "desc": "[WinDuelAttack] 根據最大色慾完全共鳴數，相應對目標施加[ThirstyRose](最多4層)"
+                },
+                {
+                  "desc": "[WinDuelAttack] 使自身恢復本硬幣造成體力傷害量50%的體力(最多10點)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "渴望-蜜卡拉",
+          "abName": "四百朵玫瑰",
+          "desc": "[CantIdentify]\n隨機指定目標\n使用本技能期間，自身的體力不會降至1點以下\n若目標的流血 強度不低於10級，則使本技能的硬幣威力-1\n若自身的[BloodDinner_Accumulation]層數不低於200層，則使本技能的硬幣威力-1\n[BeforeAttack] 若血宴 層數低於150層，則令本技能每次命中時使目標增加1級流血 強度\n[BeforeAttack] 使自身增加20級流血 強度，立即觸發自身的流血 1次並使自身的流血 層數減少2層",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 每有50層[BloodDinner_Common_Accumulation]，使目標增加1級流血 強度(最多10級)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若血宴 層數不高於100層，則使目標增加10級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "每有100層[BloodDinner_Common_Accumulation]，使本硬幣造成的傷害+<style=\"highlight\">20</style>%(最多+<style=\"highlight\">100</style>%)"
+                },
+                {
+                  "desc": "[WinDuelAttack] 根據最大色慾完全共鳴數，相應對目標施加[ThirstyRose](最多5層)"
+                },
+                {
+                  "desc": "[WinDuelAttack] 使自身恢復本硬幣造成體力傷害量50%的體力(最多10點)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

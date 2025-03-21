@@ -1,0 +1,328 @@
+{
+  "dataList": [
+    {
+      "id": "loginui_sign_in_with_google",
+      "content": "Google登錄"
+    },
+    {
+      "id": "loginui_sign_in_with_apple",
+      "content": "Apple登錄"
+    },
+    {
+      "id": "loginui_sign_in_with_steam",
+      "content": "Steam登錄"
+    },
+    {
+      "id": "loginui_sign_in_with_guest",
+      "content": "遊客登錄"
+    },
+    {
+      "id": "loginui_sign_out_current_account",
+      "content": "登出"
+    },
+    {
+      "id": "loginui_sign_out_current_account_desc",
+      "content": "登出現有的帳戶嗎？\n如果正以遊客身份登錄，帳戶數據可能會丟失。"
+    },
+    {
+      "id": "loginui_sign_out_switch_account_desc",
+      "content": "登出現有的帳戶\n並登錄選擇的帳戶嗎？\n如果正以遊客身份登錄，帳戶數據可能會丟失。"
+    },
+    {
+      "id": "switch_account",
+      "content": "切換帳號"
+    },
+    {
+      "id": "user_agreements",
+      "content": "服務條款"
+    },
+    {
+      "id": "title_game_data_download",
+      "content": "下載遊戲數據"
+    },
+    {
+      "id": "content_game_data_download",
+      "content": "需要下載{0}的數據。"
+    },
+    {
+      "id": "content_game_data_download_description",
+      "content": "當設備空間不足時，將會返回標題界面。"
+    },
+    {
+      "id": "content_game_data_download_recommend",
+      "content": "推薦在Wi-Fi環境下進行下載。"
+    },
+    {
+      "id": "switch_allcacheclear",
+      "content": "清除所有緩存"
+    },
+    {
+      "id": "switch_oldcacheclear",
+      "content": "清除舊緩存"
+    },
+    {
+      "id": "networkingerror_content",
+      "content": "網路連接不穩定。\n請檢查您的網路連接。"
+    },
+    {
+      "id": "networkingerror_close",
+      "content": "關閉"
+    },
+    {
+      "id": "networkingerror_retry",
+      "content": "重試"
+    },
+    {
+      "id": "loginui_ok",
+      "content": "確認"
+    },
+    {
+      "id": "login_cancel",
+      "content": "取消"
+    },
+    {
+      "id": "loginui_loading_battlehint",
+      "content": "戰鬥小訣竅"
+    },
+    {
+      "id": "servererror_content",
+      "content": "服務器發生錯誤。\n請稍後再試。"
+    },
+    {
+      "id": "forcequit_content",
+      "content": "遊戲無法運行。\n即將關閉遊戲。"
+    },
+    {
+      "id": "serverstate_openpreparation",
+      "content": "巴士仍在準備中！"
+    },
+    {
+      "id": "serverstate_regularcheck",
+      "content": "服務器正在例行維護。"
+    },
+    {
+      "id": "serverstate_temporary_check",
+      "content": "服務器正在進行臨時維護。"
+    },
+    {
+      "id": "serverstate_verify_invaliduser",
+      "content": "帳戶不存在或已被停用。"
+    },
+    {
+      "id": "serverstate_verify_ban",
+      "content": "帳戶被封禁。"
+    },
+    {
+      "id": "serverstate_verify_invalidauth",
+      "content": "發生錯誤。\n請重新登錄。"
+    },
+    {
+      "id": "guestlogin_failed_try_newguest",
+      "content": "遊客帳戶登錄失敗。\n該帳戶已被關聯，或該帳戶不存在。\n\n要建立新帳戶嗎？"
+    },
+    {
+      "id": "secession_remain_days",
+      "content": "該帳號將在倒計時結束後停用。\n剩餘時間：{0}天{1}小時{2}分\n\n可以通過進行登錄來恢復帳號。\n要恢復帳號嗎？"
+    },
+    {
+      "id": "secession_canceled",
+      "content": "帳號恢復成功。"
+    },
+    {
+      "id": "serverstate_verify_invalidclientversion",
+      "content": "需要下載新版遊戲客戶端。"
+    },
+    {
+      "id": "create_guest",
+      "content": "創建遊客帳戶"
+    },
+    {
+      "id": "ask_to_remove_all_cache",
+      "content": "要清除所有緩存嗎？"
+    },
+    {
+      "id": "networkingerror_update",
+      "content": "跳轉至商店"
+    },
+    {
+      "id": "speed_hack_warning",
+      "content": "發現使用未經授權的第三方程序。"
+    },
+    {
+      "id": "serverstate_verify_ban_startdate",
+      "content": "日期"
+    },
+    {
+      "id": "serverstate_verify_ban_reason",
+      "content": "理由"
+    },
+    {
+      "id": "serverstate_verify_ban_reason_refund",
+      "content": "濫用公開市場退款制度"
+    },
+    {
+      "id": "serverstate_verify_ban_reason_cheat",
+      "content": "不正當遊戲使用記錄"
+    },
+    {
+      "id": "serverstate_blocking_endpoint",
+      "content": "該功能正在維護。"
+    },
+    {
+      "id": "serverstate_verify_invaliduuid",
+      "content": "該請求已被處理。\n請重啟遊戲，以便進行同步。"
+    },
+    {
+      "id": "login_scene_mini_story_warning_spoiler_format",
+      "content": "本劇情包含主線章節{0}以後的內容。請問是否繼續？"
+    },
+    {
+      "id": "login_scene_mini_story_unlock_code_105",
+      "content": "5"
+    },
+    {
+      "id": "login_scene_mini_story_unlock_code_9105",
+      "content": "5.5"
+    },
+    {
+      "id": "switch_clearcatalog",
+      "content": "清除目錄"
+    },
+    {
+      "id": "panel_clearcatalog",
+      "content": "要清除目錄嗎？"
+    },
+    {
+      "id": "serverstate_error_thirdparty_api",
+      "content": "外部服務器通訊連接錯誤。請稍後重試。"
+    },
+    {
+      "id": "servererror_invalid_purchasing_package",
+      "content": "商品交易失敗。"
+    },
+    {
+      "id": "forcequit_cache_initialize_fail",
+      "content": "遊戲客戶端無法正常啟動。\n請確認網路狀態並重試。\n諮詢：limbussupport+bug@projmoon.com"
+    },
+    {
+      "id": "push_notification_message_full_stamina_default_title",
+      "content": "邊獄公司"
+    },
+    {
+      "id": "push_notification_message_full_stamina_default_text",
+      "content": "腦啡肽補充完畢。"
+    },
+    {
+      "id": "push_notification_message_full_stamina_1_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_1_text",
+      "content": "不必覺得異常。我只是前來通知腦啡肽已經補充完畢……僅此而已。"
+    },
+    {
+      "id": "push_notification_message_full_stamina_2_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_2_text",
+      "content": "腦啡肽已充滿，執行經理。為了更有效率地使用，推薦您將其轉換為模塊。"
+    },
+    {
+      "id": "push_notification_message_full_stamina_3_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_3_text",
+      "content": "燃料箱幾乎要爆炸了，經理老爺啊啊！！！汝在這理應冒險之時跑去何處了！！！"
+    },
+    {
+      "id": "push_notification_message_full_stamina_4_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_4_text",
+      "content": "腦·肽·充·畢。（腦啡肽補充完畢。）"
+    },
+    {
+      "id": "push_notification_message_full_stamina_5_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_5_text",
+      "content": "腦啡肽已補充完畢，經理。"
+    },
+    {
+      "id": "push_notification_message_full_stamina_6_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_6_text",
+      "content": "哇~腦啡肽已經補充好了呢~要去確認一下嗎？"
+    },
+    {
+      "id": "push_notification_message_full_stamina_7_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_7_text",
+      "content": "那什麼。腦飛……？總之就那個綠色的燃料，那玩意補充好了。快看看去。"
+    },
+    {
+      "id": "push_notification_message_full_stamina_8_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_8_text",
+      "content": "腦啡肽補充完畢……嗯，看樣子巴士又能啟程了。快出發吧。"
+    },
+    {
+      "id": "push_notification_message_full_stamina_9_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_9_text",
+      "content": "但丁~腦啡肽已經補充滿啦。不快點轉換成模塊可就沒法再攢了~"
+    },
+    {
+      "id": "push_notification_message_full_stamina_11_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_11_text",
+      "content": "經理……您在忙嗎？不、不是什麼大事……只是腦啡肽好像快溢出了……"
+    },
+    {
+      "id": "push_notification_message_full_stamina_12_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_12_text",
+      "content": "向您彙報，執行經理。腦啡肽已補充完畢。推薦您進行消耗或囤積。"
+    },
+    {
+      "id": "push_notification_message_full_stamina_13_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_13_text",
+      "content": "誒，經理兄！那什麼，巴士的燃料都裝滿了……要不要去確認下？"
+    },
+    {
+      "id": "push_notification_message_full_stamina_14_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_14_text",
+      "content": "休息時間已經結束了，執行經理但丁。不要讓巴士原地停留太久。"
+    },
+    {
+      "id": "push_notification_message_full_stamina_15_title",
+      "content": "腦啡肽已補充"
+    },
+    {
+      "id": "push_notification_message_full_stamina_15_text",
+      "content": "梅菲吃飽了。卡戎，可以布隆布隆了。"
+    }
+  ]
+}

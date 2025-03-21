@@ -1,0 +1,176 @@
+{
+  "dataList": [
+    {
+      "id": "clear_turn",
+      "content": "通關回合數"
+    },
+    {
+      "id": "accumulated_turn",
+      "content": "累計回合數"
+    },
+    {
+      "id": "final_accumulated_turn",
+      "content": "總計回合數"
+    },
+    {
+      "id": "reward_after_clear",
+      "content": "通關獎勵"
+    },
+    {
+      "id": "lost_and_found",
+      "content": "失物招領處"
+    },
+    {
+      "id": "railway_line",
+      "content": "{0}號線"
+    },
+    {
+      "id": "progressing_railway_line",
+      "content": "行進線路: {0}"
+    },
+    {
+      "id": "select_railway_line",
+      "content": "您想選擇哪條線路？"
+    },
+    {
+      "id": "stage_info",
+      "content": "站點信息"
+    },
+    {
+      "id": "stage_number",
+      "content": "第{0}站"
+    },
+    {
+      "id": "mirror_refraction_railway",
+      "content": "折射軌道"
+    },
+    {
+      "id": "mirror_refraction_railway_with_dungeon_name",
+      "content": "折射軌道 {0}"
+    },
+    {
+      "id": "accumulated_records",
+      "content": "累計記錄"
+    },
+    {
+      "id": "rank_with_number",
+      "content": "排名 #{0}"
+    },
+    {
+      "id": "open_railway_dungeon_records",
+      "content": "記錄閱覽"
+    },
+    {
+      "id": "no_more_rewards_remains_desc",
+      "content": "沒有可領取的獎勵。"
+    },
+    {
+      "id": "use_enkephalin_module_to_acquire_rewards",
+      "content": "是否花費<color=#990000>{0}腦啡肽模塊</color>\n以領取獎勵？"
+    },
+    {
+      "id": "able_to_acquire_rewards_without_using_enkephalin_module",
+      "content": "※解鎖後，您可以在活動期間免費獲取獎勵。"
+    },
+    {
+      "id": "railway_dungeon_ask_for_re_enter",
+      "content": "當前位於第<color=#990000>{0}站{1}</color>.\n是否返回站點？"
+    },
+    {
+      "id": "railway_dungeon_current_running",
+      "content": "{0}正在前往第{1}站"
+    },
+    {
+      "id": "final_clear_accumulated_turn",
+      "content": "總計通關回合數"
+    },
+    {
+      "id": "railway_dungeon_detailed_info",
+      "content": "詳細情報"
+    },
+    {
+      "id": "railway_dungeon_1_banner_reward_condition_1",
+      "content": "折射軌道 - 通關第{0}站後"
+    },
+    {
+      "id": "railway_dungeon_1_banner_reward_condition_2",
+      "content": "折射軌道 - 通關第{0}站後 ，總計回合數{1}以下"
+    },
+    {
+      "id": "railway_dungeon_1_banner_reward_condition_3",
+      "content": "（{0}為止完成上述獲取條件）"
+    },
+    {
+      "id": "railway_dungeon_banner_reward_condition_title",
+      "content": "橫幅獲取條件"
+    },
+    {
+      "id": "railway_dungeon_banner_reward_unable_over",
+      "content": "（總計回合數超過{0}時不可獲取）"
+    },
+    {
+      "id": "no_records_description",
+      "content": "暫無記錄。"
+    },
+    {
+      "id": "recover_after_resting_battle",
+      "content": "於本站\n休息後\n初始化並\n回滿體力"
+    },
+    {
+      "id": "railway_dungeon_try_last_node",
+      "content": "進入終點站後，則無法回到前置站點。\n\n是否進入終點站？"
+    },
+    {
+      "id": "railway_dungeon_ask_stop_desc",
+      "content": "是否終止挑戰折射軌道？"
+    },
+    {
+      "id": "railway_dungeon_finished_description",
+      "content": "※若兩項記錄的總計回合數相同，我方陣亡數更多的那項記錄將被覆蓋。\n若我方陣亡數也相同，則較早的那項記錄將被覆蓋。"
+    },
+    {
+      "id": "railway_dungeon_open_duration",
+      "content": "運行期間"
+    },
+    {
+      "id": "railway_dungeon_current_station",
+      "content": "{0}"
+    },
+    {
+      "id": "railway_dungeon_route_map",
+      "content": "線路運行圖"
+    },
+    {
+      "id": "railway_dungeon_resume_operation",
+      "content": "繼續行進"
+    },
+    {
+      "id": "railway_dungeon_stop_operation",
+      "content": "終止行進"
+    },
+    {
+      "id": "railway_dungeon_station_info",
+      "content": "線路情報"
+    },
+    {
+      "id": "railway_dungeon_operation_closed",
+      "content": "行程結束"
+    },
+    {
+      "id": "final_clear_accumulated_round",
+      "content": "累計通關巡迴數"
+    },
+    {
+      "id": "railway_clear_date",
+      "content": "記錄日期"
+    },
+    {
+      "id": "railway_clear_turn_count",
+      "content": "累計通關回合數"
+    },
+    {
+      "id": "railway_clear_turn_count_by_stage",
+      "content": "各區段通關回合數"
+    }
+  ]
+}

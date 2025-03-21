@@ -1,0 +1,104 @@
+{
+  "dataList": [
+    {
+      "id": "story_dungeon_return_to_savepoint_title",
+      "content": "全軍覆沒"
+    },
+    {
+      "id": "story_dungeon_return_to_savepoint_content",
+      "content": "所有罪人都已<color=#990000>陣亡</color>。\n將回到上一個檢查點。"
+    },
+    {
+      "id": "story_dungeon_give_up",
+      "content": "放棄"
+    },
+    {
+      "id": "story_dungeon_to_main",
+      "content": "主菜單"
+    },
+    {
+      "id": "story_dungeon_continue",
+      "content": "繼續"
+    },
+    {
+      "id": "story_ask_move_to_main",
+      "content": "要保存並回到主菜單嗎？"
+    },
+    {
+      "id": "story_ask_give_up_dungeon",
+      "content": "要終止迷宮探索嗎？"
+    },
+    {
+      "id": "story_to_be_return_enkephalin_box_warning",
+      "content": "※ 所消耗的腦啡肽模塊將會返還。"
+    },
+    {
+      "id": "dungeon_encounter_guide_start",
+      "content": "開始"
+    },
+    {
+      "id": "dungeon_encounter_guide_battle",
+      "content": "常規遭遇戰"
+    },
+    {
+      "id": "dungeon_encounter_guide_ab_battle",
+      "content": "集中遭遇戰"
+    },
+    {
+      "id": "dungeon_encounter_guide_hard_battle",
+      "content": "危險遭遇戰"
+    },
+    {
+      "id": "dungeon_encounter_guide_event",
+      "content": "事件"
+    },
+    {
+      "id": "dungeon_encounter_guide_save",
+      "content": "檢查點"
+    },
+    {
+      "id": "dungeon_encounter_guide_boss",
+      "content": "頭目遭遇戰"
+    },
+    {
+      "id": "dungeon_enter_save_point",
+      "content": "到達檢查點"
+    },
+    {
+      "id": "dungeon_recover_hp_mp",
+      "content": "體力與理智值已恢復。"
+    },
+    {
+      "id": "dungeon_save_completion",
+      "content": "進度已保存"
+    },
+    {
+      "id": "dungeon_save_completion_content",
+      "content": "您的進度已保存。"
+    },
+    {
+      "id": "dungeon_return_to_save_point",
+      "content": "回到\n檢查點"
+    },
+    {
+      "id": "dungeon_unlocked_node_notice",
+      "content": "新地點追加。"
+    },
+    {
+      "id": "dungeon_unlocked_line_notice",
+      "content": "新路線開放。"
+    },
+    {
+      "id": "dungeon_encounter_guide_stairs",
+      "content": "移動到下個區域"
+    },
+    {
+      "id": "dungeon_encounter_guide_story",
+      "content": "故事"
+    },
+    {
+      "id": "formation_ui_ask_to_use_saved_formation",
+      "content": "如果更換隊伍配置，則正在使用的隊伍配置會替換為該隊伍配置。\n確定要更隊伍換配置嗎？\n\n<size=80%>※ 更換後，無法恢復至當前的隊伍配置。\n※ 劇情迷宮中隊伍配置的變更不影響罪人窗口的隊伍配置。</size>"
+    }
+  ]
+}

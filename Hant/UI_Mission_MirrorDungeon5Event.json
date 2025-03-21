@@ -1,0 +1,272 @@
+{
+  "dataList": [
+    {
+      "id": "mission_ui_condition_tags_201001001",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有至少{0}件E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001002",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有至少{0}件燒傷E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001003",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有至少{0}件流血E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001004",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有至少{0}件震顫E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001005",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有至少{0}件破裂E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001006",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有至少{0}件沉淪E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001007",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有至少{0}件呼吸法E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001008",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有至少{0}件充能E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001009",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有至少{0}件斬擊E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001010",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有至少{0}件突刺E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001011",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有至少{0}件打擊E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001012",
+      "content": "通關第{2}或更高層鏡像迷宮時擁有至少{1}件{0}級E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001013",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有{0}級E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001014",
+      "content": "通關第{2}或更高層鏡像迷宮時擁有至少{1}件僅限特定配方合成的{0}級E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001015",
+      "content": "於E.G.O飾品列表中解鎖{0}種燒傷E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001016",
+      "content": "於E.G.O飾品列表中解鎖{0}種流血E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001017",
+      "content": "於E.G.O飾品列表中解鎖{0}種震顫E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001018",
+      "content": "於E.G.O飾品列表中解鎖{0}種破裂E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001019",
+      "content": "於E.G.O飾品列表中解鎖{0}種沉淪E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001020",
+      "content": "於E.G.O飾品列表中解鎖{0}種呼吸法E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001021",
+      "content": "於E.G.O飾品列表中解鎖{0}種充能E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001022",
+      "content": "於E.G.O飾品列表中解鎖{0}種E.G.O飾品"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001023",
+      "content": "解鎖{0}個主題包 (普通)"
+    },
+    {
+      "id": "mission_ui_condition_tags_201001024",
+      "content": "解鎖{0}個主題包 (困難)"
+    },
+    {
+      "id": "mission_ui_condition_tags_201002001",
+      "content": "通關第{0}或更高層鏡像迷宮{1}次"
+    },
+    {
+      "id": "mission_ui_condition_tags_201002002",
+      "content": "通關第{0}或更高層鏡像迷宮{1}次，且所有階層均為困難難度"
+    },
+    {
+      "id": "mission_ui_condition_tags_201002003",
+      "content": "通關鏡像迷宮第{0}層1次"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003001",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名含有燒傷關鍵詞的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003002",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名含有流血關鍵詞的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003003",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名含有震顫關鍵詞的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003004",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名含有破裂關鍵詞的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003005",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名含有沉淪關鍵詞的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003006",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名含有呼吸法關鍵詞的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003007",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名含有充能關鍵詞的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003008",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名屬於劍契組的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003009",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名屬於六協會的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003010",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名屬於Seven協會的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003011",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名屬於W公司的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003012",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名屬於N公司的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003013",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名屬於呼嘯山莊與埃德加家族的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003014",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名屬於Dieci協會的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003015",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名屬於裴廓德號的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003016",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名屬於拉·曼卻領的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003017",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名屬於黑雲會的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201003018",
+      "content": "通關第{1}或更高層鏡像迷宮時在編隊中編入至少{0}名屬於技術解放聯盟的人格"
+    },
+    {
+      "id": "mission_ui_condition_tags_201004001",
+      "content": "在一次鏡像迷宮進程中，至少使用商店刷新功能{0}次，並通關第{1}或更高層鏡像迷宮（包括關鍵詞刷新）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201004002",
+      "content": "在一次鏡像迷宮進程中，於商店購買至少{0}件飾品，並通關第{1}或更高層鏡像迷宮"
+    },
+    {
+      "id": "mission_ui_condition_tags_201004003",
+      "content": "在一次鏡像迷宮進程中，擁有至少{0}件強化飾品，並通關第{1}或更高層鏡像迷宮（不論強化階段）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201004004",
+      "content": "通關第{1}或更高層鏡像迷宮時擁有至少{0}經費"
+    },
+    {
+      "id": "mission_ui_condition_tags_201004005",
+      "content": "將一件至少{0}級的飾品階段強化至++階段，並通關第{1}或更高層鏡像迷宮"
+    },
+    {
+      "id": "mission_ui_condition_tags_201004006",
+      "content": "於商店將一名友方單位的1技能全部替換為3技能，並通關第{0}或更高層鏡像迷宮"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005001",
+      "content": "使用單個技能造成不低於1000點傷害（包括對護盾造成的傷害）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005002",
+      "content": "使用單個技能造成不低於3000點傷害（包括對護盾造成的傷害）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005003",
+      "content": "使用單個技能造成不低於5000點傷害（包括對護盾造成的傷害）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005004",
+      "content": "使用單個技能造成不低於10000點傷害（包括對護盾造成的傷害）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005005",
+      "content": "使1名敵方單位的燒傷強度達到99級\n（集中遭遇戰以部位判定）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005006",
+      "content": "使1名敵方單位的流血強度達到99級\n（集中遭遇戰以部位判定）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005007",
+      "content": "使1名敵方單位的震顫強度達到99級\n（集中遭遇戰以部位判定）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005008",
+      "content": "使1名敵方單位的破裂強度達到99級\n（集中遭遇戰以部位判定）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005009",
+      "content": "使1名敵方單位的沉淪強度達到99級\n（集中遭遇戰以部位判定）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005010",
+      "content": "使1名友方單位的呼吸法強度達到80級"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005011",
+      "content": "使1名友方單位的充能強度達到10級"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005012",
+      "content": "在一場戰鬥中，使用單個攻擊技能擊殺不低於6名敵方單位（包括E.G.O技能）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005013",
+      "content": "在一場戰鬥中，在戰鬥的首個回合結束前擊殺體力上限不低於3000點的敵人"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005014",
+      "content": "在單個回合內，對1名敵方單位施加不低於10種負面狀態\n（集中遭遇戰以部位判定）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201005015",
+      "content": "於鏡像迷宮第6或更高層中，在僅剩1名友方單位存活，其餘友方單位全部陣亡的情況下贏得戰鬥（包括待機與支援的人格）"
+    },
+    {
+      "id": "mission_ui_condition_tags_201006001",
+      "content": "完成所有任務"
+    }
+  ]
+}

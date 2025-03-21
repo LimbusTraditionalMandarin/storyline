@@ -1,0 +1,138 @@
+{
+  "dataList": [
+    {
+      "id": "announcer_cheer_25_1",
+      "dlg": "嗯，如果是我的話我會把人員安排在更後方。\n……不，你在搞什麼戰略分析？這隻寫了讓我們加油打氣。"
+    },
+    {
+      "id": "announcer_cheer_25_2",
+      "dlg": "任務開始。\n重要的是掌握規律，切忌心不在焉。\n還有就是，一旦開始……就不要鬆開扳機。"
+    },
+    {
+      "id": "announcer_specialcheer_25_1",
+      "dlg": "先撤退再重新整頓……\n後方沒有敵人。想要撤退的話就要抓緊時間了。\n不，有機會。如果在此處發動奇襲……"
+    },
+    {
+      "id": "announcer_specialcheer_25_2",
+      "dlg": "嗯……有些力竭了。\n就這麼死定了唄。\n還要交委託違約的手續費呢。"
+    },
+    {
+      "id": "announcer_enemy_break_25_1",
+      "dlg": "露出破綻了，現在射擊的話……\n只需一發。\n……那又不是我們的委託啊。"
+    },
+    {
+      "id": "announcer_ally_break_25_1",
+      "dlg": "這樣下去都得死啊。\n如果收縮一下陣型，或許能多撐一會兒。"
+    },
+    {
+      "id": "announcer_killenemy_25_1",
+      "dlg": "確認清除目標。\n這是積極的信號。不要掉以輕心。"
+    },
+    {
+      "id": "announcer_ally_dead_25_1",
+      "dlg": "戰力損失了……\n嘛，毫無準備的傢伙早晚都會死掉。在都市。"
+    },
+    {
+      "id": "announcer_enemy_adv_25_1",
+      "dlg": "還沒撤退嗎？快扔掉武器……\n不是，武器得好好珍惜啊！\n不能隨便扔掉啊。"
+    },
+    {
+      "id": "announcer_ally_advex_25_1",
+      "dlg": "我喜歡逆轉這個詞。\n什麼逆轉，每次不都是死裡逃生嗎。\n結果贏了就行。"
+    },
+    {
+      "id": "announcer_danger_25_1",
+      "dlg": "想起以前了嗎？彈倉裡只剩了一發彈藥……\n剩下三個敵人，玉樹一發就收拾了的那次吧。\n感覺現在也能結束得如出一轍。"
+    },
+    {
+      "id": "announcer_enemy_specialskill_25_1",
+      "dlg": "氣氛有點奇怪……\n那傢伙擺出一副要搞事情的樣子。"
+    },
+    {
+      "id": "announcer_enemy_specialgimmick_25_1",
+      "dlg": "在哪個工坊製作的？這般我聞所未聞的攻擊……\n不，那也許是一種奇點。"
+    },
+    {
+      "id": "announcer_advatk_physical_25_1",
+      "dlg": "有效射擊。好。\n嗯，繼續保持。"
+    },
+    {
+      "id": "announcer_disadvatk_physical_25_1",
+      "dlg": "浪費子彈錢……\n反正又打不穿，還想要射出去多少發？"
+    },
+    {
+      "id": "announcer_advatk_attr_25_1",
+      "dlg": "噢，合適的判斷。\n比起盲目射擊，觀察好敵人更加重要。"
+    },
+    {
+      "id": "announcer_disadvatk_attr_25_1",
+      "dlg": "射擊要適才適所。\n嘛……也不侷限於射擊就是了。也許吧。"
+    },
+    {
+      "id": "announcer_enemy_specialbuff_25_1",
+      "dlg": "他們氣氛不錯啊……是嗑了什麼吧。\n嗯，現在可不是攻擊的好時機。"
+    },
+    {
+      "id": "announcer_enemy_specialdebuff_25_1",
+      "dlg": "這裡，放大看看。\n嗯……狀態不好啊。現在攻擊會比較有效。"
+    },
+    {
+      "id": "announcer_ally_specialbuff_25_1",
+      "dlg": "氣氛真不錯啊。\n現在看來更高一階的委託也能成功。"
+    },
+    {
+      "id": "announcer_ally_specialdebuff_25_1",
+      "dlg": "要瘋了……現在難道不該集中上去攻擊嗎？\n士氣低落吧。得緩一口氣才好。"
+    },
+    {
+      "id": "announcer_enemy_destroy_25_1",
+      "dlg": "目標的一部分被摧毀。\n太好了。令人分心的攻擊終於停止了。"
+    },
+    {
+      "id": "announcer_enemy_destroy_25_2",
+      "dlg": "好了！現在射擊！\n越到這種時候越要慢慢地……\n慢個屁。不能直接對著被破壞的地方開槍嗎？"
+    },
+    {
+      "id": "announcer_round_takebigdmg_25_1",
+      "dlg": "這不像是能對付的對手。\n力量差距太過懸殊……完犢子了。"
+    },
+    {
+      "id": "announcer_round_takebigdmg_25_2",
+      "dlg": "我突然好奇，如果我被這麼強的攻擊打爛了你會怎麼做？\n放著不管，沒招啊。\n……我就知道。"
+    },
+    {
+      "id": "announcer_round_givebigdmg_25_1",
+      "dlg": "真的很需要招聘更多那樣的人……\n但我們現在可沒有能用來擴充事務所員工的盈餘。"
+    },
+    {
+      "id": "announcer_round_givebigdmg_25_2",
+      "dlg": "剛才很厲害。\n作為僅有一個人打出的一擊，還真是令人驚歎。"
+    },
+    {
+      "id": "announcer_multikillenemy_25_1",
+      "dlg": "這千載難逢吧~好厲害啊。\n確實值得以後好好分析。\n嗯，我記住了。"
+    },
+    {
+      "id": "announcer_special_25_1",
+      "dlg": "教團的傢伙們很快就會蜂擁而至……打起精神，先確認好武器！",
+      "imgStr": "Stephan_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_25_2",
+      "dlg": "沒完沒了地湧進來啊……腦袋上還嵌著奇怪的齒輪……做好規劃，別把子彈打光了。",
+      "imgStr": "Stephan_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_special_25_3",
+      "dlg": "那傢伙就是最後一個了吧……氣氛給人感覺不太一樣。戰鬥時小心點。",
+      "imgStr": "Stephan_announcer",
+      "isHide": true
+    },
+    {
+      "id": "announcer_equip_25_1",
+      "dlg": "這次的委託很簡單。只要看著錄好的影片念臺詞就行了。\n也不錯嘛~可以省下一筆子彈費了。\n是啊，偶爾也要做些溫和的工作嘛。"
+    }
+  ]
+}

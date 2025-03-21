@@ -1,0 +1,473 @@
+{
+  "dataList": [
+    {
+      "id": 2040511,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "美味蘇打",
+          "abName": "韋爾奇樂牌汽水",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加4級沉淪 強度"
+                },
+                {
+                  "desc": "[EnemyKill] 獲得3個罪孽碎片，其屬性為當前擁有的罪孽碎片中的其中一種"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "美味蘇打",
+          "abName": "韋爾奇樂牌汽水",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加5級沉淪 強度"
+                },
+                {
+                  "desc": "[EnemyKill] 獲得3個罪孽碎片，其屬性為當前擁有的罪孽碎片中的其中一種；使全體友方單位恢復3點理智值"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "美味蘇打",
+          "abName": "韋爾奇樂牌汽水",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加6級沉淪 強度"
+                },
+                {
+                  "desc": "[EnemyKill] 獲得3個罪孽碎片，其屬性為當前擁有的罪孽碎片中的其中一種；使全體友方單位恢復3點理智值"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040521,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "美味蘇打",
+          "abName": "韋爾奇樂牌汽水",
+          "desc": "[CantIdentify]\n隨機指定目標",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加4級沉淪 強度"
+                },
+                {
+                  "desc": "[EndSkill] 使全體友方單位獲得1層罪孽碎片獲取量提升 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "美味蘇打",
+          "abName": "韋爾奇樂牌汽水",
+          "desc": "[CantIdentify]\n隨機指定目標",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加5級沉淪 強度"
+                },
+                {
+                  "desc": "[EndSkill] 使全體友方單位獲得1層罪孽碎片獲取量提升 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "美味蘇打",
+          "abName": "韋爾奇樂牌汽水",
+          "desc": "[CantIdentify]\n隨機指定目標",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加6級沉淪 強度"
+                },
+                {
+                  "desc": "[EndSkill] 使全體友方單位獲得1層罪孽碎片獲取量提升 ，並在下回合獲得1層迅捷 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040611,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "盲目",
+          "abName": "噬夢的濁流",
+          "desc": "[BeforeAttack] 使自身增加4級呼吸法 強度",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得2層充能 "
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使自身獲得2層充能 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "盲目",
+          "abName": "噬夢的濁流",
+          "desc": "[BeforeAttack] 使自身增加4級呼吸法 強度\n[EndSkill] 每擊殺1名單位，使自身增加2級呼吸法 強度",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得2層充能 "
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使自身獲得2層充能 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "盲目",
+          "abName": "噬夢的濁流",
+          "desc": "[BeforeAttack] 使自身增加4級呼吸法 強度\n[EndSkill] 每擊殺1名單位，使自身增加2級呼吸法 強度",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得2層充能 "
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使自身獲得2層充能 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040621,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "盲目",
+          "abName": "噬夢的濁流",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使自身增加4級呼吸法 強度。每消耗2層充能 使自身增加1級呼吸法 強度(最多增加10級)\n[EndSkill] 每擊殺1名單位，使自身獲得4層充能 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得1層呼吸法 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "盲目",
+          "abName": "噬夢的濁流",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使自身增加4級呼吸法 強度。每消耗2層充能 使自身增加1級呼吸法 強度(最多增加10級)\n[EndSkill] 每擊殺1名單位，使自身獲得4層充能 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得1層呼吸法 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "盲目",
+          "abName": "噬夢的濁流",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使自身增加4級呼吸法 強度。每消耗2層充能 使自身增加1級呼吸法 強度(最多增加10級)\n[EndSkill] 每擊殺1名單位，使自身獲得4層充能 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得1層呼吸法 "
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 若自身的呼吸法 強度不低於10級，則使本技能暴擊時造成的傷害+30%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040711,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "輕蔑，敬畏",
+          "abName": "輕蔑螺旋",
+          "desc": "[BeforeAttack] 使本技能的攻擊容量+(最大共鳴數)(最多+2)\n[BeforeAttack] 使自身獲得(最大共鳴數+1)層[GazePersonality](最多7層)\n[EndSkill] 2回合內，回合結束時使自身失去10點理智值",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] 平均使全體目標增加共計10級流血 強度"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "輕蔑，敬畏",
+          "abName": "輕蔑螺旋",
+          "desc": "[BeforeAttack] 使本技能的攻擊容量+(最大共鳴數)(最多+4)\n[BeforeAttack] 使自身獲得(最大共鳴數+1)層[GazePersonality](最多7層)\n[EndSkill] 2回合內，回合結束時使自身失去10點理智值",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] 平均使全體目標增加共計15級流血 強度"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "輕蔑，敬畏",
+          "abName": "輕蔑螺旋",
+          "desc": "[BeforeAttack] 使本技能的攻擊容量+(最大共鳴數)(最多+6)\n[BeforeAttack] 本回合與下回合使自身獲得(最大共鳴數+1)層[GazePersonality](最多7層)\n[EndSkill] 若本技能參與了色慾共鳴，則獲得與自身擁有的各個基礎攻擊技能相同屬性的罪孽碎片各1個\n[EndSkill] 2回合內，回合結束時使自身失去10點理智值",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[EndSkill] 平均使全體目標增加共計15級流血 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040721,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "輕蔑，敬畏",
+          "abName": "輕蔑螺旋",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使自身獲得7層[GazePersonality]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目標帶有流血 ，則使本技能造成的傷害+(目標的流血 強度與層數之和)%(最多+20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加(1+最大共鳴數×1.5)級流血 強度(最多10級，向下取整)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層流血 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "輕蔑，敬畏",
+          "abName": "輕蔑螺旋",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使自身獲得7層[GazePersonality]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目標帶有流血 ，則使本技能造成的傷害+(目標的流血 強度與層數之和)%(最多+40%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加(3+最大共鳴數×2)級流血 強度(最多15級，向下取整)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加3層流血 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "輕蔑，敬畏",
+          "abName": "輕蔑螺旋",
+          "desc": "[CantIdentify]\n隨機指定目標\n[BeforeAttack] 使自身獲得7層[GazePersonality]\n[EndSkill] 若本技能參與了色慾共鳴，則獲得與自身擁有的各個基礎攻擊技能相同屬性的罪孽碎片各1個",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目標帶有流血 ，則使本技能造成的傷害+(目標的流血 強度與層數之和)%(最多+60%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加(10+最大共鳴數×2.5)級流血 強度(最多25級，向下取整)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加5層流血 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040811,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "胸痛",
+          "abName": "往昔的睡袋",
+          "desc": "[BeforeAttack] 使自身增加(最大共鳴數)級呼吸法 強度(最多4級)\n- 若自身的呼吸法 強度不低於15級，則改為使本技能的最終威力+(最大共鳴數)(最多+4)\n[BeforeAttack] 使自身獲得(最大共鳴數/2)層呼吸法 (最多2層)\n- 若自身的呼吸法 層數不低於5層，則改為使本技能的硬幣威力+(最大共鳴數/2)(最多+2)\n[TargetKill] 下回合使自身獲得1層[HoldingBreath](每回合最多2次)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得2層[HoldingBreath](每回合最多1次)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "胸痛",
+          "abName": "往昔的睡袋",
+          "desc": "[BeforeAttack] 使自身增加(最大共鳴數)級呼吸法 強度(最多6級)\n- 若自身的呼吸法 強度不低於15級，則改為使本技能的最終威力+(最大共鳴數)(最多+6)\n[BeforeAttack] 使自身獲得(最大共鳴數/2)層呼吸法 (最多2層)\n- 若自身的呼吸法 層數不低於5層，則改為使本技能的硬幣威力+(最大共鳴數/2)(最多+2)\n[TargetKill] 下回合使自身獲得2層[HoldingBreath](每回合最多4次)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "使本硬幣暴擊時造成的傷害+(自身的呼吸法 強度與層數之和)%(最多+20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得2層[HoldingBreath](每回合最多1次)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "胸痛",
+          "abName": "往昔的睡袋",
+          "desc": "[BeforeAttack] 使自身增加(最大共鳴數)級呼吸法 強度(最多6級)\n- 若自身的呼吸法 強度不低於15級，則改為使本技能的最終威力+(最大共鳴數)(最多+6)\n[BeforeAttack] 使自身獲得(最大共鳴數/2)層呼吸法 (最多3層)\n- 若自身的呼吸法 層數不低於5層，則改為使本技能的硬幣威力+(最大共鳴數/2)(最多+3)\n[TargetKill] 下回合使自身獲得2層[HoldingBreath](每回合最多6次)",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "使本硬幣暴擊時造成的傷害+(自身的呼吸法 強度與層數之和)%(最多+40%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得4層[HoldingBreath](每回合最多1次)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2040821,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "胸痛",
+          "abName": "往昔的睡袋",
+          "desc": "[CantIdentify]\n優先指定體力最低的目標(優先友方單位)\n若本技能指定了友方單位為目標，則使本技能造成的傷害+30%\n\n[BeforeAttack] 若自身的呼吸法 強度低於15級，則消耗自身體力上限10%的體力並使自身增加5級呼吸法 強度，獲得5層呼吸法 \n- 不會因該效果陷入混亂或陣亡\n\n[EndSkill] 若擊殺目標，則下回合使自身獲得2層[HoldingBreath](每回合最多1次)。若該目標為友方單位，則觸發以下效果：\n- 使因友方單位陣亡而參戰或待機解除的友方單位增加2級呼吸法 強度並使其獲得2層呼吸法 ",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得4層[HoldingBreath](每回合最多1次)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "胸痛",
+          "abName": "往昔的睡袋",
+          "desc": "[CantIdentify]\n優先指定體力最低的目標(優先友方單位)\n若本技能指定了友方單位為目標，則使本技能造成的傷害+30%\n\n[BeforeAttack] 若自身的呼吸法 強度低於15級，則消耗自身體力上限10%的體力並使自身增加5級呼吸法 強度，獲得5層呼吸法 \n- 不會因該效果陷入混亂或陣亡\n- 本技能每指定1名友方單位，使自身增加1級呼吸法 強度(最多2級)\n\n[EndSkill] 若擊殺目標，則下回合使自身獲得2層[HoldingBreath](每回合最多1次)。若該目標為友方單位，則觸發以下效果：\n- 使因友方單位陣亡而參戰或待機解除的友方單位增加4級呼吸法 強度並使其獲得2層呼吸法 \n- 使自身恢復本技能消耗量一半的理智值",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "使本硬幣暴擊時造成的傷害+(自身的呼吸法 強度與層數之和)%(最多+20%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得4層[HoldingBreath](每回合最多1次)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "胸痛",
+          "abName": "往昔的睡袋",
+          "desc": "[CantIdentify]\n優先指定體力最低的目標(優先友方單位)\n若本技能指定了友方單位為目標，則使本技能造成的傷害+30%\n\n[BeforeAttack] 若自身的呼吸法 強度低於15級，則消耗自身體力上限10%的體力並使自身增加5級呼吸法 強度，獲得5層呼吸法 \n- 不會因該效果陷入混亂或陣亡\n- 本技能每指定1名友方單位，使自身增加2級呼吸法 強度(最多4級)\n\n[EndSkill] 若擊殺目標，則下回合使自身獲得3層[HoldingBreath](每回合最多1次)。若該目標為友方單位，則觸發以下效果：\n- 使因友方單位陣亡而參戰或待機解除的友方單位增加4級呼吸法 強度並使其獲得4層呼吸法 \n- 使自身恢復本技能消耗的理智值並獲得本技能消耗的每種罪孽碎片各1個",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "使本硬幣暴擊時造成的傷害+(自身的呼吸法 強度與層數之和)%(最多+40%)"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得7層[HoldingBreath](每回合最多1次)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

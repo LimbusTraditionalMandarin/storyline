@@ -1,0 +1,1396 @@
+{
+  "dataList": [
+    {
+      "id": 1120601,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "針鋒相對",
+          "desc": "[WhenUse] 使自身獲得2層防禦等級提升 ",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合使自身獲得1層迅捷 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "針鋒相對",
+          "desc": "[WhenUse] 使自身獲得2層防禦等級提升 \n[DefeatDuel] 使自身獲得(自身的防禦等級提升 層數 × 3)點護盾。下回合使自身獲得1層防禦等級提升 。",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身獲得1層迅捷 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "針鋒相對",
+          "desc": "[WhenUse] 使自身獲得2層防禦等級提升 \n[DefeatDuel]使自身獲得(自身的防禦等級提升 層數 × 5)點護盾。下回合使自身獲得2層防禦等級提升 。",
+          "coinlist": [
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身獲得2層迅捷 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120602,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "靈活壓制",
+          "desc": "[WhenUse] 使自身獲得2層防禦等級提升 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合使自身獲得1層防禦等級提升 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 下回合使自身獲得1層防禦等級提升 "
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "若自身的防禦等級提升 層數不低於6層，則使本硬幣造成的傷害+20%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "靈活壓制",
+          "desc": "[WhenUse] 使自身獲得3層防禦等級提升 \n[WhenUse] 下回合使本技能對應行動槽的挑釁值 +2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身獲得1層防禦等級提升 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身獲得1層防禦等級提升 "
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "若自身的防禦等級提升 層數不低於6層，則使本硬幣造成的傷害+30%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "靈活壓制",
+          "desc": "[WhenUse] 使自身獲得3層防禦等級提升 \n[WhenUse] 下回合使本技能對應行動槽的挑釁值 +3\n若自身的防禦等級提升 層數不低於6層，則使本技能的拼點威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身獲得1層防禦等級提升 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使自身獲得1層防禦等級提升 "
+                }
+              ]
+            },
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "若自身的防禦等級提升 層數不低於6層，則使本硬幣造成的傷害+40%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120603,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "人民衛士",
+          "desc": "[WhenUse] 使全體友方單位獲得2層忍耐 與3層防禦等級提升 \n若自身的防禦等級提升 層數不低於6層，則使本技能的硬幣威力+1\n若自身的防禦等級提升 層數不低於10層，則使本技能造成的傷害+30%",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使全體友方單位獲得3層防禦等級提升 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "人民衛士",
+          "desc": "[WhenUse] 使全體友方單位獲得2層忍耐 與3層防禦等級提升 \n自身每帶有6層防禦等級提升 ，使本技能的硬幣威力+1(最多+3)\n若自身的防禦等級提升 層數不低於10層，則使本技能造成的傷害+50%",
+          "coinlist": [
+            {},
+            {},
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 下回合使全體友方單位獲得3層防禦等級提升 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120604,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "最佳防守",
+          "desc": "[StartBattle] 使自身獲得(自身的防禦等級提升 層數 × 2)點護盾",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "最佳防守",
+          "desc": "[StartBattle] 使自身獲得(自身的防禦等級提升 層數 × 2)點護盾\n[WhenUse] 下回合使本技能對應行動槽的挑釁值 +5",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120701,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "開始談判",
+          "desc": "[WhenUse] 使自身增加2級呼吸法 強度",
+          "coinlist": [
+            {
+              "coindescs": [
+                {}
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使自身獲得1層呼吸法 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "開始談判",
+          "desc": "[WhenUse] 使自身增加3級呼吸法 強度",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得1層呼吸法 "
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標增加2級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標增加2級流血 強度"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "開始談判",
+          "desc": "[WhenUse] 使自身增加3級呼吸法 強度\n若目標的流血 強度不低於7級，則使本技能的硬幣威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得1層呼吸法 "
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標增加2級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標增加2級流血 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120702,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "單邊業務",
+          "desc": "[WhenUse] 使自身獲得2層呼吸法 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使自身增加3級呼吸法 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加3級流血 強度"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標增加2級流血 強度"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "單邊業務",
+          "desc": "[WhenUse] 使自身獲得3層呼吸法 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使自身增加4級呼吸法 強度"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標增加2級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加3級流血 強度"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標增加2級流血 強度"
+                },
+                {
+                  "desc": "使本硬幣暴擊時造成的傷害+30%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "單邊業務",
+          "desc": "目標每帶有7級流血 強度，使本技能的硬幣威力+1(最多+2)\n[WhenUse] 使自身獲得3層呼吸法 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身增加4級呼吸法 強度"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標增加2級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加3級流血 強度"
+                },
+                {
+                  "desc": "[CriticalOnSucceedAttack] 使目標增加2級流血 強度"
+                },
+                {
+                  "desc": "使本硬幣暴擊時造成的傷害+50%"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120703,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "決裂定局",
+          "desc": "[WhenUse] 目標每帶有3級流血 強度，使自身增加1級呼吸法 強度(最多增加5級)\n若自身的呼吸法 強度不低於7級，則使本技能的硬幣威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] 對目標施加2層流血 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "消耗1發彈藥 "
+                },
+                {
+                  "desc": "使本硬幣暴擊時造成的傷害+50%"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "決裂定局",
+          "desc": "[WhenUse] 目標每帶有3級流血 強度，使自身增加1級呼吸法 強度(最多增加10級)\n自身每帶有7級呼吸法 強度，使本技能的硬幣威力+1(最多+3)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[CriticalOnSucceedAttack] 對目標施加2層流血 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "消耗1發彈藥 "
+                },
+                {
+                  "desc": "使本硬幣暴擊時造成的傷害+100%"
+                },
+                {
+                  "desc": "[EnemyKill] 下回合使自身獲得1層加算硬幣強化 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120704,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "喘口氣",
+          "desc": "[OnSucceedEvade] 使自身增加1級呼吸法 強度(每回合最多3次)",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "喘口氣",
+          "desc": "[OnSucceedEvade] 使自身增加1級呼吸法 強度(每回合最多5次)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120801,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "雲渦撕裂",
+          "desc": "[WinDuel] 使目標增加1級流血 強度",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 對目標施加1層流血 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "雲渦撕裂",
+          "desc": "[WhenUse] 若目標的流血 強度不低於7級，則使本技能的拼點威力+1\n[WinDuel] 使目標增加1級流血 強度",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層流血 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "name": "雲渦撕裂",
+          "desc": "[WhenUse_Force] 若目標的流血 強度不低於7級，則使本技能的拼點威力+1\n[WinDuel] 使目標增加1級流血 強度",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層流血 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "雲渦撕裂",
+          "desc": "[WhenUse] 若目標的流血 強度不低於7級，則使本技能的拼點威力+2\n[WinDuel] 使目標增加1級流血 強度",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層流血 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120802,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "墨雲",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加2級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層攻擊等級降低 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目標的流血 強度不低於10級，則下回合對其施加1層虛弱 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "墨雲",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加2級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層攻擊等級降低 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目標的流血 強度不低於10級，則下回合對其施加1層虛弱 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "墨雲",
+          "desc": "[WhenUse] 若目標的流血 強度不低於7級，則使本技能的拼點威力+2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加2級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層攻擊等級降低 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目標的流血 強度不低於7級，則下回合對其施加1層虛弱 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120803,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "墨雲崩裂",
+          "desc": "[WhenUse] 若目標的流血 強度不低於7級，則使本技能的拼點威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層攻擊等級降低 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目標的流血 強度不低於7級，則下回合對其施加1層攻擊等級降低 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層攻擊等級降低 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目標的流血 強度不低於7級，則下回合對其施加1層攻擊等級降低 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目標的流血 強度不低於10級，則下回合對其施加1層加算硬幣弱化 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "墨雲崩裂",
+          "desc": "[WhenUse] 若目標的流血 強度不低於7級，則使本技能的拼點威力+1\n[WhenUse] 若目標的流血 強度不低於10級，則使本技能的硬幣威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層攻擊等級降低 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目標的流血 強度不低於7級，則下回合對其施加1層攻擊等級降低 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層攻擊等級降低 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目標的流血 強度不低於7級，則下回合對其施加1層攻擊等級降低 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttackHead] 使目標增加3級流血 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目標的流血 強度不低於7級，則下回合對其施加1層加算硬幣弱化 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120804,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "防禦",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "防禦",
+          "desc": "",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "長劍劈砍",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加3級沉淪 強度"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "長劍劈砍",
+          "desc": "[WhenUse] 若目標的沉淪 強度不低於6級，則使本技能的硬幣威力+2",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加3級沉淪 強度"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "長劍劈砍",
+          "desc": "[WhenUse] 目標每帶有3級沉淪 強度，使本技能的硬幣威力+1(最多+2)\n[WhenUse] 目標每帶有3層沉淪 ，使本技能的拼點威力+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加3級沉淪 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "延續進攻",
+          "desc": "[WinDuel] 對目標施加1層沉淪 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目標的沉淪 強度不低於5級，則下回合使自身獲得1層迅捷 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加3層沉淪 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "延續進攻",
+          "desc": "[WhenUse] 目標每帶有3層沉淪 ，使本技能的拼點威力+1(最多+2)\n[WinDuel] 對目標施加1層沉淪 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目標的沉淪 強度不低於5級，則下回合使自身獲得1層迅捷 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加3層沉淪 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "延續進攻",
+          "desc": "[WhenUse] 若目標的沉淪 強度不低於6級，則使本技能的硬幣威力+1\n[WhenUse] 目標每帶有3層沉淪 ，使本技能的拼點威力+1(最多+2)\n[WinDuel] 對目標施加2層沉淪 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若目標的沉淪 強度不低於5級，則下回合使自身獲得1層迅捷 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加3層沉淪 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120903,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "噩夢狩獵",
+          "desc": "[WhenUse] 目標每帶有3層沉淪 ，使本技能的拼點威力+1(最多+2)\n[EndSkill] 若使目標陷入混亂，則對其施加3層沉淪 \n[EndSkill] 若擊殺目標，則隨機對1名敵方單位施加3層沉淪 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級沉淪 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級沉淪 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級沉淪 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 吸收目標10級沉淪 強度並在下回合使自身獲得1層加算硬幣強化 與1層傷害強化 。有50%的概率獲得以上狀態時不吸收沉淪 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "噩夢狩獵",
+          "desc": "[WhenUse] 目標每帶有3層沉淪 ，使本技能的拼點威力+1(最多+3)\n[EndSkill] 若使目標陷入混亂，則對其施加3層沉淪 \n[EndSkill] 若擊殺目標，則隨機對2名敵方單位施加3層沉淪 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級沉淪 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級沉淪 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級沉淪 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 吸收目標10級沉淪 強度並在下回合使自身獲得1層加算硬幣強化 與3層傷害強化 。有50%的概率獲得以上狀態時不吸收沉淪 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1120904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "你也想哭嗎？",
+          "desc": "[WhenUse] 若目標的沉淪 強度不低於5級，則使本技能的硬幣威力+1",
+          "coinlist": [
+            {}
+          ]
+        },
+        {
+          "level": 4,
+          "name": "你也想哭嗎？",
+          "desc": "[WhenUse] 目標每帶有3級沉淪 強度，使本技能的硬幣威力+1(最多+3)",
+          "coinlist": [
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121001,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "為家族的犧牲",
+          "desc": "[WhenUse] 下回合使本技能對應行動槽的挑釁值 +3\n[WhenUse] 使自身增加10級流血 強度\n- 若現存體力不低於50%，則使自身額外增加15級流血 強度",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級破裂 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得1層[BloodyHandGregFirst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "為家族的犧牲",
+          "desc": "[WhenUse] 下回合使本技能對應行動槽的挑釁值 +3\n[WhenUse] 若目標的流血 強度不低於6級，則使本技能的硬幣威力+1\n[WhenUse] 使自身增加10級流血 強度\n- 若現存體力不低於50%，則使自身額外增加15級流血 強度",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級破裂 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得2層[BloodyHandGregFirst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "為家族的犧牲",
+          "desc": "[WhenUse] 下回合使本技能對應行動槽的挑釁值 +3\n[WhenUse] 目標每帶有6級流血 強度，使本技能的硬幣威力+1(最多+2)\n[WhenUse] 使自身增加10級流血 強度\n- 若現存體力不低於50%，則使自身額外增加15級流血 強度",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級流血 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級破裂 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得3層[BloodyHandGregFirst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121002,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "緊扼而來的罪惡感",
+          "desc": "[WhenUse] 下回合使本技能對應行動槽的挑釁值 +3\n[WhenUse] 使自身增加10級流血 強度\n[WhenUse] 若自身的[WornHeartGreg]層數不低於5層，則消耗至多60層血宴 ，每消耗6層血宴 ，使自身獲得1層[BloodyHandGregFirst]\n- 若自身的[WornHeartGreg]層數低於5層，則使自身增加10級流血 強度並使自身獲得2層[BloodyHandGregFirst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層流血 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級破裂 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得1層[BloodyHandGregFirst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "緊扼而來的罪惡感",
+          "desc": "[WhenUse] 下回合使本技能對應行動槽的挑釁值 +3\n[WhenUse] 若目標的流血 強度不低於6級，則使本技能的硬幣威力+1\n[WhenUse] 使自身增加10級流血 強度\n[WhenUse] 若自身的[WornHeartGreg]層數不低於5層，則消耗至多60層血宴 ，每消耗6層血宴 ，使自身獲得1層[BloodyHandGregFirst]\n- 若自身的[WornHeartGreg]層數低於5層，則使自身增加10級流血 強度並使自身獲得2層[BloodyHandGregFirst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層流血 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級破裂 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得2層[BloodyHandGregFirst]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "緊扼而來的罪惡感",
+          "desc": "[WhenUse] 下回合使本技能對應行動槽的挑釁值 +3\n[WhenUse] 目標每帶有6級流血 強度，使本技能的硬幣威力+1(最多+2)\n[WhenUse] 使自身增加10級流血 強度\n[WhenUse] 若自身的[WornHeartGreg]層數不低於5層，則消耗至多60層血宴 ，每消耗6層血宴 ，使自身獲得1層[BloodyHandGregFirst]\n- 若自身的[WornHeartGreg]層數低於5層，則使自身增加10級流血 強度並使自身獲得3層[BloodyHandGregFirst]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層流血 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級破裂 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得3層[BloodyHandGregFirst]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121003,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "無法洗清的罪",
+          "desc": "本技能命中時，使自身恢復造成體力傷害量50%的體力(每個技能最多100點)\n[WhenUse] 自身每失去體力上限1%的體力，使本技能造成的傷害+1%(最多+60%)\n[WhenUse] 若目標的流血 強度不低於6級，則使本技能的硬幣威力+1\n[WhenUse] 消耗所有超出10層的[BloodyHandGregFirst]，並觸發以下效果：\n- 使自身恢復(消耗的[BloodyHandGregFirst]層數×3)點體力\n- 若消耗的[BloodyHandGregFirst]層數不低於10層，則使本技能的硬幣威力+1\n[WhenUse] 使自身增加10級流血 強度\n[EndSkill] 使自身恢復體力上限10%的體力",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得2層[BloodyHandGregFirst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層流血 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層破裂 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級流血 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級破裂 強度"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "無法洗清的罪",
+          "desc": "本技能命中時，使自身恢復造成體力傷害量50%的體力(每個技能最多100點)\n[WhenUse] 自身每失去體力上限1%的體力，使本技能造成的傷害+1.5%(最多+90%)\n[WhenUse] 若目標的流血 強度不低於6級，則使本技能的硬幣威力+1\n[WhenUse] 消耗所有超出10層的[BloodyHandGregFirst]，並觸發以下效果：\n- 使自身恢復(消耗的[BloodyHandGregFirst]層數×3)點體力\n- 若消耗的[BloodyHandGregFirst]層數不低於10層，則使本技能的硬幣威力+1\n- 若消耗了20層[BloodyHandGregFirst]，則重複使用本技能的最後一枚硬幣\n[WhenUse] 使自身增加10級流血 強度\n[EndSkill] 使自身恢復體力上限10%的體力",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使自身獲得3層[BloodyHandGregFirst]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層流血 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層破裂 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級流血 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級破裂 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121004,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "褪色的忍耐",
+          "desc": "[StartBattle] 使自身獲得3層[WornHeartGreg](每回合最多1次)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "褪色的忍耐",
+          "desc": "[StartBattle] 若現存體力不低於體力上限的40%，則使自身增加5級流血 強度並觸發自身的流血至多3次(每回合最多1次。根據觸發的流血 次數，相應使自身的流血 層數減少)\n[StartBattle] 若現存體力低於體力上限的40%，則消耗至多20層血宴 並使自身恢復相應的體力(每回合最多1次)\n[StartBattle] 使自身獲得3層[WornHeartGreg](每回合最多1次)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121101,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "火焰噴射",
+          "desc": "若目標的燒傷 強度不低於6級，則使本技能的硬幣威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級燒傷 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗15層[FirePunchFuel]並對目標施加1層燒傷 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "火焰噴射",
+          "desc": "若目標的燒傷 強度不低於3級，則使本技能的硬幣威力+1",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級燒傷 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗15層[FirePunchFuel]並對目標施加1層燒傷 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "火焰噴射",
+          "desc": "目標每帶有3級燒傷 強度，使本技能的硬幣威力+1(最多+2)",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級燒傷 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 消耗15層[FirePunchFuel]並對目標施加2層燒傷 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121102,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "將骯髒之血燃盡至一滴不剩",
+          "desc": "若目標的燒傷 強度不低於6級，則使本技能的硬幣威力+1\n若自身處於[FirePunchFuelOverheated]狀態，則使本技能消耗[FirePunchFuel]的硬幣造成的傷害+10%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級燒傷 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗10層[FirePunchFuel]並使燒傷 強度最低的2名敵方單位增加1級燒傷 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層燒傷 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗10層[FirePunchFuel]並對燒傷 層數最低的1名敵方單位施加1層燒傷 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "name": "將骯髒之血燃盡至一滴不剩",
+          "desc": "若目標的燒傷 強度不低於6級，則使本技能的硬幣威力+1\n使本技能消耗[FirePunchFuel]的硬幣造成的傷害+10%\n- 若自身處於[FirePunchFuelOverheated]狀態，則改為造成的傷害+20%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級燒傷 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗10層[FirePunchFuel]並使燒傷 強度最低的2名敵方單位增加1級燒傷 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加1層燒傷 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗10層[FirePunchFuel]並對燒傷 層數最低的2名敵方單位施加1層燒傷 "
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "將骯髒之血燃盡至一滴不剩",
+          "desc": "目標每帶有6級燒傷 強度，使本技能的硬幣威力+1(最多+2)\n使本技能消耗[FirePunchFuel]的硬幣造成的傷害+15%\n- 若自身處於[FirePunchFuelOverheated]狀態，則改為造成的傷害+30%",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加2級燒傷 強度"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗10層[FirePunchFuel]並使燒傷 強度最低的2名敵方單位增加2級燒傷 強度"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 對目標施加2層燒傷 "
+                },
+                {
+                  "desc": "[OnSucceedAttack] 消耗10層[FirePunchFuel]並對燒傷 層數最低的2名敵方單位施加1層燒傷 "
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121103,
+      "levelList": [
+        {
+          "level": 3,
+          "name": "炎拳",
+          "desc": "若目標的燒傷 層數不低於3層，則使本技能的硬幣威力+1\n[WhenUse] 目標每帶有6級燒傷 強度，使本技能的基礎威力+1(最多+2)\n[WhenUse] 消耗至多25層[FirePunchFuel]，每消耗1層[FirePunchFuel]，使本技能造成的傷害+1%(最多+25%)\n- 若自身處於[FirePunchFuelOverheated]狀態，則改為每消耗1層[FirePunchFuel]，使本技能造成的傷害+3%(最多+75%)\n[EndSkill] 若擊殺目標，或本技能消耗了[FirePunchFuel]，則下回合使自身獲得1層打擊傷害強化 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若自身消耗了[FirePunchFuel]，則使目標增加1級燒傷 強度並對目標施加1層燒傷 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若自身消耗了[FirePunchFuel]，則使目標增加1級燒傷 強度並對目標施加1層燒傷 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 本技能每消耗1層[FirePunchFuel]，使本硬幣造成的傷害+1%(最多+25%)\n- 若自身處於[FirePunchFuelOverheated]狀態，則改為每消耗1層[FirePunchFuel]，使本硬幣造成的傷害+3%(最多+75%)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "炎拳",
+          "desc": "目標每帶有3層燒傷 ，使本技能的硬幣威力+1（最多+2）\n[WhenUse] 目標每帶有6級燒傷 強度，使本技能的基礎威力+1（最多+3）\n[WhenUse] 消耗至多25層[FirePunchFuel]，每消耗1層[FirePunchFuel]，使本技能造成的傷害+2%（最多+50%）\n- 若自身處於[FirePunchFuelOverheated]狀態，則改為每消耗1層[FirePunchFuel]，使本技能造成的傷害+4%（最多+100%）\n[EndSkill] 若擊殺目標，或本技能消耗了[FirePunchFuel]，則下回合使自身獲得2層打擊傷害強化 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若自身消耗了[FirePunchFuel]，則使目標增加2級燒傷 強度並對目標施加1層燒傷 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 若自身消耗了[FirePunchFuel]，則使目標增加2級燒傷 強度並對目標施加1層燒傷 "
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 本技能每消耗1層[FirePunchFuel]，使本硬幣造成的傷害+2%(最多+50%)\n- 若自身處於[FirePunchFuelOverheated]狀態，則改為每消耗1層[FirePunchFuel]，使本硬幣造成的傷害+4%(最多+100%)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1121104,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "還有我們大姐的份",
+          "desc": "[DuelCounter]\n[StartBattle] 使自身獲得100層[FirePunchFuel]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級燒傷 強度"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "name": "還有我們大姐的份",
+          "desc": "[DuelCounter]\n[StartBattle] 使自身獲得100層[FirePunchFuel]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[OnSucceedAttack] 使目標增加1級燒傷 強度"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

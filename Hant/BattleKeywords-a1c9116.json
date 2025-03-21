@@ -1,0 +1,95 @@
+{
+  "dataList": [
+    {
+      "id": "BurstAgility",
+      "name": "咒殺【迅捷】",
+      "desc": "基礎值：3\n因受到速度值不低於10的目標的攻擊技能攻擊而觸發自身的破裂 時，使本效果的層數減少1層並對自身施加1層破裂 \n若本效果層數為0層，則受到相當於自身破裂強度的暴食傷害，並解除本效果\n※帶有本效果時，本效果層數不會額外獲得",
+      "summary": "若符合條件，造成額外暴食傷害",
+      "undefined": "-"
+    },
+    {
+      "id": "LegStrength",
+      "name": "腳力【卯】",
+      "desc": "最大值：3\n回合結束時，下回合使自身獲得5層迅捷 \n回合結束時，本效果的層數減少1層",
+      "summary": "若符合條件，造成額外暴食傷害",
+      "undefined": "-"
+    },
+    {
+      "id": "DarkBeast_LowMorale",
+      "name": "暗數",
+      "desc": "- 士氣低落\n- 自身的速度值高於目標或進行單方面攻擊時，對目標造成的傷害+10%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "DarkBeast_Panic",
+      "name": "暗數",
+      "desc": "- 陷入恐慌\n- 自身的速度值高於目標或進行單方面攻擊時，對目標造成的傷害+20%；若自身的速度值高於目標，則自身受到的傷害-20%",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "RepressedMurderousIntend",
+      "name": "被抑制的殺意",
+      "desc": "攻擊等級-10，防禦等級-10",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "WeighedMurderousIntend",
+      "name": "被摧毀的殺意",
+      "desc": "攻擊等級-25，防禦等級-25",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "MiddleFingerBook",
+      "name": "復仇對象",
+      "desc": "最大值：10\n受到中指攻擊時，使自身受到的傷害+3%(最多+30%)",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "Persistent",
+      "name": "堅韌",
+      "desc": "最大值：4\n受到使體力降至0點的傷害時，有80%的概率不會受到傷害並使自身恢復60點體力，解除自身的混亂，解除本效果\n\n以下情況不會觸發避免陣亡與體力恢復效果\n- 受到攻擊時硬幣造成的傷害高於自身體力上限\n- 自身帶有體力恢復降低 效果\n回合結束時，本效果層數減少1層",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BackstreetsNight_LowMorale",
+      "name": "後巷深宵",
+      "desc": "回合開始時，使自身獲得1層強壯 與1層體力恢復提升 並對自身施加1層易損 ",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "BackstreetsNight_Panic",
+      "name": "後巷深宵",
+      "desc": "回合開始時，使自身獲得2層強壯 ，2層體力恢復提升 並對自身施加1層易損 ",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SweeperA",
+      "name": "第一波",
+      "desc": "第一波在{0}回合後結束",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SweeperB",
+      "name": "第二波",
+      "desc": "第二波在{0}回合後結束",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "SweeperC",
+      "name": "第三波",
+      "desc": "第三波在{0}回合後結束",
+      "summary": "",
+      "undefined": "-"
+    }
+  ]
+}

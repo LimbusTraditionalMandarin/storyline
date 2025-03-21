@@ -1,0 +1,108 @@
+{
+  "dataList": [
+    {
+      "id": "hells_chicken_bonus_description",
+      "content": "活動期間，編隊內存在下列人格與E.G.O時<color=#f8c200>[小鳳玩偶]獲取量提升</color>."
+    },
+    {
+      "id": "hells_chicken_bonus_popup_title",
+      "content": "活動加成角色"
+    },
+    {
+      "id": "hells_chicken_event_panel_stage",
+      "content": "快從這兒\n進入關卡！"
+    },
+    {
+      "id": "hells_chicken_event_panel_story_title",
+      "content": "重·活"
+    },
+    {
+      "id": "hells_chicken_event_panel_story_desc",
+      "content": "（重覽活動劇情）"
+    },
+    {
+      "id": "hells_chicken_doll_name",
+      "content": "小鳳玩偶"
+    },
+    {
+      "id": "hells_chicken_reward_exchange_counter",
+      "content": "獎券兌換處"
+    },
+    {
+      "id": "hells_chicken_additional_effect_desc",
+      "content": "將活動人格與E.G.O編入隊伍\n以提升[小鳳玩偶]獲取量！"
+    },
+    {
+      "id": "hells_chicken_reward_event_main_phrase",
+      "content": "銀鳳家<color=#205925>炸雞酒吧\n</color><color=#ebcaa2>究極跳樓價特惠活動！</color>"
+    },
+    {
+      "id": "hells_chicken_reward_event_phrase_0",
+      "content": "※銀鳳家從不使用K公司奇點肉！請放心食用！"
+    },
+    {
+      "id": "hells_chicken_reward_event_phrase_1",
+      "content": "這真的是我能零元購的嗎？！店家瘋得好啊！！！"
+    },
+    {
+      "id": "hells_chicken_reward_event_phrase_2",
+      "content": "特殊\n雞肉獎券"
+    },
+    {
+      "id": "hells_chicken_reward_event_description",
+      "content": "您可通過通關地獄雞活動關卡、主線關卡或迷宮來獲取<color=#990000>[小鳳玩偶]</color>。\n\n您可以在<color=#990000>[獎券兌換處]</color>根據所持有的<color=#990000>[小鳳玩偶]</color>數量兌換多樣化獎勵。"
+    },
+    {
+      "id": "hells_chicken_main_event_banner_unlock_condition",
+      "content": "通過主線3-22後解鎖"
+    },
+    {
+      "id": "check_rewards",
+      "content": "查看獎勵"
+    },
+    {
+      "id": "earned_doll_count",
+      "content": "小鳳玩偶"
+    },
+    {
+      "id": "hells_chicken_event_end_stage_text",
+      "content": "活動\n結束。"
+    },
+    {
+      "id": "hells_chicken_dungeon_select_recent",
+      "content": "使用預先配置"
+    },
+    {
+      "id": "hells_chicken_dungeon_ask_recent_personality",
+      "content": "是否加載預先配置的人格與E.G.O？"
+    },
+    {
+      "id": "hells_chicken_dungeon_no_recent_personality",
+      "content": "無可用的預先配置。"
+    },
+    {
+      "id": "hells_chicken_dungeon_desc_recent_personality",
+      "content": "※您使用過的人格與E.G.O編隊將被保存至預先配置，當您進入關卡時即可加載該編隊。"
+    },
+    {
+      "id": "giving_up_hells_chicken_dungeon_title",
+      "content": "放棄活動迷宮"
+    },
+    {
+      "id": "giving_up_hells_chicken_dungeon_content",
+      "content": "您正在探索{0}。\n是否放棄當前進度並重新進入迷宮？"
+    },
+    {
+      "id": "hells_chicken_dungeon_error_desc",
+      "content": "服務器發生錯誤，您的遊戲數據消失。\n若您選擇放棄，則會歸還入場時花費的腦啡肽模塊。"
+    },
+    {
+      "id": "only_giving_up_hells_chicken_dungeon_content",
+      "content": "當前進度為{0}\n您確定要放棄嗎？"
+    },
+    {
+      "id": "hells_chicken_dungeon_stage_button_locked",
+      "content": "您需要通過章節III。"
+    }
+  ]
+}
