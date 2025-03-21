@@ -38,8 +38,7 @@ class APIClient:
                         **kwargs,
                     )
                     response.raise_for_status()
-                    if method != "DELETE":
-                        return response.json()
+                    return response.json() if method != "DELETE" else None
                 except HTTPStatusError as e:
                     if e.response.status_code == 429:
                         await sleep(int(e.response.headers.get("Retry-After", 5)))
