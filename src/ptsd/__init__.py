@@ -11,9 +11,9 @@ from anyio import create_task_group, run
 from .core import ProjectFile
 from .core.paratranz import APIClient
 from .core.utils import parse_diff
-from .translator import Replacer, TranslationHandler, TranslationMerger
+from .processor import Replacer, TranslationHandler, TranslationMerger
 
-PARATRANZ_PROJECT_ID: int = 13808
+PARATRANZ_PROJECT_ID: int = 13260
 
 
 async def main_entry(
@@ -59,7 +59,7 @@ async def main_entry(
             for file in project_files:
                 tg.start_soon(replacer.handle_replace, file)
 
-    await client.client.aclose()
+    await client.close()
 
 
 def main() -> None:

@@ -3,6 +3,7 @@
 
 import logging
 from itertools import cycle
+from typing import Literal
 
 from anyio import Semaphore, sleep
 from httpx import AsyncClient, HTTPStatusError, RequestError
@@ -18,7 +19,12 @@ class APIClient:
 
         self.client = AsyncClient(timeout=30)
 
-    async def request(self, method: str, endpoint: str, **kwargs) -> dict | None:
+    async def request(
+        self,
+        method: Literal["DELETE", "GET", "POST"],
+        endpoint: str,
+        **kwargs,
+    ) -> dict | None:
         headers = kwargs.pop("headers", {})
         headers["Authorization"] = next(self.token_rotator)
 
@@ -32,7 +38,8 @@ class APIClient:
                         **kwargs,
                     )
                     response.raise_for_status()
-                    return response.json()
+                    if method != "DELETE":
+                        return response.json()
                 except HTTPStatusError as e:
                     if e.response.status_code == 429:
                         await sleep(int(e.response.headers.get("Retry-After", 5)))
@@ -46,3 +53,7 @@ class APIClient:
 
     async def get_project_files(self) -> list[dict]:
         return await self.request("GET", "/files")
+
+    async def close(self) -> None:
+        """Close transport and proxies."""
+        await self.client.aclose()

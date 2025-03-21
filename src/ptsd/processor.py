@@ -43,7 +43,7 @@ class TranslationHandler:
         hans_dir: AnyioPath,
     ) -> None:
         src_file = hans_dir / operation.full_path
-        if not await src_file.exists():
+        if not await src_file.exists() and (operation.op_type != OperationType.DELETE):
             return
 
         match operation.op_type:
