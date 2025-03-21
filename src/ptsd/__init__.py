@@ -13,7 +13,7 @@ from .core.paratranz import APIClient
 from .core.utils import parse_diff
 from .processor import Replacer, TranslationHandler, TranslationMerger
 
-PARATRANZ_PROJECT_ID: int = 13260
+PARATRANZ_PROJECT_ID: int = 13808
 
 
 async def main_entry(
