@@ -970,19 +970,19 @@
     },
     {
       "id": "11112_getCondition_normal",
-      "content": "獲得黑獸-卯 奧提斯"
+      "content": "獲得黑獸 - 卯 奧提斯"
     },
     {
       "id": "11112_getCondition_gacksung",
-      "content": "黑獸-卯 奧提斯 3階段同步完成"
+      "content": "黑獸 - 卯 奧提斯 3階段同步完成"
     },
     {
       "id": "10411_getCondition_normal",
-      "content": "獲得黑獸-卯 良秀"
+      "content": "獲得黑獸 - 卯 良秀"
     },
     {
       "id": "10411_getCondition_gacksung",
-      "content": "黑獸-卯 良秀 3階段同步完成"
+      "content": "黑獸 - 卯 良秀 3階段同步完成"
     }
   ]
 }

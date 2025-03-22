@@ -217,7 +217,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "裹屍袋",
+          "name": "遺體袋",
           "desc": "[WhenUse] 目標每帶有5級流血 強度，使本技能的基礎威力+1(最多+3)\n[WhenUse] 目標每帶有1種負面狀態，使本技能的拼點威力+1(最多+2)\n[DefeatDuel] 對自身施加20層防禦等級降低 \n[DefeatDuel] 對自身施加1層未能釋懷的悵惘 ",
           "coinlist": [
             {

@@ -1814,19 +1814,19 @@
     },
     {
       "id": "select_all",
-      "content": "전체 선택"
+      "content": "全部選擇"
     },
     {
       "id": "deselect_all",
-      "content": "전체 해제"
+      "content": "全部解除"
     },
     {
       "id": "story_voice_setting_ui_title",
-      "content": "스토리 보이스 관리"
+      "content": "劇情語音管理"
     },
     {
       "id": "story_voice_setting_ui_desc",
-      "content": "(임시 더미)보이스를 적용할 항목을 선택해주세요."
+      "content": "（臨時Dummy）請選擇要應用語音的項目。"
     },
     {
       "id": "vending_machine_item_available_date_label",

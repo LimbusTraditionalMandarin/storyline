@@ -26,7 +26,7 @@
     },
     {
       "id": "night_clean_up_bonusUIDesc",
-      "content": "活動期間，當編隊中包含以下人格時，<color=#625aff>[清道夫液態燃料罐]</color>的獲取量提升。\n獲取量提升合計最大值為<color=#625aff>120%</color>。"
+      "content": "活動期間，當編隊中包含以下人格時，<color=#625aff>[清道夫液態燃料罐]</color>的獲取量提升。\n獲取量提升合計最大值為<color=#625aff>100%</color>。"
     },
     {
       "id": "night_clean_up_scrap_guide_title",

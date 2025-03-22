@@ -98,7 +98,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "野蠻劈砍",
+          "name": "一刀兩斷",
           "desc": "",
           "coinlist": [
             {
@@ -650,7 +650,7 @@
         {
           "level": 1,
           "name": "準備動作",
-          "desc": "[DuelCounter]\n[WhenUse] 下回合使自身獲得3層迅捷 \n若自身的速度值高於目標，則每高於目標2點，使本技能的基礎威力+1(最多+3)",
+          "desc": "[DuelCounter]\n[WinDuel] 下回合使自身獲得3層迅捷 ",
           "coinlist": [
             {}
           ]
@@ -756,7 +756,7 @@
         {
           "level": 1,
           "name": "準備動作",
-          "desc": "[DuelCounter]\n[WhenUse] 下回合使自身獲得3層迅捷 \n若自身的速度值高於目標，則每高於目標2點，使本技能的基礎威力+1(最多+3)",
+          "desc": "[DuelCounter]\n[WinDuel] 下回合使自身獲得3層迅捷 ",
           "coinlist": [
             {}
           ]

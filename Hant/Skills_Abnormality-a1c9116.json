@@ -25,7 +25,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "刻骨銘心的痛",
+          "name": "刻骨銘心之痛",
           "desc": "優先指定[MiddleFingerBook]層數最高的目標\n[WhenUse] 若目標的[MiddleFingerBook]層數不低於3層，則使本技能中的所有硬幣轉化為[SuperCoin]",
           "coinlist": [
             {
@@ -61,7 +61,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "玩的夠久了",
+          "name": "遊戲到此為止",
           "desc": "[StartBattle] 使全體友方單位的理智值恢復10\n[EndBattle] 若有陷入恐慌的友方單位，則下回合開始時解除其恐慌並使其的理智值恢復為0點\n[EndBattle] 使全體友方單位獲得1層[HitResultUp]",
           "coinlist": [
             {
@@ -122,7 +122,7 @@
         {
           "level": 1,
           "name": "刺殺",
-          "desc": "[WhenUse] 若目標的破裂 強度不低於5級，則使本技能的拼點威力+1\n[WhenUse] 使自身獲得3層腳力【卯】 ",
+          "desc": "[WhenUse] 若目標的破裂 強度不低於5級，則使本技能的拼點威力+1\n[WhenUse] 使自身獲得3層[LegStrength]",
           "coinlist": [
             {
               "coindescs": [
@@ -172,7 +172,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "刻咒殺劍 - 瞬步",
+          "name": "刻咒殺劍-瞬步",
           "desc": "優先指定帶有[BurstAgility]的目標\n自身的速度值與目標每相差2點，使本技能造成的傷害+15%(最多+60%)\n[WhenUse] 目標每帶有5級破裂 強度，使本技能的硬幣威力+1(最多+2)\n[WhenUse] 目標每帶有2層破裂 ，使本技能的基礎威力+1(最多+3)\n[EndSkill] 若自身的速度值不低於10且擊殺目標，則隨機對1名目標重複使用本技能(每回合最多1次)",
           "coinlist": [
             {
