@@ -1,2 +1,4 @@
-M	StoryData/E726B.json
-M	UI_Mission_MirrorDungeon5Event.json
+M	AbnormalityGuides.json
+M	StoryData/E719B.json
+M	StoryData/E720B.json
+M	StoryData/E721B.json
