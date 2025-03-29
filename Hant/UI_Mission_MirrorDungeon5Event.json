@@ -254,7 +254,7 @@
     },
     {
       "id": "mission_ui_condition_tags_201005013",
-      "content": "在一場戰鬥中，在戰鬥的首個回合結束前擊殺體力上限不低於3000點的敵人"
+      "content": "在一場戰鬥中，在戰鬥的首個回合結束前擊殺1名體力上限不低於3000點的敵方單位"
     },
     {
       "id": "mission_ui_condition_tags_201005014",
@@ -266,7 +266,7 @@
     },
     {
       "id": "mission_ui_condition_tags_201006001",
-      "content": "完成所有任務"
+      "content": "完成所有成就"
     }
   ]
 }

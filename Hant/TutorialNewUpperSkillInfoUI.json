@@ -2,11 +2,11 @@
   "dataList": [
     {
       "id": "tutorial_upperSkillInfo_System_popup_title_01",
-      "content": "戰鬥畫面信息量設置"
+      "content": "戰鬥畫面資訊量設置"
     },
     {
       "id": "tutorial_upperSkillInfo_System_popup_01",
-      "content": "戰鬥畫面的右上方是控制戰鬥相關信息的按鈕。\n\n按鈕分別顯示最小/中等/最大數量的信息。"
+      "content": "戰鬥畫面的右上方是控制戰鬥相關資訊的按鈕。\n\n按鈕分別顯示最小/中等/最大數量的資訊。"
     },
     {
       "id": "tutorial_upperSkillInfo_System_popup_title_02",
@@ -30,7 +30,7 @@
     },
     {
       "id": "tutorial_upperSkillInfo_System_popup_04",
-      "content": "只顯示骰子信息"
+      "content": "只顯示骰子資訊"
     }
   ]
 }

@@ -154,7 +154,7 @@
     },
     {
       "id": "returning_user_attendance_check_desc",
-      "content": "※ 活動期間，您可以根據累計出勤天數獲得相應獎勵。\n\n※ 當日出勤會在每日服務器重置後進行判定。"
+      "content": "※ 活動期間，您可以根據累計出勤天數獲得相應獎勵。\n\n※ 當日出勤會在每日伺服器重置後進行判定。"
     },
     {
       "id": "complete_to_receive",

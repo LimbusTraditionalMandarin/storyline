@@ -1179,7 +1179,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "來跳舞吧~",
+          "name": "來跳舞吧～",
           "desc": "",
           "coinlist": [
             {
@@ -1259,7 +1259,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "誒~呀！",
+          "name": "誒～呀！",
           "desc": "[OnSucceedEvade] 使目標失去5點理智值",
           "coinlist": [
             {}
@@ -1344,7 +1344,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "再利落點！",
+          "name": "再俐落點！",
           "desc": "",
           "coinlist": [
             {},
@@ -1364,7 +1364,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "再迅速點~",
+          "name": "再迅速點～",
           "desc": "",
           "coinlist": [
             {},
@@ -1384,7 +1384,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "皮納塔派對~！",
+          "name": "皮納塔派對～！",
           "desc": "[WhenUse] 若目標的理智值不高於0點，則根據其理智值按比例增加自身的暴擊率",
           "coinlist": [
             {
@@ -1605,7 +1605,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "激活HP彈",
+          "name": "啟用HP彈",
           "desc": "[WhenUse] 使自身恢復10點體力",
           "coinlist": [
             {}

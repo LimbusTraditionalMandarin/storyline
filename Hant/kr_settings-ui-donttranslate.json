@@ -58,11 +58,11 @@
     },
     {
       "id": "mainui_settings_resolution",
-      "content": "分辨率"
+      "content": "畫面解析度"
     },
     {
       "id": "mainui_settings_resolution_windowded",
-      "content": "窗口化"
+      "content": "視窗化"
     },
     {
       "id": "mainui_settings_resolution_fullscreen",
@@ -70,11 +70,11 @@
     },
     {
       "id": "mainui_settings_texquality",
-      "content": "材質質量"
+      "content": "材質解析度"
     },
     {
       "id": "mainui_settings_resolution_warning",
-      "content": "高分辨率可能會導致設備發熱並增加功耗。"
+      "content": "高解析度可能會導致設備發熱並增加功耗。"
     },
     {
       "id": "mainui_settings_fps_warning",

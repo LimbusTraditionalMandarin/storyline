@@ -22,11 +22,11 @@
     },
     {
       "id": "tutorial_mainui_01_selection_page_03_desc_01",
-      "content": "在各戰鬥內容相關的編隊窗口中，選擇人格圖像的上半部分將顯示該罪人的人格列表，並從中替換編隊人格。"
+      "content": "在各戰鬥內容相關的編隊視窗中，選擇人格圖像的上半部分將顯示該罪人的人格列表，並從中替換編隊人格。"
     },
     {
       "id": "tutorial_mainui_01_selection_page_04_desc_01",
-      "content": "在各戰鬥內容相關的編隊窗口中，選擇人格圖像的下半部分將使該人格參與戰鬥。"
+      "content": "在各戰鬥內容相關的編隊視窗中，選擇人格圖像的下半部分將使該人格參與戰鬥。"
     },
     {
       "id": "tutorial_mainui_01_selection_page_04_desc_02",
@@ -38,11 +38,11 @@
     },
     {
       "id": "tutorial_mainui_01_selection_page_06_title_01",
-      "content": "編隊-人格信息"
+      "content": "編隊-人格資訊"
     },
     {
       "id": "tutorial_mainui_01_selection_page_06_desc_01",
-      "content": "在所有編隊窗口中，長按人格立繪會顯示人格信息，可以查看當前人格和E.G.O的詳細信息。"
+      "content": "在所有編隊視窗中，長按人格立繪會顯示人格資訊，可以查看當前人格和E.G.O的詳細資訊。"
     },
     {
       "id": "tutorial_mainui_01_selection_page_07_title_01",
@@ -70,7 +70,7 @@
     },
     {
       "id": "tutorial_mainui_01_selection_page_09_title_01",
-      "content": "編隊信息"
+      "content": "編隊資訊"
     },
     {
       "id": "tutorial_mainui_01_selection_page_09_desc_01",
@@ -178,11 +178,11 @@
     },
     {
       "id": "tutorial_mainui_03_identityinfo_page_02_desc_02",
-      "content": "能夠顯示人格的抗性信息。"
+      "content": "能夠顯示人格的抗性資訊。"
     },
     {
       "id": "tutorial_mainui_03_identityinfo_page_03_title_01",
-      "content": "人格信息縮略"
+      "content": "人格資訊縮略"
     },
     {
       "id": "tutorial_mainui_03_identityinfo_page_03_desc_01",
@@ -194,7 +194,7 @@
     },
     {
       "id": "tutorial_mainui_03_identityinfo_page_04_desc_01",
-      "content": "每個人格都擁有不同的技能。在此處可以確認技能的詳細信息。"
+      "content": "每個人格都擁有不同的技能。在此處可以確認技能的詳細資訊。"
     },
     {
       "id": "tutorial_mainui_03_identityinfo_page_05_desc_01",
@@ -274,7 +274,7 @@
     },
     {
       "id": "tutorial_mainui_04_egoinfo_page_02_desc_01",
-      "content": "能夠顯示E.G.O的抗性信息。人格使用E.G.O技能後，該人格的罪孽抗性會被替換為E.G.O的罪孽抗性。"
+      "content": "能夠顯示E.G.O的抗性資訊。人格使用E.G.O技能後，該人格的罪孽抗性會被替換為E.G.O的罪孽抗性。"
     },
     {
       "id": "tutorial_mainui_04_egoinfo_page_02_title_02",
@@ -298,7 +298,7 @@
     },
     {
       "id": "tutorial_mainui_04_egoinfo_page_03_desc_01",
-      "content": "E.G.O擁有強大的技能效果與威力。能夠確認E.G.O技能的詳細信息。"
+      "content": "E.G.O擁有強大的技能效果與威力。能夠確認E.G.O技能的詳細資訊。"
     },
     {
       "id": "tutorial_mainui_04_egoinfo_page_04_desc_01",
@@ -318,7 +318,7 @@
     },
     {
       "id": "tutorial_mainui_04_egoinfo_page_06_desc_01",
-      "content": "使用E.G.O技能將激活E.G.O的被動技能效果。"
+      "content": "使用E.G.O技能將啟動E.G.O的被動技能效果。"
     },
     {
       "id": "tutorial_mainui_04_egoinfo_page_07_title_01",
@@ -406,7 +406,7 @@
     },
     {
       "id": "tutorial_mainui_06_storyidentity_page_01_desc_01",
-      "content": "能夠閱讀邊獄公司罪人們的故事和信息。選擇罪人。"
+      "content": "能夠閱讀邊獄公司罪人們的故事和資訊。選擇罪人。"
     },
     {
       "id": "tutorial_mainui_06_storyidentity_page_02_title_01",
@@ -502,7 +502,7 @@
     },
     {
       "id": "tutorial_mainui_08_stagemain_page_03_desc_03",
-      "content": "能夠確認關於敵人的信息。對於部分強力敵人，需要遭遇後才能確認信息。"
+      "content": "能夠確認關於敵人的資訊。對於部分強力敵人，需要遭遇後才能確認資訊。"
     },
     {
       "id": "tutorial_mainui_08_stagemain_page_04_title_01",
@@ -534,7 +534,7 @@
     },
     {
       "id": "tutorial_mainui_09_stagedungeon_page_01_title_01",
-      "content": "故事迷宮信息窗口"
+      "content": "故事迷宮資訊視窗"
     },
     {
       "id": "tutorial_mainui_09_stagedungeon_page_01_desc_01",
@@ -690,7 +690,7 @@
     },
     {
       "id": "tutorial_mainui_11_extraction_page_01_desc_01",
-      "content": "能夠選擇常規提取或是定向提取"
+      "content": "能夠選擇常規提取或是特定提取"
     },
     {
       "id": "tutorial_mainui_11_extraction_page_01_title_02",
@@ -706,15 +706,15 @@
     },
     {
       "id": "tutorial_mainui_11_extraction_page_02_desc_01",
-      "content": "能夠確認定向提取的持續時間。"
+      "content": "能夠確認特定提取的持續時間。"
     },
     {
       "id": "tutorial_mainui_11_extraction_page_02_title_02",
-      "content": "定向提取對象"
+      "content": "特定提取對象"
     },
     {
       "id": "tutorial_mainui_11_extraction_page_02_desc_02",
-      "content": "能夠確認概率提升的人格及E.G.O的詳細信息。"
+      "content": "能夠確認概率提升的人格及E.G.O的詳細資訊。"
     },
     {
       "id": "tutorial_mainui_11_extraction_page_03_title_01",
@@ -794,7 +794,7 @@
     },
     {
       "id": "tutorial_mainui_13_userinfo_page_01_desc_01",
-      "content": "能夠確認玩家信息，助戰角色及好友信息。"
+      "content": "能夠確認玩家資訊、助戰角色及好友資訊。"
     },
     {
       "id": "tutorial_mainui_13_userinfo_page_02_title_01",
@@ -1254,19 +1254,19 @@
     },
     {
       "id": "tutorial_manual_1_season_information_03_title_01",
-      "content": "人格&E.G.O的賽季信息"
+      "content": "人格&E.G.O的賽季資訊"
     },
     {
       "id": "tutorial_manual_1_season_information_03_desc_01",
-      "content": "人格詳情或是E.G.O詳情的名稱右側標註有賽季信息。\n沒有標註賽季信息的人格或E.G.O被劃分至[常駐]。"
+      "content": "人格詳情或是E.G.O詳情的名稱右側標註有賽季資訊。\n沒有標註賽季資訊的人格或E.G.O被劃分至[常駐]。"
     },
     {
       "id": "tutorial_manual_1_season_information_04_title_01",
-      "content": "活動人格&E.G.O的賽季信息"
+      "content": "活動人格&E.G.O的賽季資訊"
     },
     {
       "id": "tutorial_manual_1_season_information_04_desc_01",
-      "content": "活動人格和E.G.O會在賽季信息旁額外註明[EVENT]。"
+      "content": "活動人格和E.G.O會在賽季資訊旁額外註明[EVENT]。"
     },
     {
       "id": "tutorial_manual_1_season_information_05_title_01",
@@ -1470,7 +1470,7 @@
     },
     {
       "id": "tutorial_mainui_19_mirrordungeon_desc_21",
-      "content": "從鏡中之鏡開始，可以激活開局增益。"
+      "content": "從鏡中之鏡開始，可以啟用開局增益。"
     },
     {
       "id": "tutorial_mainui_19_mirrordungeon_title_22",
@@ -1478,7 +1478,7 @@
     },
     {
       "id": "tutorial_mainui_19_mirrordungeon_desc_22",
-      "content": "開局增益可以通過「星芒」系統激活，它為您的迷宮探險提供各種增益效果。\n星芒可以通過通關鏡像迷宮獲得。到達更深的迷宮會獲得更多星芒。\n在特定的鏡像迷宮中，開局增益同時適用於普通模式和困難模式，但不會影響其他鏡像迷宮。\n在特定的鏡像迷宮中獲得的星芒無法用於激活其他鏡像迷宮的開局增益。"
+      "content": "開局增益可以通過「星芒」系統啟動，它為您的迷宮探險提供各種增益效果。\n星芒可以通過通關鏡像迷宮獲得。到達更深的迷宮會獲得更多星芒。\n在特定的鏡像迷宮中，開局增益同時適用於普通模式和困難模式，但不會影響其他鏡像迷宮。\n在特定的鏡像迷宮中獲得的星芒無法用於其他鏡像迷宮的開局增益。"
     },
     {
       "id": "tutorial_mainui_20_umida_title",
@@ -1686,7 +1686,7 @@
     },
     {
       "id": "tutorial_mainui_21_railway2_page_13_desc_02",
-      "content": "您選擇的所有效果都會在以後的戰鬥中激活並累積下去。"
+      "content": "您選擇的所有效果都會在以後的戰鬥中使用並累積下去。"
     },
     {
       "id": "tutorial_mainui_21_railway2_page_14_desc_01",
@@ -1698,7 +1698,7 @@
     },
     {
       "id": "tutorial_mainui_21_railway2_page_15_desc_03",
-      "content": "除了可以直接選擇的BUFF以外，每次巡迴時都會額外激活1個固定的BUFF。"
+      "content": "除了可以直接選擇的BUFF以外，每次巡迴時都會額外啟動1個固定的BUFF。"
     },
     {
       "id": "tutorial_mainui_21_railway2_page_16_desc_01",
@@ -1710,11 +1710,11 @@
     },
     {
       "id": "tutorial_mainui_21_railway2_page_17_desc_01",
-      "content": "進行巡迴時（巡迴數不小於1時）路線中央的終點站將會被激活。"
+      "content": "進行巡迴時（巡迴數不小於1時）路線中央的終點站將會被啟動。"
     },
     {
       "id": "tutorial_mainui_21_railway2_page_17_desc_02",
-      "content": "終點站被激活後不論身處哪一站都可以隨時進入終點站。"
+      "content": "終點站被啟動後不論身處哪一站都可以隨時進入終點站。"
     },
     {
       "id": "tutorial_mainui_21_railway2_page_18_desc_01",
@@ -1746,11 +1746,11 @@
     },
     {
       "id": "tutorial_mainui_21_railway2_page_20_desc_01",
-      "content": "初次通關關卡或是滿足特定的條件後，相關的獎勵將會在失物認領所被激活。"
+      "content": "初次通關關卡或是滿足特定的條件後，相關的獎勵將會在失物認領所中呈現。"
     },
     {
       "id": "tutorial_mainui_21_railway2_page_20_desc_02",
-      "content": "為了領取失物招領處中的獎勵，最初需要支付一定數量的腦啡肽模塊。後續領取獎勵無需額外消耗腦啡肽模塊，並且可以隨時獲取已激活的獎勵。"
+      "content": "為了領取失物招領處中的獎勵，最初需要支付一定數量的腦啡肽模塊。後續領取獎勵無需額外消耗腦啡肽模塊，並且可以隨時獲取已獲得的獎勵。"
     },
     {
       "id": "tutorial_mainui_21_railway2_page_21_title_01",
@@ -1782,7 +1782,7 @@
     },
     {
       "id": "tutorial_mainui_22_railway2_page_2_desc_02",
-      "content": "在此過程中巡迴數將會+1，並且將要選擇今後的戰鬥中將被激活的友方BUFF與敵方BUFF。"
+      "content": "在此過程中巡迴數將會+1，並且將要選擇今後的戰鬥中將被啟動的友方BUFF與敵方BUFF。"
     },
     {
       "id": "tutorial_mainui_22_railway2_page_3_title_01",
@@ -1794,7 +1794,7 @@
     },
     {
       "id": "tutorial_mainui_22_railway2_page_3_desc_02",
-      "content": "您選擇的所有效果都會在以後的戰鬥中激活並累積下去。"
+      "content": "您選擇的所有效果都會在以後的戰鬥中使用並累積下去。"
     },
     {
       "id": "tutorial_mainui_22_railway2_page_4_desc_01",
@@ -1806,7 +1806,7 @@
     },
     {
       "id": "tutorial_mainui_22_railway2_page_5_desc_03",
-      "content": "除了可以直接選擇的BUFF以外，每次巡迴時都會額外激活1個固定的BUFF。"
+      "content": "除了可以直接選擇的BUFF以外，每次巡迴時都會額外啟動1個固定的BUFF。"
     },
     {
       "id": "tutorial_mainui_22_railway2_page_6_title_01",
@@ -1818,7 +1818,7 @@
     },
     {
       "id": "tutorial_mainui_22_railway2_page_6_desc_02",
-      "content": "進行巡迴後路線中央的終點站將被激活，並出現可以前往終點站的按鍵。"
+      "content": "進行巡迴後路線中央的終點站將被啟動，並出現可以前往終點站的按鍵。"
     },
     {
       "id": "tutorial_mainui_23_railway2_page_1_desc_01",
@@ -1846,11 +1846,11 @@
     },
     {
       "id": "tutorial_walpurgisnacht_extraction_page_01_desc_01",
-      "content": "活動期間，能夠進行瓦爾普吉斯之夜定向提取。"
+      "content": "活動期間，能夠進行瓦爾普吉斯之夜特定提取。"
     },
     {
       "id": "tutorial_walpurgisnacht_extraction_page_01_desc_02",
-      "content": "瓦爾普吉斯之夜定向提取中，本次瓦爾普吉斯之夜的人格及E.G.O的提取概率提升。"
+      "content": "瓦爾普吉斯之夜特定提取中，本次瓦爾普吉斯之夜的人格及E.G.O的提取概率提升。"
     },
     {
       "id": "tutorial_walpurgisnacht_extraction_page_02_desc_01",
@@ -1934,7 +1934,7 @@
     },
     {
       "id": "tutorial_mirrordungeon03_page_04_desc_01",
-      "content": "每當激活湖之鏡的開局增益，在探索過程中獲得高等級E.G.O飾品的概率將會隨之提升。"
+      "content": "每當啟動湖之鏡的開局增益，在探索過程中獲得高等級E.G.O飾品的概率將會隨之提升。"
     },
     {
       "id": "tutorial_mirrordungeon03_page_04_desc_02",
@@ -2274,7 +2274,7 @@
     },
     {
       "id": "tutorial_mainui_railway3_page_01_desc_01",
-      "content": "選擇已激活的線路即可入場。入場折射軌道時不消耗任何道具。"
+      "content": "選擇已啟動的線路即可入場。入場折射軌道時不消耗任何道具。"
     },
     {
       "id": "tutorial_mainui_railway3_page_02_title_01",
@@ -2370,7 +2370,7 @@
     },
     {
       "id": "tutorial_mainui_railway3_page_12_title_01",
-      "content": "休息站"
+      "content": "休息站點"
     },
     {
       "id": "tutorial_mainui_railway3_page_12_desc_01",
@@ -2478,7 +2478,7 @@
     },
     {
       "id": "tutorial_mainui_26_ycgd_05_desc_01",
-      "content": "在[獎勵兌換]窗口中花費[染血劍鞘]可獲得各種獎勵。"
+      "content": "在[獎勵兌換]處中花費[染血劍鞘]可獲得各種獎勵。"
     },
     {
       "id": "tutorial_mainui_26_ycgd_06_desc_01",
@@ -2550,7 +2550,7 @@
     },
     {
       "id": "tutorial_mainui_28_tkt_05_desc_01",
-      "content": "在[獎勵兌換]窗口中花費持有的[懷錶]可獲得各種獎勵。"
+      "content": "在[獎勵兌換]處中花費持有的[懷錶]可獲得各種獎勵。"
     },
     {
       "id": "tutorial_mainui_28_tkt_06_desc_01",
@@ -2594,7 +2594,7 @@
     },
     {
       "id": "tutorial_mainui_railway4_page_01_desc_01",
-      "content": "選擇已激活的線路即可入場。\n\n入場折射軌道時不消耗任何道具。"
+      "content": "選擇已啟動的線路即可入場。\n\n入場折射軌道時不消耗任何道具。"
     },
     {
       "id": "tutorial_mainui_railway4_page_02_desc_01",
@@ -2654,7 +2654,7 @@
     },
     {
       "id": "tutorial_mainui_railway4_page_06_desc_02",
-      "content": "對於部分待命人員，將會額外啟用初始理智值增益。對於使用減算硬幣的人格，初始理智值增益將會以負數激活。"
+      "content": "對於部分待命人員，將會額外啟用初始理智值增益。對於使用減算硬幣的人格，初始理智值增益將會以負數適用。"
     },
     {
       "id": "tutorial_mainui_railway4_page_07_title_01",
@@ -2682,7 +2682,7 @@
     },
     {
       "id": "tutorial_mainui_railway4_page_09_desc_01",
-      "content": "您在戰鬥中也可以確認基於編隊順位所激活的增益效果。"
+      "content": "您在戰鬥中也可以確認基於編隊順位所適用的增益效果。"
     },
     {
       "id": "tutorial_mainui_railway4_page_09_desc_02",
@@ -2698,7 +2698,7 @@
     },
     {
       "id": "tutorial_mainui_railway4_page_10_desc_02",
-      "content": "待命人員變為出戰人員時，所激活的被動技能將由支援被動技能轉為戰鬥被動技能。\n\n而出戰人員陣亡時，所激活的被動技能將由戰鬥被動技能轉為支援被動技能。"
+      "content": "待命人員變為出戰人員時，所適用的被動技能將由支援被動技能轉為戰鬥被動技能。\n\n而出戰人員陣亡時，所適用的被動技能將由戰鬥被動技能轉為支援被動技能。"
     },
     {
       "id": "tutorial_mainui_railway4_page_11_title_01",
@@ -2946,7 +2946,7 @@
     },
     {
       "id": "TutoEvent5501_P5_D1",
-      "content": "在[獎勵兌換]窗口中花費持有的[裝飾品包裹]可獲得各種獎勵。"
+      "content": "在[獎勵兌換]處中花費持有的[裝飾品包裹]可獲得各種獎勵。"
     },
     {
       "id": "TutoEvent5501_P6_D1",
@@ -3030,7 +3030,7 @@
     },
     {
       "id": "TutoEvent7501_P5_D1",
-      "content": "在[獎勵兌換]窗口中花費持有的[情報文件]可獲得各種獎勵。"
+      "content": "在[獎勵兌換]處中花費持有的[情報文件]可獲得各種獎勵。"
     },
     {
       "id": "TutoEvent7501_P6_T1",
@@ -3106,7 +3106,7 @@
     },
     {
       "id": "TutoEvent5502_P5_D1",
-      "content": "在[獎勵兌換]窗口中花費獲得的[染血劍鞘]，可兌換各種獎勵。"
+      "content": "在[獎勵兌換]處中花費獲得的[染血劍鞘]，可兌換各種獎勵。"
     },
     {
       "id": "TutoEvent5502_P6_D1",
@@ -3154,7 +3154,7 @@
     },
     {
       "id": "TutoRailway5_P1_D2",
-      "content": "選擇已激活的線路即可入場。\n\n入場折射軌道時不消耗任何道具。"
+      "content": "選擇已啟動的線路即可入場。\n\n入場折射軌道時不消耗任何道具。"
     },
     {
       "id": "TutoRailway5_P2_T1",
@@ -3230,7 +3230,7 @@
     },
     {
       "id": "TutoRailway5_P7_D3",
-      "content": "對於部分待命人員，將會額外啟用初始理智值增益，編隊順序越靠後的待命人員會獲得更高的初始理智值增益。\n\n對於使用減算硬幣的人格，初始理智值增益將會以負數激活。"
+      "content": "對於部分待命人員，將會額外啟用初始理智值增益，編隊順序越靠後的待命人員會獲得更高的初始理智值增益。\n\n對於使用減算硬幣的人格，初始理智值增益將會以負數適用。"
     },
     {
       "id": "TutoRailway5_P8_T1",
@@ -3246,7 +3246,7 @@
     },
     {
       "id": "TutoRailway5_P9_D1",
-      "content": "5號線中除各個區段的最終波次頭目外，所有敵方信息都將公開。請基於此信息編入更為合適的人格及E.G.O。"
+      "content": "5號線中除各個區段的最終波次頭目外，所有敵方資訊都將公開。請基於此訊息編入更為合適的人格及E.G.O。"
     },
     {
       "id": "TutoRailway5_P9_D2",
@@ -3266,7 +3266,7 @@
     },
     {
       "id": "TutoRailway5_P10_D2",
-      "content": "待命人員變為出戰人員時，所激活的被動技能將由支援被動技能轉為戰鬥被動技能。\n\n而出戰人員陣亡時，所激活的被動技能將由戰鬥被動技能轉為支援被動技能。"
+      "content": "待命人員變為出戰人員時，所適用的被動技能將由支援被動技能轉為戰鬥被動技能。\n\n而出戰人員陣亡時，所適用的被動技能將由戰鬥被動技能轉為支援被動技能。"
     },
     {
       "id": "TutoRailway5_P11_T1",
@@ -3294,11 +3294,11 @@
     },
     {
       "id": "TutoRailway5_P14_T1",
-      "content": "通關信息"
+      "content": "通關訊息"
     },
     {
       "id": "TutoRailway5_P14_D1",
-      "content": "通關各個區段後，在通關信息窗口中可以確認自己獲得的增益與苦難、參與戰鬥的人格等統計。"
+      "content": "通關各個區段後，在通關訊息處中可以確認自己獲得的增益與苦難、參與戰鬥的人格等統計。"
     },
     {
       "id": "TutoRailway5_P15_T1",

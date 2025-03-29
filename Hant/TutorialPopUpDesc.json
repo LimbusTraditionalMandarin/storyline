@@ -122,7 +122,7 @@
     },
     {
       "id": "tutorial_skill_command_1",
-      "content": "為了開始戰鬥，必須決定好「所有人格的行動」。\n在常規遭遇戰中，一般通過從左到右鏈接齒輪來決定行動，從而進行戰鬥。"
+      "content": "為了開始戰鬥，必須決定好「所有人格的行動」。\n在常規遭遇戰中，一般通過從左到右連接齒輪來決定行動，從而進行戰鬥。"
     },
     {
       "id": "tutorial_skill_coin_title",
@@ -146,7 +146,7 @@
     },
     {
       "id": "tutorial_passive_1",
-      "content": "戰鬥被動和支援被動都需要通過鏈接「必要屬性的技能」來觸發。"
+      "content": "戰鬥被動和支援被動都需要通過連接「必要屬性的技能」來觸發。"
     },
     {
       "id": "tutorial_ab_assign_skill_title",

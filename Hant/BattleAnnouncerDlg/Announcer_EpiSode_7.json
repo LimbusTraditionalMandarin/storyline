@@ -18,7 +18,7 @@
     },
     {
       "id": "announcer_enemy_break_7_1",
-      "dlg": "敵方有不大清醒的傢伙啊~收拾掉吧？人道主義的處理……也不需要吧。"
+      "dlg": "敵方有不大清醒的傢伙啊～收拾掉吧？人道主義的處理……也不需要吧。"
     },
     {
       "id": "announcer_ally_break_7_1",
@@ -54,7 +54,7 @@
     },
     {
       "id": "announcer_advatk_physical_7_1",
-      "dlg": "攻擊能力評估……良好！哦~狠狠吃了一發？"
+      "dlg": "攻擊能力評估……良好！哦～狠狠吃了一發？"
     },
     {
       "id": "announcer_disadvatk_physical_7_1",
@@ -74,7 +74,7 @@
     },
     {
       "id": "announcer_enemy_specialdebuff_7_1",
-      "dlg": "事情不像對方想的那樣順心了。看樣子欺騙戰術起效了。把剩下的逐個擊破吧？"
+      "dlg": "事情不像對方想的那樣順心了。看樣子欺騙戰術生效了。把剩下的逐個擊破吧？"
     },
     {
       "id": "announcer_ally_specialbuff_7_1",
@@ -106,15 +106,15 @@
     },
     {
       "id": "announcer_round_givebigdmg_7_2",
-      "dlg": "呼~連我在的地方都在晃？沒錯，完美的突擊。"
+      "dlg": "呼～連我在的地方都在晃？沒錯，完美的突擊。"
     },
     {
       "id": "announcer_multikillenemy_7_1",
-      "dlg": "確認敵方傷亡數名。簡直像是地毯式轟炸一樣~"
+      "dlg": "確認敵方傷亡數名。簡直像是地毯式轟炸一樣～"
     },
     {
       "id": "announcer_equip_7_1",
-      "dlg": "啊啊~這裡是索德，以及埃菲。本次戰況播報員由我們擔任。"
+      "dlg": "啊啊～這裡是索德，以及埃菲。本次戰況播報員由我們擔任。"
     }
   ]
 }

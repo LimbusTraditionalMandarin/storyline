@@ -2,11 +2,11 @@
   "dataList": [
     {
       "id": "announcer_cheer_5_1",
-      "dlg": "好吧~讓我們快點完事，然後去吃點東西吧？"
+      "dlg": "好吧～讓我們快點完事，然後去吃點東西吧？"
     },
     {
       "id": "announcer_cheer_5_2",
-      "dlg": "先幹完活的有好吃的！當然啦~公司請客！"
+      "dlg": "先幹完活的人有好吃的！當然啦～公司請客！"
     },
     {
       "id": "announcer_specialcheer_5_1",
@@ -38,7 +38,7 @@
     },
     {
       "id": "announcer_ally_adv_5_1",
-      "dlg": "嗯~很快就能解決，然後回巴士的吧，對吧？"
+      "dlg": "嗯～很快就能解決，然後回巴士的吧，對吧？"
     },
     {
       "id": "announcer_danger_5_1",
@@ -54,7 +54,7 @@
     },
     {
       "id": "announcer_advatk_physical_5_1",
-      "dlg": "完美的一擊！感覺不錯~"
+      "dlg": "完美的一擊！感覺不錯～"
     },
     {
       "id": "announcer_disadvatk_physical_5_1",
@@ -62,7 +62,7 @@
     },
     {
       "id": "announcer_advatk_attr_5_1",
-      "dlg": "哦~真聰明，但丁！剛才太棒了！"
+      "dlg": "哦～真聰明，但丁！剛才太棒了！"
     },
     {
       "id": "announcer_disadvatk_attr_5_1",
@@ -102,19 +102,19 @@
     },
     {
       "id": "announcer_round_givebigdmg_5_1",
-      "dlg": "哇哦~那真是一次強力的攻擊。你不覺得這很值得慶祝嘛~？"
+      "dlg": "哇哦～那真是一次強力的攻擊。你不覺得這很值得慶祝嗎～？"
     },
     {
       "id": "announcer_round_givebigdmg_5_2",
-      "dlg": "你剛才太棒了~即使是脾氣暴躁的維吉也會稱讚你的吧？"
+      "dlg": "你剛才太棒了～即使是脾氣暴躁的維吉也會稱讚你的吧？"
     },
     {
       "id": "announcer_multikillenemy_5_1",
-      "dlg": "隨便一揮便效果顯著~！這不是很帥嘛？"
+      "dlg": "隨便一揮便效果顯著～！這不是很帥嗎？"
     },
     {
       "id": "announcer_equip_5_1",
-      "dlg": "啊，啊。我要對著這個說話嗎？你好~這裡是羅佳喲~"
+      "dlg": "啊，啊。我要對著這個說話嗎？你好～這裡是羅佳喲～"
     }
   ]
 }

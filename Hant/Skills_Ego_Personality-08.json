@@ -155,19 +155,19 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 使自身失去1~2點理智值"
+                  "desc": "[OnSucceedAttackHead] 使自身失去1～2點理智值"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] 重複使用本硬幣(每個技能最多5次)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢復本硬幣傷害量4~8%的體力"
+                  "desc": "[OnSucceedAttack] 使自身恢復本硬幣傷害量4～8%的體力"
                 },
                 {
                   "desc": "[OnSucceedAttack] 對目標施加1層暴食易損 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目標增加1~3級流血 強度"
+                  "desc": "[OnSucceedAttack] 使目標增加1～3級流血 強度"
                 }
               ]
             }
@@ -189,19 +189,19 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 使自身失去1~2點理智值"
+                  "desc": "[OnSucceedAttackHead] 使自身失去1～2點理智值"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] 重複使用本硬幣(每個技能最多5次)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢復本硬幣傷害量<style=\"highlight\">6~10</style>%的體力"
+                  "desc": "[OnSucceedAttack] 使自身恢復本硬幣傷害量<style=\"highlight\">6～10</style>%的體力"
                 },
                 {
                   "desc": "[OnSucceedAttack] 對目標施加1層暴食易損 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目標增加1~3級流血 強度"
+                  "desc": "[OnSucceedAttack] 使目標增加1～3級流血 強度"
                 }
               ]
             }
@@ -223,19 +223,19 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttackHead] 使自身失去1~2點理智值"
+                  "desc": "[OnSucceedAttackHead] 使自身失去1～2點理智值"
                 },
                 {
                   "desc": "[OnSucceedAttackHead] 重複使用本硬幣(每個技能最多5次)"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身恢復本硬幣傷害量<style=\"highlight\">8~12</style>%的體力"
+                  "desc": "[OnSucceedAttack] 使自身恢復本硬幣傷害量<style=\"highlight\">8～12</style>%的體力"
                 },
                 {
                   "desc": "[OnSucceedAttack] 對目標施加1層暴食易損 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使目標增加1~4級流血 強度"
+                  "desc": "[OnSucceedAttack] 使目標增加1～4級流血 強度"
                 }
               ]
             }
@@ -258,7 +258,7 @@
                   "desc": "[OnSucceedAttackTail] 使自身恢復本硬幣傷害量10%的體力"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] 使目標增加1~4級流血 強度"
+                  "desc": "[OnSucceedAttackTail] 使目標增加1～4級流血 強度"
                 }
               ]
             }
@@ -276,7 +276,7 @@
                   "desc": "[OnSucceedAttackTail] 使自身恢復本硬幣傷害量<style=\"highlight\">15</style>%的體力"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] 使目標增加2~5級流血 強度"
+                  "desc": "[OnSucceedAttackTail] 使目標增加2～5級流血 強度"
                 }
               ]
             }
@@ -294,7 +294,7 @@
                   "desc": "[OnSucceedAttackTail] 使自身恢復本硬幣傷害量<style=\"highlight\">20</style>%的體力"
                 },
                 {
-                  "desc": "[OnSucceedAttackTail] 使目標增加3~6級流血 強度"
+                  "desc": "[OnSucceedAttackTail] 使目標增加3～6級流血 強度"
                 },
                 {
                   "desc": "[EnemyKill] 下回合使自身獲得1層強壯 (最多3層)"

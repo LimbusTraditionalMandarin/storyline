@@ -18,7 +18,7 @@
     },
     {
       "id": "announcer_enemy_break_9_1",
-      "dlg": "啊，我覺得先處理那個實體會輕鬆些。"
+      "dlg": "啊，我覺得先處理那個敵人會輕鬆一點。"
     },
     {
       "id": "announcer_ally_break_9_1",
@@ -54,7 +54,7 @@
     },
     {
       "id": "announcer_advatk_physical_9_1",
-      "dlg": "傷口十分利落……那一定就是它們的弱點吧？"
+      "dlg": "傷口十分俐落……那一定就是它們的弱點吧？"
     },
     {
       "id": "announcer_disadvatk_physical_9_1",
@@ -82,11 +82,11 @@
     },
     {
       "id": "announcer_ally_specialdebuff_9_1",
-      "dlg": "但丁經理……稍稍讓罪人們休息一下怎麼樣……"
+      "dlg": "但丁經理……稍微讓罪人們休息一下怎麼樣……"
     },
     {
       "id": "announcer_enemy_destroy_9_1",
-      "dlg": "成功破壞了一個部位！這下事情能稍微輕鬆些了。"
+      "dlg": "成功破壞了一個部位！這下事情能稍微輕鬆一點了。"
     },
     {
       "id": "announcer_enemy_destroy_9_2",

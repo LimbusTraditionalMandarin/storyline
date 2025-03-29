@@ -29,7 +29,7 @@
       "personalityid": 10902,
       "voicefile": 0,
       "teller": "黑雲會 羅佳",
-      "dialog": "這可能需要那麼一點~點運氣。",
+      "dialog": "這可能需要那麼一點～點運氣。",
       "usage": "(800101, LOW), (800102, LOW), (800104, LOW), (800105, LOW)"
     },
     {
@@ -85,7 +85,7 @@
       "personalityid": 10901,
       "voicefile": 0,
       "teller": "羅佳",
-      "dialog": "這可能需要那麼一點~點運氣。",
+      "dialog": "這可能需要那麼一點～點運氣。",
       "usage": "(800101, LOW), (800102, LOW), (800104, LOW), (800105, LOW)"
     },
     {

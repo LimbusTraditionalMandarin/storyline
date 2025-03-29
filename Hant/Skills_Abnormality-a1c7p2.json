@@ -395,7 +395,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "電子加速軌道激活",
+          "name": "電子加速軌道啟動",
           "desc": "[StartBattle] 下回合使自身獲得10層強壯 與10層迅捷 ",
           "coinlist": [
             {

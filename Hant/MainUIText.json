@@ -50,7 +50,7 @@
     },
     {
       "id": "mainui_stageinfo_enemyinfo",
-      "content": "敵方信息"
+      "content": "敵方資訊"
     },
     {
       "id": "mainui_stageinfo_exclearcondition",
@@ -654,7 +654,7 @@
     },
     {
       "id": "mainui_activation",
-      "content": "激活"
+      "content": "啟動"
     },
     {
       "id": "mainui_ask_purchase_enkephalin",
@@ -906,11 +906,11 @@
     },
     {
       "id": "gacha_rate_info_complete2",
-      "content": "在定向提取中，特定人格與E.G.O的提取概率將會上升。\n\n定向提取中目標角色各人格的提取概率為各自稀有度對應概率的50%；若該角色有多個稀有度相同的人格，則它們會平分這一概率。\n\n其他並非定向提取目標角色的人格則平分各自稀有度剩餘的50%提取概率。"
+      "content": "在特定提取中，特定人格與E.G.O的提取概率將會上升。\n\n特定提取中目標角色各人格的提取概率為各自稀有度對應概率的50%；若該角色有多個稀有度相同的人格，則它們會平分這一概率。\n\n其他並非特定提取目標角色的人格則平分各自稀有度剩餘的50%提取概率。"
     },
     {
       "id": "gacha_rate_info_complete3",
-      "content": "定向提取目標角色的E.G.O同理。\n\n定向提取帶來的提取概率改變不會影響各個稀有度與類型所對應的總概率。"
+      "content": "特定提取目標角色的E.G.O同理。\n\n特定提取帶來的提取概率改變不會影響各個稀有度與類型所對應的總概率。"
     },
     {
       "id": "gacha_rate_info_piece1",
@@ -926,11 +926,11 @@
     },
     {
       "id": "personality_preview_notice",
-      "content": "所展示的人格信息為最大等級、最高同步階段的數據。"
+      "content": "所展示的人格資訊為最大等級、最高同步階段的數據。"
     },
     {
       "id": "ego_preview_notice",
-      "content": "所展示的E.G.O信息為最高解析階段時的數據。"
+      "content": "所展示的E.G.O資訊為最高解析階段時的數據。"
     },
     {
       "id": "season_1",
@@ -1142,7 +1142,7 @@
     },
     {
       "id": "remote_download_return_title",
-      "content": "需要進行數據更新。\n即將返回至標題界面。"
+      "content": "需要進行數據更新。\n即將返回至標題界面。\n\n※從標題頁面下載後，立刻運行遊戲將發生錯誤。因此，請在下載更新前將遊戲<b><color=#da0000><u><size=110%>完全關閉並重新啟動</size></u></color></b>。"
     },
     {
       "id": "battle_skip",
@@ -1522,7 +1522,7 @@
     },
     {
       "id": "event_information",
-      "content": "活動信息"
+      "content": "活動資訊"
     },
     {
       "id": "notice_not_on_sales_period",

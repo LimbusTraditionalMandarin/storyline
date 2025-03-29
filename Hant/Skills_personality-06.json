@@ -1195,7 +1195,7 @@
         {
           "level": 1,
           "name": "標記目標",
-          "desc": "本技能每將消耗1發彈藥 ，使本技能的基礎威力+1\n[WhenUse] 若句點事務所 收尾人 希斯克利夫在場，則以(最大共鳴數×20)%的概率激活[CoveringFire]\n[WhenUse] 使自身獲得1層呼吸法 ",
+          "desc": "本技能每將消耗1發彈藥 ，使本技能的基礎威力+1\n[WhenUse] 若句點事務所 收尾人 希斯克利夫在場，則以(最大共鳴數×20)%的概率啟動[CoveringFire]\n[WhenUse] 使自身獲得1層呼吸法 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1226,7 +1226,7 @@
         {
           "level": 2,
           "name": "標記目標",
-          "desc": "本技能每將消耗1發彈藥 ，使本技能的基礎威力+1\n[WhenUse] 若句點事務所 收尾人 希斯克利夫在場，則以(最大共鳴數×20)%的概率激活[CoveringFire]\n[WhenUse] 使自身獲得2層呼吸法 ",
+          "desc": "本技能每將消耗1發彈藥 ，使本技能的基礎威力+1\n[WhenUse] 若句點事務所 收尾人 希斯克利夫在場，則以(最大共鳴數×20)%的概率啟動[CoveringFire]\n[WhenUse] 使自身獲得2層呼吸法 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1260,7 +1260,7 @@
         {
           "level": 4,
           "name": "標記目標",
-          "desc": "本技能每將消耗1發彈藥 ，使本技能的基礎威力+1\n[WhenUse] 若句點事務所 收尾人 希斯克利夫在場，則以(最大共鳴數×25)%的概率激活[CoveringFire]\n[WhenUse] 使自身獲得3層呼吸法 ",
+          "desc": "本技能每將消耗1發彈藥 ，使本技能的基礎威力+1\n[WhenUse] 若句點事務所 收尾人 希斯克利夫在場，則以(最大共鳴數×25)%的概率啟動[CoveringFire]\n[WhenUse] 使自身獲得3層呼吸法 ",
           "coinlist": [
             {
               "coindescs": [
@@ -1305,7 +1305,7 @@
         {
           "level": 3,
           "name": "命之句點",
-          "desc": "本技能每將消耗1發彈藥 ，使本技能的基礎威力+1\n[WhenUse] 若句點事務所 收尾人 希斯克利夫在場，則激活[CoveringFire]\n[WhenUse] 使自身增加5級呼吸法 強度",
+          "desc": "本技能每將消耗1發彈藥 ，使本技能的基礎威力+1\n[WhenUse] 若句點事務所 收尾人 希斯克利夫在場，則啟動[CoveringFire]\n[WhenUse] 使自身增加5級呼吸法 強度",
           "coinlist": [
             {
               "coindescs": [
@@ -1351,7 +1351,7 @@
         {
           "level": 4,
           "name": "命之句點",
-          "desc": "本技能每將消耗1發彈藥 ，使本技能的基礎威力+1\n[WhenUse] 若句點事務所 收尾人 希斯克利夫在場，則激活[CoveringFire]\n[WhenUse] 使自身增加5級呼吸法 強度\n[WinDuel] 使自身獲得2層呼吸法 ",
+          "desc": "本技能每將消耗1發彈藥 ，使本技能的基礎威力+1\n[WhenUse] 若句點事務所 收尾人 希斯克利夫在場，則啟動[CoveringFire]\n[WhenUse] 使自身增加5級呼吸法 強度\n[WinDuel] 使自身獲得2層呼吸法 ",
           "coinlist": [
             {
               "coindescs": [

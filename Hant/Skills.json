@@ -2987,7 +2987,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "球棍痛毆",
+          "name": "球棒痛毆",
           "desc": "",
           "coinlist": [
             {
@@ -3001,7 +3001,7 @@
         },
         {
           "level": 2,
-          "name": "球棍痛毆",
+          "name": "球棒痛毆",
           "desc": "",
           "coinlist": [
             {
@@ -8227,7 +8227,7 @@
         {
           "level": 1,
           "name": "夠了…",
-          "desc": "[StartBattle] 使自身恢復5~10點理智值",
+          "desc": "[StartBattle] 使自身恢復5～10點理智值",
           "coinlist": [
             {}
           ]
@@ -10222,7 +10222,7 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 若目標的燒傷 強度不低於6級，則使目標增加2級燒傷 強度"
+                  "desc": "[OnSucceedAttack] 若目標的燒傷 強度不低於6級，則對目標施加2層燒傷 "
                 }
               ]
             }

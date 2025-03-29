@@ -246,7 +246,7 @@
     },
     {
       "id": "mirror_dungeon_select_chip_effect_desc_selected",
-      "content": "消耗{0}星芒，激活適用於本次鏡像迷宮探索過程中的效果。\n在取消選擇或消耗完所有星芒之前，選擇的效果在開始時自動適用。"
+      "content": "消耗{0}星芒，啟動適用於本次鏡像迷宮探索過程中的效果。\n在取消選擇或消耗完所有星芒之前，選擇的效果在開始時自動適用。"
     },
     {
       "id": "mirror_dungeon_select_chip_effect_desc_not_selected",
@@ -254,7 +254,7 @@
     },
     {
       "id": "mirror_dungeon_atart_buff_activation",
-      "content": "激活"
+      "content": "啟動"
     },
     {
       "id": "mirror_dungeon_atart_buff_diactivation",
@@ -262,7 +262,7 @@
     },
     {
       "id": "mirrordungeon_unable_to_change_activation_buffs_when_running_dungeon",
-      "content": "鏡像迷宮進行中，無法變更開局增益的激活狀態。"
+      "content": "鏡像迷宮進行中，無法變更開局增益的狀態。"
     },
     {
       "id": "mirrordungeon_edit_start_buff_activation",
@@ -274,7 +274,7 @@
     },
     {
       "id": "mirror_dungeon_unable_to_modify_activation_of_start_buff_during_running",
-      "content": "鏡像迷宮進行中，無法變更開局增益的激活狀態。"
+      "content": "鏡像迷宮進行中，無法變更開局增益的狀態。"
     },
     {
       "id": "add_enemy_level",
@@ -282,11 +282,11 @@
     },
     {
       "id": "mirrordungeon_unable_to_change_activation_buffs_when_parent_buff_off",
-      "content": "主要增益非激活狀態時，次級增益無法激活。"
+      "content": "主要增益非啟用狀態時，次級增益無法啟用。"
     },
     {
       "id": "mirrordungeon_purchase_buffs_when_parent_buff_off",
-      "content": "主要增益非激活狀態時，次級增益無法鐫星。"
+      "content": "主要增益非啟用狀態時，次級增益無法鐫星。"
     },
     {
       "id": "side_content_already_owned_tier_ego_gift",

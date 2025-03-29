@@ -247,10 +247,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 隨機對目標施加1~2點[SinkingWhite]"
+                  "desc": "[OnSucceedAttack] 隨機對目標施加1～2點[SinkingWhite]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身失去2~6點理智值"
+                  "desc": "[OnSucceedAttack] 使自身失去2～6點理智值"
                 },
                 {
                   "desc": "[OnSucceedAttack] 若自身的理智值不低於0點，則重複使用本硬幣(每個技能最多5次)"
@@ -282,10 +282,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 隨機對目標施加1~2點[SinkingWhite]"
+                  "desc": "[OnSucceedAttack] 隨機對目標施加1～2點[SinkingWhite]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身失去2~6點理智值"
+                  "desc": "[OnSucceedAttack] 使自身失去2～6點理智值"
                 },
                 {
                   "desc": "[OnSucceedAttack] 若自身的理智值不低於0點，則重複使用本硬幣(每個技能最多5次)"
@@ -317,10 +317,10 @@
             {
               "coindescs": [
                 {
-                  "desc": "[OnSucceedAttack] 隨機對目標施加1~2點[SinkingWhite]"
+                  "desc": "[OnSucceedAttack] 隨機對目標施加1～2點[SinkingWhite]"
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身失去2~6點理智值"
+                  "desc": "[OnSucceedAttack] 使自身失去2～6點理智值"
                 },
                 {
                   "desc": "[OnSucceedAttack] 若自身的理智值不低於0點，則重複使用本硬幣(每個技能最多5次)"

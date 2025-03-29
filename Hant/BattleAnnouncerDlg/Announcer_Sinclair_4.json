@@ -74,7 +74,7 @@
     },
     {
       "id": "announcer_enemy_specialdebuff_4_1",
-      "dlg": "他們看起來……有些不安……如果我們現在攻擊，他們應該沒法還手。"
+      "dlg": "他們看起來……有些不安……如果我們現在攻擊，他們應該無法還手。"
     },
     {
       "id": "announcer_ally_specialbuff_4_1",
@@ -90,7 +90,7 @@
     },
     {
       "id": "announcer_enemy_destroy_4_2",
-      "dlg": "利落地斬斷了……這樣一來，就不能再用它去幹些蠢事了吧。"
+      "dlg": "俐落地斬斷了……這樣一來，就不能再用它去幹些蠢事了吧。"
     },
     {
       "id": "announcer_round_takebigdmg_4_1",

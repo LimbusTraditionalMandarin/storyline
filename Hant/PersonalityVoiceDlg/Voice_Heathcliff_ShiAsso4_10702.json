@@ -83,12 +83,12 @@
     {
       "id": "battle_break_10702_1",
       "desc": "自身混亂",
-      "dlg": "切……！"
+      "dlg": "嘁……！"
     },
     {
       "id": "battle_kill_10702_1",
       "desc": "擊殺敵方",
-      "dlg": "目標，清除~"
+      "dlg": "目標，清除～"
     },
     {
       "id": "battle_allydead_10702_1",

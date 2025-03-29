@@ -407,7 +407,7 @@
                   "desc": "[WinDuelAttack] 使目標增加4級流血 強度並對其施加3層流血 "
                 },
                 {
-                  "desc": "[OnSucceedAttack] 使自身獲得2~3層[BloomingThorns]"
+                  "desc": "[OnSucceedAttack] 使自身獲得2～3層[BloomingThorns]"
                 }
               ]
             }

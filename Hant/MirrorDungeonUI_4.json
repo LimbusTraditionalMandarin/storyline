@@ -190,7 +190,7 @@
     },
     {
       "id": "md4_buffs_summaryDesc_100",
-      "content": "[限定]\n鐫星時，獲得200星芒（僅限最初1次，不受激活影響）"
+      "content": "[限定]\n鐫星時，獲得200星芒（僅限最初1次，不受開局增益影響）"
     },
     {
       "id": "md4_buffs_summaryDesc_101",
@@ -294,7 +294,7 @@
     },
     {
       "id": "md4_buffs_summaryDesc_105",
-      "content": "[通用]\n商店、合成、戰鬥報酬追加28種3~4級E.G.O飾品"
+      "content": "[通用]\n商店、合成、戰鬥報酬追加28種3～4級E.G.O飾品"
     },
     {
       "id": "md4_buffs_summaryDesc_1051",
@@ -934,7 +934,7 @@
     },
     {
       "id": "new_ego_gift_combine_guide_desc_1",
-      "content": "如果在<合成 - 關鍵詞選擇>窗口中選擇了關鍵詞，則預期的E.G.O飾品關鍵字如下。"
+      "content": "如果在<合成 - 關鍵詞選擇>畫面中選擇了關鍵詞，則預期的E.G.O飾品關鍵字如下。"
     },
     {
       "id": "new_ego_gift_combine_guide_table_1_col_1_title",

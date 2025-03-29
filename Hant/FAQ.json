@@ -62,7 +62,7 @@
     },
     {
       "id": "faq_payment_desc_7",
-      "content": "遊戲內商品目前通過谷歌應用程序商店和蘋果應用程序商店採用多種支付方式進行銷售；可能有多種原因會造成這個問題。\n\n■ 交易失敗的可能解決方案\n1） 在穩定的網路連接下重新啟動遊戲\n2） 帳號設置問題（需要聯繫谷歌支付客戶中心或蘋果客服）：\n\n谷歌客服\n鏈接：<color=#F8C200><u><link=\"https://payments.google.com/payments/u/2/home#oneTimePurchase\">https://payments.google.com/payments/u/2/home#oneTimePurchase</link></u></color>\n\n蘋果客服\n鏈接：<color=#F8C200><u><link=\"https://expresslane.apple.com/GetproductgroupList.action\">https://expresslane.apple.com/GetproductgroupList.action</link></u></color>\n\nSteam客服\n鏈接：<color=#F8C200><u><link=\"https://help.steampowered.com/\">https://help.steampowered.com/</link></u></color>\n\n3） 關於處理支付的問題（向運營商進行諮詢）：\n-關於支付方式的問題，如預算限額等，您可以向您所使用信用卡的所屬公司或網路提供商的客服進行諮詢。"
+      "content": "遊戲內商品目前通過Google應用程序商店和蘋果應用程序商店採用多種支付方式進行銷售；可能有多種原因會造成這個問題。\n\n■ 交易失敗的可能解決方案\n1） 在穩定的網路連接下重新啟動遊戲\n2） 帳號設置問題（需要聯繫Google支付客戶中心或蘋果客服）：\n\nGoogle客服\n網址：<color=#F8C200><u><link=\"https://payments.google.com/payments/u/2/home#oneTimePurchase\">https://payments.google.com/payments/u/2/home#oneTimePurchase</link></u></color>\n\n蘋果客服\n網址：<color=#F8C200><u><link=\"https://expresslane.apple.com/GetproductgroupList.action\">https://expresslane.apple.com/GetproductgroupList.action</link></u></color>\n\nSteam客服\n網址：<color=#F8C200><u><link=\"https://help.steampowered.com/\">https://help.steampowered.com/</link></u></color>\n\n3） 關於處理支付的問題（向運營商進行諮詢）：\n-關於支付方式的問題，如預算限額等，您可以向您所使用信用卡的所屬公司或網路提供商的客服進行諮詢。"
     },
     {
       "id": "faq_payment_title_8",
@@ -86,7 +86,7 @@
     },
     {
       "id": "faq_account_desc_1",
-      "content": "帳號ID顯示在屏幕下側UI的「級別」上方。"
+      "content": "帳號ID顯示在螢幕下側UI的「級別」上方。"
     },
     {
       "id": "faq_account_title_2",

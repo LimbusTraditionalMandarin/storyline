@@ -34,7 +34,7 @@
     },
     {
       "id": "activation_complete",
-      "content": "已激活"
+      "content": "已啟動"
     },
     {
       "id": "lack_of_points",
@@ -310,7 +310,7 @@
     },
     {
       "id": "ego_gift_info",
-      "content": "E.G.O飾品信息"
+      "content": "E.G.O飾品資訊"
     },
     {
       "id": "mirrordungeon_shop_gift_entrance",
@@ -378,7 +378,7 @@
     },
     {
       "id": "list_of_applied_effects_is_empty",
-      "content": "當前沒有效果激活。"
+      "content": "當前沒有效果啟用。"
     },
     {
       "id": "give_up_rewards",
@@ -390,7 +390,7 @@
     },
     {
       "id": "mirror_dungeon_rewards_back_to_lobby_desc",
-      "content": "要移動到玻璃窗嗎？\n探索獎勵窗口會在您再次進入鏡像迷宮界面時彈出。"
+      "content": "要移動到玻璃窗嗎？\n探索獎勵畫面會在您再次進入鏡像迷宮界面時彈出。"
     },
     {
       "id": "mirror_dungeon_rewards_back_to_lobby_button_lobby",
@@ -442,11 +442,11 @@
     },
     {
       "id": "mirror_dungeon_challenge_mode_description",
-      "content": "挑戰模式激活時，將會隨機組成編隊。\n直到領取獎勵為止都無法更改編隊。\n當以挑戰模式通關時，所獲得的獎勵將會增加。"
+      "content": "挑戰模式啟動時，將會隨機組成編隊。\n直到領取獎勵為止都無法更改編隊。\n當以挑戰模式通關時，所獲得的獎勵將會增加。"
     },
     {
       "id": "mirror_dungeon_challenge_mode_ask",
-      "content": "要激活挑戰模式嗎？"
+      "content": "要啟動挑戰模式嗎？"
     },
     {
       "id": "mirror_dungeon_challenge_mode",
@@ -470,7 +470,7 @@
     },
     {
       "id": "mirror_dungeon_hard_require_condition_start_buf",
-      "content": "- 開局增益全部激活"
+      "content": "- 開局增益全部啟用"
     },
     {
       "id": "mirrordungeon_acquire_rewards_using_hard_using_chance_desc",

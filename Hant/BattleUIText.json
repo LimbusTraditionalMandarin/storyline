@@ -298,7 +298,7 @@
     },
     {
       "id": "enemy_info",
-      "content": "敵方信息"
+      "content": "敵方資訊"
     },
     {
       "id": "enter_clear_requirement",
@@ -590,7 +590,7 @@
     },
     {
       "id": "show_BattleAblityUI",
-      "content": "戰鬥中顯示詳細信息UI"
+      "content": "戰鬥中顯示詳細資訊UI"
     },
     {
       "id": "Ahab_NotTarget_Onece",

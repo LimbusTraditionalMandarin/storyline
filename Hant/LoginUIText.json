@@ -86,7 +86,7 @@
     },
     {
       "id": "servererror_content",
-      "content": "服務器發生錯誤。\n請稍後再試。"
+      "content": "伺服器發生錯誤。\n請稍後再試。"
     },
     {
       "id": "forcequit_content",
@@ -98,11 +98,11 @@
     },
     {
       "id": "serverstate_regularcheck",
-      "content": "服務器正在例行維護。"
+      "content": "伺服器正在例行維護。"
     },
     {
       "id": "serverstate_temporary_check",
-      "content": "服務器正在進行臨時維護。"
+      "content": "伺服器正在進行臨時維護。"
     },
     {
       "id": "serverstate_verify_invaliduser",
@@ -194,7 +194,7 @@
     },
     {
       "id": "serverstate_error_thirdparty_api",
-      "content": "外部服務器通訊連接錯誤。請稍後重試。"
+      "content": "外部伺服器通訊連接錯誤。請稍後重試。"
     },
     {
       "id": "servererror_invalid_purchasing_package",
@@ -258,7 +258,7 @@
     },
     {
       "id": "push_notification_message_full_stamina_6_text",
-      "content": "哇~腦啡肽已經補充好了呢~要去確認一下嗎？"
+      "content": "哇～腦啡肽已經補充好了呢～要去確認一下嗎？"
     },
     {
       "id": "push_notification_message_full_stamina_7_title",
@@ -282,7 +282,7 @@
     },
     {
       "id": "push_notification_message_full_stamina_9_text",
-      "content": "但丁~腦啡肽已經補充滿啦。不快點轉換成模塊可就沒法再攢了~"
+      "content": "但丁～腦啡肽已經補充滿啦。不快點轉換成模塊可就無法再攢了～"
     },
     {
       "id": "push_notification_message_full_stamina_11_title",

@@ -26,7 +26,7 @@
     },
     {
       "id": "railway_dungeon_before_enter_past_node_change_formation",
-      "content": "編隊保存時，選擇的休息站以後的編組記錄\n將被完全初始化。\n\n要保存編隊嗎？"
+      "content": "編隊保存時，選擇的休息站點以後的進度\n將被完全初始化。\n\n要保存編隊嗎？"
     },
     {
       "id": "railway_dungeon_3_retry_popup_init",
