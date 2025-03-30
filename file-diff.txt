@@ -1,4 +1,7 @@
-M	EGOgift_MirrorDungeon.json
-M	StoryData/E723B.json
-M	StoryData/E724B.json
-M	StoryData/S526A.json
+M	Skills_Enemy-a1c6p1.json
+M	StoryData/E054X.json
+M	StoryData/E519A.json
+M	StoryData/E719A.json
+M	StoryData/E725A.json
+M	StoryData/E726A.json
+M	StoryData/E726B.json
