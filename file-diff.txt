@@ -1,7 +1,11 @@
-M	Skills_Enemy-a1c6p1.json
-M	StoryData/E054X.json
-M	StoryData/E519A.json
-M	StoryData/E719A.json
-M	StoryData/E725A.json
+M	BattleUIText.json
+M	MainUIText.json
+M	MirrorDungeonUI_5.json
+M	NickName.json
+M	StoryData/E725B.json
 M	StoryData/E726A.json
 M	StoryData/E726B.json
+M	StoryData/E726I.json
+M	StoryData/E727A.json
+M	StoryData/E728B.json
+M	StoryData/P10411.json
