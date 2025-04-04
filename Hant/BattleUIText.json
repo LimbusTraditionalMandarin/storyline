@@ -670,7 +670,7 @@
     },
     {
       "id": "BatonPassUIText",
-      "content": "待機解除"
+      "content": "解除待命"
     },
     {
       "id": "perfect",
@@ -779,6 +779,10 @@
     {
       "id": "septempeccata_classification",
       "content": "{0}型"
+    },
+    {
+      "id": "run_forBattlePortraitStateText",
+      "content": "撤退"
     }
   ]
 }

@@ -562,7 +562,7 @@
     },
     {
       "id": "introduce_sentence_71",
-      "content": "好~{0}完成！"
+      "content": "好～{0}完成！"
     },
     {
       "id": "introduce_word_72",
@@ -746,7 +746,7 @@
     },
     {
       "id": "introduce_sentence_94",
-      "content": "你的{0}……都寫在這兒呢！"
+      "content": "你的{0}……都寫在這裡呢！"
     },
     {
       "id": "introduce_word_95",
@@ -1499,6 +1499,14 @@
     {
       "id": "introduce_sentence_188",
       "content": "身為{0}，請專注於您的應盡之務。"
+    },
+    {
+      "id": "introduce_word_189",
+      "content": "帳簿"
+    },
+    {
+      "id": "introduce_sentence_189",
+      "content": "就算我死了……你的名字也會留在{0}裡。"
     }
   ]
 }

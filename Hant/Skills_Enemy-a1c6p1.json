@@ -1223,7 +1223,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "開始打掃",
+          "name": "掃除起始",
           "desc": "",
           "coinlist": [
             {
@@ -1339,7 +1339,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "開始打掃",
+          "name": "開始掃除",
           "desc": "",
           "coinlist": [
             {
@@ -1487,7 +1487,7 @@
       "levelList": [
         {
           "level": 1,
-          "name": "打掃時間！",
+          "name": "掃除時間！",
           "desc": "[WhenUse] 若目標的理智值不高於10點，則對其施加2層攻擊等級降低 \n[WinDuel] 對目標施加1層易損 ",
           "coinlist": [
             {

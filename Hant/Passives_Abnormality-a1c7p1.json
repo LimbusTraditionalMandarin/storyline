@@ -49,7 +49,7 @@
     {
       "id": 837206,
       "name": "帶血的剪刀",
-      "desc": "戰鬥開始時,使自身獲得10層[BloodScissor]\n- [BloodScissor]不會低於1\n- [BloodScissor]不低於10層時，轉換為[BloodScissorTwo]\n- [BloodScissor]不低於20層時，轉換為[BloodScissorThree]\n若[BloodScissor]被消耗至閾值以下，則轉換至前一階段"
+      "desc": "戰鬥開始時，使自身獲得10層[BloodScissor]\n- [BloodScissor]不會低於1\n- [BloodScissor]不低於10層時，轉換為[BloodScissorTwo]\n- [BloodScissor]不低於20層時，轉換為[BloodScissorThree]\n若[BloodScissor]被消耗至閾值以下，則轉換至前一階段"
     },
     {
       "id": 837207,

@@ -73,7 +73,7 @@
     {
       "id": "battle_endcommand_10207_1",
       "desc": "進行攻擊",
-      "dlg": "已確認出逃的個體。"
+      "dlg": "已確認出逃個體。"
     },
     {
       "id": "battle_enemy_break_10207_1",

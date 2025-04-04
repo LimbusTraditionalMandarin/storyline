@@ -1,0 +1,10 @@
+{
+  "dataList": [
+    {
+      "id": 1037,
+      "panicName": "糖果",
+      "lowMoraleDescription": "與帶有[CandyForCharon]的人格進行拼點時，拼點威力+3；與其他人格進行拼點時，拼點威力-1",
+      "panicDescription": "與帶有[CandyForCharon]的人格進行拼點時，拼點威力+5，與其他人格進行拼點時，拼點威力-2"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "dataList": [
+    {
+      "id": "CandyForCharon",
+      "name": "糖果？",
+      "desc": "- 最大值：1\n- 糖果在哪裡？",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "TickTockTickTock",
+      "name": "滴答滴答？！",
+      "desc": "- 回合結束時，恢復10點理智值",
+      "summary": "",
+      "undefined": "-"
+    },
+    {
+      "id": "CandyForCharon_LowMoral",
+      "name": "糖果",
+      "desc": "- 士氣低落\n- 與帶有糖果 的人格進行拼點時，拼點威力+3；與其他人格進行拼點時，拼點威力-1",
+      "summary": "根據條件增減拼點威力",
+      "undefined": "-"
+    },
+    {
+      "id": "CandyForCharon_Panic",
+      "name": "糖果",
+      "desc": "- 陷入恐慌\n- 與帶有糖果 的人格進行拼點時，拼點威力+5；與其他人格進行拼點時，拼點威力-2",
+      "summary": "根據條件增減拼點威力",
+      "undefined": "-"
+    }
+  ]
+}

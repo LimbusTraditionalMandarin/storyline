@@ -1142,7 +1142,7 @@
     },
     {
       "id": "remote_download_return_title",
-      "content": "需要進行數據更新。\n即將返回至標題界面。\n\n※從標題頁面下載後，立刻運行遊戲將發生錯誤。因此，請在下載更新前將遊戲<b><color=#da0000><u><size=110%>完全關閉並重新啟動</size></u></color></b>。"
+      "content": "需要進行數據更新。\n即將返回至標題界面。"
     },
     {
       "id": "battle_skip",
@@ -1855,6 +1855,14 @@
     {
       "id": "paid_lunacy_ui",
       "content": "付費狂氣"
+    },
+    {
+      "id": "story_unable_to_skip",
+      "content": "該劇情無法跳過。"
+    },
+    {
+      "id": "remote_download_quit_game",
+      "content": "增加了新的下載項目。\n遊戲即將關閉，請重啟遊戲以下載。"
     }
   ]
 }

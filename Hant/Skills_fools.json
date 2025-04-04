@@ -1,0 +1,130 @@
+{
+  "dataList": [
+    {
+      "id": 899901,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "給我糖果。",
+          "desc": "優先指定帶有[CandyForCharon]的對象\n[EndSkill] 若目標未帶有[CandyForCharon]，則對其施加[CandyForCharon]",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                },
+                {
+                  "desc": "[OnSucceedAttack] 若目標帶有[CandyForCharon]，則下回合使其陷入混亂。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 899902,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "沒有，糖果。",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 899903,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "你們…",
+          "desc": "",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 899904,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "…可米，生氣了。",
+          "desc": "[BeforeAttack] 根據帶有[CandyForCharon]的人格數，使本技能的攻擊容量相應增加\n[WhenUse] 根據帶有[CandyForCharon]的人格數，使本技能的拼點威力相應增加",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            },
+            {
+              "coindescs": [
+                {
+                  "desc": "[SuperCoin]"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 899905,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "布隆布隆",
+          "desc": "[WhenUse] 根據帶有[CandyForCharon]的人格數，使本技能的拼點威力相應增加\n每有1名帶有[CandyForCharon]的人格，使本技能造成的傷害+10%(最多+100%)",
+          "coinlist": [
+            {},
+            {}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 899906,
+      "levelList": [
+        {
+          "level": 1,
+          "name": "你打了，可米。",
+          "desc": "[WhenUse] 下回合使自身獲得2層拼點威力提升 與2層迅捷 ",
+          "coinlist": [
+            {
+              "coindescs": [
+                {
+                  "desc": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

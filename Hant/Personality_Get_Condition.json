@@ -983,6 +983,14 @@
     {
       "id": "10411_getCondition_gacksung",
       "content": "黑獸 - 卯 良秀 3階段同步完成"
+    },
+    {
+      "id": "11012_getCondition_normal",
+      "content": "獲得中指 幼弟 辛克萊"
+    },
+    {
+      "id": "11012_getCondition_gacksung",
+      "content": "中指 幼弟 辛克萊 3階段同步完成"
     }
   ]
 }
