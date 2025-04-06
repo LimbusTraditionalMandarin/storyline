@@ -13,7 +13,12 @@ from .core.paratranz import APIClient
 from .core.utils import parse_diff
 from .processor import ContextHandler, Replacer, TranslationMerger
 
+# Change PARATRANZ_PROJECT_ID to your ParaTranz project ID
 PARATRANZ_PROJECT_ID: int = 14095
+
+# Change TARGET_DIR to the name of your output folder (e.g., cn, RU, Th etc.).
+# It must match the name in line 14 of the `.github/workflows/release.yml` file.
+TARGET_DIR: str = "Hant"
 
 
 async def main_entry(
@@ -44,7 +49,7 @@ async def main_entry(
                 tg.start_soon(handler.handle_upload, operation, project_files)
 
     elif mode == "download":
-        merger = TranslationMerger(client, root)
+        merger = TranslationMerger(client, root, TARGET_DIR)
 
         async with create_task_group() as tg:
             for file in project_files:

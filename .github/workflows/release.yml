@@ -9,6 +9,8 @@ on:
   workflow_dispatch:
 
 env:
+  # Change TARGET_DIR to the name of your output folder (e.g., cn, RU, Th etc.).
+  # It must match the name in line 21 of the `src/ptsd/__init__.py` file.
   TARGET_DIR: "Hant"
 
 jobs:
