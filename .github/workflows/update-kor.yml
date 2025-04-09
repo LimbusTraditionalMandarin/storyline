@@ -86,6 +86,8 @@ jobs:
             gh run cancel ${{ github.run_id }} --repo ${{ github.repository }}
             gh run watch ${{ github.run_id }} --repo ${{ github.repository }}
           fi
+        env:
+          GH_TOKEN: ${{ github.token }}
 
       - name: Upload diff file if changed
         uses: actions/upload-artifact@v4
