@@ -117,4 +117,4 @@ jobs:
         working-directory: main-repo
         run: uv run ptsd upload --storyline-folder ../storyline
         env:
-          PARATRANZ_TOKENS: ${{ env.PARATRANZ_TOKENS }}
+          PARATRANZ_TOKENS: ${{ secrets.PARATRANZ_TOKENS }}
