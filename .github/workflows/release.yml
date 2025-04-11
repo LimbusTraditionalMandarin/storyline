@@ -21,10 +21,10 @@ jobs:
     outputs:
       needs_release: ${{ steps.commit_changes.outputs.has_changes }}
     steps:
-      - name: Checkout storyline branch
+      - name: Checkout story-data
         uses: actions/checkout@v4
         with:
-          ref: storyline
+          repository: LimbusTraditionalMandarin/story-data
           path: storyline
 
       - name: Clean TARGET directory
@@ -55,35 +55,6 @@ jobs:
         run: uv run ptsd download --storyline-folder ../storyline
         env:
           PARATRANZ_TOKENS: ${{ env.PARATRANZ_TOKENS }}
-
-      - name: Commit changes
-        id: commit_changes
-        working-directory: storyline
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add $TARGET_DIR/
-          if git diff --cached --quiet; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            git commit -m "Auto-update $TARGET_DIR translations $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
-            git push origin storyline
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          fi
-
-  create_release:
-    needs: download_and_merge
-    if: needs.download_and_merge.outputs.needs_release == 'true' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    outputs:
-      release_hash: ${{ steps.generate_metadata.outputs.full_hash }}
-      release_tag: ${{ steps.generate_metadata.outputs.tag }}
-    steps:
-      - name: Checkout storyline branch
-        uses: actions/checkout@v4
-        with:
-          ref: storyline
-          fetch-depth: 0
 
       - name: Generate release metadata
         id: generate_metadata
@@ -117,10 +88,10 @@ jobs:
           RELEASE_TAG: ${{ steps.generate_metadata.outputs.tag }}
           RELEASE_HASH: ${{ steps.generate_metadata.outputs.full_hash }}
         run: |
-          mkdir -p BepInEx/plugins/LLC/Localize/$TARGET_DIR
-          cp -r $TARGET_DIR/* BepInEx/plugins/LLC/Localize/$TARGET_DIR/
-          zip -r "LTM_storyline_${RELEASE_TAG}_${RELEASE_HASH}.zip" BepInEx
-          rm -rf BepInEx
+          mkdir -p LimbusCompany_Data/Lang/$TARGET_DIR
+          cp -r storyline/$TARGET_DIR/* LimbusCompany_Data/Lang/$TARGET_DIR/
+          zip -r "LTM_storyline_${RELEASE_TAG}_${RELEASE_HASH}.zip" LimbusCompany_Data
+          rm -rf LimbusCompany_Data
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
