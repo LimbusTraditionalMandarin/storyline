@@ -18,8 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PARATRANZ_TOKENS: ${{ secrets.PARATRANZ_TOKENS }}
-    outputs:
-      needs_release: ${{ steps.commit_changes.outputs.has_changes }}
     steps:
       - name: Checkout story-data
         uses: actions/checkout@v4
@@ -29,8 +27,8 @@ jobs:
 
       - name: Clean TARGET directory
         run: |
-          rm -rf storyline/$TARGET_DIR
-          mkdir -p storyline/$TARGET_DIR
+          rm -rf storyline/${{ env.TARGET_DIR }}
+          mkdir -p storyline/${{ env.TARGET_DIR }}
 
       - name: Checkout main branch
         uses: actions/checkout@v4
@@ -59,10 +57,10 @@ jobs:
       - name: Generate release metadata
         id: generate_metadata
         run: |
-          TAG=$(date -u +%y%m%d)
-          COMMIT_HASH=$(git log -1 --pretty=format:%h | head -c 4)
+          TAG=$(date +%s)
+          RELEASE_DATE=$(date -u +%Y-%m-%d)
           echo "tag=$TAG" >> $GITHUB_OUTPUT
-          echo "full_hash=${COMMIT_HASH}" >> $GITHUB_OUTPUT
+          echo "release_date=$RELEASE_DATE" >> $GITHUB_OUTPUT
 
       - name: Clean existing tags
         env:
@@ -86,23 +84,17 @@ jobs:
           git push origin "$RELEASE_TAG"
 
       - name: Prepare release asset
-        env:
-          RELEASE_TAG: ${{ steps.generate_metadata.outputs.tag }}
-          RELEASE_HASH: ${{ steps.generate_metadata.outputs.full_hash }}
+        working-directory: storyline/${{ env.TARGET_DIR }}
         run: |
-          mkdir -p LimbusCompany_Data/Lang/$TARGET_DIR
-          cp -r storyline/$TARGET_DIR/* LimbusCompany_Data/Lang/$TARGET_DIR/
-          zip -r "LTM_storyline_${RELEASE_TAG}_${RELEASE_HASH}.zip" LimbusCompany_Data
-          rm -rf LimbusCompany_Data
+          zip -r "../../${{ env.TARGET_DIR }}.zip" .
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ steps.generate_metadata.outputs.tag }}
-          name: Release ${{ steps.generate_metadata.outputs.tag }}
+          name: Release ${{ steps.generate_metadata.outputs.release_date }}
           body: |
             - v${{ steps.generate_metadata.outputs.tag }} storyline update
-            - Build Hash: ${{ steps.generate_metadata.outputs.full_hash }}
-          files: LTM_storyline_${{ steps.generate_metadata.outputs.tag }}_${{ steps.generate_metadata.outputs.full_hash }}.zip
+          files: ${{ env.TARGET_DIR }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
