@@ -143,8 +143,8 @@ class TranslationMerger:
         self,
         file: ProjectFile,
     ) -> None:
-        fake_path = AnyioPath(self.root_dir / "kr" / file.name)
-        raw_path = fake_path.parent / f"KR_{fake_path.name}"
+        fake_path = AnyioPath(self.root_dir / "en" / file.name)
+        raw_path = fake_path.parent / f"EN_{fake_path.name}"
         output_path = self.target_dir / file.name
 
         if not (translations := await self.client.request("GET", f"/files/{file.id}/translation")):
