@@ -93,7 +93,7 @@ jobs:
         run: |
           echo "- v${{ steps.generate_metadata.outputs.tag }} storyline update" >> ReleaseNotes.md
           echo -e "\n---\n" >> ReleaseNotes.md
-          curl https://paratranz.cn/api/projects/14095/files/21952990/translation | jq -r '.[0].translation' >> ReleaseNotes.md
+          curl https://paratranz.cn/api/projects/14095/files/${{vars.PARATRANZ_INFO_FILE_ID}}/translation | jq -r '.[0].translation' >> ReleaseNotes.md
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
