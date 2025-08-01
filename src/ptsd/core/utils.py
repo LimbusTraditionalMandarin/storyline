@@ -43,7 +43,7 @@ async def parse_diff(
 
 async def load_json_file(path: AnyioPath) -> dict:
     """Asynchronously load and parse a JSON file."""
-    async with await path.open("r", encoding="utf-8") as f:
+    async with await path.open("r", encoding="utf-8-sig") as f:
         return json.loads(await f.read())
 
 
