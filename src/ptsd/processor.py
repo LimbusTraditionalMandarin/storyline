@@ -19,6 +19,28 @@ class ContextHandler:
         self.client = client
         self.root_dir = root_dir
 
+    async def __update_fixed_translation(self, file_id: int, filename: str) -> None:
+        if not (translations := await self.client.request("GET", f"/files/{file_id}/translation")):
+            return
+        updates = []
+        for item in translations:
+            keys = item["key"].split("->")
+            if item["original"] != "" and keys[-1] in ("id", "model"):
+                new_item = {
+                    **item,
+                    "translation": item["original"],
+                    "stage": 1,
+                }
+                updates.append(new_item)
+        if updates:
+            data = json.dumps(updates, ensure_ascii=False).encode("utf-8")
+            await self.client.request(
+                "POST",
+                f"/files/{file_id}/translation",
+                files={"file": (f"{filename}.json", data)},
+                data={"force": "true"},
+            )
+
     async def __update_contexts(
         self,
         file_id: int,
@@ -96,6 +118,7 @@ class ContextHandler:
                         logger.warning(f"Faield to add {operation.full_path}: {res}")
                         return
                     await self.__update_contexts(res["file"]["id"], filename, langs)
+                    await self.__update_fixed_translation(res["file"]["id"], filename)
                     logger.info(f"Added {operation.full_path} (ID: {res['file']['id']})")
 
             case OperationType.MODIFY:
@@ -109,6 +132,7 @@ class ContextHandler:
                             logger.warning(f"Faield to add {operation.full_path}: {res}")
                             return
                         await self.__update_contexts(pf.id, filename, langs)
+                        await self.__update_fixed_translation(pf.id, filename)
                         logger.info(f"Updated {operation.full_path} (ID: {pf.id})")
 
             case OperationType.DELETE:
