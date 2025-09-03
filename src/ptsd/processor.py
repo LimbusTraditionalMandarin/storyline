@@ -25,7 +25,12 @@ class ContextHandler:
         updates = []
         for item in translations:
             keys = item["key"].split("->")
-            if item["original"] != "" and keys[-1] in ("id", "model"):
+            if (
+                item["original"] != ""
+                and item["translation"] == ""
+                and keys[-1] in ("id", "model")
+                and item["stage"] in (0, -1)
+            ):
                 new_item = {
                     **item,
                     "translation": item["original"],
