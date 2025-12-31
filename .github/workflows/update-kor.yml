@@ -51,7 +51,7 @@ jobs:
               gsub("kr/", "", $2);
               if ($1 ~ /^R/) {
                 # Handle rename cases
-                split($0, parts, "\t");
+                split($0, parts, " ");
                 old_file = gensub(/kr\//, "", "g", parts[2]);
                 new_file = gensub(/kr\//, "", "g", parts[3]);
                 print "D\t" old_file;
