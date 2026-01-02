@@ -97,7 +97,7 @@ class ContextHandler:
             keys = item["key"].split("->")
             if (
                 item["original"] != ""
-                and item["translation"] == ""
+                and item["translation"] != item["original"]
                 and keys[-1] in ("id", "model")
                 and item["stage"] in (0, -1)
             ):
@@ -114,6 +114,9 @@ class ContextHandler:
                 f"/files/{file_id}/translation",
                 files={"file": (f"{filename}.json", data)},
                 data={"force": "true"},
+            )
+            logger.info(
+                f"Fixed translation for {filename} (ID: {file_id} Count: {len(updates)})",
             )
 
     async def __update_contexts(
