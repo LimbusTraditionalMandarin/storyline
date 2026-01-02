@@ -19,6 +19,76 @@ class ContextHandler:
         self.client = client
         self.root_dir = root_dir
 
+    async def __get_translations(self, file_id: int) -> list[dict] | None:
+        return await self.client.request("GET", f"/files/{file_id}/translation")
+
+    async def __fix_file_shift(self, file_id: int, old_translation: list[dict]) -> None:
+        if not old_translation:
+            return
+
+        # Build mapping from original text to translation based on old data.
+        original_to_translation: dict[str, str] = {}
+        for item in old_translation:
+            key = item.get("key", "")
+            if key.endswith(("->id", "->model")):
+                continue
+
+            if item.get("stage") == 0:
+                continue
+
+            translation = item.get("translation") or ""
+            if not translation:
+                continue
+
+            original = str(item.get("original", ""))
+            if original:
+                original_to_translation[original] = str(translation)
+
+        if not original_to_translation:
+            return
+
+        # Get latest translations for the file.
+        if not (new_translations := await self.__get_translations(file_id)):
+            return
+
+        updates: list[dict] = []
+        for item in new_translations:
+            key = item.get("key", "")
+            if key.endswith(("->id", "->model")):
+                continue
+
+            # Only fix entries that are currently untranslated (stage == 0).
+            if item.get("stage") != 0:
+                continue
+
+            original = str(item.get("original", ""))
+            if not original:
+                continue
+
+            if (restored := original_to_translation.get(original)) is None:
+                continue
+
+            new_item = {
+                **item,
+                "translation": restored,
+                # Mark as translated so it is picked up by merger logic.
+                "stage": 1,
+            }
+            updates.append(new_item)
+
+        if not updates:
+            return
+
+        logger.info(f"Fix file shift file_id={file_id} update count={len(updates)}")
+
+        data = json.dumps(updates, ensure_ascii=False).encode("utf-8")
+        await self.client.request(
+            "POST",
+            f"/files/{file_id}/translation",
+            files={"file": (f"{file_id}.json", data)},
+            data={"force": "true"},
+        )
+
     async def __update_fixed_translation(self, file_id: int, filename: str) -> None:
         if not (translations := await self.client.request("GET", f"/files/{file_id}/translation")):
             return
@@ -128,6 +198,7 @@ class ContextHandler:
 
             case OperationType.MODIFY:
                 if pf := match_project_file(project_files, operation.full_path):
+                    old_translations = await self.__get_translations(pf.id)
                     form = {
                         "file": (filename, await kr_file.read_bytes(), "application/json"),
                     }
@@ -138,6 +209,7 @@ class ContextHandler:
                             return
                         await self.__update_contexts(pf.id, filename, langs)
                         await self.__update_fixed_translation(pf.id, filename)
+                        await self.__fix_file_shift(pf.id, old_translations)
                         logger.info(f"Updated {operation.full_path} (ID: {pf.id})")
 
             case OperationType.DELETE:
