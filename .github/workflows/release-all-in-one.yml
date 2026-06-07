@@ -51,7 +51,8 @@ jobs:
           mkdir -p LimbusCompany_Data/Lang/hant-LTM/Font/Title
           mkdir -p LimbusCompany_Data/Lang/hant-LTM/Font/Context
           unzip -o Hant.zip -d LimbusCompany_Data/Lang/hant-LTM/
-          cp SarasaGothicTC-Bold.ttf LimbusCompany_Data/Lang/hant-LTM/Font/Title/
+          # cp SarasaGothicTC-Bold.ttf LimbusCompany_Data/Lang/hant-LTM/Font/Title/
+          touch LimbusCompany_Data/Lang/hant-LTM/Font/Title/.gitkeep
           cp SarasaGothicTC-Bold.ttf LimbusCompany_Data/Lang/hant-LTM/Font/Context/
           echo '{"lang": "hant-LTM"}' > LimbusCompany_Data/Lang/config.json
           zip -r "LTM_allinone_${{ steps.generate_metadata.outputs.tag }}.zip" LimbusCompany_Data
