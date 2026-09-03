@@ -146,7 +146,10 @@ class ContextHandler:
 
             new_item = {
                 **item,
-                "context": "\n\n".join(context_parts) if context_parts else None,
+                # ParaTranz's `text.context` column is NOT NULL. Sending null makes the
+                # whole batch upsert fail with ER_BAD_NULL_ERROR (HTTP 500), which
+                # silently wiped out context for every entry in the file.
+                "context": "\n\n".join(context_parts) if context_parts else "",
             }
             updates.append(new_item)
 
