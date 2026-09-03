@@ -43,7 +43,9 @@ class APIClient:
                     if e.response.status_code == 429:
                         await sleep(int(e.response.headers.get("Retry-After", 5)))
                     else:
-                        logger.error(f"API ERROR: {e}")
+                        # The response body carries ParaTranz's actual error detail;
+                        # `e` alone only yields the URL and status code.
+                        logger.error(f"API ERROR: {e} | response: {e.response.text[:2000]}")
                         break
                 except RequestError as e:
                     logger.warning(f"Attempt {attempt + 1} failed: {e!s}")
