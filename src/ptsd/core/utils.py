@@ -3,6 +3,7 @@
 
 import json
 import logging
+import re
 from collections.abc import AsyncGenerator
 
 from anyio import Path as AnyioPath
@@ -10,6 +11,40 @@ from anyio import Path as AnyioPath
 from .models import FileOperation, OperationType, ProjectFile
 
 logger = logging.getLogger(__name__)
+
+# Mirrors the ParaTranz project's "auto-hide" (stage == -1) rules: an entry whose
+# original text is nothing but these markup/placeholder tokens gets hidden on
+# ParaTranz and force-exported as the original text there. Approximated from the
+# project's configured patterns (`\[\w+\]`, `\[\{\w+\}\]`, `{\w+}`, and tag start/end
+# markers) - re-check against the live ParaTranz project settings if they change,
+# this is a client-side best-effort mirror, not queried from the API.
+_PLACEHOLDER_PATTERN = re.compile(
+    r"\[\{\w+\}\]"  # [{someWord}]
+    r"|\[\w+\]"  # [SomeWord]
+    r"|\{\w+\}"  # {someWord}
+    r'|<[\w="#&^ ]+?>'  # opening tag, e.g. <color="#fff">
+    r'|</[\w="&^]+?>',  # closing tag, e.g. </color>
+)
+
+
+def is_blank(text: str) -> bool:
+    """Return True if `text` is empty or whitespace-only."""
+    return not text or not text.strip()
+
+
+def is_placeholder_only(text: str) -> bool:
+    """Return True if `text` is blank, or made up entirely of markup/placeholder tokens.
+
+    These are exactly the strings ParaTranz's auto-hide rules key on, and because
+    they recur verbatim across many unrelated entries in the script, reusing them as
+    translation-memory lookup keys (or attaching context to them) is a high
+    collision-risk operation - see `ContextHandler.__fix_file_shift` and
+    `ContextHandler.__update_contexts`.
+    """
+    if is_blank(text):
+        return True
+    stripped = _PLACEHOLDER_PATTERN.sub("", text)
+    return is_blank(stripped)
 
 
 async def parse_diff(

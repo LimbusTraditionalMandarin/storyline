@@ -9,7 +9,14 @@ from anyio import Path as AnyioPath
 
 from .core import FileOperation, OperationType, ProjectFile
 from .core.paratranz import APIClient
-from .core.utils import get_value_by_keys, load_json_file, match_project_file, save_json_file
+from .core.utils import (
+    get_value_by_keys,
+    is_blank,
+    is_placeholder_only,
+    load_json_file,
+    match_project_file,
+    save_json_file,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -33,7 +40,11 @@ class ContextHandler:
             if key.endswith(("->id", "->model")):
                 continue
 
-            if item.get("stage") == 0:
+            # Skip untranslated (0) AND hidden (-1) entries. `-1` entries are
+            # ParaTranz's own auto-hide for blank/placeholder-only original text;
+            # their leftover translation/context is frequently stale residue from
+            # before a shift and must not be reused as translation memory.
+            if item.get("stage") in (0, -1):
                 continue
 
             translation = item.get("translation") or ""
@@ -41,7 +52,10 @@ class ContextHandler:
                 continue
 
             original = str(item.get("original", ""))
-            if original:
+            # Placeholder-only original text (e.g. a bare `{0}` or `<color>`) recurs
+            # verbatim across many unrelated entries, so it is a high collision-risk
+            # lookup key - never let it seed the translation-memory map.
+            if original and not is_placeholder_only(original):
                 original_to_translation[original] = str(translation)
 
         if not original_to_translation:
@@ -62,7 +76,7 @@ class ContextHandler:
                 continue
 
             original = str(item.get("original", ""))
-            if not original:
+            if not original or is_placeholder_only(original):
                 continue
 
             if (restored := original_to_translation.get(original)) is None:
@@ -130,19 +144,28 @@ class ContextHandler:
             return
         updates = []
         for item in translations:
-            context_parts = []
-            for lang in ("EN", "JP"):
-                lang_data = langs.get(lang)
-                if not lang_data:
-                    continue
+            original = str(item.get("original", ""))
+            # Blank/placeholder-only original text (e.g. `{0}`, `<color>`, or the
+            # empty string) has nothing meaningful to give EN/JP context for, and is
+            # exactly what ParaTranz's auto-hide (`stage == -1`) keys on. Skip
+            # building context for it so stale EN/JP text left over from a previous
+            # shift never gets re-attached here.
+            placeholder_only = is_placeholder_only(original)
 
-                keys = item["key"].split("->")
-                value = get_value_by_keys(lang_data, keys)
-                if value is not None:
-                    value_str = str(value).replace("\n", "\\n")
-                    if item["original"] in value_str:
-                        break
-                    context_parts.append(f"{lang}:\n{value_str}")
+            context_parts = []
+            if not placeholder_only:
+                for lang in ("EN", "JP"):
+                    lang_data = langs.get(lang)
+                    if not lang_data:
+                        continue
+
+                    keys = item["key"].split("->")
+                    value = get_value_by_keys(lang_data, keys)
+                    if value is not None:
+                        value_str = str(value).replace("\n", "\\n")
+                        if item["original"] in value_str:
+                            break
+                        context_parts.append(f"{lang}:\n{value_str}")
 
             new_item = {
                 **item,
@@ -151,6 +174,10 @@ class ContextHandler:
                 # silently wiped out context for every entry in the file.
                 "context": "\n\n".join(context_parts) if context_parts else "",
             }
+            if is_blank(original):
+                # Truly blank original: nothing to translate, so also scrub any
+                # stale leftover translation rather than just the context.
+                new_item["translation"] = ""
             updates.append(new_item)
 
         if updates:
@@ -232,7 +259,11 @@ class TranslationMerger:
 
     def __apply_translations(self, data: dict, translations: list[dict]) -> None:
         for item in translations:
-            if item["stage"] == 0 or not item["translation"]:
+            # ParaTranz forces `stage == -1` (hidden) entries to export as the
+            # original text on its own end; mirror that here so a stale/mismatched
+            # leftover translation on a hidden entry never leaks into our output,
+            # regardless of how or why it ended up hidden.
+            if item["stage"] in (0, -1) or not item["translation"]:
                 continue
             keys, target = item["key"].split("->"), data
             try:
@@ -329,3 +360,87 @@ class Replacer:
             )
 
         logger.info(f"Replaced {file.name} (ID: {file.id})")
+
+
+class ResidueCleaner:
+    """One-off maintenance pass over the *existing* ParaTranz project.
+
+    Scrubs stale context/translation left on entries that are hidden
+    (`stage == -1`) because their original text is blank or placeholder-only,
+    and flags anything that looks like it needs a human to look at it instead
+    of being auto-fixed. Dry-run by default (`apply=False`): nothing is written,
+    only counted and reported.
+
+    `context_only=True` restricts every write to the `context` field only - the
+    `translation` field is never included in the pushed payload, even for blank
+    originals. Use this when translation content has already been reconciled by
+    hand and only the leftover context still needs clearing, so this pass cannot
+    step on that work.
+    """
+
+    def __init__(self, client: APIClient, apply: bool, context_only: bool = False) -> None:
+        self.client = client
+        self.apply = apply
+        self.context_only = context_only
+
+    async def clean_file(self, file: ProjectFile) -> dict:
+        report: dict = {
+            "file": file.name,
+            "id": file.id,
+            "cleared_blank": 0,
+            "cleared_context": 0,
+            # stage == -1 but the original doesn't look blank/placeholder-only -
+            # possible false-positive auto-hide, i.e. a real line stuck invisible.
+            "flagged_maybe_wrongly_hidden": [],
+            # Not hidden, but the original IS blank/placeholder-only and still
+            # carries context/translation - not touched automatically since it's
+            # a normal, currently-visible entry a translator may be using.
+            "flagged_visible_placeholder": [],
+        }
+
+        if not (translations := await self.client.request("GET", f"/files/{file.id}/translation")):
+            return report
+
+        clears: list[dict] = []
+        for item in translations:
+            original = str(item.get("original", ""))
+            stage = item.get("stage")
+            has_leftover = bool(item.get("context")) or bool(item.get("translation"))
+
+            if stage == -1:
+                if is_blank(original):
+                    # In context_only mode, translation is never part of the write,
+                    # so only a leftover context is worth pushing an update for.
+                    needs_clear = item.get("context") if self.context_only else has_leftover
+                    if needs_clear:
+                        update = {**item, "context": ""}
+                        if not self.context_only:
+                            update["translation"] = ""
+                        clears.append(update)
+                        report["cleared_blank"] += 1
+                elif is_placeholder_only(original):
+                    if item.get("context"):
+                        clears.append({**item, "context": ""})
+                        report["cleared_context"] += 1
+                else:
+                    report["flagged_maybe_wrongly_hidden"].append(
+                        {"key": item.get("key"), "original": original},
+                    )
+            elif is_placeholder_only(original) and has_leftover:
+                report["flagged_visible_placeholder"].append(
+                    {"key": item.get("key"), "original": original},
+                )
+
+        if clears and self.apply:
+            data = json.dumps(clears, ensure_ascii=False).encode("utf-8")
+            await self.client.request(
+                "POST",
+                f"/files/{file.id}/translation",
+                files={"file": (f"{file.id}.json", data)},
+                data={"force": "true"},
+            )
+            logger.info(f"Cleaned {file.name} (ID: {file.id}): {len(clears)} entries")
+        elif clears:
+            logger.info(f"[dry-run] Would clean {file.name} (ID: {file.id}): {len(clears)} entries")
+
+        return report
