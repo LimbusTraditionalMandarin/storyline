@@ -5,7 +5,7 @@ import json
 import logging
 import os
 
-from anyio import Path as AnyioPath
+from anyio import Path as AnyioPath, create_task_group
 
 from .core import FileOperation, OperationType, ProjectFile
 from .core.paratranz import APIClient
@@ -404,6 +404,10 @@ class ResidueCleaner:
             "id": file.id,
             "cleared_blank": 0,
             "cleared_context": 0,
+            # Every entry actually (or, in dry-run, would-be) cleared, with its
+            # ParaTranz string id so a specific entry can be pulled up directly
+            # at paratranz.cn/projects/<project>/strings?id=<id> for review.
+            "cleared_entries": [],
             # stage == -1 but the original doesn't look blank/placeholder-only -
             # possible false-positive auto-hide, i.e. a real line stuck invisible.
             "flagged_maybe_wrongly_hidden": [],
@@ -416,7 +420,20 @@ class ResidueCleaner:
         if not (translations := await self.client.request("GET", f"/files/{file.id}/translation")):
             return report
 
-        clears: list[dict] = []
+        # NOTE ON WRITE PATH: this used to batch every clear into one
+        # `POST /files/{id}/translation` call. That endpoint was tested against
+        # production (2026-09-14) and confirmed unsuitable for context-only
+        # residue clears on blank-original entries: without `force=true` it
+        # silently no-ops (`hashMatched`) since original/translation are
+        # unchanged; *with* `force=true` a single-item batch still no-ops
+        # (`unchanged`), and a multi-item batch is instead accepted as a
+        # ParaTranz *import* (`type=import`) - which recomputes `stage` from
+        # content (flipping manually-hidden -1 entries to 0) while silently
+        # dropping the `context` field entirely, i.e. the one thing this pass
+        # is supposed to write never actually lands. `PUT /strings/{id}` (one
+        # entry at a time) was confirmed to apply a context-only write with no
+        # effect on `stage`, so that's what's used below instead.
+        to_clear: list[tuple[dict, str]] = []
         for item in translations:
             original = str(item.get("original", ""))
             stage = item.get("stage")
@@ -428,43 +445,62 @@ class ResidueCleaner:
                     # so only a leftover context is worth pushing an update for.
                     needs_clear = item.get("context") if self.context_only else has_leftover
                     if needs_clear:
-                        update = {**item, "context": ""}
-                        if not self.context_only:
-                            update["translation"] = ""
-                        clears.append(update)
-                        report["cleared_blank"] += 1
+                        to_clear.append((item, "blank"))
                 elif is_placeholder_only(original):
                     if item.get("context"):
-                        clears.append({**item, "context": ""})
-                        report["cleared_context"] += 1
+                        to_clear.append((item, "context"))
                 elif item.get("context") and not item.get("translation"):
                     # Original isn't blank/placeholder-only, but this entry
                     # has no translation at all - whatever hid it (auto or by
                     # hand), an unused entry with leftover context is still
                     # just residue. Only context is cleared; translation is
                     # already empty so there's nothing there to protect.
-                    clears.append({**item, "context": ""})
-                    report["cleared_context"] += 1
+                    to_clear.append((item, "context"))
                 else:
                     report["flagged_maybe_wrongly_hidden"].append(
-                        {"key": item.get("key"), "original": original},
+                        {"id": item.get("id"), "key": item.get("key"), "original": original},
                     )
             elif is_placeholder_only(original) and has_leftover:
                 report["flagged_visible_placeholder"].append(
-                    {"key": item.get("key"), "original": original},
+                    {"id": item.get("id"), "key": item.get("key"), "original": original},
                 )
 
-        if clears and self.apply:
-            data = json.dumps(clears, ensure_ascii=False).encode("utf-8")
-            await self.client.request(
-                "POST",
-                f"/files/{file.id}/translation",
-                files={"file": (f"{file.id}.json", data)},
-                data={"force": "true"},
+        async def _clear_one(item: dict, category: str) -> None:
+            entry_id = item.get("id")
+            body: dict = {"context": ""}
+            if category == "blank" and not self.context_only:
+                body["translation"] = ""
+
+            if self.apply:
+                if (await self.client.request("PUT", f"/strings/{entry_id}", json=body)) is None:
+                    logger.warning(
+                        f"Failed to clear entry id={entry_id} key={item.get('key')!r} "
+                        f"in {file.name} (ID: {file.id})",
+                    )
+                    return
+
+            # No `await` between here and the end of this coroutine, so these
+            # mutations of the shared `report` dict can't interleave with any
+            # other concurrently-running `_clear_one` task.
+            if category == "blank":
+                report["cleared_blank"] += 1
+            else:
+                report["cleared_context"] += 1
+            report["cleared_entries"].append(
+                {"id": entry_id, "key": item.get("key"), "category": category},
             )
-            logger.info(f"Cleaned {file.name} (ID: {file.id}): {len(clears)} entries")
-        elif clears:
-            logger.info(f"[dry-run] Would clean {file.name} (ID: {file.id}): {len(clears)} entries")
+
+        # Per-entry PUTs, run concurrently (still bounded by the shared
+        # APIClient semaphore / max-concurrency, and by ParaTranz's own
+        # ~120 requests/minute soft limit - the client backs off on 429s but
+        # does not yet pace requests to stay under that budget proactively).
+        async with create_task_group() as tg:
+            for item, category in to_clear:
+                tg.start_soon(_clear_one, item, category)
+
+        if total := len(report["cleared_entries"]):
+            verb = "Cleaned" if self.apply else "[dry-run] Would clean"
+            logger.info(f"{verb} {file.name} (ID: {file.id}): {total} entries")
 
         return report
 
@@ -490,29 +526,53 @@ class ContextNewlineFixer:
         self.apply = apply
 
     async def fix_file(self, file: ProjectFile) -> dict:
-        report: dict = {"file": file.name, "id": file.id, "fixed": 0}
+        report: dict = {"file": file.name, "id": file.id, "fixed": 0, "fixed_entries": []}
 
         if not (translations := await self.client.request("GET", f"/files/{file.id}/translation")):
             return report
 
-        fixes: list[dict] = []
-        for item in translations:
-            context = item.get("context") or ""
-            if "\\n" in context:
-                fixes.append({**item, "context": context.replace("\\n", "\n")})
+        # See the write-path note in ResidueCleaner.clean_file: the batch
+        # `POST /files/{id}/translation` endpoint was confirmed (2026-09-14)
+        # to drop context-only changes and, once >=1 items are force-imported,
+        # to recompute `stage` from content instead - which here would risk
+        # resetting already-translated/proofread entries, not just hidden
+        # ones. `PUT /strings/{id}` per entry is the confirmed-safe path.
+        fixes: list[dict] = [
+            item for item in translations if "\\n" in (item.get("context") or "")
+        ]
 
-        report["fixed"] = len(fixes)
+        async def _fix_one(item: dict) -> None:
+            entry_id = item.get("id")
+            new_context = (item.get("context") or "").replace("\\n", "\n")
 
-        if fixes and self.apply:
-            data = json.dumps(fixes, ensure_ascii=False).encode("utf-8")
-            await self.client.request(
-                "POST",
-                f"/files/{file.id}/translation",
-                files={"file": (f"{file.id}.json", data)},
-                data={"force": "true"},
-            )
-            logger.info(f"Fixed {file.name} (ID: {file.id}): {len(fixes)} entries")
-        elif fixes:
-            logger.info(f"[dry-run] Would fix {file.name} (ID: {file.id}): {len(fixes)} entries")
+            if self.apply:
+                if (
+                    await self.client.request(
+                        "PUT", f"/strings/{entry_id}", json={"context": new_context},
+                    )
+                ) is None:
+                    logger.warning(
+                        f"Failed to fix entry id={entry_id} key={item.get('key')!r} "
+                        f"in {file.name} (ID: {file.id})",
+                    )
+                    return
+
+            # No `await` between here and the end of this coroutine, so these
+            # mutations of the shared `report` dict can't interleave with any
+            # other concurrently-running `_fix_one` task.
+            report["fixed"] += 1
+            report["fixed_entries"].append({"id": entry_id, "key": item.get("key")})
+
+        # Per-entry PUTs, run concurrently (still bounded by the shared
+        # APIClient semaphore / max-concurrency, and by ParaTranz's own
+        # ~120 requests/minute soft limit - the client backs off on 429s but
+        # does not yet pace requests to stay under that budget proactively).
+        async with create_task_group() as tg:
+            for item in fixes:
+                tg.start_soon(_fix_one, item)
+
+        if total := report["fixed"]:
+            verb = "Fixed" if self.apply else "[dry-run] Would fix"
+            logger.info(f"{verb} {file.name} (ID: {file.id}): {total} entries")
 
         return report

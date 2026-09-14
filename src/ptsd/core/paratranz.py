@@ -21,7 +21,7 @@ class APIClient:
 
     async def request(
         self,
-        method: Literal["DELETE", "GET", "POST"],
+        method: Literal["DELETE", "GET", "POST", "PUT"],
         endpoint: str,
         **kwargs,
     ) -> dict | None:
