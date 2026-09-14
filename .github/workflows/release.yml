@@ -84,6 +84,11 @@ jobs:
           git tag -a "$RELEASE_TAG" -m "Automatic release $RELEASE_TAG"
           git push origin "$RELEASE_TAG"
 
+      - name: Add content license to release asset
+        run: |
+          mkdir -p storyline/${{ env.TARGET_DIR }}/Info
+          cp main-repo/LICENSE-CONTENT storyline/${{ env.TARGET_DIR }}/Info/LICENSE
+
       - name: Prepare release asset
         working-directory: storyline/${{ env.TARGET_DIR }}
         run: |
