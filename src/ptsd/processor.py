@@ -368,7 +368,13 @@ class ResidueCleaner:
     Scrubs stale context/translation left on entries that are hidden
     (`stage == -1`) because their original text is blank or placeholder-only,
     and flags anything that looks like it needs a human to look at it instead
-    of being auto-fixed. Dry-run by default (`apply=False`): nothing is written,
+    of being auto-fixed. Also covers hidden entries whose original is neither
+    blank nor placeholder-only but that have no translation at all: with no
+    translation, the entry isn't actually in use, so leftover context is
+    residue regardless of why it got hidden (auto-hidden or hidden by hand) -
+    entries that still have a translation are left alone and flagged instead,
+    since clearing context out from under a real translation could be
+    destructive. Dry-run by default (`apply=False`): nothing is written,
     only counted and reported.
 
     `context_only=True` restricts every write to the `context` field only - the
@@ -422,6 +428,14 @@ class ResidueCleaner:
                     if item.get("context"):
                         clears.append({**item, "context": ""})
                         report["cleared_context"] += 1
+                elif item.get("context") and not item.get("translation"):
+                    # Original isn't blank/placeholder-only, but this entry
+                    # has no translation at all - whatever hid it (auto or by
+                    # hand), an unused entry with leftover context is still
+                    # just residue. Only context is cleared; translation is
+                    # already empty so there's nothing there to protect.
+                    clears.append({**item, "context": ""})
+                    report["cleared_context"] += 1
                 else:
                     report["flagged_maybe_wrongly_hidden"].append(
                         {"key": item.get("key"), "original": original},
