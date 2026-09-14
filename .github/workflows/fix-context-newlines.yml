@@ -1,0 +1,64 @@
+# This file is part of ptsd project which is released under GNU GPL v3.0.
+# Copyright (c) 2025- Limbus Traditional Mandarin
+
+name: Fix literal newlines in context
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Actually push the changes (unchecked = dry-run report only)"
+        type: boolean
+        default: false
+
+jobs:
+  fix-newlines:
+    runs-on: ubuntu-latest
+    env:
+      PARATRANZ_TOKENS: ${{ secrets.PARATRANZ_TOKENS }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Run fix-newlines
+        run: |
+          ARGS="fix-newlines"
+          if [ "${{ inputs.apply }}" = "true" ]; then
+            ARGS="$ARGS --apply"
+          fi
+          echo "Running: uv run ptsd $ARGS"
+          uv run ptsd $ARGS
+
+      - name: Write job summary
+        if: always()
+        run: |
+          echo "## Fix-newlines result" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- apply: \`${{ inputs.apply }}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f fix_newlines_report.json ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            jq '{total_fixed: ([.reports[].fixed] | add // 0)}' fix_newlines_report.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "_No fix_newlines_report.json produced._" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload full report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fix-newlines-report
+          path: fix_newlines_report.json
+          if-no-files-found: warn

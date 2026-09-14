@@ -11,7 +11,13 @@ from anyio import create_task_group, run
 from .core import ProjectFile
 from .core.paratranz import APIClient
 from .core.utils import parse_diff, save_json_file
-from .processor import ContextHandler, Replacer, ResidueCleaner, TranslationMerger
+from .processor import (
+    ContextHandler,
+    ContextNewlineFixer,
+    Replacer,
+    ResidueCleaner,
+    TranslationMerger,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -98,20 +104,47 @@ async def main_entry(
         await save_json_file({"apply": apply, "reports": reports}, report_path)
         logger.info(f"Full report written to {report_path}")
 
+    elif mode == "fix-newlines":
+        # One-off maintenance pass: replace literal `\n` text (baked into
+        # existing `context` values by a since-fixed bug) with real line breaks.
+        # Only ever touches `context`, never `translation`. Dry-run by default.
+        fixer = ContextNewlineFixer(client, apply=apply)
+        reports = []
+
+        async def _run_fix(pf: ProjectFile) -> None:
+            reports.append(await fixer.fix_file(pf))
+
+        async with create_task_group() as tg:
+            for file in project_files:
+                tg.start_soon(_run_fix, file)
+
+        total_fixed = sum(r["fixed"] for r in reports)
+        logger.info(
+            f"Fix-newlines {'APPLIED' if apply else 'DRY-RUN (pass --apply to write)'}: "
+            f"{total_fixed} context entries had literal \\n replaced with a real line break",
+        )
+
+        report_path = root / "fix_newlines_report.json"
+        await save_json_file({"apply": apply, "reports": reports}, report_path)
+        logger.info(f"Full report written to {report_path}")
+
     await client.close()
 
 
 def main() -> None:
     """Main."""
     parser = argparse.ArgumentParser(description="ParaTranz Synchronization Daemon")
-    parser.add_argument("mode", choices=["upload", "download", "replace", "cleanup"])
+    parser.add_argument("mode", choices=["upload", "download", "replace", "cleanup", "fix-newlines"])
     parser.add_argument("-d", "--storyline-folder", default=".")
     parser.add_argument("-c", "--max-concurrency", type=int, default=8)
     parser.add_argument("-f", "--reference-file", type=str, default=None)
     parser.add_argument(
         "--apply",
         action="store_true",
-        help="cleanup mode only: actually push the changes. Default is dry-run (report only).",
+        help=(
+            "cleanup/fix-newlines mode only: actually push the changes. "
+            "Default is dry-run (report only)."
+        ),
     )
     parser.add_argument(
         "--context-only",

@@ -162,7 +162,16 @@ class ContextHandler:
                     keys = item["key"].split("->")
                     value = get_value_by_keys(lang_data, keys)
                     if value is not None:
-                        value_str = str(value).replace("\n", "\\n")
+                        # Keep real line breaks as real line breaks. This used to
+                        # `.replace("\n", "\\n")`, which wrote the literal two
+                        # characters `\n` into the context field instead of an
+                        # actual newline - on ParaTranz's UI that renders as a wall
+                        # of text with visible backslash-n's in it instead of
+                        # multiple lines, which is what prompted removing it. Every
+                        # existing context entry written before this fix still has
+                        # the literal `\n` baked in; that's a separate one-off
+                        # cleanup (see `ContextNewlineFixer` / `ptsd fix-newlines`).
+                        value_str = str(value)
                         if item["original"] in value_str:
                             break
                         context_parts.append(f"{lang}:\n{value_str}")
@@ -456,5 +465,54 @@ class ResidueCleaner:
             logger.info(f"Cleaned {file.name} (ID: {file.id}): {len(clears)} entries")
         elif clears:
             logger.info(f"[dry-run] Would clean {file.name} (ID: {file.id}): {len(clears)} entries")
+
+        return report
+
+
+class ContextNewlineFixer:
+    """One-off maintenance pass over the *existing* ParaTranz project.
+
+    Historically `ContextHandler.__update_contexts` escaped real newlines in the
+    EN/JP context text into the literal two characters `\\n` before writing to
+    ParaTranz, so every context entry written before that was fixed still has
+    `\\n` baked in as visible text instead of an actual line break - on
+    ParaTranz's UI this renders as one dense wall of text instead of multiple
+    lines. This pass finds every existing `context` value that still contains a
+    literal `\\n` and replaces it with a real line break.
+
+    Only ever touches the `context` field - `translation` is never read or
+    written by this pass. Dry-run by default (`apply=False`): nothing is
+    written, only counted and logged.
+    """
+
+    def __init__(self, client: APIClient, apply: bool) -> None:
+        self.client = client
+        self.apply = apply
+
+    async def fix_file(self, file: ProjectFile) -> dict:
+        report: dict = {"file": file.name, "id": file.id, "fixed": 0}
+
+        if not (translations := await self.client.request("GET", f"/files/{file.id}/translation")):
+            return report
+
+        fixes: list[dict] = []
+        for item in translations:
+            context = item.get("context") or ""
+            if "\\n" in context:
+                fixes.append({**item, "context": context.replace("\\n", "\n")})
+
+        report["fixed"] = len(fixes)
+
+        if fixes and self.apply:
+            data = json.dumps(fixes, ensure_ascii=False).encode("utf-8")
+            await self.client.request(
+                "POST",
+                f"/files/{file.id}/translation",
+                files={"file": (f"{file.id}.json", data)},
+                data={"force": "true"},
+            )
+            logger.info(f"Fixed {file.name} (ID: {file.id}): {len(fixes)} entries")
+        elif fixes:
+            logger.info(f"[dry-run] Would fix {file.name} (ID: {file.id}): {len(fixes)} entries")
 
         return report
