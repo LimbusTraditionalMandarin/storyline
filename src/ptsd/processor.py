@@ -22,6 +22,15 @@ logger = logging.getLogger(__name__)
 
 
 class ContextHandler:
+    # Field names this project's schemas use, by convention, for a row's own
+    # stable internal identifier (as opposed to player-facing text) - e.g.
+    # `{"key": "AskToMoveFloor", "text": "..."}` or `{"id": "<code>", "name":
+    # "...", "nickName": "..."}`. Its value never changes between old/new
+    # source versions even when the row's array position does, which makes
+    # it a far more reliable join key across a shift than array position or
+    # exact-text matching alone. See `__fix_file_shift`.
+    __IDENTIFIER_FIELDS = ("id", "key")
+
     def __init__(self, client: APIClient, root_dir: AnyioPath) -> None:
         self.client = client
         self.root_dir = root_dir
@@ -29,15 +38,71 @@ class ContextHandler:
     async def __get_translations(self, file_id: int) -> list[dict] | None:
         return await self.client.request("GET", f"/files/{file_id}/translation")
 
+    def __row_prefix(self, key: str) -> str:
+        """Everything in a ParaTranz key path except the last segment, e.g.
+        `dataList->6->text` -> `dataList->6`. Entries sharing a row prefix
+        are sibling fields of the same source-JSON array element."""
+        idx = key.rfind("->")
+        return key[:idx] if idx != -1 else ""
+
+    def __group_rows(self, translations: list[dict]) -> dict[str, dict[str, dict]]:
+        """Group flat ParaTranz translation entries by row prefix.
+
+        Returns {row_prefix: {field_name: entry}}.
+        """
+        rows: dict[str, dict[str, dict]] = {}
+        for item in translations:
+            key = item.get("key", "")
+            if "->" not in key:
+                continue
+            rows.setdefault(self.__row_prefix(key), {})[key.rsplit("->", 1)[-1]] = item
+        return rows
+
     async def __fix_file_shift(self, file_id: int, old_translation: list[dict]) -> None:
         if not old_translation:
             return
 
-        # Build mapping from original text to translation based on old data.
+        # --- Tier 1: stable per-row identifier match ------------------------
+        # For rows that carry their own identifier field (see
+        # `__IDENTIFIER_FIELDS`), build identifier value -> {field: translation}
+        # from the OLD data. This survives insertions/deletions/reordering
+        # between versions, unlike array position, because the identifier's
+        # value does not change even when the row moves.
+        old_rows = self.__group_rows(old_translation)
+        id_to_fields: dict[str, dict[str, str]] = {}
+        seen_ids: set[str] = set()
+        ambiguous_ids: set[str] = set()
+        for fields in old_rows.values():
+            id_field = next((f for f in self.__IDENTIFIER_FIELDS if f in fields), None)
+            if id_field is None:
+                continue
+            id_value = str(fields[id_field].get("original", ""))
+            if not id_value or is_placeholder_only(id_value):
+                continue
+            if id_value in seen_ids:
+                # Same identifier value used by more than one row in the OLD
+                # data - ambiguous, refuse to guess which one a NEW row with
+                # this identifier should inherit from.
+                ambiguous_ids.add(id_value)
+                continue
+            seen_ids.add(id_value)
+            translated_fields = {
+                name: str(f["translation"])
+                for name, f in fields.items()
+                if f.get("stage") not in (0, -1) and f.get("translation")
+            }
+            if translated_fields:
+                id_to_fields[id_value] = translated_fields
+        for id_value in ambiguous_ids:
+            id_to_fields.pop(id_value, None)
+
+        # --- Tier 2 (fallback): exact original-text match --------------------
+        # Existing behaviour, unchanged: build original_text -> translation
+        # from old data, for rows with no stable identifier field.
         original_to_translation: dict[str, str] = {}
         for item in old_translation:
             key = item.get("key", "")
-            if key.endswith(("->id", "->model")):
+            if key.endswith(("->id", "->model", "->key")):
                 continue
 
             # Skip untranslated (0) AND hidden (-1) entries. `-1` entries are
@@ -58,17 +123,20 @@ class ContextHandler:
             if original and not is_placeholder_only(original):
                 original_to_translation[original] = str(translation)
 
-        if not original_to_translation:
+        if not original_to_translation and not id_to_fields:
             return
 
         # Get latest translations for the file.
         if not (new_translations := await self.__get_translations(file_id)):
             return
 
+        new_rows = self.__group_rows(new_translations)
+
         updates: list[dict] = []
+        scrubs: list[dict] = []
         for item in new_translations:
             key = item.get("key", "")
-            if key.endswith(("->id", "->model")):
+            if key.endswith(("->id", "->model", "->key")):
                 continue
 
             # Only fix entries that are currently untranslated (stage == 0).
@@ -79,23 +147,49 @@ class ContextHandler:
             if not original or is_placeholder_only(original):
                 continue
 
-            if (restored := original_to_translation.get(original)) is None:
-                continue
+            restored = None
+            row = new_rows.get(self.__row_prefix(key), {})
+            id_field = next((f for f in self.__IDENTIFIER_FIELDS if f in row), None)
+            if id_field is not None:
+                id_value = str(row[id_field].get("original", ""))
+                if id_value and not is_placeholder_only(id_value):
+                    field_name = key.rsplit("->", 1)[-1]
+                    restored = id_to_fields.get(id_value, {}).get(field_name)
 
-            new_item = {
-                **item,
-                "translation": restored,
-                # Mark as translated so it is picked up by merger logic.
-                "stage": 1,
-            }
-            updates.append(new_item)
+            if restored is None:
+                restored = original_to_translation.get(original)
 
-        if not updates:
+            if restored is not None:
+                updates.append({
+                    **item,
+                    "translation": restored,
+                    # Mark as translated so it is picked up by merger logic.
+                    "stage": 1,
+                })
+            elif item.get("translation"):
+                # --- Tier 3: scrub unrecoverable residue -------------------
+                # Neither match tier above could verify this stage == 0
+                # entry's current (non-empty) translation. ParaTranz carries
+                # old translation content over to the new array position on
+                # file replace regardless of whether it actually belongs
+                # there; if nothing above confirms it does, it is most
+                # likely stale leftover from a different, unrelated row that
+                # used to sit at this array slot. Clear it instead of
+                # leaving it looking like a real (if unreviewed) draft
+                # translation. This never touches stage >= 1 (already
+                # reviewed) entries.
+                scrubs.append({**item, "translation": ""})
+
+        all_updates = updates + scrubs
+        if not all_updates:
             return
 
-        logger.info(f"Fix file shift file_id={file_id} update count={len(updates)}")
+        logger.info(
+            f"Fix file shift file_id={file_id} "
+            f"restored={len(updates)} scrubbed={len(scrubs)}",
+        )
 
-        data = json.dumps(updates, ensure_ascii=False).encode("utf-8")
+        data = json.dumps(all_updates, ensure_ascii=False).encode("utf-8")
         await self.client.request(
             "POST",
             f"/files/{file_id}/translation",
@@ -112,7 +206,16 @@ class ContextHandler:
             if (
                 item["original"] != ""
                 and item["translation"] != item["original"]
-                and keys[-1] in ("id", "model")
+                # `id`/`model` are this project's convention for a row's own
+                # untranslatable identifier field. `key` is the same
+                # convention under a different name, used by several files
+                # (e.g. RPGSystem UI strings shaped `{"key": "...", "text":
+                # "..."}`, where "key" is an internal string constant, never
+                # player-facing text). Treating it the same way both keeps it
+                # out of the translation queue and - via `stage: 1` below -
+                # makes it immune to the array-position-shift residue problem
+                # `__fix_file_shift` deals with, same as `id`/`model` fields.
+                and keys[-1] in ("id", "model", "key")
                 and item["stage"] in (0, -1)
             ):
                 new_item = {
