@@ -1,6 +1,7 @@
 # This file is part of ptsd project which is released under GNU GPL v3.0.
 # Copyright (c) 2025- Limbus Traditional Mandarin
 
+import html
 import json
 import logging
 import os
@@ -277,7 +278,15 @@ class ContextHandler:
                         value_str = str(value)
                         if item["original"] in value_str:
                             break
-                        context_parts.append(f"{lang}:\n{value_str}")
+                        # ParaTranz's context viewer renders this field as raw HTML, so a
+                        # bare `<`/`>` in EN/JP text gets parsed as markup instead of shown
+                        # literally - e.g. `<I know, but...>` collapses to `<i>` because the
+                        # browser treats it as a malformed `<i ...>` tag. Escaping to HTML
+                        # entities here keeps it displaying as literal text regardless of
+                        # what it happens to look like. `quote=False` because quote marks
+                        # don't trigger tag parsing and read better unescaped.
+                        escaped_value = html.escape(value_str, quote=False)
+                        context_parts.append(f"{lang}:\n{escaped_value}")
 
             new_item = {
                 **item,
