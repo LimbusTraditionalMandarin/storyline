@@ -59,7 +59,9 @@ class ContextHandler:
             rows.setdefault(self.__row_prefix(key), {})[key.rsplit("->", 1)[-1]] = item
         return rows
 
-    async def __fix_file_shift(self, file_id: int, old_translation: list[dict]) -> None:
+    async def __fix_file_shift(
+        self, file_id: int, filename: str, old_translation: list[dict],
+    ) -> None:
         if not old_translation:
             return
 
@@ -185,17 +187,43 @@ class ContextHandler:
         if not all_updates:
             return
 
-        logger.info(
-            f"Fix file shift file_id={file_id} "
-            f"restored={len(updates)} scrubbed={len(scrubs)}",
-        )
-
+        # Batch `POST /files/{id}/translation` (force=true), not per-entry PUT.
+        # Per-entry PUT was tried here (see git history / 2026-10-02 chat) but
+        # reverted: unlike ResidueCleaner/ContextNewlineFixer, which only run as
+        # rare, separately-triggered maintenance passes, this runs on *every*
+        # regular MODIFY upload, and production data showed single files with
+        # 900+ restores (e.g. restored=982 on ScenarioModelCodes-AutoCreated.json)
+        # - converting that to 982 individual PUT requests per upload risks
+        # blowing past ParaTranz's ~120 req/min soft limit and seriously slowing
+        # down (or repeatedly 429-stalling) the whole CI pipeline. The
+        # `ER_LOCK_DEADLOCK` 500s that originally motivated moving to PUT are now
+        # handled by retrying in `APIClient.request` instead (see
+        # core/paratranz.py), which protects this batch endpoint too without the
+        # request-volume cost. The `force=true` reimport side effects that make
+        # this endpoint unsafe for context writes (recomputing `stage`, dropping
+        # `context`) don't bite here: this payload only ever carries
+        # `translation`/`stage` for entries this function is already setting
+        # stage itself, and never includes a `context` field for ParaTranz to
+        # silently drop.
         data = json.dumps(all_updates, ensure_ascii=False).encode("utf-8")
-        await self.client.request(
-            "POST",
-            f"/files/{file_id}/translation",
-            files={"file": (f"{file_id}.json", data)},
-            data={"force": "true"},
+        if (
+            await self.client.request(
+                "POST",
+                f"/files/{file_id}/translation",
+                files={"file": (filename, data)},
+                data={"force": "true"},
+            )
+        ) is None:
+            logger.warning(
+                f"Fix file shift failed for {filename} (ID: {file_id}): "
+                f"{len(all_updates)} entries not written "
+                f"(restored={len(updates)} scrubbed={len(scrubs)})",
+            )
+            return
+
+        logger.info(
+            f"Fix file shift for {filename} (ID: {file_id}) "
+            f"restored={len(updates)} scrubbed={len(scrubs)}",
         )
 
     async def __update_fixed_translation(self, file_id: int, filename: str) -> None:
@@ -219,23 +247,42 @@ class ContextHandler:
                 and keys[-1] in ("id", "model", "key")
                 and item["stage"] in (0, -1)
             ):
-                new_item = {
-                    **item,
-                    "translation": item["original"],
-                    "stage": 1,
-                }
-                updates.append(new_item)
-        if updates:
-            data = json.dumps(updates, ensure_ascii=False).encode("utf-8")
+                updates.append({**item, "translation": item["original"], "stage": 1})
+
+        if not updates:
+            return
+
+        # Batch `POST /files/{id}/translation` (force=true), not per-entry PUT.
+        # Per-entry PUT was tried here (see git history / 2026-10-02 chat) but
+        # reverted for the same request-volume reason as `__fix_file_shift`
+        # above: this runs on every regular upload, and production data showed
+        # single files with 700+ id/model/key fixes in one pass (e.g. Count: 746
+        # on ScenarioModelCodes-AutoCreated.json). The `ER_LOCK_DEADLOCK` 500 that
+        # originally caused this function to silently log false success (see
+        # P10315) is now handled by retrying in `APIClient.request` instead (see
+        # core/paratranz.py) - that fix protects this batch endpoint too, and
+        # this call now also checks the write actually succeeded before logging.
+        # The `force=true` reimport side effects that make this endpoint unsafe
+        # for context writes don't apply here: this payload only ever carries
+        # `translation`/`stage`, never `context`.
+        data = json.dumps(updates, ensure_ascii=False).encode("utf-8")
+        if (
             await self.client.request(
                 "POST",
                 f"/files/{file_id}/translation",
-                files={"file": (f"{filename}.json", data)},
+                files={"file": (filename, data)},
                 data={"force": "true"},
             )
-            logger.info(
-                f"Fixed translation for {filename} (ID: {file_id} Count: {len(updates)})",
+        ) is None:
+            logger.warning(
+                f"Failed to fix id/model/key translation for {filename} (ID: {file_id}): "
+                f"{len(updates)} entries not written",
             )
+            return
+
+        logger.info(
+            f"Fixed translation for {filename} (ID: {file_id} Count: {len(updates)})",
+        )
 
     async def __update_contexts(
         self,
@@ -303,11 +350,32 @@ class ContextHandler:
 
         if updates:
             data = json.dumps(updates, ensure_ascii=False).encode("utf-8")
-            await self.client.request(
-                "POST",
-                f"/files/{file_id}",
-                files={"file": (f"{filename}.json", data)},
-            )
+            # NOTE: this still uses the batch `POST /files/{id}` endpoint (not
+            # `/files/{id}/translation`, and not per-entry PUT). It hasn't been
+            # specifically implicated in the `ER_LOCK_DEADLOCK` 500s the way
+            # `/files/{id}/translation` + force=true was, but it's the same
+            # family of "upload a whole file's worth of rows in one shot"
+            # write, so it may be worth moving to per-entry PUT too - left
+            # alone for now since this call rebuilds context for every entry
+            # in the file (not just a handful of id/model/key rows), and that
+            # many PUTs per file could meaningfully slow down the pipeline.
+            # At minimum, check the result instead of firing-and-forgetting it
+            # like the other two write sites used to.
+            if (
+                await self.client.request(
+                    "POST",
+                    f"/files/{file_id}",
+                    files={"file": (f"{filename}.json", data)},
+                )
+            ) is None:
+                logger.warning(
+                    f"Failed to update contexts for {filename} (ID: {file_id}): "
+                    f"{len(updates)} entries not written",
+                )
+            else:
+                logger.info(
+                    f"Updated contexts for {filename} (ID: {file_id}): {len(updates)} entries",
+                )
 
     async def handle_upload(
         self,
@@ -363,7 +431,7 @@ class ContextHandler:
                             return
                         await self.__update_contexts(pf.id, filename, langs)
                         await self.__update_fixed_translation(pf.id, filename)
-                        await self.__fix_file_shift(pf.id, old_translations)
+                        await self.__fix_file_shift(pf.id, filename, old_translations)
                         logger.info(f"Updated {operation.full_path} (ID: {pf.id})")
 
             case OperationType.DELETE:

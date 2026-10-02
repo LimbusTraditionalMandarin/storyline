@@ -20,7 +20,12 @@ logger = logging.getLogger(__name__)
 # this is a client-side best-effort mirror, not queried from the API.
 _PLACEHOLDER_PATTERN = re.compile(
     r"\[\{\w+\}\]"  # [{someWord}]
-    r"|\[\w+\]"  # [SomeWord]
+    r"|\[(?=[^\]]*[A-Za-z])\w+\]"  # [SomeWord] - only counts as an identifier if it
+    # contains at least one Latin letter. A bracketed run of pure non-Latin script
+    # (e.g. Korean `[앞면]`, Chinese `[測試]`) is real translatable text that happens
+    # to use brackets as a UI label wrapper, not a code placeholder, and must not be
+    # swept into placeholder-only - that was silently skipping context-building and
+    # translation-memory matching for genuine content (see chat 2026-10-02).
     r"|\{\w+\}"  # {someWord}
     r'|<[\w="#&^ ]+?>'  # opening tag, e.g. <color="#fff">
     r'|</[\w="&^]+?>',  # closing tag, e.g. </color>

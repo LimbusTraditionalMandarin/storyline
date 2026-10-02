@@ -40,12 +40,34 @@ class APIClient:
                     response.raise_for_status()
                     return response.json() if method != "DELETE" else None
                 except HTTPStatusError as e:
-                    if e.response.status_code == 429:
+                    status = e.response.status_code
+                    # The response body carries ParaTranz's actual error detail;
+                    # `e` alone only yields the URL and status code.
+                    body = e.response.text[:2000]
+                    if status == 429:
                         await sleep(int(e.response.headers.get("Retry-After", 5)))
+                    elif status >= 500 and attempt < 2 and "ER_LOCK_DEADLOCK" in body:
+                        # Retry only a confirmed-rolled-back MySQL deadlock on
+                        # ParaTranz's own backend (their own error message says
+                        # "try restarting transaction", i.e. nothing committed) -
+                        # this is what silently dropped real writes (translation
+                        # fix, context update, shift-fix restore) while the caller
+                        # went on to log success regardless (see chat 2026-10-02,
+                        # P10315). Deliberately narrower than "any 5xx": `request`
+                        # is shared by every method/endpoint including the
+                        # non-idempotent `POST /files` (new file creation, the ADD
+                        # branch of handle_upload) - a blind retry there on some
+                        # other 500 that happened to occur *after* the server
+                        # actually committed (e.g. a dropped response) could create
+                        # a duplicate file. Matching the specific, known-safe
+                        # error code avoids that risk.
+                        logger.warning(
+                            f"Attempt {attempt + 1} got {status} ER_LOCK_DEADLOCK for "
+                            f"{method} {endpoint}, retrying: {body}",
+                        )
+                        await sleep(2**attempt)
                     else:
-                        # The response body carries ParaTranz's actual error detail;
-                        # `e` alone only yields the URL and status code.
-                        logger.error(f"API ERROR: {e} | response: {e.response.text[:2000]}")
+                        logger.error(f"API ERROR: {e} | response: {body}")
                         break
                 except RequestError as e:
                     logger.warning(f"Attempt {attempt + 1} failed: {e!s}")
