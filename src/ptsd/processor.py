@@ -136,7 +136,6 @@ class ContextHandler:
         new_rows = self.__group_rows(new_translations)
 
         updates: list[dict] = []
-        scrubs: list[dict] = []
         for item in new_translations:
             key = item.get("key", "")
             if key.endswith(("->id", "->model", "->key")):
@@ -169,21 +168,8 @@ class ContextHandler:
                     # Mark as translated so it is picked up by merger logic.
                     "stage": 1,
                 })
-            elif item.get("translation"):
-                # --- Tier 3: scrub unrecoverable residue -------------------
-                # Neither match tier above could verify this stage == 0
-                # entry's current (non-empty) translation. ParaTranz carries
-                # old translation content over to the new array position on
-                # file replace regardless of whether it actually belongs
-                # there; if nothing above confirms it does, it is most
-                # likely stale leftover from a different, unrelated row that
-                # used to sit at this array slot. Clear it instead of
-                # leaving it looking like a real (if unreviewed) draft
-                # translation. This never touches stage >= 1 (already
-                # reviewed) entries.
-                scrubs.append({**item, "translation": ""})
 
-        all_updates = updates + scrubs
+        all_updates = updates
         if not all_updates:
             return
 
@@ -216,14 +202,12 @@ class ContextHandler:
         ) is None:
             logger.warning(
                 f"Fix file shift failed for {filename} (ID: {file_id}): "
-                f"{len(all_updates)} entries not written "
-                f"(restored={len(updates)} scrubbed={len(scrubs)})",
+                f"{len(all_updates)} entries not written",
             )
             return
 
         logger.info(
-            f"Fix file shift for {filename} (ID: {file_id}) "
-            f"restored={len(updates)} scrubbed={len(scrubs)}",
+            f"Fix file shift for {filename} (ID: {file_id}) restored={len(updates)}",
         )
 
     async def __update_fixed_translation(self, file_id: int, filename: str) -> None:
