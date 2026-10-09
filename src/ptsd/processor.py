@@ -65,14 +65,8 @@ class ContextHandler:
         if not old_translation:
             return
 
-        # --- Tier 1: stable per-row identifier match ------------------------
-        # For rows that carry their own identifier field (see
-        # `__IDENTIFIER_FIELDS`), build identifier value -> {field: translation}
-        # from the OLD data. This survives insertions/deletions/reordering
-        # between versions, unlike array position, because the identifier's
-        # value does not change even when the row moves.
         old_rows = self.__group_rows(old_translation)
-        id_to_fields: dict[str, dict[str, str]] = {}
+        id_to_fields: dict[str, dict[str, tuple[str, str]]] = {}
         seen_ids: set[str] = set()
         ambiguous_ids: set[str] = set()
         for fields in old_rows.values():
@@ -90,7 +84,7 @@ class ContextHandler:
                 continue
             seen_ids.add(id_value)
             translated_fields = {
-                name: str(f["translation"])
+                name: (str(f.get("original", "")), str(f["translation"]))
                 for name, f in fields.items()
                 if f.get("stage") not in (0, -1) and f.get("translation")
             }
@@ -99,9 +93,6 @@ class ContextHandler:
         for id_value in ambiguous_ids:
             id_to_fields.pop(id_value, None)
 
-        # --- Tier 2 (fallback): exact original-text match --------------------
-        # Existing behaviour, unchanged: build original_text -> translation
-        # from old data, for rows with no stable identifier field.
         original_to_translation: dict[str, str] = {}
         for item in old_translation:
             key = item.get("key", "")
@@ -156,7 +147,9 @@ class ContextHandler:
                 id_value = str(row[id_field].get("original", ""))
                 if id_value and not is_placeholder_only(id_value):
                     field_name = key.rsplit("->", 1)[-1]
-                    restored = id_to_fields.get(id_value, {}).get(field_name)
+                    old_entry = id_to_fields.get(id_value, {}).get(field_name)
+                    if old_entry is not None and old_entry[0] == original:
+                        restored = old_entry[1]
 
             if restored is None:
                 restored = original_to_translation.get(original)
